@@ -1,0 +1,311 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python >=3.6",
+    "tornado >=2.0"
+  ],
+  "extracted_package_dir": "/cpfs01/user/chengqinxiu/anaconda3/pkgs/snakeviz-2.2.2-pyhd8ed1ab_0",
+  "files": [
+    "lib/python3.10/site-packages/snakeviz-2.2.2.dist-info/INSTALLER",
+    "lib/python3.10/site-packages/snakeviz-2.2.2.dist-info/LICENSE.txt",
+    "lib/python3.10/site-packages/snakeviz-2.2.2.dist-info/METADATA",
+    "lib/python3.10/site-packages/snakeviz-2.2.2.dist-info/RECORD",
+    "lib/python3.10/site-packages/snakeviz-2.2.2.dist-info/REQUESTED",
+    "lib/python3.10/site-packages/snakeviz-2.2.2.dist-info/WHEEL",
+    "lib/python3.10/site-packages/snakeviz-2.2.2.dist-info/direct_url.json",
+    "lib/python3.10/site-packages/snakeviz-2.2.2.dist-info/entry_points.txt",
+    "lib/python3.10/site-packages/snakeviz-2.2.2.dist-info/top_level.txt",
+    "lib/python3.10/site-packages/snakeviz/__init__.py",
+    "lib/python3.10/site-packages/snakeviz/__main__.py",
+    "lib/python3.10/site-packages/snakeviz/cli.py",
+    "lib/python3.10/site-packages/snakeviz/ipymagic.py",
+    "lib/python3.10/site-packages/snakeviz/main.py",
+    "lib/python3.10/site-packages/snakeviz/static/drawsvg.js",
+    "lib/python3.10/site-packages/snakeviz/static/favicon.ico",
+    "lib/python3.10/site-packages/snakeviz/static/images/sort_asc.png",
+    "lib/python3.10/site-packages/snakeviz/static/images/sort_both.png",
+    "lib/python3.10/site-packages/snakeviz/static/images/sort_desc.png",
+    "lib/python3.10/site-packages/snakeviz/static/snakeviz.css",
+    "lib/python3.10/site-packages/snakeviz/static/snakeviz.js",
+    "lib/python3.10/site-packages/snakeviz/static/vendor/d3.v3.min.js",
+    "lib/python3.10/site-packages/snakeviz/static/vendor/immutable.min.js",
+    "lib/python3.10/site-packages/snakeviz/static/vendor/jquery-3.2.1.min.js",
+    "lib/python3.10/site-packages/snakeviz/static/vendor/jquery.dataTables.min.css",
+    "lib/python3.10/site-packages/snakeviz/static/vendor/jquery.dataTables.min.js",
+    "lib/python3.10/site-packages/snakeviz/static/vendor/lodash.min.js",
+    "lib/python3.10/site-packages/snakeviz/stats.py",
+    "lib/python3.10/site-packages/snakeviz/templates/dir.html",
+    "lib/python3.10/site-packages/snakeviz/templates/viz.html",
+    "lib/python3.10/site-packages/snakeviz/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/snakeviz/__pycache__/__main__.cpython-310.pyc",
+    "lib/python3.10/site-packages/snakeviz/__pycache__/cli.cpython-310.pyc",
+    "lib/python3.10/site-packages/snakeviz/__pycache__/ipymagic.cpython-310.pyc",
+    "lib/python3.10/site-packages/snakeviz/__pycache__/main.cpython-310.pyc",
+    "lib/python3.10/site-packages/snakeviz/__pycache__/stats.cpython-310.pyc",
+    "bin/snakeviz"
+  ],
+  "fn": "snakeviz-2.2.2-pyhd8ed1ab_0.conda",
+  "license": "BSD-3-Clause",
+  "link": {
+    "source": "/cpfs01/user/chengqinxiu/anaconda3/pkgs/snakeviz-2.2.2-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "3026a4b3e26761987258d09101514dd0",
+  "name": "snakeviz",
+  "noarch": "python",
+  "package_tarball_full_path": "/cpfs01/user/chengqinxiu/anaconda3/pkgs/snakeviz-2.2.2-pyhd8ed1ab_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/snakeviz-2.2.2.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/snakeviz-2.2.2.dist-info/LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "aa6731166c2ddd8d28cfa24923ac7d05968ba95218a4c98c55e496080e461086",
+        "sha256_in_prefix": "aa6731166c2ddd8d28cfa24923ac7d05968ba95218a4c98c55e496080e461086",
+        "size_in_bytes": 1435
+      },
+      {
+        "_path": "site-packages/snakeviz-2.2.2.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "e7bbe5c576aab4de5471ce0aa40c384e0d0f654a5fde303e8322e6a56b3d3afd",
+        "sha256_in_prefix": "e7bbe5c576aab4de5471ce0aa40c384e0d0f654a5fde303e8322e6a56b3d3afd",
+        "size_in_bytes": 3567
+      },
+      {
+        "_path": "site-packages/snakeviz-2.2.2.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "2d6c310917e8bcd0a68e14c73b670f69eb8e6c155948785497596b3981f47c1c",
+        "sha256_in_prefix": "2d6c310917e8bcd0a68e14c73b670f69eb8e6c155948785497596b3981f47c1c",
+        "size_in_bytes": 2979
+      },
+      {
+        "_path": "site-packages/snakeviz-2.2.2.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/snakeviz-2.2.2.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "3fd8f0fa01237bc07207bfe15e82029c7b550ab13031087eeb7d2d2af4167a17",
+        "sha256_in_prefix": "3fd8f0fa01237bc07207bfe15e82029c7b550ab13031087eeb7d2d2af4167a17",
+        "size_in_bytes": 91
+      },
+      {
+        "_path": "site-packages/snakeviz-2.2.2.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "abe5f5436dee191c2e8f091f0b21ad804fb9b022136efd0a80ab390a643aa1ea",
+        "sha256_in_prefix": "abe5f5436dee191c2e8f091f0b21ad804fb9b022136efd0a80ab390a643aa1ea",
+        "size_in_bytes": 104
+      },
+      {
+        "_path": "site-packages/snakeviz-2.2.2.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "ac9cfefb4f3989e3a929ff9e4e9ca91e802137414a699948756eb5a4b742712b",
+        "sha256_in_prefix": "ac9cfefb4f3989e3a929ff9e4e9ca91e802137414a699948756eb5a4b742712b",
+        "size_in_bytes": 47
+      },
+      {
+        "_path": "site-packages/snakeviz-2.2.2.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "d14e7db289a39affd6ed085de95ebcfd4dafaaf441e350739c6239bf6df578e8",
+        "sha256_in_prefix": "d14e7db289a39affd6ed085de95ebcfd4dafaaf441e350739c6239bf6df578e8",
+        "size_in_bytes": 9
+      },
+      {
+        "_path": "site-packages/snakeviz/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "76b57068d6675b34bd18bf858bb9d9b1e71b539ef30dd3dba74e724edad9b5de",
+        "sha256_in_prefix": "76b57068d6675b34bd18bf858bb9d9b1e71b539ef30dd3dba74e724edad9b5de",
+        "size_in_bytes": 67
+      },
+      {
+        "_path": "site-packages/snakeviz/__main__.py",
+        "path_type": "hardlink",
+        "sha256": "4252e5aedaaa069839295ad00eff4804b5f8d29afeb823926df243eabd5c565e",
+        "sha256_in_prefix": "4252e5aedaaa069839295ad00eff4804b5f8d29afeb823926df243eabd5c565e",
+        "size_in_bytes": 192
+      },
+      {
+        "_path": "site-packages/snakeviz/cli.py",
+        "path_type": "hardlink",
+        "sha256": "a1b74d165aadffbcfc3882ac68c4d3e7523cc04121b56ead55661bf3bf212a1c",
+        "sha256_in_prefix": "a1b74d165aadffbcfc3882ac68c4d3e7523cc04121b56ead55661bf3bf212a1c",
+        "size_in_bytes": 5336
+      },
+      {
+        "_path": "site-packages/snakeviz/ipymagic.py",
+        "path_type": "hardlink",
+        "sha256": "3d326ea64a48b0225d93249de1d1ee9eb1dbdd64cc3181fd622ec9b959f974f1",
+        "sha256_in_prefix": "3d326ea64a48b0225d93249de1d1ee9eb1dbdd64cc3181fd622ec9b959f974f1",
+        "size_in_bytes": 6905
+      },
+      {
+        "_path": "site-packages/snakeviz/main.py",
+        "path_type": "hardlink",
+        "sha256": "004b7832325880e09b6deab9145b34846b14d0238901d9b9181a64c8848f4ac5",
+        "sha256_in_prefix": "004b7832325880e09b6deab9145b34846b14d0238901d9b9181a64c8848f4ac5",
+        "size_in_bytes": 1998
+      },
+      {
+        "_path": "site-packages/snakeviz/static/drawsvg.js",
+        "path_type": "hardlink",
+        "sha256": "d833006d98c52dfdf788e80556f5f92c54bf8b6aec8e99e2b38b4f625061dd23",
+        "sha256_in_prefix": "d833006d98c52dfdf788e80556f5f92c54bf8b6aec8e99e2b38b4f625061dd23",
+        "size_in_bytes": 11369
+      },
+      {
+        "_path": "site-packages/snakeviz/static/favicon.ico",
+        "path_type": "hardlink",
+        "sha256": "83ef155808e9843c510e6a4d2a2ff02c349db977a2f47bc9009eb6ee38120ddd",
+        "sha256_in_prefix": "83ef155808e9843c510e6a4d2a2ff02c349db977a2f47bc9009eb6ee38120ddd",
+        "size_in_bytes": 1406
+      },
+      {
+        "_path": "site-packages/snakeviz/static/images/sort_asc.png",
+        "path_type": "hardlink",
+        "sha256": "ee6010bb0a8d17e58307136a0fbf0b196d949ab6c50eb66d1ff8f0a7d2a4d48b",
+        "sha256_in_prefix": "ee6010bb0a8d17e58307136a0fbf0b196d949ab6c50eb66d1ff8f0a7d2a4d48b",
+        "size_in_bytes": 1118
+      },
+      {
+        "_path": "site-packages/snakeviz/static/images/sort_both.png",
+        "path_type": "hardlink",
+        "sha256": "624f0a471a2535c4754e1f6974b0e64ee70d6907738346e2a11d0bff20258b8c",
+        "sha256_in_prefix": "624f0a471a2535c4754e1f6974b0e64ee70d6907738346e2a11d0bff20258b8c",
+        "size_in_bytes": 1136
+      },
+      {
+        "_path": "site-packages/snakeviz/static/images/sort_desc.png",
+        "path_type": "hardlink",
+        "sha256": "26da8e7eaf746a08dec2928977be21aa67212484540a12042b86aa2d904b80e8",
+        "sha256_in_prefix": "26da8e7eaf746a08dec2928977be21aa67212484540a12042b86aa2d904b80e8",
+        "size_in_bytes": 1127
+      },
+      {
+        "_path": "site-packages/snakeviz/static/snakeviz.css",
+        "path_type": "hardlink",
+        "sha256": "3e8f73d1daaaa275cb01a85a36883ba6b490293cd8336f577016a8180bfdda59",
+        "sha256_in_prefix": "3e8f73d1daaaa275cb01a85a36883ba6b490293cd8336f577016a8180bfdda59",
+        "size_in_bytes": 5077
+      },
+      {
+        "_path": "site-packages/snakeviz/static/snakeviz.js",
+        "path_type": "hardlink",
+        "sha256": "502f232ec816ac8d522a47b7e3e99dc709d4faa6f64aa37a1c08a2eeafb3c6e7",
+        "sha256_in_prefix": "502f232ec816ac8d522a47b7e3e99dc709d4faa6f64aa37a1c08a2eeafb3c6e7",
+        "size_in_bytes": 6756
+      },
+      {
+        "_path": "site-packages/snakeviz/static/vendor/d3.v3.min.js",
+        "path_type": "hardlink",
+        "sha256": "76c39718d1c0a3fb321676b3b7e29306c0907919a5716d5728bd1b08ae0169e7",
+        "sha256_in_prefix": "76c39718d1c0a3fb321676b3b7e29306c0907919a5716d5728bd1b08ae0169e7",
+        "size_in_bytes": 151725
+      },
+      {
+        "_path": "site-packages/snakeviz/static/vendor/immutable.min.js",
+        "path_type": "hardlink",
+        "sha256": "d77245cada7eb63f23b31afa1903952c281c61f314a363dac388d5ae75cb50f1",
+        "sha256_in_prefix": "d77245cada7eb63f23b31afa1903952c281c61f314a363dac388d5ae75cb50f1",
+        "size_in_bytes": 57032
+      },
+      {
+        "_path": "site-packages/snakeviz/static/vendor/jquery-3.2.1.min.js",
+        "path_type": "hardlink",
+        "sha256": "87083882cc6015984eb0411a99d3981817f5dc5c90ba24f0940420c5548d82de",
+        "sha256_in_prefix": "87083882cc6015984eb0411a99d3981817f5dc5c90ba24f0940420c5548d82de",
+        "size_in_bytes": 86659
+      },
+      {
+        "_path": "site-packages/snakeviz/static/vendor/jquery.dataTables.min.css",
+        "path_type": "hardlink",
+        "sha256": "4e7b49da1230ca261cf062215b322df8fbd805f404e157f12679fe79ae64709b",
+        "sha256_in_prefix": "4e7b49da1230ca261cf062215b322df8fbd805f404e157f12679fe79ae64709b",
+        "size_in_bytes": 14112
+      },
+      {
+        "_path": "site-packages/snakeviz/static/vendor/jquery.dataTables.min.js",
+        "path_type": "hardlink",
+        "sha256": "8f4d3b47b47a8a31163dad5d7fb15e27a0056d07b0c34c6089fd9225664e847c",
+        "sha256_in_prefix": "8f4d3b47b47a8a31163dad5d7fb15e27a0056d07b0c34c6089fd9225664e847c",
+        "size_in_bytes": 83268
+      },
+      {
+        "_path": "site-packages/snakeviz/static/vendor/lodash.min.js",
+        "path_type": "hardlink",
+        "sha256": "f04e9051c160d4a4e7a4453c4c51a1a53187c397c9a81f6f0a6b373a10182eac",
+        "sha256_in_prefix": "f04e9051c160d4a4e7a4453c4c51a1a53187c397c9a81f6f0a6b373a10182eac",
+        "size_in_bytes": 71419
+      },
+      {
+        "_path": "site-packages/snakeviz/stats.py",
+        "path_type": "hardlink",
+        "sha256": "e4cb4acebef90f3445d6972cb92a44b3b52da8baeafc02136a10c5c9871d7e25",
+        "sha256_in_prefix": "e4cb4acebef90f3445d6972cb92a44b3b52da8baeafc02136a10c5c9871d7e25",
+        "size_in_bytes": 2099
+      },
+      {
+        "_path": "site-packages/snakeviz/templates/dir.html",
+        "path_type": "hardlink",
+        "sha256": "1a08c8414a98963c8359373d46c29085306f0b915a61adc968a10676137871ff",
+        "sha256_in_prefix": "1a08c8414a98963c8359373d46c29085306f0b915a61adc968a10676137871ff",
+        "size_in_bytes": 1757
+      },
+      {
+        "_path": "site-packages/snakeviz/templates/viz.html",
+        "path_type": "hardlink",
+        "sha256": "a55669bbfbe913abf07e12e50705843f1eb389568a9abecb1185a786a1187cfc",
+        "sha256_in_prefix": "a55669bbfbe913abf07e12e50705843f1eb389568a9abecb1185a786a1187cfc",
+        "size_in_bytes": 11485
+      },
+      {
+        "_path": "lib/python3.10/site-packages/snakeviz/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/snakeviz/__pycache__/__main__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/snakeviz/__pycache__/cli.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/snakeviz/__pycache__/ipymagic.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/snakeviz/__pycache__/main.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/snakeviz/__pycache__/stats.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "bin/snakeviz",
+        "path_type": "unix_python_entry_point"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "snakeviz",
+  "sha256": "cac6e157bc1b4d7c81a5724b210814315f449b4dd8a498cbb784a2ed4305f7c7",
+  "size": 171370,
+  "subdir": "noarch",
+  "timestamp": 1731339773000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/snakeviz-2.2.2-pyhd8ed1ab_0.conda",
+  "version": "2.2.2"
+}

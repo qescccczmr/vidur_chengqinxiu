@@ -1,0 +1,14 @@
+prefix=/cpfs01/user/chengqinxiu/vidur/env
+exec_prefix=${prefix}
+libdir=/cpfs01/user/chengqinxiu/vidur/env/lib
+includedir=/cpfs01/user/chengqinxiu/vidur/env/include
+
+Name: libavcodec
+Description: FFmpeg codec library
+Version: 58.134.100
+Requires: 
+Requires.private: libswresample >= 3.9.100, libavutil >= 56.70.100
+Conflicts:
+Libs: -L${libdir}  -lavcodec 
+Libs.private: -L/cpfs01/user/chengqinxiu/vidur/env/lib -lvpx -lm -L/cpfs01/user/chengqinxiu/vidur/env/lib -lvpx -lm -L/cpfs01/user/chengqinxiu/vidur/env/lib -lvpx -lm -L/cpfs01/user/chengqinxiu/vidur/env/lib -lvpx -lm -pthread -liconv -lm -llzma -L/cpfs01/user/chengqinxiu/vidur/env/lib -lz -lmp3lame -lm -L/cpfs01/user/chengqinxiu/vidur/env/lib -lx264 -L/cpfs01/user/chengqinxiu/vidur/env/lib -lx265 -L/cpfs01/user/chengqinxiu/vidur/env/lib -lopenh264
+Cflags: -I${includedir}

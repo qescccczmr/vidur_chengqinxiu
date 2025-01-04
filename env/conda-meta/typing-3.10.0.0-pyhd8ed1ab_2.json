@@ -1,0 +1,33 @@
+{
+  "build": "pyhd8ed1ab_2",
+  "build_number": 2,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python >=3.9"
+  ],
+  "extracted_package_dir": "/cpfs01/user/chengqinxiu/anaconda3/pkgs/typing-3.10.0.0-pyhd8ed1ab_2",
+  "files": [],
+  "fn": "typing-3.10.0.0-pyhd8ed1ab_2.conda",
+  "license": "PSF-2.0",
+  "link": {
+    "source": "/cpfs01/user/chengqinxiu/anaconda3/pkgs/typing-3.10.0.0-pyhd8ed1ab_2",
+    "type": 1
+  },
+  "md5": "28abeb80aea7eb4914f3a7543a47e248",
+  "name": "typing",
+  "noarch": "python",
+  "package_tarball_full_path": "/cpfs01/user/chengqinxiu/anaconda3/pkgs/typing-3.10.0.0-pyhd8ed1ab_2.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "92b084dfd77571be23ef84ad695bbea169e844821484b6d47d99f04ea4de32e8",
+  "size": 9502,
+  "subdir": "noarch",
+  "timestamp": 1733927569000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/typing-3.10.0.0-pyhd8ed1ab_2.conda",
+  "version": "3.10.0.0"
+}

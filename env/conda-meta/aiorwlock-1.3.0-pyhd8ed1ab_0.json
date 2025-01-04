@@ -1,0 +1,128 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python >=3.7"
+  ],
+  "extracted_package_dir": "/cpfs01/user/chengqinxiu/anaconda3/pkgs/aiorwlock-1.3.0-pyhd8ed1ab_0",
+  "files": [
+    "lib/python3.10/site-packages/aiorwlock-1.3.0.dist-info/INSTALLER",
+    "lib/python3.10/site-packages/aiorwlock-1.3.0.dist-info/LICENSE",
+    "lib/python3.10/site-packages/aiorwlock-1.3.0.dist-info/METADATA",
+    "lib/python3.10/site-packages/aiorwlock-1.3.0.dist-info/RECORD",
+    "lib/python3.10/site-packages/aiorwlock-1.3.0.dist-info/REQUESTED",
+    "lib/python3.10/site-packages/aiorwlock-1.3.0.dist-info/WHEEL",
+    "lib/python3.10/site-packages/aiorwlock-1.3.0.dist-info/direct_url.json",
+    "lib/python3.10/site-packages/aiorwlock-1.3.0.dist-info/top_level.txt",
+    "lib/python3.10/site-packages/aiorwlock-1.3.0.dist-info/zip-safe",
+    "lib/python3.10/site-packages/aiorwlock/__init__.py",
+    "lib/python3.10/site-packages/aiorwlock/py.typed",
+    "lib/python3.10/site-packages/aiorwlock/__pycache__/__init__.cpython-310.pyc"
+  ],
+  "fn": "aiorwlock-1.3.0-pyhd8ed1ab_0.tar.bz2",
+  "license": "Apache-2.0",
+  "link": {
+    "source": "/cpfs01/user/chengqinxiu/anaconda3/pkgs/aiorwlock-1.3.0-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "17ee368179a8f0443dd48d714c0855af",
+  "name": "aiorwlock",
+  "noarch": "python",
+  "package_tarball_full_path": "/cpfs01/user/chengqinxiu/anaconda3/pkgs/aiorwlock-1.3.0-pyhd8ed1ab_0.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/aiorwlock-1.3.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/aiorwlock-1.3.0.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "fa99ee9d7727194a9f8994c67d1948dc42e8e00ab809fd4a47acfae119d11403",
+        "sha256_in_prefix": "fa99ee9d7727194a9f8994c67d1948dc42e8e00ab809fd4a47acfae119d11403",
+        "size_in_bytes": 11332
+      },
+      {
+        "_path": "site-packages/aiorwlock-1.3.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "0a5ba1192d56e5b1594523bc1cde67dfa0dababddb6edcf9f51ead68a37eb14f",
+        "sha256_in_prefix": "0a5ba1192d56e5b1594523bc1cde67dfa0dababddb6edcf9f51ead68a37eb14f",
+        "size_in_bytes": 5322
+      },
+      {
+        "_path": "site-packages/aiorwlock-1.3.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "699dd3f3a17bacaf1295e835cb3d2ca351c4e2b86c230a325a15b9c64ea46e13",
+        "sha256_in_prefix": "699dd3f3a17bacaf1295e835cb3d2ca351c4e2b86c230a325a15b9c64ea46e13",
+        "size_in_bytes": 972
+      },
+      {
+        "_path": "site-packages/aiorwlock-1.3.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/aiorwlock-1.3.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "1b5e87e00dc87a84269cead8578b9e6462928e18a95f1f3373c9eef451a5bcc0",
+        "sha256_in_prefix": "1b5e87e00dc87a84269cead8578b9e6462928e18a95f1f3373c9eef451a5bcc0",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/aiorwlock-1.3.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "1025a7fee66ca66ace36afcc21b5830d1e49fa63e8b7cee92c85ff2f49b47b00",
+        "sha256_in_prefix": "1025a7fee66ca66ace36afcc21b5830d1e49fa63e8b7cee92c85ff2f49b47b00",
+        "size_in_bytes": 105
+      },
+      {
+        "_path": "site-packages/aiorwlock-1.3.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "fe347c859039e4ccbd9a45d6ba61218113e1785c5e3362aa46dc31bed014fe5b",
+        "sha256_in_prefix": "fe347c859039e4ccbd9a45d6ba61218113e1785c5e3362aa46dc31bed014fe5b",
+        "size_in_bytes": 10
+      },
+      {
+        "_path": "site-packages/aiorwlock-1.3.0.dist-info/zip-safe",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "site-packages/aiorwlock/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "63d84d1c8b8a7b2354cc07d7ebdbfa746db080d2da69e16e7b4402e30751ad57",
+        "sha256_in_prefix": "63d84d1c8b8a7b2354cc07d7ebdbfa746db080d2da69e16e7b4402e30751ad57",
+        "size_in_bytes": 8253
+      },
+      {
+        "_path": "site-packages/aiorwlock/py.typed",
+        "path_type": "hardlink",
+        "sha256": "9d9f2cc91d124e1c4a995d0c99dfa67fda7fa98b6b9ab972c18e6c36dd3de7d2",
+        "sha256_in_prefix": "9d9f2cc91d124e1c4a995d0c99dfa67fda7fa98b6b9ab972c18e6c36dd3de7d2",
+        "size_in_bytes": 14
+      },
+      {
+        "_path": "lib/python3.10/site-packages/aiorwlock/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "0d499db3e561fc3293c3f9fd32aa23de061fbe88c30f23a639b267e4f7679a05",
+  "size": 14249,
+  "subdir": "noarch",
+  "timestamp": 1649144134000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/aiorwlock-1.3.0-pyhd8ed1ab_0.tar.bz2",
+  "version": "1.3.0"
+}

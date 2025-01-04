@@ -1,0 +1,124 @@
+{
+  "build": "py310ha75aee5_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "__glibc >=2.17,<3.0.a0",
+    "libgcc >=13",
+    "python >=3.10,<3.11.0a0",
+    "python_abi 3.10.* *_cp310"
+  ],
+  "extracted_package_dir": "/cpfs01/user/chengqinxiu/anaconda3/pkgs/setproctitle-1.3.4-py310ha75aee5_0",
+  "files": [
+    "lib/python3.10/site-packages/setproctitle-1.3.4.dist-info/INSTALLER",
+    "lib/python3.10/site-packages/setproctitle-1.3.4.dist-info/METADATA",
+    "lib/python3.10/site-packages/setproctitle-1.3.4.dist-info/RECORD",
+    "lib/python3.10/site-packages/setproctitle-1.3.4.dist-info/REQUESTED",
+    "lib/python3.10/site-packages/setproctitle-1.3.4.dist-info/WHEEL",
+    "lib/python3.10/site-packages/setproctitle-1.3.4.dist-info/direct_url.json",
+    "lib/python3.10/site-packages/setproctitle-1.3.4.dist-info/top_level.txt",
+    "lib/python3.10/site-packages/setproctitle/__init__.py",
+    "lib/python3.10/site-packages/setproctitle/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/setproctitle/_setproctitle.cpython-310-x86_64-linux-gnu.so",
+    "lib/python3.10/site-packages/setproctitle/py.typed"
+  ],
+  "fn": "setproctitle-1.3.4-py310ha75aee5_0.conda",
+  "license": "BSD-3-Clause",
+  "link": {
+    "source": "/cpfs01/user/chengqinxiu/anaconda3/pkgs/setproctitle-1.3.4-py310ha75aee5_0",
+    "type": 1
+  },
+  "md5": "d22bf55bfb3a2f8675526d36bb333930",
+  "name": "setproctitle",
+  "package_tarball_full_path": "/cpfs01/user/chengqinxiu/anaconda3/pkgs/setproctitle-1.3.4-py310ha75aee5_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.10/site-packages/setproctitle-1.3.4.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.10/site-packages/setproctitle-1.3.4.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "affd0f717037281035d28955aa25503e87c46f30ce934100b70bfe57ef4eb637",
+        "sha256_in_prefix": "affd0f717037281035d28955aa25503e87c46f30ce934100b70bfe57ef4eb637",
+        "size_in_bytes": 10093
+      },
+      {
+        "_path": "lib/python3.10/site-packages/setproctitle-1.3.4.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "b5da3dd945b1b52fe5674e278aedd3e81cc7d9c40601976059284f9d54a4a9ea",
+        "sha256_in_prefix": "b5da3dd945b1b52fe5674e278aedd3e81cc7d9c40601976059284f9d54a4a9ea",
+        "size_in_bytes": 939
+      },
+      {
+        "_path": "lib/python3.10/site-packages/setproctitle-1.3.4.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.10/site-packages/setproctitle-1.3.4.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "82076007be68e113f286cc4cd9ec90da58db41397fa474592fe5f88c3078ad4f",
+        "sha256_in_prefix": "82076007be68e113f286cc4cd9ec90da58db41397fa474592fe5f88c3078ad4f",
+        "size_in_bytes": 104
+      },
+      {
+        "_path": "lib/python3.10/site-packages/setproctitle-1.3.4.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "922542afbe7143b37314a7d742fc9b2ac63e920eaa6161831a1cbb92f61e7586",
+        "sha256_in_prefix": "922542afbe7143b37314a7d742fc9b2ac63e920eaa6161831a1cbb92f61e7586",
+        "size_in_bytes": 108
+      },
+      {
+        "_path": "lib/python3.10/site-packages/setproctitle-1.3.4.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "92196ed92b8d10ad82b79f785e13134fada597ca74a05cdafb8766cd41530614",
+        "sha256_in_prefix": "92196ed92b8d10ad82b79f785e13134fada597ca74a05cdafb8766cd41530614",
+        "size_in_bytes": 13
+      },
+      {
+        "_path": "lib/python3.10/site-packages/setproctitle/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "5727ce040e7a962d593a4d3767a088a59071ecd1e131b4bc3f1b08cfde1293a9",
+        "sha256_in_prefix": "5727ce040e7a962d593a4d3767a088a59071ecd1e131b4bc3f1b08cfde1293a9",
+        "size_in_bytes": 1409
+      },
+      {
+        "_path": "lib/python3.10/site-packages/setproctitle/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "32a66eaf77aa9c5107102439b3a1d6c71e5b79f9cfc8b1d4250fd906e90d4e50",
+        "sha256_in_prefix": "32a66eaf77aa9c5107102439b3a1d6c71e5b79f9cfc8b1d4250fd906e90d4e50",
+        "size_in_bytes": 1299
+      },
+      {
+        "_path": "lib/python3.10/site-packages/setproctitle/_setproctitle.cpython-310-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "cb47dcb789dd0be31ff3ab6e37bae6a5d8591817dc49357de3ea5c26dba49c3f",
+        "sha256_in_prefix": "cb47dcb789dd0be31ff3ab6e37bae6a5d8591817dc49357de3ea5c26dba49c3f",
+        "size_in_bytes": 26880
+      },
+      {
+        "_path": "lib/python3.10/site-packages/setproctitle/py.typed",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "48e9cc981f9c12f78547aff02a41876d6d12f0172da874582b07ab35d528574f",
+  "size": 19925,
+  "subdir": "linux-64",
+  "timestamp": 1731922048000,
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/setproctitle-1.3.4-py310ha75aee5_0.conda",
+  "version": "1.3.4"
+}

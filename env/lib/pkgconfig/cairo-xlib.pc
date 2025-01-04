@@ -1,0 +1,8 @@
+prefix=/cpfs01/user/chengqinxiu/vidur/env
+includedir=${prefix}/include
+
+Name: cairo-xlib
+Description: Xlib surface backend for cairo graphics library
+Version: 1.18.2
+Requires: cairo, x11, xext
+Cflags: -I${includedir}

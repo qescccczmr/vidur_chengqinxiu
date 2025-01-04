@@ -1,0 +1,702 @@
+{
+  "build": "hde5d1a3_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "bzip2 >=1.0.8,<2.0a0",
+    "libarchive >=3.6.2,<3.7.0a0",
+    "libcurl >=7.88.1,<9.0a0",
+    "libgcc-ng >=12",
+    "libmicrohttpd >=0.9.75,<0.10.0a0",
+    "libsqlite >=3.40.0,<4.0a0",
+    "libstdcxx-ng >=12",
+    "libzlib >=1.2.13,<2.0.0a0",
+    "xz >=5.2.6,<6.0a0",
+    "zstd >=1.5.2,<1.6.0a0"
+  ],
+  "extracted_package_dir": "/cpfs01/user/chengqinxiu/anaconda3/pkgs/elfutils-0.189-hde5d1a3_0",
+  "files": [
+    "bin/debuginfod",
+    "bin/debuginfod-find",
+    "bin/eu-addr2line",
+    "bin/eu-ar",
+    "bin/eu-elfclassify",
+    "bin/eu-elfcmp",
+    "bin/eu-elfcompress",
+    "bin/eu-elflint",
+    "bin/eu-findtextrel",
+    "bin/eu-make-debug-archive",
+    "bin/eu-nm",
+    "bin/eu-objdump",
+    "bin/eu-ranlib",
+    "bin/eu-readelf",
+    "bin/eu-size",
+    "bin/eu-stack",
+    "bin/eu-strings",
+    "bin/eu-strip",
+    "bin/eu-unstrip",
+    "etc/profile.d/debuginfod.csh",
+    "etc/profile.d/debuginfod.sh",
+    "include/dwarf.h",
+    "include/elfutils/debuginfod.h",
+    "include/elfutils/elf-knowledge.h",
+    "include/elfutils/known-dwarf.h",
+    "include/elfutils/libasm.h",
+    "include/elfutils/libdw.h",
+    "include/elfutils/libdwelf.h",
+    "include/elfutils/libdwfl.h",
+    "include/elfutils/version.h",
+    "include/gelf.h",
+    "include/libelf.h",
+    "include/nlist.h",
+    "lib/libasm-0.189.so",
+    "lib/libasm.a",
+    "lib/libasm.so",
+    "lib/libasm.so.1",
+    "lib/libdebuginfod-0.189.so",
+    "lib/libdebuginfod.so",
+    "lib/libdebuginfod.so.1",
+    "lib/libdw-0.189.so",
+    "lib/libdw.a",
+    "lib/libdw.so",
+    "lib/libdw.so.1",
+    "lib/libelf-0.189.so",
+    "lib/libelf.a",
+    "lib/libelf.so",
+    "lib/libelf.so.1",
+    "lib/pkgconfig/libdebuginfod.pc",
+    "lib/pkgconfig/libdw.pc",
+    "lib/pkgconfig/libelf.pc",
+    "share/locale/de/LC_MESSAGES/elfutils.mo",
+    "share/locale/en@boldquot/LC_MESSAGES/elfutils.mo",
+    "share/locale/en@quot/LC_MESSAGES/elfutils.mo",
+    "share/locale/es/LC_MESSAGES/elfutils.mo",
+    "share/locale/ja/LC_MESSAGES/elfutils.mo",
+    "share/locale/pl/LC_MESSAGES/elfutils.mo",
+    "share/locale/uk/LC_MESSAGES/elfutils.mo",
+    "share/man/man1/debuginfod-find.1",
+    "share/man/man1/eu-elfclassify.1",
+    "share/man/man1/eu-readelf.1",
+    "share/man/man3/debuginfod_add_http_header.3",
+    "share/man/man3/debuginfod_begin.3",
+    "share/man/man3/debuginfod_end.3",
+    "share/man/man3/debuginfod_find_debuginfo.3",
+    "share/man/man3/debuginfod_find_executable.3",
+    "share/man/man3/debuginfod_find_section.3",
+    "share/man/man3/debuginfod_find_source.3",
+    "share/man/man3/debuginfod_get_url.3",
+    "share/man/man3/debuginfod_get_user_data.3",
+    "share/man/man3/debuginfod_set_progressfn.3",
+    "share/man/man3/debuginfod_set_user_data.3",
+    "share/man/man3/elf_begin.3",
+    "share/man/man3/elf_clone.3",
+    "share/man/man3/elf_getdata.3",
+    "share/man/man3/elf_update.3",
+    "share/man/man7/debuginfod-client-config.7",
+    "share/man/man8/debuginfod.8",
+    "share/man/man8/debuginfod.service.8"
+  ],
+  "fn": "elfutils-0.189-hde5d1a3_0.conda",
+  "license": "LGPL-3.0-only",
+  "link": {
+    "source": "/cpfs01/user/chengqinxiu/anaconda3/pkgs/elfutils-0.189-hde5d1a3_0",
+    "type": 1
+  },
+  "md5": "2b46dbc6f544bed57b61610266c01d0a",
+  "name": "elfutils",
+  "package_tarball_full_path": "/cpfs01/user/chengqinxiu/anaconda3/pkgs/elfutils-0.189-hde5d1a3_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/debuginfod",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/elfutils_1677869449018/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl",
+        "sha256": "2df957627e4bbed420bb8da3dbc2617937d2f315b13409b5c3370e6cc91bb255",
+        "sha256_in_prefix": "69af762609a25491ef00b7b1a4c40697259a61ef6e42566de87f600a84075b59",
+        "size_in_bytes": 263136
+      },
+      {
+        "_path": "bin/debuginfod-find",
+        "path_type": "hardlink",
+        "sha256": "6f7757875ad819a08fa3ff924358828175b49b321e22edb2e6bf1a2e7397425f",
+        "sha256_in_prefix": "6f7757875ad819a08fa3ff924358828175b49b321e22edb2e6bf1a2e7397425f",
+        "size_in_bytes": 22288
+      },
+      {
+        "_path": "bin/eu-addr2line",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/elfutils_1677869449018/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl",
+        "sha256": "82ba269a1ffb528aa515706cf81422a6cda8e25d90e3fad9452f6074711a47cc",
+        "sha256_in_prefix": "7a002ec5cd062f3e947743d9071ea7246d890afd338aa0382413c06f8f47032e",
+        "size_in_bytes": 37096
+      },
+      {
+        "_path": "bin/eu-ar",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/elfutils_1677869449018/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl",
+        "sha256": "509d1a6e779ae713ca1ec10ae716fd984295cecd1a05ed51a0b2b9cebd5c1186",
+        "sha256_in_prefix": "23a4cf4b2746c03893c0f832f8d03cf6ac4420906a996b356042c4e1431dd7b9",
+        "size_in_bytes": 45760
+      },
+      {
+        "_path": "bin/eu-elfclassify",
+        "path_type": "hardlink",
+        "sha256": "2a4f8b2f69875bbaeae4917f187c0c399b88feaae9a0f099996c4348f0025709",
+        "sha256_in_prefix": "2a4f8b2f69875bbaeae4917f187c0c399b88feaae9a0f099996c4348f0025709",
+        "size_in_bytes": 33376
+      },
+      {
+        "_path": "bin/eu-elfcmp",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/elfutils_1677869449018/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl",
+        "sha256": "4f3470e81a71960e1f28d4ab3b9b0dec6431afcf2fa0826e8f7cd59760c2f9c4",
+        "sha256_in_prefix": "68c0aed4e04f06a37e8fb5636c9385f6c656a7dbef36a7feddaba8720f3acd09",
+        "size_in_bytes": 377344
+      },
+      {
+        "_path": "bin/eu-elfcompress",
+        "path_type": "hardlink",
+        "sha256": "eda368818950b43dda0d560765dc9891a8e946327e5b6983e523e6afcf7b2946",
+        "sha256_in_prefix": "eda368818950b43dda0d560765dc9891a8e946327e5b6983e523e6afcf7b2946",
+        "size_in_bytes": 42544
+      },
+      {
+        "_path": "bin/eu-elflint",
+        "path_type": "hardlink",
+        "sha256": "fa196b55018022047f14ea10e2a801ab9285598a77e9e7261c6d8e24076ffa06",
+        "sha256_in_prefix": "fa196b55018022047f14ea10e2a801ab9285598a77e9e7261c6d8e24076ffa06",
+        "size_in_bytes": 468176
+      },
+      {
+        "_path": "bin/eu-findtextrel",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/elfutils_1677869449018/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl",
+        "sha256": "cb1746f3cc5ece9fe416d4f2c71de4dd8c31665da0c4b51d6ff4dbf287023c86",
+        "sha256_in_prefix": "0d6dff6bb676f98d3c62eddda928848c94baab89e64ca9c53a20b5345d449ba9",
+        "size_in_bytes": 26856
+      },
+      {
+        "_path": "bin/eu-make-debug-archive",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/elfutils_1677869449018/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl",
+        "sha256": "aa9b98298b29e35c164e40493a8657aed69750b019c29aa47d4aa43d3fb9e93c",
+        "sha256_in_prefix": "4b300e230f01f55752d49fe4961936f25f74ecf2d1738ab8e59b7541f49050b3",
+        "size_in_bytes": 3664
+      },
+      {
+        "_path": "bin/eu-nm",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/elfutils_1677869449018/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl",
+        "sha256": "1ea99d4020f45d91c6af5e6bf3f1775bccf52cd4df6c83785b10cc1af845d02d",
+        "sha256_in_prefix": "bd6c9350053310fb5767908e0ebb3184970e015084bff05aa933611af9feb48d",
+        "size_in_bytes": 398280
+      },
+      {
+        "_path": "bin/eu-objdump",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/elfutils_1677869449018/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl",
+        "sha256": "dd73022ffc79f7e5d5dc41defd8cdbca8b0b4ffaa8bf575b2a43c7eec60757d7",
+        "sha256_in_prefix": "6a5768a0cd81654205f59f0770f6d2c663cb04b0bcbcac01d4ae312475c32b4c",
+        "size_in_bytes": 379200
+      },
+      {
+        "_path": "bin/eu-ranlib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/elfutils_1677869449018/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl",
+        "sha256": "1c65f00bb7a2e25977e516515f3e15fb613c815cd4c37656a4b35979ec1118f3",
+        "sha256_in_prefix": "a7864c30fdb642e9ec6df2a0a4944be85ef9b88c9b67313226002166ef2ac96d",
+        "size_in_bytes": 27504
+      },
+      {
+        "_path": "bin/eu-readelf",
+        "path_type": "hardlink",
+        "sha256": "60ba433249038e59a2441528b268a6c0c492009df4ba39e3ef2f25f7653f55cf",
+        "sha256_in_prefix": "60ba433249038e59a2441528b268a6c0c492009df4ba39e3ef2f25f7653f55cf",
+        "size_in_bytes": 622744
+      },
+      {
+        "_path": "bin/eu-size",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/elfutils_1677869449018/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl",
+        "sha256": "bece28dfe3b82faf1d93174f6e450db48958c8ac10b8470b0bf615b0ff2cb9d0",
+        "sha256_in_prefix": "6ea8ece2766e8ae8509ab3f6904ca5fb028187bcd121c35258a83208c8cbb46c",
+        "size_in_bytes": 30880
+      },
+      {
+        "_path": "bin/eu-stack",
+        "path_type": "hardlink",
+        "sha256": "8afdcd74748e4b08ef4896ebe62b437d1c885cd345dbf88c45a0b218e5e53982",
+        "sha256_in_prefix": "8afdcd74748e4b08ef4896ebe62b437d1c885cd345dbf88c45a0b218e5e53982",
+        "size_in_bytes": 38288
+      },
+      {
+        "_path": "bin/eu-strings",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/elfutils_1677869449018/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl",
+        "sha256": "92d3f6ad3fa2cf3262e72ad3dbcadb5e232429b2cb17a3b044f9f6db96bfd721",
+        "sha256_in_prefix": "2f5d65ad53a663c4ea2304bf52f9a810a97ec17ccb2e6896d7dc6e895d94bfe6",
+        "size_in_bytes": 27352
+      },
+      {
+        "_path": "bin/eu-strip",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/elfutils_1677869449018/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl",
+        "sha256": "b995ca6a7661cd2a9c00eb5d655c8edffdd1b393e39cd74d61ace4d2d48a0eb9",
+        "sha256_in_prefix": "feeb4d7440e4d0f86f2ca378ea96ee3c7fd6aa36a8b438dfb8505514ba4604f9",
+        "size_in_bytes": 400864
+      },
+      {
+        "_path": "bin/eu-unstrip",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/elfutils_1677869449018/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl",
+        "sha256": "c44b753387b7a8e4040650598cb3ffe78dedb8a9ceefe9325926dd5341dc97a7",
+        "sha256_in_prefix": "05ac6de374f90661f1f58f14cb51651671866d7d5f0a00ee4e2619dd1ad375cb",
+        "size_in_bytes": 62752
+      },
+      {
+        "_path": "etc/profile.d/debuginfod.csh",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/elfutils_1677869449018/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl",
+        "sha256": "6fa7d5a1918e10b81b02dfd62ceccf84b04a95a54d3dbeb6fe1dd1ae30ca032c",
+        "sha256_in_prefix": "4ab842a86e38dd3a8001a4b2399a61ceaec69fdbe76876bd5358278ce938efec",
+        "size_in_bytes": 934
+      },
+      {
+        "_path": "etc/profile.d/debuginfod.sh",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/elfutils_1677869449018/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl",
+        "sha256": "921d3f0310816523d361e31a24f5a83e719976b20c6f5a4aadfb726fa20c45ae",
+        "sha256_in_prefix": "8937e1371789c20a68e6057e9b5b2e9c3e7dac12dd48d03676b8e3f98f9db8ca",
+        "size_in_bytes": 856
+      },
+      {
+        "_path": "include/dwarf.h",
+        "path_type": "hardlink",
+        "sha256": "9be2e5a97b3fcbc60dedb71967667b9a21d562dbfdaa7f9f74f4b3d9cbb5df86",
+        "sha256_in_prefix": "9be2e5a97b3fcbc60dedb71967667b9a21d562dbfdaa7f9f74f4b3d9cbb5df86",
+        "size_in_bytes": 31557
+      },
+      {
+        "_path": "include/elfutils/debuginfod.h",
+        "path_type": "hardlink",
+        "sha256": "7932e3cb176a5d4340feff85653109bb3429d9d78f65f132d590b44591956251",
+        "sha256_in_prefix": "7932e3cb176a5d4340feff85653109bb3429d9d78f65f132d590b44591956251",
+        "size_in_bytes": 4445
+      },
+      {
+        "_path": "include/elfutils/elf-knowledge.h",
+        "path_type": "hardlink",
+        "sha256": "65bbae885e70c5cfae95a20ae48370f873206951a9678660dab8e72a438ca80b",
+        "sha256_in_prefix": "65bbae885e70c5cfae95a20ae48370f873206951a9678660dab8e72a438ca80b",
+        "size_in_bytes": 3927
+      },
+      {
+        "_path": "include/elfutils/known-dwarf.h",
+        "path_type": "hardlink",
+        "sha256": "71933162db6c905cf46f6738a2a6816777ff0e37107a99bd15f809ec3a9923b0",
+        "sha256_in_prefix": "71933162db6c905cf46f6738a2a6816777ff0e37107a99bd15f809ec3a9923b0",
+        "size_in_bytes": 42603
+      },
+      {
+        "_path": "include/elfutils/libasm.h",
+        "path_type": "hardlink",
+        "sha256": "b94db464373bc7b872383934e06238d41f3a5ecf8cfd007e12d0766fea7e1a49",
+        "sha256_in_prefix": "b94db464373bc7b872383934e06238d41f3a5ecf8cfd007e12d0766fea7e1a49",
+        "size_in_bytes": 7116
+      },
+      {
+        "_path": "include/elfutils/libdw.h",
+        "path_type": "hardlink",
+        "sha256": "f6864cd4b2bfd7b0752eddd999e6f881ac824903e798a477f53c5fcd4593289f",
+        "sha256_in_prefix": "f6864cd4b2bfd7b0752eddd999e6f881ac824903e798a477f53c5fcd4593289f",
+        "size_in_bytes": 45784
+      },
+      {
+        "_path": "include/elfutils/libdwelf.h",
+        "path_type": "hardlink",
+        "sha256": "3128e0c08481e45f6e6eeae79e6ac4df4a29bd94d1c96a90bc87270932d6e541",
+        "sha256_in_prefix": "3128e0c08481e45f6e6eeae79e6ac4df4a29bd94d1c96a90bc87270932d6e541",
+        "size_in_bytes": 6454
+      },
+      {
+        "_path": "include/elfutils/libdwfl.h",
+        "path_type": "hardlink",
+        "sha256": "b16bf2b86934c6c683a398e1603a2354093a56c97b1fadb9ddf9d0ed974650c7",
+        "sha256_in_prefix": "b16bf2b86934c6c683a398e1603a2354093a56c97b1fadb9ddf9d0ed974650c7",
+        "size_in_bytes": 38616
+      },
+      {
+        "_path": "include/elfutils/version.h",
+        "path_type": "hardlink",
+        "sha256": "7eab0a376c231aee40eca74230b1ccaa0ce42178fe195872713be16de32404a9",
+        "sha256_in_prefix": "7eab0a376c231aee40eca74230b1ccaa0ce42178fe195872713be16de32404a9",
+        "size_in_bytes": 1274
+      },
+      {
+        "_path": "include/gelf.h",
+        "path_type": "hardlink",
+        "sha256": "0991a992f75396056c7d7f698fa7e87be24349ae85a195060d46e6a61881d97b",
+        "sha256_in_prefix": "0991a992f75396056c7d7f698fa7e87be24349ae85a195060d46e6a61881d97b",
+        "size_in_bytes": 11311
+      },
+      {
+        "_path": "include/libelf.h",
+        "path_type": "hardlink",
+        "sha256": "3b20df1d58f9a445785503415aea1188d33159327c2edab3d370dbd37bc4845e",
+        "sha256_in_prefix": "3b20df1d58f9a445785503415aea1188d33159327c2edab3d370dbd37bc4845e",
+        "size_in_bytes": 19765
+      },
+      {
+        "_path": "include/nlist.h",
+        "path_type": "hardlink",
+        "sha256": "98a8ddd1004034aeff4cc6d18e5df23f55d2869d879735c3b571594a44ba1212",
+        "sha256_in_prefix": "98a8ddd1004034aeff4cc6d18e5df23f55d2869d879735c3b571594a44ba1212",
+        "size_in_bytes": 1601
+      },
+      {
+        "_path": "lib/libasm-0.189.so",
+        "path_type": "hardlink",
+        "sha256": "859fe9410a52dfdc5860970046bcc69a09177d6de6a9f10890e5139792674629",
+        "sha256_in_prefix": "859fe9410a52dfdc5860970046bcc69a09177d6de6a9f10890e5139792674629",
+        "size_in_bytes": 42416
+      },
+      {
+        "_path": "lib/libasm.a",
+        "path_type": "hardlink",
+        "sha256": "3eb1ff96739328d4feaf22e61c06e486f65be3d3a48be6b47af310e42574f60a",
+        "sha256_in_prefix": "3eb1ff96739328d4feaf22e61c06e486f65be3d3a48be6b47af310e42574f60a",
+        "size_in_bytes": 84766
+      },
+      {
+        "_path": "lib/libasm.so",
+        "path_type": "softlink",
+        "sha256": "859fe9410a52dfdc5860970046bcc69a09177d6de6a9f10890e5139792674629",
+        "size_in_bytes": 42416
+      },
+      {
+        "_path": "lib/libasm.so.1",
+        "path_type": "softlink",
+        "sha256": "859fe9410a52dfdc5860970046bcc69a09177d6de6a9f10890e5139792674629",
+        "size_in_bytes": 42416
+      },
+      {
+        "_path": "lib/libdebuginfod-0.189.so",
+        "path_type": "hardlink",
+        "sha256": "6c174fefac2ec89b93b09845be9d1fd199d177f6cc76bac4939ada036c767630",
+        "sha256_in_prefix": "6c174fefac2ec89b93b09845be9d1fd199d177f6cc76bac4939ada036c767630",
+        "size_in_bytes": 16224
+      },
+      {
+        "_path": "lib/libdebuginfod.so",
+        "path_type": "softlink",
+        "sha256": "6c174fefac2ec89b93b09845be9d1fd199d177f6cc76bac4939ada036c767630",
+        "size_in_bytes": 16224
+      },
+      {
+        "_path": "lib/libdebuginfod.so.1",
+        "path_type": "softlink",
+        "sha256": "6c174fefac2ec89b93b09845be9d1fd199d177f6cc76bac4939ada036c767630",
+        "size_in_bytes": 16224
+      },
+      {
+        "_path": "lib/libdw-0.189.so",
+        "path_type": "hardlink",
+        "sha256": "39c66b9234811feeaa3ae475f08ba4717917407f4f51da57408440c90ee08bd7",
+        "sha256_in_prefix": "39c66b9234811feeaa3ae475f08ba4717917407f4f51da57408440c90ee08bd7",
+        "size_in_bytes": 702992
+      },
+      {
+        "_path": "lib/libdw.a",
+        "path_type": "hardlink",
+        "sha256": "b42871cb535faac7b37fb25a53eb0f5140aa165e2ccea3f180d67a7d994eb21e",
+        "sha256_in_prefix": "b42871cb535faac7b37fb25a53eb0f5140aa165e2ccea3f180d67a7d994eb21e",
+        "size_in_bytes": 1626098
+      },
+      {
+        "_path": "lib/libdw.so",
+        "path_type": "softlink",
+        "sha256": "39c66b9234811feeaa3ae475f08ba4717917407f4f51da57408440c90ee08bd7",
+        "size_in_bytes": 702992
+      },
+      {
+        "_path": "lib/libdw.so.1",
+        "path_type": "softlink",
+        "sha256": "39c66b9234811feeaa3ae475f08ba4717917407f4f51da57408440c90ee08bd7",
+        "size_in_bytes": 702992
+      },
+      {
+        "_path": "lib/libelf-0.189.so",
+        "path_type": "hardlink",
+        "sha256": "1d66be5f34782fe1036c61770fd5556818c01dd351ea910451acb6aa77931abe",
+        "sha256_in_prefix": "1d66be5f34782fe1036c61770fd5556818c01dd351ea910451acb6aa77931abe",
+        "size_in_bytes": 118168
+      },
+      {
+        "_path": "lib/libelf.a",
+        "path_type": "hardlink",
+        "sha256": "d72ccae7b0abac81a56a5208ec25a33fe6af717a81bb84188679615677b39e36",
+        "sha256_in_prefix": "d72ccae7b0abac81a56a5208ec25a33fe6af717a81bb84188679615677b39e36",
+        "size_in_bytes": 314418
+      },
+      {
+        "_path": "lib/libelf.so",
+        "path_type": "softlink",
+        "sha256": "1d66be5f34782fe1036c61770fd5556818c01dd351ea910451acb6aa77931abe",
+        "size_in_bytes": 118168
+      },
+      {
+        "_path": "lib/libelf.so.1",
+        "path_type": "softlink",
+        "sha256": "1d66be5f34782fe1036c61770fd5556818c01dd351ea910451acb6aa77931abe",
+        "size_in_bytes": 118168
+      },
+      {
+        "_path": "lib/pkgconfig/libdebuginfod.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/elfutils_1677869449018/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl",
+        "sha256": "95deff3e50dbc6d41c35411ba7dfb1872ae79cbbbf30b290389b7477240b1a54",
+        "sha256_in_prefix": "f91536f7245e20a0eedeb2185f36f18a38219c2d653c01853cdf75257fca8d52",
+        "size_in_bytes": 534
+      },
+      {
+        "_path": "lib/pkgconfig/libdw.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/elfutils_1677869449018/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl",
+        "sha256": "34a3dcb2303afe1214ce57d1634e0f9248cece3208e5d3e3b14cab1c4805be45",
+        "sha256_in_prefix": "545ac6f3e382f5638835a2206eea5e799d8728f0d999ae03dd5866c8a586a37e",
+        "size_in_bytes": 932
+      },
+      {
+        "_path": "lib/pkgconfig/libelf.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/elfutils_1677869449018/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl",
+        "sha256": "69286c313bd271d7f64517daa99237e497b01507c202793da79e85fe982fca58",
+        "sha256_in_prefix": "a1995e5e0b998d12999547e09d9e35aa130ad83aa9f58db6317b2cd018a94e09",
+        "size_in_bytes": 541
+      },
+      {
+        "_path": "share/locale/de/LC_MESSAGES/elfutils.mo",
+        "path_type": "hardlink",
+        "sha256": "8b27f16580a4c1bfde4ccb0e98109cabfe4f52b45d4303ac76b3b30755ffabc4",
+        "sha256_in_prefix": "8b27f16580a4c1bfde4ccb0e98109cabfe4f52b45d4303ac76b3b30755ffabc4",
+        "size_in_bytes": 17882
+      },
+      {
+        "_path": "share/locale/en@boldquot/LC_MESSAGES/elfutils.mo",
+        "path_type": "hardlink",
+        "sha256": "1af86ccac0f6d52d62716b192b668decd557a23224d05c70fb41bb7dd7aeaba7",
+        "sha256_in_prefix": "1af86ccac0f6d52d62716b192b668decd557a23224d05c70fb41bb7dd7aeaba7",
+        "size_in_bytes": 157322
+      },
+      {
+        "_path": "share/locale/en@quot/LC_MESSAGES/elfutils.mo",
+        "path_type": "hardlink",
+        "sha256": "04246f1d0629e1c3290fb664237dedfbcddfede756a87e6d66de5e4c7b5c59fa",
+        "sha256_in_prefix": "04246f1d0629e1c3290fb664237dedfbcddfede756a87e6d66de5e4c7b5c59fa",
+        "size_in_bytes": 155486
+      },
+      {
+        "_path": "share/locale/es/LC_MESSAGES/elfutils.mo",
+        "path_type": "hardlink",
+        "sha256": "dbdef806cfe8aff0d4e851a3bada67ea9de2e303790258bb9aed7569bcb79dd4",
+        "sha256_in_prefix": "dbdef806cfe8aff0d4e851a3bada67ea9de2e303790258bb9aed7569bcb79dd4",
+        "size_in_bytes": 106776
+      },
+      {
+        "_path": "share/locale/ja/LC_MESSAGES/elfutils.mo",
+        "path_type": "hardlink",
+        "sha256": "54be3644ad9c74263e91949b2c0391e83024e45cee489e771d792888a0acab01",
+        "sha256_in_prefix": "54be3644ad9c74263e91949b2c0391e83024e45cee489e771d792888a0acab01",
+        "size_in_bytes": 92248
+      },
+      {
+        "_path": "share/locale/pl/LC_MESSAGES/elfutils.mo",
+        "path_type": "hardlink",
+        "sha256": "90e0a521503f2aacd360357cadca0bc671cb536d0312f1434ab696d6974dda79",
+        "sha256_in_prefix": "90e0a521503f2aacd360357cadca0bc671cb536d0312f1434ab696d6974dda79",
+        "size_in_bytes": 165530
+      },
+      {
+        "_path": "share/locale/uk/LC_MESSAGES/elfutils.mo",
+        "path_type": "hardlink",
+        "sha256": "1197cdfb3408f25343d7203f89c47417c48769648f47fe77fb3a212bedb5bc9e",
+        "sha256_in_prefix": "1197cdfb3408f25343d7203f89c47417c48769648f47fe77fb3a212bedb5bc9e",
+        "size_in_bytes": 193954
+      },
+      {
+        "_path": "share/man/man1/debuginfod-find.1",
+        "path_type": "hardlink",
+        "sha256": "e247076c4af00f73f004e642687583c931afb8a699564594a31e7ea72209afca",
+        "sha256_in_prefix": "e247076c4af00f73f004e642687583c931afb8a699564594a31e7ea72209afca",
+        "size_in_bytes": 5115
+      },
+      {
+        "_path": "share/man/man1/eu-elfclassify.1",
+        "path_type": "hardlink",
+        "sha256": "1f5ea96871ba7ddcb75315b6ab30e55f7a54b374c776f83716596014f146085f",
+        "sha256_in_prefix": "1f5ea96871ba7ddcb75315b6ab30e55f7a54b374c776f83716596014f146085f",
+        "size_in_bytes": 5470
+      },
+      {
+        "_path": "share/man/man1/eu-readelf.1",
+        "path_type": "hardlink",
+        "sha256": "10fc9c8233727805421d1fdc2e2540b8b41bef7fa7b0398b4441c8b96d81139f",
+        "sha256_in_prefix": "10fc9c8233727805421d1fdc2e2540b8b41bef7fa7b0398b4441c8b96d81139f",
+        "size_in_bytes": 15868
+      },
+      {
+        "_path": "share/man/man3/debuginfod_add_http_header.3",
+        "path_type": "hardlink",
+        "sha256": "7cba3ead70fb84ff2e1895923744bef71209035c96aa92144735c8657827f7c9",
+        "sha256_in_prefix": "7cba3ead70fb84ff2e1895923744bef71209035c96aa92144735c8657827f7c9",
+        "size_in_bytes": 37
+      },
+      {
+        "_path": "share/man/man3/debuginfod_begin.3",
+        "path_type": "hardlink",
+        "sha256": "7cba3ead70fb84ff2e1895923744bef71209035c96aa92144735c8657827f7c9",
+        "sha256_in_prefix": "7cba3ead70fb84ff2e1895923744bef71209035c96aa92144735c8657827f7c9",
+        "size_in_bytes": 37
+      },
+      {
+        "_path": "share/man/man3/debuginfod_end.3",
+        "path_type": "hardlink",
+        "sha256": "7cba3ead70fb84ff2e1895923744bef71209035c96aa92144735c8657827f7c9",
+        "sha256_in_prefix": "7cba3ead70fb84ff2e1895923744bef71209035c96aa92144735c8657827f7c9",
+        "size_in_bytes": 37
+      },
+      {
+        "_path": "share/man/man3/debuginfod_find_debuginfo.3",
+        "path_type": "hardlink",
+        "sha256": "04de981f7557f6c6b5241fb907270b92e77be9fe31a79c6154a7a225555f141b",
+        "sha256_in_prefix": "04de981f7557f6c6b5241fb907270b92e77be9fe31a79c6154a7a225555f141b",
+        "size_in_bytes": 11826
+      },
+      {
+        "_path": "share/man/man3/debuginfod_find_executable.3",
+        "path_type": "hardlink",
+        "sha256": "7cba3ead70fb84ff2e1895923744bef71209035c96aa92144735c8657827f7c9",
+        "sha256_in_prefix": "7cba3ead70fb84ff2e1895923744bef71209035c96aa92144735c8657827f7c9",
+        "size_in_bytes": 37
+      },
+      {
+        "_path": "share/man/man3/debuginfod_find_section.3",
+        "path_type": "hardlink",
+        "sha256": "7cba3ead70fb84ff2e1895923744bef71209035c96aa92144735c8657827f7c9",
+        "sha256_in_prefix": "7cba3ead70fb84ff2e1895923744bef71209035c96aa92144735c8657827f7c9",
+        "size_in_bytes": 37
+      },
+      {
+        "_path": "share/man/man3/debuginfod_find_source.3",
+        "path_type": "hardlink",
+        "sha256": "7cba3ead70fb84ff2e1895923744bef71209035c96aa92144735c8657827f7c9",
+        "sha256_in_prefix": "7cba3ead70fb84ff2e1895923744bef71209035c96aa92144735c8657827f7c9",
+        "size_in_bytes": 37
+      },
+      {
+        "_path": "share/man/man3/debuginfod_get_url.3",
+        "path_type": "hardlink",
+        "sha256": "7cba3ead70fb84ff2e1895923744bef71209035c96aa92144735c8657827f7c9",
+        "sha256_in_prefix": "7cba3ead70fb84ff2e1895923744bef71209035c96aa92144735c8657827f7c9",
+        "size_in_bytes": 37
+      },
+      {
+        "_path": "share/man/man3/debuginfod_get_user_data.3",
+        "path_type": "hardlink",
+        "sha256": "7cba3ead70fb84ff2e1895923744bef71209035c96aa92144735c8657827f7c9",
+        "sha256_in_prefix": "7cba3ead70fb84ff2e1895923744bef71209035c96aa92144735c8657827f7c9",
+        "size_in_bytes": 37
+      },
+      {
+        "_path": "share/man/man3/debuginfod_set_progressfn.3",
+        "path_type": "hardlink",
+        "sha256": "7cba3ead70fb84ff2e1895923744bef71209035c96aa92144735c8657827f7c9",
+        "sha256_in_prefix": "7cba3ead70fb84ff2e1895923744bef71209035c96aa92144735c8657827f7c9",
+        "size_in_bytes": 37
+      },
+      {
+        "_path": "share/man/man3/debuginfod_set_user_data.3",
+        "path_type": "hardlink",
+        "sha256": "7cba3ead70fb84ff2e1895923744bef71209035c96aa92144735c8657827f7c9",
+        "sha256_in_prefix": "7cba3ead70fb84ff2e1895923744bef71209035c96aa92144735c8657827f7c9",
+        "size_in_bytes": 37
+      },
+      {
+        "_path": "share/man/man3/elf_begin.3",
+        "path_type": "hardlink",
+        "sha256": "fa41af290bb1a8f16b4d88e8cfc08f7ec7b13d70e7b34ec358304daa4b3a0cc4",
+        "sha256_in_prefix": "fa41af290bb1a8f16b4d88e8cfc08f7ec7b13d70e7b34ec358304daa4b3a0cc4",
+        "size_in_bytes": 834
+      },
+      {
+        "_path": "share/man/man3/elf_clone.3",
+        "path_type": "hardlink",
+        "sha256": "6262bef4dbeef6b2bff04d4ac857c58f2a230a44bf184e9bf685d2a38c8409c9",
+        "sha256_in_prefix": "6262bef4dbeef6b2bff04d4ac857c58f2a230a44bf184e9bf685d2a38c8409c9",
+        "size_in_bytes": 343
+      },
+      {
+        "_path": "share/man/man3/elf_getdata.3",
+        "path_type": "hardlink",
+        "sha256": "21d9fef582318c0d10721aa9a4194f5684323b5fc8fdecf84355b7d310c84326",
+        "sha256_in_prefix": "21d9fef582318c0d10721aa9a4194f5684323b5fc8fdecf84355b7d310c84326",
+        "size_in_bytes": 1104
+      },
+      {
+        "_path": "share/man/man3/elf_update.3",
+        "path_type": "hardlink",
+        "sha256": "c96dfc270c9dfa35a676aa1f38c15bcd4a556851fed9a4ddc074d62f856d3a4a",
+        "sha256_in_prefix": "c96dfc270c9dfa35a676aa1f38c15bcd4a556851fed9a4ddc074d62f856d3a4a",
+        "size_in_bytes": 324
+      },
+      {
+        "_path": "share/man/man7/debuginfod-client-config.7",
+        "path_type": "hardlink",
+        "sha256": "611fccfea0e589e46ee8bcf279d797dfbc993734f7e5723b0a9f3814022e8524",
+        "sha256_in_prefix": "611fccfea0e589e46ee8bcf279d797dfbc993734f7e5723b0a9f3814022e8524",
+        "size_in_bytes": 4864
+      },
+      {
+        "_path": "share/man/man8/debuginfod.8",
+        "path_type": "hardlink",
+        "sha256": "473c927503fbaee7961e50fd477acc3832696820bcbc74d3a422db9ee1e07bad",
+        "sha256_in_prefix": "473c927503fbaee7961e50fd477acc3832696820bcbc74d3a422db9ee1e07bad",
+        "size_in_bytes": 22642
+      },
+      {
+        "_path": "share/man/man8/debuginfod.service.8",
+        "path_type": "hardlink",
+        "sha256": "33a7bc77d73fddf71ab3b4aba03fc2ee4351e160a6857bb8c10b1f868c133a6f",
+        "sha256_in_prefix": "33a7bc77d73fddf71ab3b4aba03fc2ee4351e160a6857bb8c10b1f868c133a6f",
+        "size_in_bytes": 1030
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "a53f4524ced5ddeb96d99cec3c910c64edb257ae075c240e982ae90d3f4ed3ed",
+  "size": 1141516,
+  "subdir": "linux-64",
+  "timestamp": 1677869705000,
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/elfutils-0.189-hde5d1a3_0.conda",
+  "version": "0.189"
+}

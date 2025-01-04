@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+vidur.egg-info/PKG-INFO
+vidur.egg-info/SOURCES.txt
+vidur.egg-info/dependency_links.txt
+vidur.egg-info/top_level.txt

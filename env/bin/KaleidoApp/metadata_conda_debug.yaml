@@ -1,0 +1,49 @@
+package:
+  name: kaleido-core
+  version: 0.2.1
+source:
+  sha256: 3590409ae4fdce263bd4d8c66002f785aec7449fff45e953d337b16c91d17a5d
+  url: https://github.com/plotly/Kaleido/releases/download/v0.2.1/kaleido_minimal_linux_x64.zip
+build:
+  ignore_run_exports:
+    - sqlite
+  missing_dso_whitelist: null
+  number: '0'
+requirements:
+  build:
+    - gcc_linux-64 9.*
+    - sysroot_linux-64 2.17
+  host:
+    - expat
+    - nspr
+    - nss
+    - sqlite
+  run:
+    - expat
+    - nspr
+    - nss
+    - sqlite
+    - fontconfig
+    - fonts-conda-forge
+    - mathjax =2.7
+about:
+  description: 'Kaleido is a cross-platform library for generating static images
+
+    (e.g. png, svg, pdf, etc.) for web-based visualization libraries, with a
+
+    particular focus on eliminating external dependencies.
+
+    '
+  dev_url: https://github.com/plotly/Kaleido
+  doc_url: https://github.com/plotly/Kaleido
+  home: https://github.com/plotly/Kaleido
+  license: MIT
+  license_family: MIT
+  license_file:
+    - LICENSE.txt
+    - CREDITS.html
+  summary: Fast static image export for web-based visualization libraries
+extra:
+  final: null
+  recipe-maintainers:
+    - jonmmease

@@ -1,0 +1,12 @@
+prefix=/cpfs01/user/chengqinxiu/vidur/env
+exec_prefix=${prefix}
+libdir=/cpfs01/user/chengqinxiu/vidur/env/lib
+includedir=/cpfs01/user/chengqinxiu/vidur/env/include
+
+Name: absl_type_traits
+Description: Abseil type_traits library
+URL: https://abseil.io/
+Version: 20240722
+Requires: absl_config = 20240722, absl_core_headers = 20240722
+Libs: -L${libdir}  
+Cflags: -I${includedir} -Wnon-virtual-dtor -DNOMINMAX

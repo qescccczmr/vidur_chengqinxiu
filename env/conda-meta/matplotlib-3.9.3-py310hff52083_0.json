@@ -1,0 +1,35 @@
+{
+  "build": "py310hff52083_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "matplotlib-base >=3.9.3,<3.9.4.0a0",
+    "pyside6 >=6.7.2",
+    "python >=3.10,<3.11.0a0",
+    "python_abi 3.10.* *_cp310",
+    "tornado >=5"
+  ],
+  "extracted_package_dir": "/cpfs01/user/chengqinxiu/anaconda3/pkgs/matplotlib-3.9.3-py310hff52083_0",
+  "files": [],
+  "fn": "matplotlib-3.9.3-py310hff52083_0.conda",
+  "license": "PSF-2.0",
+  "link": {
+    "source": "/cpfs01/user/chengqinxiu/anaconda3/pkgs/matplotlib-3.9.3-py310hff52083_0",
+    "type": 1
+  },
+  "md5": "95b72850e185db78c1086054c0c2f4e4",
+  "name": "matplotlib",
+  "package_tarball_full_path": "/cpfs01/user/chengqinxiu/anaconda3/pkgs/matplotlib-3.9.3-py310hff52083_0.conda",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "matplotlib",
+  "sha256": "8f320c09b141c3ea0af6d2d42949d2d13defb0c6eaa30ac327dff9dd2408bd12",
+  "size": 16849,
+  "subdir": "linux-64",
+  "timestamp": 1733176227000,
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/matplotlib-3.9.3-py310hff52083_0.conda",
+  "version": "3.9.3"
+}

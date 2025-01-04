@@ -1,0 +1,40 @@
+{
+  "build": "h31011fe_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "__unix",
+    "httptools >=0.5.0",
+    "python-dotenv >=0.13",
+    "pyyaml >=5.1",
+    "uvicorn 0.32.1 pyh31011fe_1",
+    "uvloop >=0.14.0,!=0.15.0,!=0.15.1",
+    "watchfiles >=0.13",
+    "websockets >=10.4"
+  ],
+  "extracted_package_dir": "/cpfs01/user/chengqinxiu/anaconda3/pkgs/uvicorn-standard-0.32.1-h31011fe_1",
+  "files": [],
+  "fn": "uvicorn-standard-0.32.1-h31011fe_1.conda",
+  "license": "BSD-3-Clause",
+  "link": {
+    "source": "/cpfs01/user/chengqinxiu/anaconda3/pkgs/uvicorn-standard-0.32.1-h31011fe_1",
+    "type": 1
+  },
+  "md5": "0c233d5c71d398cf01d0281e72194005",
+  "name": "uvicorn-standard",
+  "noarch": "generic",
+  "package_tarball_full_path": "/cpfs01/user/chengqinxiu/anaconda3/pkgs/uvicorn-standard-0.32.1-h31011fe_1.conda",
+  "package_type": "noarch_generic",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "378903c51b2b1136fa48b01c0a2a8dd4634136d038a4a56561c0856fdcbfcabe",
+  "size": 7094,
+  "subdir": "noarch",
+  "timestamp": 1733332049000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/uvicorn-standard-0.32.1-h31011fe_1.conda",
+  "version": "0.32.1"
+}

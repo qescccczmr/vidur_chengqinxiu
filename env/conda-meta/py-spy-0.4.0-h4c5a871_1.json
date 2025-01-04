@@ -1,0 +1,45 @@
+{
+  "build": "h4c5a871_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [
+    "__glibc >=2.17"
+  ],
+  "depends": [
+    "__glibc >=2.17,<3.0.a0",
+    "libgcc >=13",
+    "libunwind >=1.6.2,<1.7.0a0"
+  ],
+  "extracted_package_dir": "/cpfs01/user/chengqinxiu/anaconda3/pkgs/py-spy-0.4.0-h4c5a871_1",
+  "files": [
+    "bin/py-spy"
+  ],
+  "fn": "py-spy-0.4.0-h4c5a871_1.conda",
+  "license": "MIT",
+  "link": {
+    "source": "/cpfs01/user/chengqinxiu/anaconda3/pkgs/py-spy-0.4.0-h4c5a871_1",
+    "type": 1
+  },
+  "md5": "aee51398c14a56bb59ede1968418917f",
+  "name": "py-spy",
+  "package_tarball_full_path": "/cpfs01/user/chengqinxiu/anaconda3/pkgs/py-spy-0.4.0-h4c5a871_1.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/py-spy",
+        "path_type": "hardlink",
+        "sha256": "0f7179bdbc06fd0b767160ff0e019f5fd76a8d75a344cd2de97bbe11dbdc7e52",
+        "sha256_in_prefix": "0f7179bdbc06fd0b767160ff0e019f5fd76a8d75a344cd2de97bbe11dbdc7e52",
+        "size_in_bytes": 5204472
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "764e3f22c43a175e46116d5f3dd19539ab52adfa725fd81b623a0c3090b83f5a",
+  "size": 1691209,
+  "subdir": "linux-64",
+  "timestamp": 1731026762000,
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/py-spy-0.4.0-h4c5a871_1.conda",
+  "version": "0.4.0"
+}

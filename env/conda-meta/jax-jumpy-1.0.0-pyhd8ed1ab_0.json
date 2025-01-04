@@ -1,0 +1,243 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "numpy >=1.18.0",
+    "python >=3.7"
+  ],
+  "extracted_package_dir": "/cpfs01/user/chengqinxiu/anaconda3/pkgs/jax-jumpy-1.0.0-pyhd8ed1ab_0",
+  "files": [
+    "lib/python3.10/site-packages/jax_jumpy-1.0.0.dist-info/INSTALLER",
+    "lib/python3.10/site-packages/jax_jumpy-1.0.0.dist-info/LICENSE",
+    "lib/python3.10/site-packages/jax_jumpy-1.0.0.dist-info/METADATA",
+    "lib/python3.10/site-packages/jax_jumpy-1.0.0.dist-info/RECORD",
+    "lib/python3.10/site-packages/jax_jumpy-1.0.0.dist-info/REQUESTED",
+    "lib/python3.10/site-packages/jax_jumpy-1.0.0.dist-info/WHEEL",
+    "lib/python3.10/site-packages/jax_jumpy-1.0.0.dist-info/direct_url.json",
+    "lib/python3.10/site-packages/jax_jumpy-1.0.0.dist-info/top_level.txt",
+    "lib/python3.10/site-packages/jumpy/__init__.py",
+    "lib/python3.10/site-packages/jumpy/_base_fns.py",
+    "lib/python3.10/site-packages/jumpy/core.py",
+    "lib/python3.10/site-packages/jumpy/lax.py",
+    "lib/python3.10/site-packages/jumpy/numpy/__init__.py",
+    "lib/python3.10/site-packages/jumpy/numpy/_factory_fns.py",
+    "lib/python3.10/site-packages/jumpy/numpy/_transform_data.py",
+    "lib/python3.10/site-packages/jumpy/numpy/_types.py",
+    "lib/python3.10/site-packages/jumpy/numpy/linalg.py",
+    "lib/python3.10/site-packages/jumpy/ops.py",
+    "lib/python3.10/site-packages/jumpy/random.py",
+    "lib/python3.10/site-packages/jumpy/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/jumpy/__pycache__/_base_fns.cpython-310.pyc",
+    "lib/python3.10/site-packages/jumpy/__pycache__/core.cpython-310.pyc",
+    "lib/python3.10/site-packages/jumpy/__pycache__/lax.cpython-310.pyc",
+    "lib/python3.10/site-packages/jumpy/numpy/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/jumpy/numpy/__pycache__/_factory_fns.cpython-310.pyc",
+    "lib/python3.10/site-packages/jumpy/numpy/__pycache__/_transform_data.cpython-310.pyc",
+    "lib/python3.10/site-packages/jumpy/numpy/__pycache__/_types.cpython-310.pyc",
+    "lib/python3.10/site-packages/jumpy/numpy/__pycache__/linalg.cpython-310.pyc",
+    "lib/python3.10/site-packages/jumpy/__pycache__/ops.cpython-310.pyc",
+    "lib/python3.10/site-packages/jumpy/__pycache__/random.cpython-310.pyc"
+  ],
+  "fn": "jax-jumpy-1.0.0-pyhd8ed1ab_0.conda",
+  "license": "Apache-2.0",
+  "link": {
+    "source": "/cpfs01/user/chengqinxiu/anaconda3/pkgs/jax-jumpy-1.0.0-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "b86011d6ae116729da82203f8ef29d1c",
+  "name": "jax-jumpy",
+  "noarch": "python",
+  "package_tarball_full_path": "/cpfs01/user/chengqinxiu/anaconda3/pkgs/jax-jumpy-1.0.0-pyhd8ed1ab_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/jax_jumpy-1.0.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/jax_jumpy-1.0.0.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "d8ee82eb93b84e528966172a17b66e7f3f9d5b80a0ad8f5e7416295259bb7a53",
+        "sha256_in_prefix": "d8ee82eb93b84e528966172a17b66e7f3f9d5b80a0ad8f5e7416295259bb7a53",
+        "size_in_bytes": 11372
+      },
+      {
+        "_path": "site-packages/jax_jumpy-1.0.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "9ece0e2edf1470629e96851f7fa94f507be49edce4821252b9b7ae4ebc57646c",
+        "sha256_in_prefix": "9ece0e2edf1470629e96851f7fa94f507be49edce4821252b9b7ae4ebc57646c",
+        "size_in_bytes": 15684
+      },
+      {
+        "_path": "site-packages/jax_jumpy-1.0.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "787f2057d6c005196e4e21bf8b0fd0a07c67917fdcf6e9ef82bfd11c219543d0",
+        "sha256_in_prefix": "787f2057d6c005196e4e21bf8b0fd0a07c67917fdcf6e9ef82bfd11c219543d0",
+        "size_in_bytes": 2052
+      },
+      {
+        "_path": "site-packages/jax_jumpy-1.0.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/jax_jumpy-1.0.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "a6472d658cd44b8018567e9d27eef7ebb389662bc5d9ef1103d6ff6418e27f5f",
+        "sha256_in_prefix": "a6472d658cd44b8018567e9d27eef7ebb389662bc5d9ef1103d6ff6418e27f5f",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/jax_jumpy-1.0.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "e37e66006bd0d2e5f6dac51fab4bd8cbf4e2e90161c8a16553037eb41a588f18",
+        "sha256_in_prefix": "e37e66006bd0d2e5f6dac51fab4bd8cbf4e2e90161c8a16553037eb41a588f18",
+        "size_in_bytes": 105
+      },
+      {
+        "_path": "site-packages/jax_jumpy-1.0.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "108d909172f621dff0ee0a36fb92f87f677a91c9812cc6ad54464212e5a7b97d",
+        "sha256_in_prefix": "108d909172f621dff0ee0a36fb92f87f677a91c9812cc6ad54464212e5a7b97d",
+        "size_in_bytes": 6
+      },
+      {
+        "_path": "site-packages/jumpy/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "18df51c341569a05e42043dc44ba20cdca5a293cf5d288b804c776ef3f3c3330",
+        "sha256_in_prefix": "18df51c341569a05e42043dc44ba20cdca5a293cf5d288b804c776ef3f3c3330",
+        "size_in_bytes": 423
+      },
+      {
+        "_path": "site-packages/jumpy/_base_fns.py",
+        "path_type": "hardlink",
+        "sha256": "358dcd4647132e695d82f3fd17768fe9937194e19fa89ec169f1c9d0fbd71e0b",
+        "sha256_in_prefix": "358dcd4647132e695d82f3fd17768fe9937194e19fa89ec169f1c9d0fbd71e0b",
+        "size_in_bytes": 2115
+      },
+      {
+        "_path": "site-packages/jumpy/core.py",
+        "path_type": "hardlink",
+        "sha256": "79e7c35fe926f025a9136134e9b5e3515dab36a483b906f1e805e2a2494efb52",
+        "sha256_in_prefix": "79e7c35fe926f025a9136134e9b5e3515dab36a483b906f1e805e2a2494efb52",
+        "size_in_bytes": 1828
+      },
+      {
+        "_path": "site-packages/jumpy/lax.py",
+        "path_type": "hardlink",
+        "sha256": "11363c59006501603345a7e5c50b508f6ef08f1a13e95dbe38e845b1662cc29b",
+        "sha256_in_prefix": "11363c59006501603345a7e5c50b508f6ef08f1a13e95dbe38e845b1662cc29b",
+        "size_in_bytes": 3861
+      },
+      {
+        "_path": "site-packages/jumpy/numpy/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "1f079b67f88ab3c3023abe8b19172aa86a2825eb6bdaa31dbe850eccd6b4795c",
+        "sha256_in_prefix": "1f079b67f88ab3c3023abe8b19172aa86a2825eb6bdaa31dbe850eccd6b4795c",
+        "size_in_bytes": 1954
+      },
+      {
+        "_path": "site-packages/jumpy/numpy/_factory_fns.py",
+        "path_type": "hardlink",
+        "sha256": "fa00ad57d3a1d194213984e9051b71076bd174a52df2787bfff41a39c33f9627",
+        "sha256_in_prefix": "fa00ad57d3a1d194213984e9051b71076bd174a52df2787bfff41a39c33f9627",
+        "size_in_bytes": 2895
+      },
+      {
+        "_path": "site-packages/jumpy/numpy/_transform_data.py",
+        "path_type": "hardlink",
+        "sha256": "e362fa99f6a00484862d6719bd7248d5573a69bd7be8fb3ce7a770731156ecea",
+        "sha256_in_prefix": "e362fa99f6a00484862d6719bd7248d5573a69bd7be8fb3ce7a770731156ecea",
+        "size_in_bytes": 7602
+      },
+      {
+        "_path": "site-packages/jumpy/numpy/_types.py",
+        "path_type": "hardlink",
+        "sha256": "70d12a12959db3b6f8dd1950ad3f0eb4731bff490b640928e910294d2f1fd1b2",
+        "sha256_in_prefix": "70d12a12959db3b6f8dd1950ad3f0eb4731bff490b640928e910294d2f1fd1b2",
+        "size_in_bytes": 382
+      },
+      {
+        "_path": "site-packages/jumpy/numpy/linalg.py",
+        "path_type": "hardlink",
+        "sha256": "e341c756a4f134af7dae6fb14b81768160f21f1eabf4cc2dd0914a4c202ef9cb",
+        "sha256_in_prefix": "e341c756a4f134af7dae6fb14b81768160f21f1eabf4cc2dd0914a4c202ef9cb",
+        "size_in_bytes": 1332
+      },
+      {
+        "_path": "site-packages/jumpy/ops.py",
+        "path_type": "hardlink",
+        "sha256": "7176f680f8beb2586aab3b1382b980e196e70c0ef004174d74779ef3fa0c7ac8",
+        "sha256_in_prefix": "7176f680f8beb2586aab3b1382b980e196e70c0ef004174d74779ef3fa0c7ac8",
+        "size_in_bytes": 821
+      },
+      {
+        "_path": "site-packages/jumpy/random.py",
+        "path_type": "hardlink",
+        "sha256": "926b957683a47da5a44b349661206342408e7e442b438283da36c4d7af107e5a",
+        "sha256_in_prefix": "926b957683a47da5a44b349661206342408e7e442b438283da36c4d7af107e5a",
+        "size_in_bytes": 2332
+      },
+      {
+        "_path": "lib/python3.10/site-packages/jumpy/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/jumpy/__pycache__/_base_fns.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/jumpy/__pycache__/core.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/jumpy/__pycache__/lax.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/jumpy/numpy/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/jumpy/numpy/__pycache__/_factory_fns.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/jumpy/numpy/__pycache__/_transform_data.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/jumpy/numpy/__pycache__/_types.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/jumpy/numpy/__pycache__/linalg.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/jumpy/__pycache__/ops.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/jumpy/__pycache__/random.cpython-310.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "0edc0545caa3fb54762767fc0e39fcc9a3c12d293604cf78f9cb4d563b04daca",
+  "size": 20574,
+  "subdir": "noarch",
+  "timestamp": 1679161374000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/jax-jumpy-1.0.0-pyhd8ed1ab_0.conda",
+  "version": "1.0.0"
+}

@@ -1,0 +1,97 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python >=3.9",
+    "typer-slim-standard 0.15.1 hd8ed1ab_0"
+  ],
+  "extracted_package_dir": "/cpfs01/user/chengqinxiu/anaconda3/pkgs/typer-0.15.1-pyhd8ed1ab_0",
+  "files": [
+    "lib/python3.10/site-packages/typer-0.15.1.dist-info/INSTALLER",
+    "lib/python3.10/site-packages/typer-0.15.1.dist-info/METADATA",
+    "lib/python3.10/site-packages/typer-0.15.1.dist-info/RECORD",
+    "lib/python3.10/site-packages/typer-0.15.1.dist-info/REQUESTED",
+    "lib/python3.10/site-packages/typer-0.15.1.dist-info/WHEEL",
+    "lib/python3.10/site-packages/typer-0.15.1.dist-info/entry_points.txt",
+    "lib/python3.10/site-packages/typer-0.15.1.dist-info/licenses/LICENSE",
+    "bin/typer"
+  ],
+  "fn": "typer-0.15.1-pyhd8ed1ab_0.conda",
+  "license": "MIT",
+  "link": {
+    "source": "/cpfs01/user/chengqinxiu/anaconda3/pkgs/typer-0.15.1-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "170a0398946d8f5b454e592672b6fc20",
+  "name": "typer",
+  "noarch": "python",
+  "package_tarball_full_path": "/cpfs01/user/chengqinxiu/anaconda3/pkgs/typer-0.15.1-pyhd8ed1ab_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/typer-0.15.1.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/typer-0.15.1.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "c02911036aef4485e09437a5f81d990c507e2d4b0b974e54f9eb08891e4c7321",
+        "sha256_in_prefix": "c02911036aef4485e09437a5f81d990c507e2d4b0b974e54f9eb08891e4c7321",
+        "size_in_bytes": 15670
+      },
+      {
+        "_path": "site-packages/typer-0.15.1.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "a41146d69a3f875278f8b05eaac4ebe7421694608f2228d845dccbb1b2a03763",
+        "sha256_in_prefix": "a41146d69a3f875278f8b05eaac4ebe7421694608f2228d845dccbb1b2a03763",
+        "size_in_bytes": 2520
+      },
+      {
+        "_path": "site-packages/typer-0.15.1.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/typer-0.15.1.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "b6169a036c352737060b8f1662e7c0b3c9eb6198c99bc2ea35f9d714e172082e",
+        "sha256_in_prefix": "b6169a036c352737060b8f1662e7c0b3c9eb6198c99bc2ea35f9d714e172082e",
+        "size_in_bytes": 90
+      },
+      {
+        "_path": "site-packages/typer-0.15.1.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "60ed770728aa59eb9ab3d5742400cb5004591547bf73053fef099336fc41610f",
+        "sha256_in_prefix": "60ed770728aa59eb9ab3d5742400cb5004591547bf73053fef099336fc41610f",
+        "size_in_bytes": 57
+      },
+      {
+        "_path": "site-packages/typer-0.15.1.dist-info/licenses/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "58992cebcf8dfb6e40c4e2112ed12126c243666dca3912a3d78b7ecac4859d49",
+        "sha256_in_prefix": "58992cebcf8dfb6e40c4e2112ed12126c243666dca3912a3d78b7ecac4859d49",
+        "size_in_bytes": 1086
+      },
+      {
+        "_path": "bin/typer",
+        "path_type": "unix_python_entry_point"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "ef695490e895c2ad552c77ec497b899b09fd4ad4ab07edcf5649f5994cf92a35",
+  "size": 56175,
+  "subdir": "noarch",
+  "timestamp": 1733408582000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/typer-0.15.1-pyhd8ed1ab_0.conda",
+  "version": "0.15.1"
+}

@@ -1,0 +1,148 @@
+{
+  "build": "pyha770c72_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [
+    "eval-type-backport >=0.2.0,<0.2.1.0a0"
+  ],
+  "depends": [
+    "python >=3.7"
+  ],
+  "extracted_package_dir": "/cpfs01/user/chengqinxiu/anaconda3/pkgs/eval_type_backport-0.2.0-pyha770c72_0",
+  "files": [
+    "lib/python3.10/site-packages/eval_type_backport-0.2.0.dist-info/INSTALLER",
+    "lib/python3.10/site-packages/eval_type_backport-0.2.0.dist-info/LICENSE.txt",
+    "lib/python3.10/site-packages/eval_type_backport-0.2.0.dist-info/METADATA",
+    "lib/python3.10/site-packages/eval_type_backport-0.2.0.dist-info/RECORD",
+    "lib/python3.10/site-packages/eval_type_backport-0.2.0.dist-info/REQUESTED",
+    "lib/python3.10/site-packages/eval_type_backport-0.2.0.dist-info/WHEEL",
+    "lib/python3.10/site-packages/eval_type_backport-0.2.0.dist-info/direct_url.json",
+    "lib/python3.10/site-packages/eval_type_backport-0.2.0.dist-info/top_level.txt",
+    "lib/python3.10/site-packages/eval_type_backport/__init__.py",
+    "lib/python3.10/site-packages/eval_type_backport/eval_type_backport.py",
+    "lib/python3.10/site-packages/eval_type_backport/py.typed",
+    "lib/python3.10/site-packages/eval_type_backport/version.py",
+    "lib/python3.10/site-packages/eval_type_backport/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/eval_type_backport/__pycache__/eval_type_backport.cpython-310.pyc",
+    "lib/python3.10/site-packages/eval_type_backport/__pycache__/version.cpython-310.pyc"
+  ],
+  "fn": "eval_type_backport-0.2.0-pyha770c72_0.conda",
+  "license": "MIT",
+  "link": {
+    "source": "/cpfs01/user/chengqinxiu/anaconda3/pkgs/eval_type_backport-0.2.0-pyha770c72_0",
+    "type": 1
+  },
+  "md5": "710a87253b84b8e6e7f00d071182e43c",
+  "name": "eval_type_backport",
+  "noarch": "python",
+  "package_tarball_full_path": "/cpfs01/user/chengqinxiu/anaconda3/pkgs/eval_type_backport-0.2.0-pyha770c72_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/eval_type_backport-0.2.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/eval_type_backport-0.2.0.dist-info/LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "b2b7f0743f8853b405ac3862198f36723f7e950bd36eb1af699173566e7d9d30",
+        "sha256_in_prefix": "b2b7f0743f8853b405ac3862198f36723f7e950bd36eb1af699173566e7d9d30",
+        "size_in_bytes": 1066
+      },
+      {
+        "_path": "site-packages/eval_type_backport-0.2.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "8a8f80f5e48debb613a2062b19b54199922439b72a2c1dba765bfbbe55c6fdd1",
+        "sha256_in_prefix": "8a8f80f5e48debb613a2062b19b54199922439b72a2c1dba765bfbbe55c6fdd1",
+        "size_in_bytes": 2195
+      },
+      {
+        "_path": "site-packages/eval_type_backport-0.2.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "bc914cbea05a2be24ef41d99934e0cd60ab3e624c67267812d2e776517945cef",
+        "sha256_in_prefix": "bc914cbea05a2be24ef41d99934e0cd60ab3e624c67267812d2e776517945cef",
+        "size_in_bytes": 1293
+      },
+      {
+        "_path": "site-packages/eval_type_backport-0.2.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/eval_type_backport-0.2.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "4749dceaa4f1ba82e4ed2840dbf63e51690df1975f0c11b607a12aa73d965dbb",
+        "sha256_in_prefix": "4749dceaa4f1ba82e4ed2840dbf63e51690df1975f0c11b607a12aa73d965dbb",
+        "size_in_bytes": 91
+      },
+      {
+        "_path": "site-packages/eval_type_backport-0.2.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "8f26f8642c6f59e3890985d2be7f26ad235b67d081709f7aabb46c340297c8a3",
+        "sha256_in_prefix": "8f26f8642c6f59e3890985d2be7f26ad235b67d081709f7aabb46c340297c8a3",
+        "size_in_bytes": 114
+      },
+      {
+        "_path": "site-packages/eval_type_backport-0.2.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "33804dab4f05876cb7eb9636bd18d5989bdcf69d7f6cecbd858ca8f7fd9eb0dd",
+        "sha256_in_prefix": "33804dab4f05876cb7eb9636bd18d5989bdcf69d7f6cecbd858ca8f7fd9eb0dd",
+        "size_in_bytes": 19
+      },
+      {
+        "_path": "site-packages/eval_type_backport/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "967a20c4735e807aff4f6344b66e6bdaebd287566188aed63f6670a1bbb0016a",
+        "sha256_in_prefix": "967a20c4735e807aff4f6344b66e6bdaebd287566188aed63f6670a1bbb0016a",
+        "size_in_bytes": 299
+      },
+      {
+        "_path": "site-packages/eval_type_backport/eval_type_backport.py",
+        "path_type": "hardlink",
+        "sha256": "671b1416a323804f99c17d98219749b478e0c891dbf401186a621fc95a3090ad",
+        "sha256_in_prefix": "671b1416a323804f99c17d98219749b478e0c891dbf401186a621fc95a3090ad",
+        "size_in_bytes": 8198
+      },
+      {
+        "_path": "site-packages/eval_type_backport/py.typed",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/eval_type_backport/version.py",
+        "path_type": "hardlink",
+        "sha256": "7253774e7c98cade53ff05092d5066bad4b69182cb0444f82450764179d19b64",
+        "sha256_in_prefix": "7253774e7c98cade53ff05092d5066bad4b69182cb0444f82450764179d19b64",
+        "size_in_bytes": 21
+      },
+      {
+        "_path": "lib/python3.10/site-packages/eval_type_backport/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/eval_type_backport/__pycache__/eval_type_backport.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/eval_type_backport/__pycache__/version.cpython-310.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "23b9fd894570b2bbd0d979e6065dbd9633e62e456d22e526725706d7bd4977e1",
+  "size": 11386,
+  "subdir": "noarch",
+  "timestamp": 1724150178000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/eval_type_backport-0.2.0-pyha770c72_0.conda",
+  "version": "0.2.0"
+}

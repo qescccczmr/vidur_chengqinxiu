@@ -1,0 +1,9 @@
+prefix=/cpfs01/user/chengqinxiu/vidur/env
+includedir=${prefix}/include
+libdir=${prefix}/lib
+
+Name: libdrm
+Description: Userspace interface to kernel DRM services
+Version: 2.4.124
+Libs: -L${libdir} -ldrm
+Cflags: -I${includedir} -I${includedir}/libdrm

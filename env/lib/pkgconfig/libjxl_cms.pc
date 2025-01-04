@@ -1,0 +1,13 @@
+prefix=/cpfs01/user/chengqinxiu/vidur/env
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libjxl_cms
+Description: CMS support library for libjxl
+Version: 0.11.1
+Requires.private: 
+Libs: -L${libdir} -ljxl_cms 
+Libs.private: -lm -lstdc++
+Cflags: -I${includedir}
+Cflags.private: -DJXL_CMS_STATIC_DEFINE

@@ -1,0 +1,699 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python >=3.7",
+    "six",
+    "termcolor"
+  ],
+  "extracted_package_dir": "/cpfs01/user/chengqinxiu/anaconda3/pkgs/fire-0.7.0-pyhd8ed1ab_0",
+  "files": [
+    "lib/python3.10/site-packages/fire-0.7.0.dist-info/INSTALLER",
+    "lib/python3.10/site-packages/fire-0.7.0.dist-info/LICENSE",
+    "lib/python3.10/site-packages/fire-0.7.0.dist-info/METADATA",
+    "lib/python3.10/site-packages/fire-0.7.0.dist-info/RECORD",
+    "lib/python3.10/site-packages/fire-0.7.0.dist-info/REQUESTED",
+    "lib/python3.10/site-packages/fire-0.7.0.dist-info/WHEEL",
+    "lib/python3.10/site-packages/fire-0.7.0.dist-info/direct_url.json",
+    "lib/python3.10/site-packages/fire-0.7.0.dist-info/top_level.txt",
+    "lib/python3.10/site-packages/fire/__init__.py",
+    "lib/python3.10/site-packages/fire/__main__.py",
+    "lib/python3.10/site-packages/fire/completion.py",
+    "lib/python3.10/site-packages/fire/completion_test.py",
+    "lib/python3.10/site-packages/fire/console/__init__.py",
+    "lib/python3.10/site-packages/fire/console/console_attr.py",
+    "lib/python3.10/site-packages/fire/console/console_attr_os.py",
+    "lib/python3.10/site-packages/fire/console/console_io.py",
+    "lib/python3.10/site-packages/fire/console/console_pager.py",
+    "lib/python3.10/site-packages/fire/console/encoding.py",
+    "lib/python3.10/site-packages/fire/console/files.py",
+    "lib/python3.10/site-packages/fire/console/platforms.py",
+    "lib/python3.10/site-packages/fire/console/text.py",
+    "lib/python3.10/site-packages/fire/core.py",
+    "lib/python3.10/site-packages/fire/core_test.py",
+    "lib/python3.10/site-packages/fire/custom_descriptions.py",
+    "lib/python3.10/site-packages/fire/custom_descriptions_test.py",
+    "lib/python3.10/site-packages/fire/decorators.py",
+    "lib/python3.10/site-packages/fire/decorators_test.py",
+    "lib/python3.10/site-packages/fire/docstrings.py",
+    "lib/python3.10/site-packages/fire/docstrings_fuzz_test.py",
+    "lib/python3.10/site-packages/fire/docstrings_test.py",
+    "lib/python3.10/site-packages/fire/fire_import_test.py",
+    "lib/python3.10/site-packages/fire/fire_test.py",
+    "lib/python3.10/site-packages/fire/formatting.py",
+    "lib/python3.10/site-packages/fire/formatting_test.py",
+    "lib/python3.10/site-packages/fire/formatting_windows.py",
+    "lib/python3.10/site-packages/fire/helptext.py",
+    "lib/python3.10/site-packages/fire/helptext_test.py",
+    "lib/python3.10/site-packages/fire/inspectutils.py",
+    "lib/python3.10/site-packages/fire/inspectutils_test.py",
+    "lib/python3.10/site-packages/fire/interact.py",
+    "lib/python3.10/site-packages/fire/interact_test.py",
+    "lib/python3.10/site-packages/fire/main_test.py",
+    "lib/python3.10/site-packages/fire/parser.py",
+    "lib/python3.10/site-packages/fire/parser_fuzz_test.py",
+    "lib/python3.10/site-packages/fire/parser_test.py",
+    "lib/python3.10/site-packages/fire/test_components.py",
+    "lib/python3.10/site-packages/fire/test_components_bin.py",
+    "lib/python3.10/site-packages/fire/test_components_py3.py",
+    "lib/python3.10/site-packages/fire/test_components_test.py",
+    "lib/python3.10/site-packages/fire/testutils.py",
+    "lib/python3.10/site-packages/fire/testutils_test.py",
+    "lib/python3.10/site-packages/fire/trace.py",
+    "lib/python3.10/site-packages/fire/trace_test.py",
+    "lib/python3.10/site-packages/fire/value_types.py",
+    "lib/python3.10/site-packages/fire/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/fire/__pycache__/__main__.cpython-310.pyc",
+    "lib/python3.10/site-packages/fire/__pycache__/completion.cpython-310.pyc",
+    "lib/python3.10/site-packages/fire/__pycache__/completion_test.cpython-310.pyc",
+    "lib/python3.10/site-packages/fire/console/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/fire/console/__pycache__/console_attr.cpython-310.pyc",
+    "lib/python3.10/site-packages/fire/console/__pycache__/console_attr_os.cpython-310.pyc",
+    "lib/python3.10/site-packages/fire/console/__pycache__/console_io.cpython-310.pyc",
+    "lib/python3.10/site-packages/fire/console/__pycache__/console_pager.cpython-310.pyc",
+    "lib/python3.10/site-packages/fire/console/__pycache__/encoding.cpython-310.pyc",
+    "lib/python3.10/site-packages/fire/console/__pycache__/files.cpython-310.pyc",
+    "lib/python3.10/site-packages/fire/console/__pycache__/platforms.cpython-310.pyc",
+    "lib/python3.10/site-packages/fire/console/__pycache__/text.cpython-310.pyc",
+    "lib/python3.10/site-packages/fire/__pycache__/core.cpython-310.pyc",
+    "lib/python3.10/site-packages/fire/__pycache__/core_test.cpython-310.pyc",
+    "lib/python3.10/site-packages/fire/__pycache__/custom_descriptions.cpython-310.pyc",
+    "lib/python3.10/site-packages/fire/__pycache__/custom_descriptions_test.cpython-310.pyc",
+    "lib/python3.10/site-packages/fire/__pycache__/decorators.cpython-310.pyc",
+    "lib/python3.10/site-packages/fire/__pycache__/decorators_test.cpython-310.pyc",
+    "lib/python3.10/site-packages/fire/__pycache__/docstrings.cpython-310.pyc",
+    "lib/python3.10/site-packages/fire/__pycache__/docstrings_fuzz_test.cpython-310.pyc",
+    "lib/python3.10/site-packages/fire/__pycache__/docstrings_test.cpython-310.pyc",
+    "lib/python3.10/site-packages/fire/__pycache__/fire_import_test.cpython-310.pyc",
+    "lib/python3.10/site-packages/fire/__pycache__/fire_test.cpython-310.pyc",
+    "lib/python3.10/site-packages/fire/__pycache__/formatting.cpython-310.pyc",
+    "lib/python3.10/site-packages/fire/__pycache__/formatting_test.cpython-310.pyc",
+    "lib/python3.10/site-packages/fire/__pycache__/formatting_windows.cpython-310.pyc",
+    "lib/python3.10/site-packages/fire/__pycache__/helptext.cpython-310.pyc",
+    "lib/python3.10/site-packages/fire/__pycache__/helptext_test.cpython-310.pyc",
+    "lib/python3.10/site-packages/fire/__pycache__/inspectutils.cpython-310.pyc",
+    "lib/python3.10/site-packages/fire/__pycache__/inspectutils_test.cpython-310.pyc",
+    "lib/python3.10/site-packages/fire/__pycache__/interact.cpython-310.pyc",
+    "lib/python3.10/site-packages/fire/__pycache__/interact_test.cpython-310.pyc",
+    "lib/python3.10/site-packages/fire/__pycache__/main_test.cpython-310.pyc",
+    "lib/python3.10/site-packages/fire/__pycache__/parser.cpython-310.pyc",
+    "lib/python3.10/site-packages/fire/__pycache__/parser_fuzz_test.cpython-310.pyc",
+    "lib/python3.10/site-packages/fire/__pycache__/parser_test.cpython-310.pyc",
+    "lib/python3.10/site-packages/fire/__pycache__/test_components.cpython-310.pyc",
+    "lib/python3.10/site-packages/fire/__pycache__/test_components_bin.cpython-310.pyc",
+    "lib/python3.10/site-packages/fire/__pycache__/test_components_py3.cpython-310.pyc",
+    "lib/python3.10/site-packages/fire/__pycache__/test_components_test.cpython-310.pyc",
+    "lib/python3.10/site-packages/fire/__pycache__/testutils.cpython-310.pyc",
+    "lib/python3.10/site-packages/fire/__pycache__/testutils_test.cpython-310.pyc",
+    "lib/python3.10/site-packages/fire/__pycache__/trace.cpython-310.pyc",
+    "lib/python3.10/site-packages/fire/__pycache__/trace_test.cpython-310.pyc",
+    "lib/python3.10/site-packages/fire/__pycache__/value_types.cpython-310.pyc"
+  ],
+  "fn": "fire-0.7.0-pyhd8ed1ab_0.conda",
+  "license": "Apache-2.0",
+  "link": {
+    "source": "/cpfs01/user/chengqinxiu/anaconda3/pkgs/fire-0.7.0-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "c8eefdf1e822c56a6034602e67bc92a5",
+  "name": "fire",
+  "noarch": "python",
+  "package_tarball_full_path": "/cpfs01/user/chengqinxiu/anaconda3/pkgs/fire-0.7.0-pyhd8ed1ab_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/fire-0.7.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/fire-0.7.0.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "a5de77b62266bca0bb97bf058992f0b0f308a83a8ca55ee10fbf6bd8ed8f7ed0",
+        "sha256_in_prefix": "a5de77b62266bca0bb97bf058992f0b0f308a83a8ca55ee10fbf6bd8ed8f7ed0",
+        "size_in_bytes": 573
+      },
+      {
+        "_path": "site-packages/fire-0.7.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "1a069d9e91269314268434884a05cd4dfb842990c7728b63ab7ac5352959b626",
+        "sha256_in_prefix": "1a069d9e91269314268434884a05cd4dfb842990c7728b63ab7ac5352959b626",
+        "size_in_bytes": 1500
+      },
+      {
+        "_path": "site-packages/fire-0.7.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "0b433d27f5b8e0cda72946c3277d33ff9aab0197e4f47ce204eb56643ceccc6f",
+        "sha256_in_prefix": "0b433d27f5b8e0cda72946c3277d33ff9aab0197e4f47ce204eb56643ceccc6f",
+        "size_in_bytes": 6634
+      },
+      {
+        "_path": "site-packages/fire-0.7.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/fire-0.7.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "195f5a3138703ffe28342b6f102d9e737a9462eb6059e033925ae8ff49b85894",
+        "sha256_in_prefix": "195f5a3138703ffe28342b6f102d9e737a9462eb6059e033925ae8ff49b85894",
+        "size_in_bytes": 91
+      },
+      {
+        "_path": "site-packages/fire-0.7.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "66fcf7077b23a9a0fc5370a91b48298e3fbed67452794e64ece3f0dccbcfaef0",
+        "sha256_in_prefix": "66fcf7077b23a9a0fc5370a91b48298e3fbed67452794e64ece3f0dccbcfaef0",
+        "size_in_bytes": 100
+      },
+      {
+        "_path": "site-packages/fire-0.7.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "cb8eb7c5a5525bb3ce453cf84ae4dbb4554bb96ecc013dbeddc6d293513cc11f",
+        "sha256_in_prefix": "cb8eb7c5a5525bb3ce453cf84ae4dbb4554bb96ecc013dbeddc6d293513cc11f",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/fire/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "8e4207a547b297a4632fe4e998e3d8c6a23b12285838cdb0f926b0d7d0c876ea",
+        "sha256_in_prefix": "8e4207a547b297a4632fe4e998e3d8c6a23b12285838cdb0f926b0d7d0c876ea",
+        "size_in_bytes": 676
+      },
+      {
+        "_path": "site-packages/fire/__main__.py",
+        "path_type": "hardlink",
+        "sha256": "3f4f5f2acec8d332ae19ad41fd0a024e1c35b94e7d8bbe1dacc050318fe97a65",
+        "sha256_in_prefix": "3f4f5f2acec8d332ae19ad41fd0a024e1c35b94e7d8bbe1dacc050318fe97a65",
+        "size_in_bytes": 3800
+      },
+      {
+        "_path": "site-packages/fire/completion.py",
+        "path_type": "hardlink",
+        "sha256": "8d652822051172fc32117df9cf0470f99a26e45afdd9a45fd133cfbbd3abc824",
+        "sha256_in_prefix": "8d652822051172fc32117df9cf0470f99a26e45afdd9a45fd133cfbbd3abc824",
+        "size_in_bytes": 15994
+      },
+      {
+        "_path": "site-packages/fire/completion_test.py",
+        "path_type": "hardlink",
+        "sha256": "8fcb5c95811ca7baf22a8f058927fb927c9a5ba56b631027bca678b015fa17b9",
+        "sha256_in_prefix": "8fcb5c95811ca7baf22a8f058927fb927c9a5ba56b631027bca678b015fa17b9",
+        "size_in_bytes": 6266
+      },
+      {
+        "_path": "site-packages/fire/console/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/fire/console/console_attr.py",
+        "path_type": "hardlink",
+        "sha256": "347e66b7cabe1882f2a20640c355b39a28ff685ca3b24019500e54b9f8d7f3fc",
+        "sha256_in_prefix": "347e66b7cabe1882f2a20640c355b39a28ff685ca3b24019500e54b9f8d7f3fc",
+        "size_in_bytes": 23573
+      },
+      {
+        "_path": "site-packages/fire/console/console_attr_os.py",
+        "path_type": "hardlink",
+        "sha256": "af8042efef227dbbb6e914bf5644f48004f7c904277f17ad69249178a97d9048",
+        "sha256_in_prefix": "af8042efef227dbbb6e914bf5644f48004f7c904277f17ad69249178a97d9048",
+        "size_in_bytes": 7565
+      },
+      {
+        "_path": "site-packages/fire/console/console_io.py",
+        "path_type": "hardlink",
+        "sha256": "4dad8016246c588f4abc1dcc473286887983dfac21d13a83b8de0a4333bac5c1",
+        "sha256_in_prefix": "4dad8016246c588f4abc1dcc473286887983dfac21d13a83b8de0a4333bac5c1",
+        "size_in_bytes": 4149
+      },
+      {
+        "_path": "site-packages/fire/console/console_pager.py",
+        "path_type": "hardlink",
+        "sha256": "1beac3da580e076fd9bf10c2c45112e7e76145391f8d5085cbdcada86d4f54c7",
+        "sha256_in_prefix": "1beac3da580e076fd9bf10c2c45112e7e76145391f8d5085cbdcada86d4f54c7",
+        "size_in_bytes": 9563
+      },
+      {
+        "_path": "site-packages/fire/console/encoding.py",
+        "path_type": "hardlink",
+        "sha256": "d4883b9b30bc1149d6e23440b02672efe51ffb01edd7560d9e84c7c28748c77b",
+        "sha256_in_prefix": "d4883b9b30bc1149d6e23440b02672efe51ffb01edd7560d9e84c7c28748c77b",
+        "size_in_bytes": 6250
+      },
+      {
+        "_path": "site-packages/fire/console/files.py",
+        "path_type": "hardlink",
+        "sha256": "b7fbd5c9f8fbc7de9d51c5aa4756ddd7ca5ab41ad3d5627321604b164ecde553",
+        "sha256_in_prefix": "b7fbd5c9f8fbc7de9d51c5aa4756ddd7ca5ab41ad3d5627321604b164ecde553",
+        "size_in_bytes": 4056
+      },
+      {
+        "_path": "site-packages/fire/console/platforms.py",
+        "path_type": "hardlink",
+        "sha256": "56b800cbe10672b00a9f2eff99c163f2af144d4e51706add7450535a0c3862eb",
+        "sha256_in_prefix": "56b800cbe10672b00a9f2eff99c163f2af144d4e51706add7450535a0c3862eb",
+        "size_in_bytes": 16487
+      },
+      {
+        "_path": "site-packages/fire/console/text.py",
+        "path_type": "hardlink",
+        "sha256": "0f1a9596d7b39de6b0fd09ec836092cdde405128e896d09a368e24de0370b8fb",
+        "sha256_in_prefix": "0f1a9596d7b39de6b0fd09ec836092cdde405128e896d09a368e24de0370b8fb",
+        "size_in_bytes": 2776
+      },
+      {
+        "_path": "site-packages/fire/core.py",
+        "path_type": "hardlink",
+        "sha256": "6f914244b0d1b0809d32668a396f37fe076bfe02c8f9d3855f798b439530df3c",
+        "sha256_in_prefix": "6f914244b0d1b0809d32668a396f37fe076bfe02c8f9d3855f798b439530df3c",
+        "size_in_bytes": 36611
+      },
+      {
+        "_path": "site-packages/fire/core_test.py",
+        "path_type": "hardlink",
+        "sha256": "768919c92062bc66269cbbec8034055607998b9974cdbe9f2e71c02e12d9a341",
+        "sha256_in_prefix": "768919c92062bc66269cbbec8034055607998b9974cdbe9f2e71c02e12d9a341",
+        "size_in_bytes": 9675
+      },
+      {
+        "_path": "site-packages/fire/custom_descriptions.py",
+        "path_type": "hardlink",
+        "sha256": "0e1c2156e866253eb55682f457231b8e9ee24dd6375d44e0fed4284d6813234f",
+        "sha256_in_prefix": "0e1c2156e866253eb55682f457231b8e9ee24dd6375d44e0fed4284d6813234f",
+        "size_in_bytes": 5263
+      },
+      {
+        "_path": "site-packages/fire/custom_descriptions_test.py",
+        "path_type": "hardlink",
+        "sha256": "634e1ef1312f43749dfbb427792d9803024523a42bdfa4d28f02b1b4360e0236",
+        "sha256_in_prefix": "634e1ef1312f43749dfbb427792d9803024523a42bdfa4d28f02b1b4360e0236",
+        "size_in_bytes": 2654
+      },
+      {
+        "_path": "site-packages/fire/decorators.py",
+        "path_type": "hardlink",
+        "sha256": "afa10741f5d0f4e6ee606029f8fbbe4c0094fb8e7c5f6ecee1a9e786fbc1b3b1",
+        "sha256_in_prefix": "afa10741f5d0f4e6ee606029f8fbbe4c0094fb8e7c5f6ecee1a9e786fbc1b3b1",
+        "size_in_bytes": 3596
+      },
+      {
+        "_path": "site-packages/fire/decorators_test.py",
+        "path_type": "hardlink",
+        "sha256": "9bd34eb53892358c4c2df451c69a70442c1280eff44936b52a98d92af249a91f",
+        "sha256_in_prefix": "9bd34eb53892358c4c2df451c69a70442c1280eff44936b52a98d92af249a91f",
+        "size_in_bytes": 5582
+      },
+      {
+        "_path": "site-packages/fire/docstrings.py",
+        "path_type": "hardlink",
+        "sha256": "aef0dc837e1f89867a390cc3f344e5f5cb5029b4687552a7cea48f63c1ee368c",
+        "sha256_in_prefix": "aef0dc837e1f89867a390cc3f344e5f5cb5029b4687552a7cea48f63c1ee368c",
+        "size_in_bytes": 25058
+      },
+      {
+        "_path": "site-packages/fire/docstrings_fuzz_test.py",
+        "path_type": "hardlink",
+        "sha256": "a0f97037b1da365b480a08a3696fce6ac5666bcc371f0a854e87fb854d7bb81c",
+        "sha256_in_prefix": "a0f97037b1da365b480a08a3696fce6ac5666bcc371f0a854e87fb854d7bb81c",
+        "size_in_bytes": 1100
+      },
+      {
+        "_path": "site-packages/fire/docstrings_test.py",
+        "path_type": "hardlink",
+        "sha256": "befe9c9473cc094cf367c03ac7c46853ae00554c75781f16bccca570c1daefdb",
+        "sha256_in_prefix": "befe9c9473cc094cf367c03ac7c46853ae00554c75781f16bccca570c1daefdb",
+        "size_in_bytes": 12284
+      },
+      {
+        "_path": "site-packages/fire/fire_import_test.py",
+        "path_type": "hardlink",
+        "sha256": "5ef81162cedabbdede029309a2944bb6a248fa27a06282e1ae6b26b3fadf5ca9",
+        "sha256_in_prefix": "5ef81162cedabbdede029309a2944bb6a248fa27a06282e1ae6b26b3fadf5ca9",
+        "size_in_bytes": 1107
+      },
+      {
+        "_path": "site-packages/fire/fire_test.py",
+        "path_type": "hardlink",
+        "sha256": "3003cf7f548233cd73cb815e0a2c4e6f6968b3cf1e9aec8a4385911c860ea0f0",
+        "sha256_in_prefix": "3003cf7f548233cd73cb815e0a2c4e6f6968b3cf1e9aec8a4385911c860ea0f0",
+        "size_in_bytes": 29218
+      },
+      {
+        "_path": "site-packages/fire/formatting.py",
+        "path_type": "hardlink",
+        "sha256": "e3eb1536d0ddf96dfe497e34a496e2d9f6a26ba1de20008f20de7ea0fd58a6d4",
+        "sha256_in_prefix": "e3eb1536d0ddf96dfe497e34a496e2d9f6a26ba1de20008f20de7ea0fd58a6d4",
+        "size_in_bytes": 2716
+      },
+      {
+        "_path": "site-packages/fire/formatting_test.py",
+        "path_type": "hardlink",
+        "sha256": "770d01e23e112c242c49b1ef9115a6c65bef58d02828aa07465c273159a4fd7d",
+        "sha256_in_prefix": "770d01e23e112c242c49b1ef9115a6c65bef58d02828aa07465c273159a4fd7d",
+        "size_in_bytes": 2647
+      },
+      {
+        "_path": "site-packages/fire/formatting_windows.py",
+        "path_type": "hardlink",
+        "sha256": "e7582e60dc748e878281981830ee6904883e47794876f1c8d87388af4bfe90a4",
+        "sha256_in_prefix": "e7582e60dc748e878281981830ee6904883e47794876f1c8d87388af4bfe90a4",
+        "size_in_bytes": 2079
+      },
+      {
+        "_path": "site-packages/fire/helptext.py",
+        "path_type": "hardlink",
+        "sha256": "8e00149d6a91e105ec77041a82da07bb92d95401b06d0218d29307e0cbcedcb3",
+        "sha256_in_prefix": "8e00149d6a91e105ec77041a82da07bb92d95401b06d0218d29307e0cbcedcb3",
+        "size_in_bytes": 27154
+      },
+      {
+        "_path": "site-packages/fire/helptext_test.py",
+        "path_type": "hardlink",
+        "sha256": "83bbc1017f866453a9bf8c1ae6b57da39ad815be0a726228e54c07adf2df6f05",
+        "sha256_in_prefix": "83bbc1017f866453a9bf8c1ae6b57da39ad815be0a726228e54c07adf2df6f05",
+        "size_in_bytes": 22891
+      },
+      {
+        "_path": "site-packages/fire/inspectutils.py",
+        "path_type": "hardlink",
+        "sha256": "7a0d2ebded7baa4c8ae97e463626d970a1b06c48cfc7b1c192fb6e1a24cb9bf4",
+        "sha256_in_prefix": "7a0d2ebded7baa4c8ae97e463626d970a1b06c48cfc7b1c192fb6e1a24cb9bf4",
+        "size_in_bytes": 11740
+      },
+      {
+        "_path": "site-packages/fire/inspectutils_test.py",
+        "path_type": "hardlink",
+        "sha256": "c40b37fc9735f3fd60b81e7d34b54dac5b65b231c60e6de1044bb3032ed65d8e",
+        "sha256_in_prefix": "c40b37fc9735f3fd60b81e7d34b54dac5b65b231c60e6de1044bb3032ed65d8e",
+        "size_in_bytes": 4997
+      },
+      {
+        "_path": "site-packages/fire/interact.py",
+        "path_type": "hardlink",
+        "sha256": "60ac4d9df29ea98d508d63a475ecde01fa94ecf9e02d3044acebe22a30202ceb",
+        "sha256_in_prefix": "60ac4d9df29ea98d508d63a475ecde01fa94ecf9e02d3044acebe22a30202ceb",
+        "size_in_bytes": 3036
+      },
+      {
+        "_path": "site-packages/fire/interact_test.py",
+        "path_type": "hardlink",
+        "sha256": "f48a33f67d23c7481d4100e4c9ef01aa46d260fe326d64e59ba3407f4218cbd6",
+        "sha256_in_prefix": "f48a33f67d23c7481d4100e4c9ef01aa46d260fe326d64e59ba3407f4218cbd6",
+        "size_in_bytes": 1436
+      },
+      {
+        "_path": "site-packages/fire/main_test.py",
+        "path_type": "hardlink",
+        "sha256": "4d44b5c37e3ea58b088ab9671cea320dba8afba015d91d38818f295b1db276d9",
+        "sha256_in_prefix": "4d44b5c37e3ea58b088ab9671cea320dba8afba015d91d38818f295b1db276d9",
+        "size_in_bytes": 3353
+      },
+      {
+        "_path": "site-packages/fire/parser.py",
+        "path_type": "hardlink",
+        "sha256": "2eda4561de6f49e38cf1116dde23c02ca2e927be6f31cc81a545b5ddf9ef1fbf",
+        "sha256_in_prefix": "2eda4561de6f49e38cf1116dde23c02ca2e927be6f31cc81a545b5ddf9ef1fbf",
+        "size_in_bytes": 4645
+      },
+      {
+        "_path": "site-packages/fire/parser_fuzz_test.py",
+        "path_type": "hardlink",
+        "sha256": "f9e73a77470a3d42aa2a50f3830293e618c56d01d4ee4bcbcbeaf6c9570d3ee1",
+        "sha256_in_prefix": "f9e73a77470a3d42aa2a50f3830293e618c56d01d4ee4bcbcbeaf6c9570d3ee1",
+        "size_in_bytes": 3041
+      },
+      {
+        "_path": "site-packages/fire/parser_test.py",
+        "path_type": "hardlink",
+        "sha256": "139db5bbc77b99ba771e6fb0533cd9ec2285935bc736cdd4557148304841e519",
+        "sha256_in_prefix": "139db5bbc77b99ba771e6fb0533cd9ec2285935bc736cdd4557148304841e519",
+        "size_in_bytes": 6379
+      },
+      {
+        "_path": "site-packages/fire/test_components.py",
+        "path_type": "hardlink",
+        "sha256": "43b4b6b5d7c64373db5e2be65761d4b9f513cff75d3761a9203e63ba16570844",
+        "sha256_in_prefix": "43b4b6b5d7c64373db5e2be65761d4b9f513cff75d3761a9203e63ba16570844",
+        "size_in_bytes": 11723
+      },
+      {
+        "_path": "site-packages/fire/test_components_bin.py",
+        "path_type": "hardlink",
+        "sha256": "dbf463c175e40ebf3b70be07385fafe61c2e8f69252ef52f1e07cca4f574d7af",
+        "sha256_in_prefix": "dbf463c175e40ebf3b70be07385fafe61c2e8f69252ef52f1e07cca4f574d7af",
+        "size_in_bytes": 807
+      },
+      {
+        "_path": "site-packages/fire/test_components_py3.py",
+        "path_type": "hardlink",
+        "sha256": "e2c05ee9273e417cd6997a6768ea1e05cc51d78fa4629cd5fb4bbdf66a0f8ce3",
+        "sha256_in_prefix": "e2c05ee9273e417cd6997a6768ea1e05cc51d78fa4629cd5fb4bbdf66a0f8ce3",
+        "size_in_bytes": 2394
+      },
+      {
+        "_path": "site-packages/fire/test_components_test.py",
+        "path_type": "hardlink",
+        "sha256": "e96a28357a445f51eb7336ca8d3eaf49143e386408f8d20e99cd17103449d595",
+        "sha256_in_prefix": "e96a28357a445f51eb7336ca8d3eaf49143e386408f8d20e99cd17103449d595",
+        "size_in_bytes": 1230
+      },
+      {
+        "_path": "site-packages/fire/testutils.py",
+        "path_type": "hardlink",
+        "sha256": "bce24bda9269ef4032f5087582673e1fb931fec01f97e5f033246e70e926c660",
+        "sha256_in_prefix": "bce24bda9269ef4032f5087582673e1fb931fec01f97e5f033246e70e926c660",
+        "size_in_bytes": 3450
+      },
+      {
+        "_path": "site-packages/fire/testutils_test.py",
+        "path_type": "hardlink",
+        "sha256": "0a14c21b4f5aa5333a1f863dcd5773b33c43a89221c1f2c96be91b4ab7fe8631",
+        "sha256_in_prefix": "0a14c21b4f5aa5333a1f863dcd5773b33c43a89221c1f2c96be91b4ab7fe8631",
+        "size_in_bytes": 1753
+      },
+      {
+        "_path": "site-packages/fire/trace.py",
+        "path_type": "hardlink",
+        "sha256": "8b7d355446d89249711de0664829a3edd8346d2823600f239002912e31b5202a",
+        "sha256_in_prefix": "8b7d355446d89249711de0664829a3edd8346d2823600f239002912e31b5202a",
+        "size_in_bytes": 10389
+      },
+      {
+        "_path": "site-packages/fire/trace_test.py",
+        "path_type": "hardlink",
+        "sha256": "ecc5fa72e7980b220366f3766630977c91afd9cdb17d751f071d856ad373c937",
+        "sha256_in_prefix": "ecc5fa72e7980b220366f3766630977c91afd9cdb17d751f071d856ad373c937",
+        "size_in_bytes": 5112
+      },
+      {
+        "_path": "site-packages/fire/value_types.py",
+        "path_type": "hardlink",
+        "sha256": "ebca12a8d699d96bc2f63149c37d8afbbddec1b702e7b2dbc93a7c190acfc99f",
+        "sha256_in_prefix": "ebca12a8d699d96bc2f63149c37d8afbbddec1b702e7b2dbc93a7c190acfc99f",
+        "size_in_bytes": 2615
+      },
+      {
+        "_path": "lib/python3.10/site-packages/fire/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/fire/__pycache__/__main__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/fire/__pycache__/completion.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/fire/__pycache__/completion_test.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/fire/console/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/fire/console/__pycache__/console_attr.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/fire/console/__pycache__/console_attr_os.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/fire/console/__pycache__/console_io.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/fire/console/__pycache__/console_pager.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/fire/console/__pycache__/encoding.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/fire/console/__pycache__/files.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/fire/console/__pycache__/platforms.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/fire/console/__pycache__/text.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/fire/__pycache__/core.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/fire/__pycache__/core_test.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/fire/__pycache__/custom_descriptions.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/fire/__pycache__/custom_descriptions_test.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/fire/__pycache__/decorators.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/fire/__pycache__/decorators_test.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/fire/__pycache__/docstrings.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/fire/__pycache__/docstrings_fuzz_test.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/fire/__pycache__/docstrings_test.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/fire/__pycache__/fire_import_test.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/fire/__pycache__/fire_test.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/fire/__pycache__/formatting.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/fire/__pycache__/formatting_test.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/fire/__pycache__/formatting_windows.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/fire/__pycache__/helptext.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/fire/__pycache__/helptext_test.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/fire/__pycache__/inspectutils.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/fire/__pycache__/inspectutils_test.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/fire/__pycache__/interact.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/fire/__pycache__/interact_test.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/fire/__pycache__/main_test.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/fire/__pycache__/parser.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/fire/__pycache__/parser_fuzz_test.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/fire/__pycache__/parser_test.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/fire/__pycache__/test_components.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/fire/__pycache__/test_components_bin.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/fire/__pycache__/test_components_py3.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/fire/__pycache__/test_components_test.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/fire/__pycache__/testutils.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/fire/__pycache__/testutils_test.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/fire/__pycache__/trace.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/fire/__pycache__/trace_test.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/fire/__pycache__/value_types.cpython-310.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "9b2d95df57d20338b03c47f2dabe1caebcbbbd5c1af437b7114906be7040b217",
+  "size": 84280,
+  "subdir": "noarch",
+  "timestamp": 1727808502000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/fire-0.7.0-pyhd8ed1ab_0.conda",
+  "version": "0.7.0"
+}

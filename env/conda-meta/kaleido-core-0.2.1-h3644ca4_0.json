@@ -1,0 +1,147 @@
+{
+  "build": "h3644ca4_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "__glibc >=2.17,<3.0.a0",
+    "expat >=2.2.10,<3.0.0a0",
+    "fontconfig",
+    "fonts-conda-forge",
+    "libgcc-ng >=9.3.0",
+    "mathjax 2.7.*",
+    "nspr >=4.29,<5.0a0",
+    "nss >=3.62,<4.0a0",
+    "sqlite >=3.34.0,<4.0a0"
+  ],
+  "extracted_package_dir": "/cpfs01/user/chengqinxiu/anaconda3/pkgs/kaleido-core-0.2.1-h3644ca4_0",
+  "files": [
+    "bin/KaleidoApp/CREDITS.html",
+    "bin/KaleidoApp/LICENSE.txt",
+    "bin/KaleidoApp/README.md",
+    "bin/KaleidoApp/bin/kaleido",
+    "bin/KaleidoApp/bin/swiftshader/libEGL.so",
+    "bin/KaleidoApp/bin/swiftshader/libEGL.so.TOC",
+    "bin/KaleidoApp/bin/swiftshader/libGLESv2.so",
+    "bin/KaleidoApp/bin/swiftshader/libGLESv2.so.TOC",
+    "bin/KaleidoApp/js/kaleido_scopes.js",
+    "bin/KaleidoApp/kaleido",
+    "bin/KaleidoApp/metadata_conda_debug.yaml",
+    "bin/KaleidoApp/version",
+    "bin/kaleido"
+  ],
+  "fn": "kaleido-core-0.2.1-h3644ca4_0.tar.bz2",
+  "license": "MIT",
+  "link": {
+    "source": "/cpfs01/user/chengqinxiu/anaconda3/pkgs/kaleido-core-0.2.1-h3644ca4_0",
+    "type": 1
+  },
+  "md5": "b3723b235b0758abaae8c82ce4d80146",
+  "name": "kaleido-core",
+  "package_tarball_full_path": "/cpfs01/user/chengqinxiu/anaconda3/pkgs/kaleido-core-0.2.1-h3644ca4_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/KaleidoApp/CREDITS.html",
+        "path_type": "hardlink",
+        "sha256": "5c39bdedd210158b7f2a0afbed69b65f32832e5f8d911f245d044c76a402ca67",
+        "sha256_in_prefix": "5c39bdedd210158b7f2a0afbed69b65f32832e5f8d911f245d044c76a402ca67",
+        "size_in_bytes": 5275354
+      },
+      {
+        "_path": "bin/KaleidoApp/LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "d9233f1121e4b81cd79423dd2be23bfe3c34a554ee19a5e1f4dabfda190a72f9",
+        "sha256_in_prefix": "d9233f1121e4b81cd79423dd2be23bfe3c34a554ee19a5e1f4dabfda190a72f9",
+        "size_in_bytes": 14596
+      },
+      {
+        "_path": "bin/KaleidoApp/README.md",
+        "path_type": "hardlink",
+        "sha256": "ea83a37f6cf6c26307f51561ca0badedeca9bb10c8bef76154b4ff8dfe9a24d1",
+        "sha256_in_prefix": "ea83a37f6cf6c26307f51561ca0badedeca9bb10c8bef76154b4ff8dfe9a24d1",
+        "size_in_bytes": 15168
+      },
+      {
+        "_path": "bin/KaleidoApp/bin/kaleido",
+        "path_type": "hardlink",
+        "sha256": "c74f0a631fd55ae500d50dafe892762e2fb91f7eea7fcfd2e863203cc5f8cb3b",
+        "sha256_in_prefix": "c74f0a631fd55ae500d50dafe892762e2fb91f7eea7fcfd2e863203cc5f8cb3b",
+        "size_in_bytes": 192879992
+      },
+      {
+        "_path": "bin/KaleidoApp/bin/swiftshader/libEGL.so",
+        "path_type": "hardlink",
+        "sha256": "df8ed65a577906f19e329bc754a227b93f58d2afa8e82e19c6d6621d0a33ad14",
+        "sha256_in_prefix": "df8ed65a577906f19e329bc754a227b93f58d2afa8e82e19c6d6621d0a33ad14",
+        "size_in_bytes": 518264
+      },
+      {
+        "_path": "bin/KaleidoApp/bin/swiftshader/libEGL.so.TOC",
+        "path_type": "hardlink",
+        "sha256": "15677ba01aabcbdf3f6d6d750efd77dfbf25a6c86914470f8201dec2f0c8e46d",
+        "sha256_in_prefix": "15677ba01aabcbdf3f6d6d750efd77dfbf25a6c86914470f8201dec2f0c8e46d",
+        "size_in_bytes": 2453
+      },
+      {
+        "_path": "bin/KaleidoApp/bin/swiftshader/libGLESv2.so",
+        "path_type": "hardlink",
+        "sha256": "3359c0727f2686e70116d821d8860ffb54b31025c4e601acc9789b41c3ec6bda",
+        "sha256_in_prefix": "3359c0727f2686e70116d821d8860ffb54b31025c4e601acc9789b41c3ec6bda",
+        "size_in_bytes": 3872928
+      },
+      {
+        "_path": "bin/KaleidoApp/bin/swiftshader/libGLESv2.so.TOC",
+        "path_type": "hardlink",
+        "sha256": "9ab31fb99e021d65b4c1d216a72a7dd77e609c7e1221c7b5293c30038f618bf1",
+        "sha256_in_prefix": "9ab31fb99e021d65b4c1d216a72a7dd77e609c7e1221c7b5293c30038f618bf1",
+        "size_in_bytes": 7918
+      },
+      {
+        "_path": "bin/KaleidoApp/js/kaleido_scopes.js",
+        "path_type": "hardlink",
+        "sha256": "326132acf09389a7fe22a9c7ae50e987e5c5b9d4a86a159242319e7b39721d5b",
+        "sha256_in_prefix": "326132acf09389a7fe22a9c7ae50e987e5c5b9d4a86a159242319e7b39721d5b",
+        "size_in_bytes": 78369
+      },
+      {
+        "_path": "bin/KaleidoApp/kaleido",
+        "path_type": "hardlink",
+        "sha256": "64c9b5a70a4f760e5729c2f8325d13787b428417a7c0925df6634c050e1900a5",
+        "sha256_in_prefix": "64c9b5a70a4f760e5729c2f8325d13787b428417a7c0925df6634c050e1900a5",
+        "size_in_bytes": 190
+      },
+      {
+        "_path": "bin/KaleidoApp/metadata_conda_debug.yaml",
+        "path_type": "hardlink",
+        "sha256": "92697ae592fc09bf4d9a699a707cefb4d292247d58451154169d145e5f47933d",
+        "sha256_in_prefix": "92697ae592fc09bf4d9a699a707cefb4d292247d58451154169d145e5f47933d",
+        "size_in_bytes": 1141
+      },
+      {
+        "_path": "bin/KaleidoApp/version",
+        "path_type": "hardlink",
+        "sha256": "196666d6a7eb4583fb9cb1e159971010b2e29b5b752aa73f456e0e2061b6425f",
+        "sha256_in_prefix": "196666d6a7eb4583fb9cb1e159971010b2e29b5b752aa73f456e0e2061b6425f",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "bin/kaleido",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/kaleido-core_1615199303525/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol",
+        "sha256": "44346005cee204172e78b4ede8246726ba7082c5f1fc709f57779fb4ae1db532",
+        "sha256_in_prefix": "4779d13a9e722f7b5f4e8aac51fc2fa4191c455a5d2ea32af85d5bc1e42f0138",
+        "size_in_bytes": 585
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "7f243680ca03eba7457b7a48f93a9440ba8181a8eac20a3eb5ef165ab6c96664",
+  "size": 62099926,
+  "subdir": "linux-64",
+  "timestamp": 1615199463000,
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/kaleido-core-0.2.1-h3644ca4_0.tar.bz2",
+  "version": "0.2.1"
+}

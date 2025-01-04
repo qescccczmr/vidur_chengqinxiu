@@ -1,0 +1,14 @@
+prefix=/cpfs01/user/chengqinxiu/vidur/env
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libpq
+Description: PostgreSQL libpq library
+URL: https://www.postgresql.org/
+Version: 17.2
+Requires: 
+Requires.private: libssl, libcrypto
+Cflags: -I${includedir}
+Libs: -L${libdir} -lpq
+Libs.private: -L/cpfs01/user/chengqinxiu/vidur/env/lib -lpgcommon -lpgport -lssl -lgssapi_krb5 -lm -lldap

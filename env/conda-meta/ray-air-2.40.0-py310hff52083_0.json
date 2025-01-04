@@ -1,0 +1,36 @@
+{
+  "build": "py310hff52083_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.10,<3.11.0a0",
+    "python_abi 3.10.* *_cp310",
+    "ray-data 2.40.0 py310hff52083_0",
+    "ray-serve 2.40.0 py310hff52083_0",
+    "ray-train 2.40.0 py310hff52083_0",
+    "ray-tune 2.40.0 py310hff52083_0"
+  ],
+  "extracted_package_dir": "/cpfs01/user/chengqinxiu/anaconda3/pkgs/ray-air-2.40.0-py310hff52083_0",
+  "files": [],
+  "fn": "ray-air-2.40.0-py310hff52083_0.conda",
+  "license": "Apache-2.0",
+  "link": {
+    "source": "/cpfs01/user/chengqinxiu/anaconda3/pkgs/ray-air-2.40.0-py310hff52083_0",
+    "type": 1
+  },
+  "md5": "e9d4c39ed14a584d7d01dc2cd8521ed4",
+  "name": "ray-air",
+  "package_tarball_full_path": "/cpfs01/user/chengqinxiu/anaconda3/pkgs/ray-air-2.40.0-py310hff52083_0.conda",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "2d9e8d67cb6e16f0dd40172022cd2c90f6cd8443684bb2d87eea90247f0b8da7",
+  "size": 52191,
+  "subdir": "linux-64",
+  "timestamp": 1733432690000,
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/ray-air-2.40.0-py310hff52083_0.conda",
+  "version": "2.40.0"
+}

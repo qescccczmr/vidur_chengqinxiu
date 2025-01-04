@@ -1,0 +1,13 @@
+prefix=/cpfs01/user/chengqinxiu/vidur/env
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+LIBUV_STATIC=-L${libdir} -l:libuv.a -ldl  
+
+Name: libuv
+Version: 1.49.2
+Description: multi-platform support library with a focus on asynchronous I/O.
+URL: http://libuv.org/
+
+Libs: -L${libdir} -luv -ldl  
+Cflags: -I${includedir}

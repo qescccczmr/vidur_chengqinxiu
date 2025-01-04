@@ -1,0 +1,44 @@
+{
+  "build": "default_h9c6a7e4_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "__glibc >=2.17,<3.0.a0",
+    "libgcc >=13",
+    "libllvm19 >=19.1.5,<19.2.0a0",
+    "libstdcxx >=13"
+  ],
+  "extracted_package_dir": "/cpfs01/user/chengqinxiu/anaconda3/pkgs/libclang13-19.1.5-default_h9c6a7e4_0",
+  "files": [
+    "lib/libclang.so.13"
+  ],
+  "fn": "libclang13-19.1.5-default_h9c6a7e4_0.conda",
+  "license": "Apache-2.0 WITH LLVM-exception",
+  "link": {
+    "source": "/cpfs01/user/chengqinxiu/anaconda3/pkgs/libclang13-19.1.5-default_h9c6a7e4_0",
+    "type": 1
+  },
+  "md5": "a3a5997b6b47373f0c1608d8503eb4e6",
+  "name": "libclang13",
+  "package_tarball_full_path": "/cpfs01/user/chengqinxiu/anaconda3/pkgs/libclang13-19.1.5-default_h9c6a7e4_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/libclang.so.13",
+        "path_type": "hardlink",
+        "sha256": "056d140ca00f8d912437b0fbd48d1f68e73399bf50aea0d093d22b288def8936",
+        "sha256_in_prefix": "056d140ca00f8d912437b0fbd48d1f68e73399bf50aea0d093d22b288def8936",
+        "size_in_bytes": 51089664
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "58d6644d8be999f92d49f8ca4c045df955fb6c62592d6657d3771acdb2821f51",
+  "size": 11823152,
+  "subdir": "linux-64",
+  "timestamp": 1733340449000,
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/libclang13-19.1.5-default_h9c6a7e4_0.conda",
+  "version": "19.1.5"
+}

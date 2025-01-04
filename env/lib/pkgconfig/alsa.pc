@@ -1,0 +1,12 @@
+prefix=/cpfs01/user/chengqinxiu/vidur/env
+exec_prefix=/cpfs01/user/chengqinxiu/vidur/env
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: alsa
+Description: Advanced Linux Sound Architecture (ALSA) - Library
+Version: 1.2.13
+Requires: 
+Libs: -L${libdir} -lasound
+Libs.private: -lm -lpthread -lrt
+Cflags: -I${includedir}

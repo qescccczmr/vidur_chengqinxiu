@@ -1,0 +1,15 @@
+prefix=/cpfs01/user/chengqinxiu/vidur/env
+exec_prefix=/cpfs01/user/chengqinxiu/vidur/env
+libdir=lib
+includedir=/cpfs01/user/chengqinxiu/vidur/env/include/PySide6
+typesystemdir=/cpfs01/user/chengqinxiu/vidur/env/share/PySide6/typesystems
+gluedir=/cpfs01/user/chengqinxiu/vidur/env/share/PySide6/glue
+pythonpath=/cpfs01/user/chengqinxiu/vidur/env/lib/python3.10/site-packages
+
+Name: PySide6
+Description: Support library for Python bindings of Qt5-based libraries.
+Version: 6.8.0.2
+Libs: -L${libdir} -lpyside6.cpython-310-x86_64-linux-gnu
+Cflags: -I${includedir}
+Requires: shiboken6
+

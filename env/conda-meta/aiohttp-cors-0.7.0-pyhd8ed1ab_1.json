@@ -1,0 +1,204 @@
+{
+  "build": "pyhd8ed1ab_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "aiohttp >=1.1",
+    "python >=3.6"
+  ],
+  "extracted_package_dir": "/cpfs01/user/chengqinxiu/anaconda3/pkgs/aiohttp-cors-0.7.0-pyhd8ed1ab_1",
+  "files": [
+    "lib/python3.10/site-packages/aiohttp_cors-0.7.0.dist-info/INSTALLER",
+    "lib/python3.10/site-packages/aiohttp_cors-0.7.0.dist-info/LICENSE",
+    "lib/python3.10/site-packages/aiohttp_cors-0.7.0.dist-info/METADATA",
+    "lib/python3.10/site-packages/aiohttp_cors-0.7.0.dist-info/RECORD",
+    "lib/python3.10/site-packages/aiohttp_cors-0.7.0.dist-info/REQUESTED",
+    "lib/python3.10/site-packages/aiohttp_cors-0.7.0.dist-info/WHEEL",
+    "lib/python3.10/site-packages/aiohttp_cors-0.7.0.dist-info/direct_url.json",
+    "lib/python3.10/site-packages/aiohttp_cors-0.7.0.dist-info/top_level.txt",
+    "lib/python3.10/site-packages/aiohttp_cors/__about__.py",
+    "lib/python3.10/site-packages/aiohttp_cors/__init__.py",
+    "lib/python3.10/site-packages/aiohttp_cors/abc.py",
+    "lib/python3.10/site-packages/aiohttp_cors/cors_config.py",
+    "lib/python3.10/site-packages/aiohttp_cors/mixin.py",
+    "lib/python3.10/site-packages/aiohttp_cors/preflight_handler.py",
+    "lib/python3.10/site-packages/aiohttp_cors/resource_options.py",
+    "lib/python3.10/site-packages/aiohttp_cors/urldispatcher_router_adapter.py",
+    "lib/python3.10/site-packages/aiohttp_cors/__pycache__/__about__.cpython-310.pyc",
+    "lib/python3.10/site-packages/aiohttp_cors/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/aiohttp_cors/__pycache__/abc.cpython-310.pyc",
+    "lib/python3.10/site-packages/aiohttp_cors/__pycache__/cors_config.cpython-310.pyc",
+    "lib/python3.10/site-packages/aiohttp_cors/__pycache__/mixin.cpython-310.pyc",
+    "lib/python3.10/site-packages/aiohttp_cors/__pycache__/preflight_handler.cpython-310.pyc",
+    "lib/python3.10/site-packages/aiohttp_cors/__pycache__/resource_options.cpython-310.pyc",
+    "lib/python3.10/site-packages/aiohttp_cors/__pycache__/urldispatcher_router_adapter.cpython-310.pyc"
+  ],
+  "fn": "aiohttp-cors-0.7.0-pyhd8ed1ab_1.conda",
+  "license": "Apache-2.0",
+  "link": {
+    "source": "/cpfs01/user/chengqinxiu/anaconda3/pkgs/aiohttp-cors-0.7.0-pyhd8ed1ab_1",
+    "type": 1
+  },
+  "md5": "c223b3c34e97620331ab1ee88fbde09b",
+  "name": "aiohttp-cors",
+  "noarch": "python",
+  "package_tarball_full_path": "/cpfs01/user/chengqinxiu/anaconda3/pkgs/aiohttp-cors-0.7.0-pyhd8ed1ab_1.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/aiohttp_cors-0.7.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/aiohttp_cors-0.7.0.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "86cb2262ff825ce1c8b8fb9ea9f5174318badc3912639b9275fc25d0e305c556",
+        "sha256_in_prefix": "86cb2262ff825ce1c8b8fb9ea9f5174318badc3912639b9275fc25d0e305c556",
+        "size_in_bytes": 11369
+      },
+      {
+        "_path": "site-packages/aiohttp_cors-0.7.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "fed0992142b5a0ec0f64a8ab35261e222f36e7cc3f5cdb1ab61ab1c944cb8976",
+        "sha256_in_prefix": "fed0992142b5a0ec0f64a8ab35261e222f36e7cc3f5cdb1ab61ab1c944cb8976",
+        "size_in_bytes": 20111
+      },
+      {
+        "_path": "site-packages/aiohttp_cors-0.7.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "8ac3d6666f067868ef63ea78bd25182b96bfbb77649555047da92813c13c5039",
+        "sha256_in_prefix": "8ac3d6666f067868ef63ea78bd25182b96bfbb77649555047da92813c13c5039",
+        "size_in_bytes": 1852
+      },
+      {
+        "_path": "site-packages/aiohttp_cors-0.7.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/aiohttp_cors-0.7.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "1e20998f3bb2e83c3485d5f94772c214f0e6152e015a5f07fbc5b7f577e6817e",
+        "sha256_in_prefix": "1e20998f3bb2e83c3485d5f94772c214f0e6152e015a5f07fbc5b7f577e6817e",
+        "size_in_bytes": 91
+      },
+      {
+        "_path": "site-packages/aiohttp_cors-0.7.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "ce064e698b1d191bb988b418b68c956d2a10af71b208239da18d4c93629e34e6",
+        "sha256_in_prefix": "ce064e698b1d191bb988b418b68c956d2a10af71b208239da18d4c93629e34e6",
+        "size_in_bytes": 108
+      },
+      {
+        "_path": "site-packages/aiohttp_cors-0.7.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "ebf02b93bcc3982281ffd3a6f2f2919de455e865c22f2c437a226f6cd2f24cf1",
+        "sha256_in_prefix": "ebf02b93bcc3982281ffd3a6f2f2919de455e865c22f2c437a226f6cd2f24cf1",
+        "size_in_bytes": 13
+      },
+      {
+        "_path": "site-packages/aiohttp_cors/__about__.py",
+        "path_type": "hardlink",
+        "sha256": "d0d0b8cfe2569506ac4df131dae8d7b1d97db2793e4d6d971d1b8f55cc2f4990",
+        "sha256_in_prefix": "d0d0b8cfe2569506ac4df131dae8d7b1d97db2793e4d6d971d1b8f55cc2f4990",
+        "size_in_bytes": 1002
+      },
+      {
+        "_path": "site-packages/aiohttp_cors/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "9d56ce3a1a3956c666e471807abc35197fa0541a8a63d85040a96b5cc61fe6df",
+        "sha256_in_prefix": "9d56ce3a1a3956c666e471807abc35197fa0541a8a63d85040a96b5cc61fe6df",
+        "size_in_bytes": 2162
+      },
+      {
+        "_path": "site-packages/aiohttp_cors/abc.py",
+        "path_type": "hardlink",
+        "sha256": "1f973eb5dd13194373f906b0a7a109748917637ced1f6994d6858b8ca9dde2a7",
+        "sha256_in_prefix": "1f973eb5dd13194373f906b0a7a109748917637ced1f6994d6858b8ca9dde2a7",
+        "size_in_bytes": 3698
+      },
+      {
+        "_path": "site-packages/aiohttp_cors/cors_config.py",
+        "path_type": "hardlink",
+        "sha256": "42776d0ad954af4b6fa20bb239ce756b2920576b6ff3bd25340b09b9ca196e02",
+        "sha256_in_prefix": "42776d0ad954af4b6fa20bb239ce756b2920576b6ff3bd25340b09b9ca196e02",
+        "size_in_bytes": 8927
+      },
+      {
+        "_path": "site-packages/aiohttp_cors/mixin.py",
+        "path_type": "hardlink",
+        "sha256": "876396e5514261e333371056e2c06e83a9ce35afbda07bbd6f86b4b5673aa1bb",
+        "sha256_in_prefix": "876396e5514261e333371056e2c06e83a9ce35afbda07bbd6f86b4b5673aa1bb",
+        "size_in_bytes": 1345
+      },
+      {
+        "_path": "site-packages/aiohttp_cors/preflight_handler.py",
+        "path_type": "hardlink",
+        "sha256": "d236ce2292046c6fb0f632bf83e98da6fc16d0f35f1534e17fbce4ac8bbf3459",
+        "sha256_in_prefix": "d236ce2292046c6fb0f632bf83e98da6fc16d0f35f1534e17fbce4ac8bbf3459",
+        "size_in_bytes": 4840
+      },
+      {
+        "_path": "site-packages/aiohttp_cors/resource_options.py",
+        "path_type": "hardlink",
+        "sha256": "cb7dc1785723f6b2d903d2ae1ceeaa813cd8edb50de3ac46e343badca29191a9",
+        "sha256_in_prefix": "cb7dc1785723f6b2d903d2ae1ceeaa813cd8edb50de3ac46e343badca29191a9",
+        "size_in_bytes": 5931
+      },
+      {
+        "_path": "site-packages/aiohttp_cors/urldispatcher_router_adapter.py",
+        "path_type": "hardlink",
+        "sha256": "fc0e650e494229302a7a33ad53c4d8c1b2349ff8b8c64ed0f978bd08d5be16ef",
+        "sha256_in_prefix": "fc0e650e494229302a7a33ad53c4d8c1b2349ff8b8c64ed0f978bd08d5be16ef",
+        "size_in_bytes": 12441
+      },
+      {
+        "_path": "lib/python3.10/site-packages/aiohttp_cors/__pycache__/__about__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/aiohttp_cors/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/aiohttp_cors/__pycache__/abc.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/aiohttp_cors/__pycache__/cors_config.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/aiohttp_cors/__pycache__/mixin.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/aiohttp_cors/__pycache__/preflight_handler.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/aiohttp_cors/__pycache__/resource_options.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/aiohttp_cors/__pycache__/urldispatcher_router_adapter.cpython-310.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "94f76793309513aaa9d9ba4415eec75dae9bca61a69f32eb0975ff9512070c54",
+  "size": 24904,
+  "subdir": "noarch",
+  "timestamp": 1724657575000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/aiohttp-cors-0.7.0-pyhd8ed1ab_1.conda",
+  "version": "0.7.0"
+}

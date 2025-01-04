@@ -1,0 +1,1455 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "fire",
+    "python >=3.7"
+  ],
+  "extracted_package_dir": "/cpfs01/user/chengqinxiu/anaconda3/pkgs/randomname-0.2.1-pyhd8ed1ab_0",
+  "files": [
+    "lib/python3.10/site-packages/randomname-0.2.1.dist-info/INSTALLER",
+    "lib/python3.10/site-packages/randomname-0.2.1.dist-info/LICENSE",
+    "lib/python3.10/site-packages/randomname-0.2.1.dist-info/METADATA",
+    "lib/python3.10/site-packages/randomname-0.2.1.dist-info/RECORD",
+    "lib/python3.10/site-packages/randomname-0.2.1.dist-info/REQUESTED",
+    "lib/python3.10/site-packages/randomname-0.2.1.dist-info/WHEEL",
+    "lib/python3.10/site-packages/randomname-0.2.1.dist-info/direct_url.json",
+    "lib/python3.10/site-packages/randomname-0.2.1.dist-info/entry_points.txt",
+    "lib/python3.10/site-packages/randomname-0.2.1.dist-info/top_level.txt",
+    "lib/python3.10/site-packages/randomname/__init__.py",
+    "lib/python3.10/site-packages/randomname/__main__.py",
+    "lib/python3.10/site-packages/randomname/__pyinstaller/__init__.py",
+    "lib/python3.10/site-packages/randomname/__pyinstaller/hook-randomname.py",
+    "lib/python3.10/site-packages/randomname/core.py",
+    "lib/python3.10/site-packages/randomname/util.py",
+    "lib/python3.10/site-packages/randomname/wordlists/adjectives/age.txt",
+    "lib/python3.10/site-packages/randomname/wordlists/adjectives/algorithms.txt",
+    "lib/python3.10/site-packages/randomname/wordlists/adjectives/appearance.txt",
+    "lib/python3.10/site-packages/randomname/wordlists/adjectives/character.txt",
+    "lib/python3.10/site-packages/randomname/wordlists/adjectives/colors.txt",
+    "lib/python3.10/site-packages/randomname/wordlists/adjectives/complexity.txt",
+    "lib/python3.10/site-packages/randomname/wordlists/adjectives/construction.txt",
+    "lib/python3.10/site-packages/randomname/wordlists/adjectives/corporate_prefixes.txt",
+    "lib/python3.10/site-packages/randomname/wordlists/adjectives/emotions.txt",
+    "lib/python3.10/site-packages/randomname/wordlists/adjectives/food.txt",
+    "lib/python3.10/site-packages/randomname/wordlists/adjectives/geometry.txt",
+    "lib/python3.10/site-packages/randomname/wordlists/adjectives/linguistics.txt",
+    "lib/python3.10/site-packages/randomname/wordlists/adjectives/materials.txt",
+    "lib/python3.10/site-packages/randomname/wordlists/adjectives/music_theory.txt",
+    "lib/python3.10/site-packages/randomname/wordlists/adjectives/physics.txt",
+    "lib/python3.10/site-packages/randomname/wordlists/adjectives/quantity.txt",
+    "lib/python3.10/site-packages/randomname/wordlists/adjectives/shape.txt",
+    "lib/python3.10/site-packages/randomname/wordlists/adjectives/size.txt",
+    "lib/python3.10/site-packages/randomname/wordlists/adjectives/sound.txt",
+    "lib/python3.10/site-packages/randomname/wordlists/adjectives/speed.txt",
+    "lib/python3.10/site-packages/randomname/wordlists/adjectives/taste.txt",
+    "lib/python3.10/site-packages/randomname/wordlists/adjectives/temperature.txt",
+    "lib/python3.10/site-packages/randomname/wordlists/adjectives/weather.txt",
+    "lib/python3.10/site-packages/randomname/wordlists/ipsum/corporate.txt",
+    "lib/python3.10/site-packages/randomname/wordlists/ipsum/crypto.txt",
+    "lib/python3.10/site-packages/randomname/wordlists/ipsum/hipster.txt",
+    "lib/python3.10/site-packages/randomname/wordlists/ipsum/lorem.txt",
+    "lib/python3.10/site-packages/randomname/wordlists/ipsum/reddit.txt",
+    "lib/python3.10/site-packages/randomname/wordlists/names/cities/alpha.txt",
+    "lib/python3.10/site-packages/randomname/wordlists/names/cities/canada.txt",
+    "lib/python3.10/site-packages/randomname/wordlists/names/cities/city_states.txt",
+    "lib/python3.10/site-packages/randomname/wordlists/names/cities/france.txt",
+    "lib/python3.10/site-packages/randomname/wordlists/names/cities/ireland.txt",
+    "lib/python3.10/site-packages/randomname/wordlists/names/cities/netherlands.txt",
+    "lib/python3.10/site-packages/randomname/wordlists/names/cities/spain.txt",
+    "lib/python3.10/site-packages/randomname/wordlists/names/cities/switzerland.txt",
+    "lib/python3.10/site-packages/randomname/wordlists/names/cities/united_states.txt",
+    "lib/python3.10/site-packages/randomname/wordlists/names/codenames/apple.txt",
+    "lib/python3.10/site-packages/randomname/wordlists/names/codenames/intel.txt",
+    "lib/python3.10/site-packages/randomname/wordlists/names/codenames/microsoft.txt",
+    "lib/python3.10/site-packages/randomname/wordlists/names/companies/unicorns.txt",
+    "lib/python3.10/site-packages/randomname/wordlists/names/people/butlers.txt",
+    "lib/python3.10/site-packages/randomname/wordlists/names/people/computing.txt",
+    "lib/python3.10/site-packages/randomname/wordlists/names/people/founders.txt",
+    "lib/python3.10/site-packages/randomname/wordlists/names/states/canada.txt",
+    "lib/python3.10/site-packages/randomname/wordlists/names/states/city_states.txt",
+    "lib/python3.10/site-packages/randomname/wordlists/names/states/switzerland.txt",
+    "lib/python3.10/site-packages/randomname/wordlists/names/states/usa.txt",
+    "lib/python3.10/site-packages/randomname/wordlists/names/streets/chicago.txt",
+    "lib/python3.10/site-packages/randomname/wordlists/names/streets/newyork.txt",
+    "lib/python3.10/site-packages/randomname/wordlists/names/surnames/basque.txt",
+    "lib/python3.10/site-packages/randomname/wordlists/names/surnames/english.txt",
+    "lib/python3.10/site-packages/randomname/wordlists/names/surnames/french.txt",
+    "lib/python3.10/site-packages/randomname/wordlists/names/surnames/german.txt",
+    "lib/python3.10/site-packages/randomname/wordlists/names/surnames/irish.txt",
+    "lib/python3.10/site-packages/randomname/wordlists/names/surnames/italian.txt",
+    "lib/python3.10/site-packages/randomname/wordlists/names/surnames/scottish.txt",
+    "lib/python3.10/site-packages/randomname/wordlists/nouns/3d_graphics.txt",
+    "lib/python3.10/site-packages/randomname/wordlists/nouns/3d_printing.txt",
+    "lib/python3.10/site-packages/randomname/wordlists/nouns/accounting.txt",
+    "lib/python3.10/site-packages/randomname/wordlists/nouns/algorithms.txt",
+    "lib/python3.10/site-packages/randomname/wordlists/nouns/apex_predators.txt",
+    "lib/python3.10/site-packages/randomname/wordlists/nouns/architecture.txt",
+    "lib/python3.10/site-packages/randomname/wordlists/nouns/astronomy.txt",
+    "lib/python3.10/site-packages/randomname/wordlists/nouns/automobiles.txt",
+    "lib/python3.10/site-packages/randomname/wordlists/nouns/birds.txt",
+    "lib/python3.10/site-packages/randomname/wordlists/nouns/buildings.txt",
+    "lib/python3.10/site-packages/randomname/wordlists/nouns/car_parts.txt",
+    "lib/python3.10/site-packages/randomname/wordlists/nouns/cats.txt",
+    "lib/python3.10/site-packages/randomname/wordlists/nouns/cheese.txt",
+    "lib/python3.10/site-packages/randomname/wordlists/nouns/chemistry.txt",
+    "lib/python3.10/site-packages/randomname/wordlists/nouns/coding.txt",
+    "lib/python3.10/site-packages/randomname/wordlists/nouns/condiments.txt",
+    "lib/python3.10/site-packages/randomname/wordlists/nouns/construction.txt",
+    "lib/python3.10/site-packages/randomname/wordlists/nouns/containers.txt",
+    "lib/python3.10/site-packages/randomname/wordlists/nouns/corporate.txt",
+    "lib/python3.10/site-packages/randomname/wordlists/nouns/corporate_job.txt",
+    "lib/python3.10/site-packages/randomname/wordlists/nouns/cotton.txt",
+    "lib/python3.10/site-packages/randomname/wordlists/nouns/data_structures.txt",
+    "lib/python3.10/site-packages/randomname/wordlists/nouns/design.txt",
+    "lib/python3.10/site-packages/randomname/wordlists/nouns/dogs.txt",
+    "lib/python3.10/site-packages/randomname/wordlists/nouns/driving.txt",
+    "lib/python3.10/site-packages/randomname/wordlists/nouns/fast_food.txt",
+    "lib/python3.10/site-packages/randomname/wordlists/nouns/filmmaking.txt",
+    "lib/python3.10/site-packages/randomname/wordlists/nouns/fish.txt",
+    "lib/python3.10/site-packages/randomname/wordlists/nouns/food.txt",
+    "lib/python3.10/site-packages/randomname/wordlists/nouns/fortifications.txt",
+    "lib/python3.10/site-packages/randomname/wordlists/nouns/fruit.txt",
+    "lib/python3.10/site-packages/randomname/wordlists/nouns/furniture.txt",
+    "lib/python3.10/site-packages/randomname/wordlists/nouns/gaming.txt",
+    "lib/python3.10/site-packages/randomname/wordlists/nouns/geography.txt",
+    "lib/python3.10/site-packages/randomname/wordlists/nouns/geometry.txt",
+    "lib/python3.10/site-packages/randomname/wordlists/nouns/ghosts.txt",
+    "lib/python3.10/site-packages/randomname/wordlists/nouns/history.txt",
+    "lib/python3.10/site-packages/randomname/wordlists/nouns/houses.txt",
+    "lib/python3.10/site-packages/randomname/wordlists/nouns/infrastructure.txt",
+    "lib/python3.10/site-packages/randomname/wordlists/nouns/insurance.txt",
+    "lib/python3.10/site-packages/randomname/wordlists/nouns/linear_algebra.txt",
+    "lib/python3.10/site-packages/randomname/wordlists/nouns/machine_learning.txt",
+    "lib/python3.10/site-packages/randomname/wordlists/nouns/meat.txt",
+    "lib/python3.10/site-packages/randomname/wordlists/nouns/metals.txt",
+    "lib/python3.10/site-packages/randomname/wordlists/nouns/military_airforce.txt",
+    "lib/python3.10/site-packages/randomname/wordlists/nouns/military_army.txt",
+    "lib/python3.10/site-packages/randomname/wordlists/nouns/military_navy.txt",
+    "lib/python3.10/site-packages/randomname/wordlists/nouns/minerals.txt",
+    "lib/python3.10/site-packages/randomname/wordlists/nouns/music_instruments.txt",
+    "lib/python3.10/site-packages/randomname/wordlists/nouns/music_production.txt",
+    "lib/python3.10/site-packages/randomname/wordlists/nouns/music_theory.txt",
+    "lib/python3.10/site-packages/randomname/wordlists/nouns/phones.txt",
+    "lib/python3.10/site-packages/randomname/wordlists/nouns/physics.txt",
+    "lib/python3.10/site-packages/randomname/wordlists/nouns/physics_optics.txt",
+    "lib/python3.10/site-packages/randomname/wordlists/nouns/physics_units.txt",
+    "lib/python3.10/site-packages/randomname/wordlists/nouns/physics_waves.txt",
+    "lib/python3.10/site-packages/randomname/wordlists/nouns/plants.txt",
+    "lib/python3.10/site-packages/randomname/wordlists/nouns/radio.txt",
+    "lib/python3.10/site-packages/randomname/wordlists/nouns/real_estate.txt",
+    "lib/python3.10/site-packages/randomname/wordlists/nouns/screenwriting.txt",
+    "lib/python3.10/site-packages/randomname/wordlists/nouns/seasonings.txt",
+    "lib/python3.10/site-packages/randomname/wordlists/nouns/set_theory.txt",
+    "lib/python3.10/site-packages/randomname/wordlists/nouns/shopping.txt",
+    "lib/python3.10/site-packages/randomname/wordlists/nouns/software.txt",
+    "lib/python3.10/site-packages/randomname/wordlists/nouns/spirits.txt",
+    "lib/python3.10/site-packages/randomname/wordlists/nouns/sports.txt",
+    "lib/python3.10/site-packages/randomname/wordlists/nouns/startups.txt",
+    "lib/python3.10/site-packages/randomname/wordlists/nouns/storage.txt",
+    "lib/python3.10/site-packages/randomname/wordlists/nouns/travel.txt",
+    "lib/python3.10/site-packages/randomname/wordlists/nouns/typography.txt",
+    "lib/python3.10/site-packages/randomname/wordlists/nouns/vcs.txt",
+    "lib/python3.10/site-packages/randomname/wordlists/nouns/water.txt",
+    "lib/python3.10/site-packages/randomname/wordlists/nouns/web_development.txt",
+    "lib/python3.10/site-packages/randomname/wordlists/nouns/wine.txt",
+    "lib/python3.10/site-packages/randomname/wordlists/nouns/wood.txt",
+    "lib/python3.10/site-packages/randomname/wordlists/nouns/writing.txt",
+    "lib/python3.10/site-packages/randomname/wordlists/verbs/3d_graphics.txt",
+    "lib/python3.10/site-packages/randomname/wordlists/verbs/art.txt",
+    "lib/python3.10/site-packages/randomname/wordlists/verbs/collection.txt",
+    "lib/python3.10/site-packages/randomname/wordlists/verbs/communication.txt",
+    "lib/python3.10/site-packages/randomname/wordlists/verbs/cooking.txt",
+    "lib/python3.10/site-packages/randomname/wordlists/verbs/corporate.txt",
+    "lib/python3.10/site-packages/randomname/wordlists/verbs/creation.txt",
+    "lib/python3.10/site-packages/randomname/wordlists/verbs/destruction.txt",
+    "lib/python3.10/site-packages/randomname/wordlists/verbs/driving.txt",
+    "lib/python3.10/site-packages/randomname/wordlists/verbs/fire.txt",
+    "lib/python3.10/site-packages/randomname/wordlists/verbs/graphics.txt",
+    "lib/python3.10/site-packages/randomname/wordlists/verbs/look.txt",
+    "lib/python3.10/site-packages/randomname/wordlists/verbs/manipulation.txt",
+    "lib/python3.10/site-packages/randomname/wordlists/verbs/military_navy.txt",
+    "lib/python3.10/site-packages/randomname/wordlists/verbs/movement.txt",
+    "lib/python3.10/site-packages/randomname/wordlists/verbs/music.txt",
+    "lib/python3.10/site-packages/randomname/wordlists/verbs/music_production.txt",
+    "lib/python3.10/site-packages/randomname/wordlists/verbs/programming.txt",
+    "lib/python3.10/site-packages/randomname/wordlists/verbs/quantity.txt",
+    "lib/python3.10/site-packages/randomname/wordlists/verbs/radio.txt",
+    "lib/python3.10/site-packages/randomname/wordlists/verbs/sports.txt",
+    "lib/python3.10/site-packages/randomname/wordlists/verbs/startups.txt",
+    "lib/python3.10/site-packages/randomname/wordlists/verbs/thought.txt",
+    "lib/python3.10/site-packages/randomname/wordlists/verbs/vcs.txt",
+    "lib/python3.10/site-packages/randomname/wordlists/verbs/web.txt",
+    "lib/python3.10/site-packages/randomname/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/randomname/__pycache__/__main__.cpython-310.pyc",
+    "lib/python3.10/site-packages/randomname/__pyinstaller/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/randomname/__pyinstaller/__pycache__/hook-randomname.cpython-310.pyc",
+    "lib/python3.10/site-packages/randomname/__pycache__/core.cpython-310.pyc",
+    "lib/python3.10/site-packages/randomname/__pycache__/util.cpython-310.pyc",
+    "bin/randomname"
+  ],
+  "fn": "randomname-0.2.1-pyhd8ed1ab_0.conda",
+  "license": "MIT",
+  "link": {
+    "source": "/cpfs01/user/chengqinxiu/anaconda3/pkgs/randomname-0.2.1-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "f94328c54c3e9164db52b82c01fa6f29",
+  "name": "randomname",
+  "noarch": "python",
+  "package_tarball_full_path": "/cpfs01/user/chengqinxiu/anaconda3/pkgs/randomname-0.2.1-pyhd8ed1ab_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/randomname-0.2.1.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/randomname-0.2.1.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "7b38b39ef5e420ab6cb1af1df645482fec28923900693c72efa45fccfea987f2",
+        "sha256_in_prefix": "7b38b39ef5e420ab6cb1af1df645482fec28923900693c72efa45fccfea987f2",
+        "size_in_bytes": 1067
+      },
+      {
+        "_path": "site-packages/randomname-0.2.1.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "979921c2453acb77e163eaa357278065d18c38bf36052718cd1c32efe09d962d",
+        "sha256_in_prefix": "979921c2453acb77e163eaa357278065d18c38bf36052718cd1c32efe09d962d",
+        "size_in_bytes": 6333
+      },
+      {
+        "_path": "site-packages/randomname-0.2.1.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "a76cae99b6bdd656134f02cc078e8b2d42c5fd40f3789cea15f9fd0878c7e1e6",
+        "sha256_in_prefix": "a76cae99b6bdd656134f02cc078e8b2d42c5fd40f3789cea15f9fd0878c7e1e6",
+        "size_in_bytes": 17274
+      },
+      {
+        "_path": "site-packages/randomname-0.2.1.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/randomname-0.2.1.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "e6c5174a0f5ee1b8bb9532ce1dc9ba4046303b94c81754cd6d34951558dc25c7",
+        "sha256_in_prefix": "e6c5174a0f5ee1b8bb9532ce1dc9ba4046303b94c81754cd6d34951558dc25c7",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/randomname-0.2.1.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "0df8d03801c85fb92eb837367ba09e597f66103e82d2a6dfeb7afd682b8989a5",
+        "sha256_in_prefix": "0df8d03801c85fb92eb837367ba09e597f66103e82d2a6dfeb7afd682b8989a5",
+        "size_in_bytes": 106
+      },
+      {
+        "_path": "site-packages/randomname-0.2.1.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "58cdb677cb16fca9cfa595b520a02043e7b3675c2466caba6cfb0d757da48c6c",
+        "sha256_in_prefix": "58cdb677cb16fca9cfa595b520a02043e7b3675c2466caba6cfb0d757da48c6c",
+        "size_in_bytes": 115
+      },
+      {
+        "_path": "site-packages/randomname-0.2.1.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "99ef9d0709b4dab06b0b429c391c5d90eb7500d8e0c9b0c230d1750b7917c9d2",
+        "sha256_in_prefix": "99ef9d0709b4dab06b0b429c391c5d90eb7500d8e0c9b0c230d1750b7917c9d2",
+        "size_in_bytes": 11
+      },
+      {
+        "_path": "site-packages/randomname/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "c7f31be030f4356339175da952bd1039eb42ba21b9bba9f389899530bfb99241",
+        "sha256_in_prefix": "c7f31be030f4356339175da952bd1039eb42ba21b9bba9f389899530bfb99241",
+        "size_in_bytes": 760
+      },
+      {
+        "_path": "site-packages/randomname/__main__.py",
+        "path_type": "hardlink",
+        "sha256": "22f4e34d886f54eea1f49a5ae398be15fce370a709cb58f0900658fc292089b4",
+        "sha256_in_prefix": "22f4e34d886f54eea1f49a5ae398be15fce370a709cb58f0900658fc292089b4",
+        "size_in_bytes": 26
+      },
+      {
+        "_path": "site-packages/randomname/__pyinstaller/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "ec8b5283ca147a9ace3a99a8153adf6f3f579973b36eb5a066734c3cc8c2f8fd",
+        "sha256_in_prefix": "ec8b5283ca147a9ace3a99a8153adf6f3f579973b36eb5a066734c3cc8c2f8fd",
+        "size_in_bytes": 70
+      },
+      {
+        "_path": "site-packages/randomname/__pyinstaller/hook-randomname.py",
+        "path_type": "hardlink",
+        "sha256": "1f68fed007b040e1966300ca3511a66c5abcd97f0715b94f3d41f85cbe94a7b2",
+        "sha256_in_prefix": "1f68fed007b040e1966300ca3511a66c5abcd97f0715b94f3d41f85cbe94a7b2",
+        "size_in_bytes": 130
+      },
+      {
+        "_path": "site-packages/randomname/core.py",
+        "path_type": "hardlink",
+        "sha256": "e3c6f406f27d081d4cde2fd95729dbed11b1f91f1a4592e6e891b8724e93d39e",
+        "sha256_in_prefix": "e3c6f406f27d081d4cde2fd95729dbed11b1f91f1a4592e6e891b8724e93d39e",
+        "size_in_bytes": 3413
+      },
+      {
+        "_path": "site-packages/randomname/util.py",
+        "path_type": "hardlink",
+        "sha256": "122da4d2f462f20be170f0971565f9f38403e16de2fe475152919564e02a66d9",
+        "sha256_in_prefix": "122da4d2f462f20be170f0971565f9f38403e16de2fe475152919564e02a66d9",
+        "size_in_bytes": 7867
+      },
+      {
+        "_path": "site-packages/randomname/wordlists/adjectives/age.txt",
+        "path_type": "hardlink",
+        "sha256": "9a8f4fa968250c35a9176c03b06da088fc9f338dd978f520c5df514a84ba1e4a",
+        "sha256_in_prefix": "9a8f4fa968250c35a9176c03b06da088fc9f338dd978f520c5df514a84ba1e4a",
+        "size_in_bytes": 236
+      },
+      {
+        "_path": "site-packages/randomname/wordlists/adjectives/algorithms.txt",
+        "path_type": "hardlink",
+        "sha256": "12a79407b70be2eaeead755e4c5318c8e973dcb702c7487ce647edf323767ee8",
+        "sha256_in_prefix": "12a79407b70be2eaeead755e4c5318c8e973dcb702c7487ce647edf323767ee8",
+        "size_in_bytes": 997
+      },
+      {
+        "_path": "site-packages/randomname/wordlists/adjectives/appearance.txt",
+        "path_type": "hardlink",
+        "sha256": "1ebe83abde49a5cd3b20d0e52a607105860e24c6d8782319e83309dc308d4ce8",
+        "sha256_in_prefix": "1ebe83abde49a5cd3b20d0e52a607105860e24c6d8782319e83309dc308d4ce8",
+        "size_in_bytes": 178
+      },
+      {
+        "_path": "site-packages/randomname/wordlists/adjectives/character.txt",
+        "path_type": "hardlink",
+        "sha256": "ec2ac72c3778afbd8e8aec7791fc5fa386f9608fac22f1b0fab94feda5e67292",
+        "sha256_in_prefix": "ec2ac72c3778afbd8e8aec7791fc5fa386f9608fac22f1b0fab94feda5e67292",
+        "size_in_bytes": 782
+      },
+      {
+        "_path": "site-packages/randomname/wordlists/adjectives/colors.txt",
+        "path_type": "hardlink",
+        "sha256": "0e58ef846d30574565874092af3c9fc8351d005225ded91c115e945455c6fd59",
+        "sha256_in_prefix": "0e58ef846d30574565874092af3c9fc8351d005225ded91c115e945455c6fd59",
+        "size_in_bytes": 499
+      },
+      {
+        "_path": "site-packages/randomname/wordlists/adjectives/complexity.txt",
+        "path_type": "hardlink",
+        "sha256": "8b4fc19c55fd6c923f8763f3f3a1514aa5f51b5504a9fbeb8f5e75b2167ae20f",
+        "sha256_in_prefix": "8b4fc19c55fd6c923f8763f3f3a1514aa5f51b5504a9fbeb8f5e75b2167ae20f",
+        "size_in_bytes": 117
+      },
+      {
+        "_path": "site-packages/randomname/wordlists/adjectives/construction.txt",
+        "path_type": "hardlink",
+        "sha256": "5daae917bb82a47207cdb19b614525970a2cf2b2df9781c3781f532ab594e662",
+        "sha256_in_prefix": "5daae917bb82a47207cdb19b614525970a2cf2b2df9781c3781f532ab594e662",
+        "size_in_bytes": 143
+      },
+      {
+        "_path": "site-packages/randomname/wordlists/adjectives/corporate_prefixes.txt",
+        "path_type": "hardlink",
+        "sha256": "b92f5560c4c0a252d8ae0564934e8125e764ee088f7ead5324e26f7f2f98c1b0",
+        "sha256_in_prefix": "b92f5560c4c0a252d8ae0564934e8125e764ee088f7ead5324e26f7f2f98c1b0",
+        "size_in_bytes": 178
+      },
+      {
+        "_path": "site-packages/randomname/wordlists/adjectives/emotions.txt",
+        "path_type": "hardlink",
+        "sha256": "768a72a7f37ff1ca72cc9c6c8ae6892001c86755c0316b9b5d5085bd1951288d",
+        "sha256_in_prefix": "768a72a7f37ff1ca72cc9c6c8ae6892001c86755c0316b9b5d5085bd1951288d",
+        "size_in_bytes": 212
+      },
+      {
+        "_path": "site-packages/randomname/wordlists/adjectives/food.txt",
+        "path_type": "hardlink",
+        "sha256": "e471d08d55c5fd821b755c5de99bb4c9db50817977b8a3c072bf57208b599244",
+        "sha256_in_prefix": "e471d08d55c5fd821b755c5de99bb4c9db50817977b8a3c072bf57208b599244",
+        "size_in_bytes": 597
+      },
+      {
+        "_path": "site-packages/randomname/wordlists/adjectives/geometry.txt",
+        "path_type": "hardlink",
+        "sha256": "a4d179281608dab6c293c118304d83810816bb73ec2e3b4fdb81839fbf00ef18",
+        "sha256_in_prefix": "a4d179281608dab6c293c118304d83810816bb73ec2e3b4fdb81839fbf00ef18",
+        "size_in_bytes": 273
+      },
+      {
+        "_path": "site-packages/randomname/wordlists/adjectives/linguistics.txt",
+        "path_type": "hardlink",
+        "sha256": "877140bfaadcfce9206dab1339bc8b950246927087934992dbd72bd55c5fd105",
+        "sha256_in_prefix": "877140bfaadcfce9206dab1339bc8b950246927087934992dbd72bd55c5fd105",
+        "size_in_bytes": 94
+      },
+      {
+        "_path": "site-packages/randomname/wordlists/adjectives/materials.txt",
+        "path_type": "hardlink",
+        "sha256": "3d142a04d36febce1cd276076c5e7d5fc5ecf5d2c25c54f742f2c1780d5d6a9c",
+        "sha256_in_prefix": "3d142a04d36febce1cd276076c5e7d5fc5ecf5d2c25c54f742f2c1780d5d6a9c",
+        "size_in_bytes": 146
+      },
+      {
+        "_path": "site-packages/randomname/wordlists/adjectives/music_theory.txt",
+        "path_type": "hardlink",
+        "sha256": "4d13876808317f309dab192b3bbded866669938af8304507960ecda18dcd9af9",
+        "sha256_in_prefix": "4d13876808317f309dab192b3bbded866669938af8304507960ecda18dcd9af9",
+        "size_in_bytes": 129
+      },
+      {
+        "_path": "site-packages/randomname/wordlists/adjectives/physics.txt",
+        "path_type": "hardlink",
+        "sha256": "5cf155c5882eb77449230bc04969fade23828f1aeeb1324bd11bc301e04edaa9",
+        "sha256_in_prefix": "5cf155c5882eb77449230bc04969fade23828f1aeeb1324bd11bc301e04edaa9",
+        "size_in_bytes": 432
+      },
+      {
+        "_path": "site-packages/randomname/wordlists/adjectives/quantity.txt",
+        "path_type": "hardlink",
+        "sha256": "5d87d6363e9b79fa1fcb9c75fc6a38866a316d03b190b5e6b6dcb2421bc699ec",
+        "sha256_in_prefix": "5d87d6363e9b79fa1fcb9c75fc6a38866a316d03b190b5e6b6dcb2421bc699ec",
+        "size_in_bytes": 71
+      },
+      {
+        "_path": "site-packages/randomname/wordlists/adjectives/shape.txt",
+        "path_type": "hardlink",
+        "sha256": "67f7c30c3768c4793e44d74fc1af7278c633659f088e2b61c6d970dd896ba4f3",
+        "sha256_in_prefix": "67f7c30c3768c4793e44d74fc1af7278c633659f088e2b61c6d970dd896ba4f3",
+        "size_in_bytes": 124
+      },
+      {
+        "_path": "site-packages/randomname/wordlists/adjectives/size.txt",
+        "path_type": "hardlink",
+        "sha256": "069eec95323aa2eb7ad0055598f3eddea3e09989a697411acd0a3a3131a2cbd4",
+        "sha256_in_prefix": "069eec95323aa2eb7ad0055598f3eddea3e09989a697411acd0a3a3131a2cbd4",
+        "size_in_bytes": 122
+      },
+      {
+        "_path": "site-packages/randomname/wordlists/adjectives/sound.txt",
+        "path_type": "hardlink",
+        "sha256": "3e6c2bf80163f59a479e43ad60f002ee7cf90b2e7ea5c275ae685e0d650c4793",
+        "sha256_in_prefix": "3e6c2bf80163f59a479e43ad60f002ee7cf90b2e7ea5c275ae685e0d650c4793",
+        "size_in_bytes": 130
+      },
+      {
+        "_path": "site-packages/randomname/wordlists/adjectives/speed.txt",
+        "path_type": "hardlink",
+        "sha256": "9d6e351d3bc672c0aea4f3f59554ecfef2aa74f0b9e10c7bd667cff9d7a51cbc",
+        "sha256_in_prefix": "9d6e351d3bc672c0aea4f3f59554ecfef2aa74f0b9e10c7bd667cff9d7a51cbc",
+        "size_in_bytes": 116
+      },
+      {
+        "_path": "site-packages/randomname/wordlists/adjectives/taste.txt",
+        "path_type": "hardlink",
+        "sha256": "52d686895c60d7243fa75400f3aec12d9d43d173e6cfe97651c6790b059284b7",
+        "sha256_in_prefix": "52d686895c60d7243fa75400f3aec12d9d43d173e6cfe97651c6790b059284b7",
+        "size_in_bytes": 129
+      },
+      {
+        "_path": "site-packages/randomname/wordlists/adjectives/temperature.txt",
+        "path_type": "hardlink",
+        "sha256": "1853024715e4d3a4bd72b9330cd31db25003e82c7180b9b49edee0742e6a9262",
+        "sha256_in_prefix": "1853024715e4d3a4bd72b9330cd31db25003e82c7180b9b49edee0742e6a9262",
+        "size_in_bytes": 111
+      },
+      {
+        "_path": "site-packages/randomname/wordlists/adjectives/weather.txt",
+        "path_type": "hardlink",
+        "sha256": "f3c3578fdc7c55d8e25bee9950a2166a39396d925a474cb697b4a96a23cbed43",
+        "sha256_in_prefix": "f3c3578fdc7c55d8e25bee9950a2166a39396d925a474cb697b4a96a23cbed43",
+        "size_in_bytes": 172
+      },
+      {
+        "_path": "site-packages/randomname/wordlists/ipsum/corporate.txt",
+        "path_type": "hardlink",
+        "sha256": "47a3aa8159a0749c9a461004e942fb38fae0adf969caa78389b52afcb4fce817",
+        "sha256_in_prefix": "47a3aa8159a0749c9a461004e942fb38fae0adf969caa78389b52afcb4fce817",
+        "size_in_bytes": 4259
+      },
+      {
+        "_path": "site-packages/randomname/wordlists/ipsum/crypto.txt",
+        "path_type": "hardlink",
+        "sha256": "936f9f51d9ea40739c322ea2a53623953c8e9982ceef786cb0f25363a8347769",
+        "sha256_in_prefix": "936f9f51d9ea40739c322ea2a53623953c8e9982ceef786cb0f25363a8347769",
+        "size_in_bytes": 505
+      },
+      {
+        "_path": "site-packages/randomname/wordlists/ipsum/hipster.txt",
+        "path_type": "hardlink",
+        "sha256": "bdda1e7edccc63322a505c2e656d7c658ef41cc87abb5c45779ae248c5459b9f",
+        "sha256_in_prefix": "bdda1e7edccc63322a505c2e656d7c658ef41cc87abb5c45779ae248c5459b9f",
+        "size_in_bytes": 872
+      },
+      {
+        "_path": "site-packages/randomname/wordlists/ipsum/lorem.txt",
+        "path_type": "hardlink",
+        "sha256": "7db66f57cfdfbeef8473afd30646332863d1d96837d42bf75b4a489bdbcda2fc",
+        "sha256_in_prefix": "7db66f57cfdfbeef8473afd30646332863d1d96837d42bf75b4a489bdbcda2fc",
+        "size_in_bytes": 1895
+      },
+      {
+        "_path": "site-packages/randomname/wordlists/ipsum/reddit.txt",
+        "path_type": "hardlink",
+        "sha256": "8011ab0053ed1e45d86028feaa1dc1d37fcc59295490e89690a81a9ae0093ee9",
+        "sha256_in_prefix": "8011ab0053ed1e45d86028feaa1dc1d37fcc59295490e89690a81a9ae0093ee9",
+        "size_in_bytes": 853
+      },
+      {
+        "_path": "site-packages/randomname/wordlists/names/cities/alpha.txt",
+        "path_type": "hardlink",
+        "sha256": "122b36078bbefa877a440a867a4fecb3a81ff9837792f5fe6612751e4a9cc9d7",
+        "sha256_in_prefix": "122b36078bbefa877a440a867a4fecb3a81ff9837792f5fe6612751e4a9cc9d7",
+        "size_in_bytes": 433
+      },
+      {
+        "_path": "site-packages/randomname/wordlists/names/cities/canada.txt",
+        "path_type": "hardlink",
+        "sha256": "76a04dd837ed8fa4971c1cbcff476c3ebe23431c5dcd7428a0f147af55b37063",
+        "sha256_in_prefix": "76a04dd837ed8fa4971c1cbcff476c3ebe23431c5dcd7428a0f147af55b37063",
+        "size_in_bytes": 84
+      },
+      {
+        "_path": "site-packages/randomname/wordlists/names/cities/city_states.txt",
+        "path_type": "hardlink",
+        "sha256": "44648033b9960b7b3bd3e3ba56d1588c411b657bedc3af21704834ed7f52b0d2",
+        "sha256_in_prefix": "44648033b9960b7b3bd3e3ba56d1588c411b657bedc3af21704834ed7f52b0d2",
+        "size_in_bytes": 51
+      },
+      {
+        "_path": "site-packages/randomname/wordlists/names/cities/france.txt",
+        "path_type": "hardlink",
+        "sha256": "5491e8688e01753fa5a2e42c34260e016ea766fe5d0ebec392863f9872e0414b",
+        "sha256_in_prefix": "5491e8688e01753fa5a2e42c34260e016ea766fe5d0ebec392863f9872e0414b",
+        "size_in_bytes": 745
+      },
+      {
+        "_path": "site-packages/randomname/wordlists/names/cities/ireland.txt",
+        "path_type": "hardlink",
+        "sha256": "a6b6cc0713cf1e626db900a47e50b101f4c5c3626dae6e1aeafa0b0e6828496a",
+        "sha256_in_prefix": "a6b6cc0713cf1e626db900a47e50b101f4c5c3626dae6e1aeafa0b0e6828496a",
+        "size_in_bytes": 281
+      },
+      {
+        "_path": "site-packages/randomname/wordlists/names/cities/netherlands.txt",
+        "path_type": "hardlink",
+        "sha256": "c6fc4362bd72430cc0c745f0b907067aec2d481c6feae3bb1408faeb779f6e68",
+        "sha256_in_prefix": "c6fc4362bd72430cc0c745f0b907067aec2d481c6feae3bb1408faeb779f6e68",
+        "size_in_bytes": 1289
+      },
+      {
+        "_path": "site-packages/randomname/wordlists/names/cities/spain.txt",
+        "path_type": "hardlink",
+        "sha256": "db8ee6586ac88cc3b15f26acb5167822d6f7e42c8bc7e278a1b74e06e514fc1c",
+        "sha256_in_prefix": "db8ee6586ac88cc3b15f26acb5167822d6f7e42c8bc7e278a1b74e06e514fc1c",
+        "size_in_bytes": 11677
+      },
+      {
+        "_path": "site-packages/randomname/wordlists/names/cities/switzerland.txt",
+        "path_type": "hardlink",
+        "sha256": "146b336c0814e57bdbf849576d61f5cd1e583e4ba2421abbb97f2ca933e05251",
+        "sha256_in_prefix": "146b336c0814e57bdbf849576d61f5cd1e583e4ba2421abbb97f2ca933e05251",
+        "size_in_bytes": 1050
+      },
+      {
+        "_path": "site-packages/randomname/wordlists/names/cities/united_states.txt",
+        "path_type": "hardlink",
+        "sha256": "0d8d468bb13803279f97e9abfd4e959f1edebf60504d4a6dfe3eae7d029d638e",
+        "sha256_in_prefix": "0d8d468bb13803279f97e9abfd4e959f1edebf60504d4a6dfe3eae7d029d638e",
+        "size_in_bytes": 959
+      },
+      {
+        "_path": "site-packages/randomname/wordlists/names/codenames/apple.txt",
+        "path_type": "hardlink",
+        "sha256": "318a0b5c91cb0de6bd75b20789d45b1a2ef9c39cdbbd453727a645b1565921af",
+        "sha256_in_prefix": "318a0b5c91cb0de6bd75b20789d45b1a2ef9c39cdbbd453727a645b1565921af",
+        "size_in_bytes": 876
+      },
+      {
+        "_path": "site-packages/randomname/wordlists/names/codenames/intel.txt",
+        "path_type": "hardlink",
+        "sha256": "d297237981700f7cef9aa4be3a359deab62c5828760990cfe34082757bf60094",
+        "sha256_in_prefix": "d297237981700f7cef9aa4be3a359deab62c5828760990cfe34082757bf60094",
+        "size_in_bytes": 441
+      },
+      {
+        "_path": "site-packages/randomname/wordlists/names/codenames/microsoft.txt",
+        "path_type": "hardlink",
+        "sha256": "4443171ea6a23409019f927d1d7e82cc5a400c24a0d834dae6ff750e4002a47b",
+        "sha256_in_prefix": "4443171ea6a23409019f927d1d7e82cc5a400c24a0d834dae6ff750e4002a47b",
+        "size_in_bytes": 647
+      },
+      {
+        "_path": "site-packages/randomname/wordlists/names/companies/unicorns.txt",
+        "path_type": "hardlink",
+        "sha256": "1d2b689a0f136567e1d8fa3f123b35cc9f457ab74e618d31e0cc281880eeebd3",
+        "sha256_in_prefix": "1d2b689a0f136567e1d8fa3f123b35cc9f457ab74e618d31e0cc281880eeebd3",
+        "size_in_bytes": 223
+      },
+      {
+        "_path": "site-packages/randomname/wordlists/names/people/butlers.txt",
+        "path_type": "hardlink",
+        "sha256": "ee7e1fef8623ca0f587572e3ef4394ebd7a7e5309c5f08692a69830a2c331916",
+        "sha256_in_prefix": "ee7e1fef8623ca0f587572e3ef4394ebd7a7e5309c5f08692a69830a2c331916",
+        "size_in_bytes": 141
+      },
+      {
+        "_path": "site-packages/randomname/wordlists/names/people/computing.txt",
+        "path_type": "hardlink",
+        "sha256": "79dff6b05d79732386719ed7d7634eb1d85f12194ed9d16ebb219be3e1d8cc43",
+        "sha256_in_prefix": "79dff6b05d79732386719ed7d7634eb1d85f12194ed9d16ebb219be3e1d8cc43",
+        "size_in_bytes": 326
+      },
+      {
+        "_path": "site-packages/randomname/wordlists/names/people/founders.txt",
+        "path_type": "hardlink",
+        "sha256": "519e2df425bf2c4b470fbd8fce777567079e63eaa68c7e169d047ce4fb1a8631",
+        "sha256_in_prefix": "519e2df425bf2c4b470fbd8fce777567079e63eaa68c7e169d047ce4fb1a8631",
+        "size_in_bytes": 81
+      },
+      {
+        "_path": "site-packages/randomname/wordlists/names/states/canada.txt",
+        "path_type": "hardlink",
+        "sha256": "4ceff1b79860e0fda54685751ba75dab22c9323932107d1e3d7f7e1a2ad6ef64",
+        "sha256_in_prefix": "4ceff1b79860e0fda54685751ba75dab22c9323932107d1e3d7f7e1a2ad6ef64",
+        "size_in_bytes": 122
+      },
+      {
+        "_path": "site-packages/randomname/wordlists/names/states/city_states.txt",
+        "path_type": "hardlink",
+        "sha256": "bf6f057fea03cf5cd4a116e2a09bf375a6be66be96276f1af07d70f28bb3fed6",
+        "sha256_in_prefix": "bf6f057fea03cf5cd4a116e2a09bf375a6be66be96276f1af07d70f28bb3fed6",
+        "size_in_bytes": 73
+      },
+      {
+        "_path": "site-packages/randomname/wordlists/names/states/switzerland.txt",
+        "path_type": "hardlink",
+        "sha256": "d547f44f910a1d592ac626d31d730e18a573537d447fd7bdfe20ff07177b1466",
+        "sha256_in_prefix": "d547f44f910a1d592ac626d31d730e18a573537d447fd7bdfe20ff07177b1466",
+        "size_in_bytes": 243
+      },
+      {
+        "_path": "site-packages/randomname/wordlists/names/states/usa.txt",
+        "path_type": "hardlink",
+        "sha256": "03f608b426b22e5b9c0d0f1d9ce29126ed0eeeb7d492e006dabfb4411ac519cf",
+        "sha256_in_prefix": "03f608b426b22e5b9c0d0f1d9ce29126ed0eeeb7d492e006dabfb4411ac519cf",
+        "size_in_bytes": 481
+      },
+      {
+        "_path": "site-packages/randomname/wordlists/names/streets/chicago.txt",
+        "path_type": "hardlink",
+        "sha256": "adb73c795fec522c3df798dc802766a2a63abdc43d7af7538209984412aa47fe",
+        "sha256_in_prefix": "adb73c795fec522c3df798dc802766a2a63abdc43d7af7538209984412aa47fe",
+        "size_in_bytes": 9706
+      },
+      {
+        "_path": "site-packages/randomname/wordlists/names/streets/newyork.txt",
+        "path_type": "hardlink",
+        "sha256": "4d157e08e3ec87088e9b7f57d4a24038d595684b4288df51f6f8c3590986c239",
+        "sha256_in_prefix": "4d157e08e3ec87088e9b7f57d4a24038d595684b4288df51f6f8c3590986c239",
+        "size_in_bytes": 566
+      },
+      {
+        "_path": "site-packages/randomname/wordlists/names/surnames/basque.txt",
+        "path_type": "hardlink",
+        "sha256": "572c831365430b9bbf9baa1f9537c3deb5e9fc30fd48c09e5de77c71b239a9d8",
+        "sha256_in_prefix": "572c831365430b9bbf9baa1f9537c3deb5e9fc30fd48c09e5de77c71b239a9d8",
+        "size_in_bytes": 620
+      },
+      {
+        "_path": "site-packages/randomname/wordlists/names/surnames/english.txt",
+        "path_type": "hardlink",
+        "sha256": "7724a0f67b87cec675a1687827a97435d304c67710d08dc7979dc39263e7e951",
+        "sha256_in_prefix": "7724a0f67b87cec675a1687827a97435d304c67710d08dc7979dc39263e7e951",
+        "size_in_bytes": 4797
+      },
+      {
+        "_path": "site-packages/randomname/wordlists/names/surnames/french.txt",
+        "path_type": "hardlink",
+        "sha256": "d4a75d1e01d39f3fe403156d3446ad472240998515abffbd8eae54ae365c9617",
+        "sha256_in_prefix": "d4a75d1e01d39f3fe403156d3446ad472240998515abffbd8eae54ae365c9617",
+        "size_in_bytes": 946
+      },
+      {
+        "_path": "site-packages/randomname/wordlists/names/surnames/german.txt",
+        "path_type": "hardlink",
+        "sha256": "fc301b008c81bc834a3e5ad84ec8e9851e0d25fd40ab56b1591b26ac9acb8c56",
+        "sha256_in_prefix": "fc301b008c81bc834a3e5ad84ec8e9851e0d25fd40ab56b1591b26ac9acb8c56",
+        "size_in_bytes": 2248
+      },
+      {
+        "_path": "site-packages/randomname/wordlists/names/surnames/irish.txt",
+        "path_type": "hardlink",
+        "sha256": "f8d665d646787112bc79efde2719d6667668bd0472e919ffb6d71d4cbd91d471",
+        "sha256_in_prefix": "f8d665d646787112bc79efde2719d6667668bd0472e919ffb6d71d4cbd91d471",
+        "size_in_bytes": 1248
+      },
+      {
+        "_path": "site-packages/randomname/wordlists/names/surnames/italian.txt",
+        "path_type": "hardlink",
+        "sha256": "290edf826c0a55d9322056854b6e68384aa4bdfce96c2c8d303d5a74aab082c4",
+        "sha256_in_prefix": "290edf826c0a55d9322056854b6e68384aa4bdfce96c2c8d303d5a74aab082c4",
+        "size_in_bytes": 1020
+      },
+      {
+        "_path": "site-packages/randomname/wordlists/names/surnames/scottish.txt",
+        "path_type": "hardlink",
+        "sha256": "5932d0017273f0d2e4a2c01b56c6b2e1341c01137d6b9023271de91fbc6a3a49",
+        "sha256_in_prefix": "5932d0017273f0d2e4a2c01b56c6b2e1341c01137d6b9023271de91fbc6a3a49",
+        "size_in_bytes": 1201
+      },
+      {
+        "_path": "site-packages/randomname/wordlists/nouns/3d_graphics.txt",
+        "path_type": "hardlink",
+        "sha256": "2bc73e34f9e345c965a1ae24282b6e2c04016311e8e61ab17c07d04c4c1f565a",
+        "sha256_in_prefix": "2bc73e34f9e345c965a1ae24282b6e2c04016311e8e61ab17c07d04c4c1f565a",
+        "size_in_bytes": 793
+      },
+      {
+        "_path": "site-packages/randomname/wordlists/nouns/3d_printing.txt",
+        "path_type": "hardlink",
+        "sha256": "c27c9e6fa4eeb727e521395bc087eb9b299d765d0c53f32edb72a524df1da22e",
+        "sha256_in_prefix": "c27c9e6fa4eeb727e521395bc087eb9b299d765d0c53f32edb72a524df1da22e",
+        "size_in_bytes": 190
+      },
+      {
+        "_path": "site-packages/randomname/wordlists/nouns/accounting.txt",
+        "path_type": "hardlink",
+        "sha256": "4b82fdc352061b77cd827931da2b7707ea9b76c19ed723f49608e5da358e5a5a",
+        "sha256_in_prefix": "4b82fdc352061b77cd827931da2b7707ea9b76c19ed723f49608e5da358e5a5a",
+        "size_in_bytes": 324
+      },
+      {
+        "_path": "site-packages/randomname/wordlists/nouns/algorithms.txt",
+        "path_type": "hardlink",
+        "sha256": "81535f606644a8993bfc7ec4662da58389113411af4e88668d401dd9a618e728",
+        "sha256_in_prefix": "81535f606644a8993bfc7ec4662da58389113411af4e88668d401dd9a618e728",
+        "size_in_bytes": 784
+      },
+      {
+        "_path": "site-packages/randomname/wordlists/nouns/apex_predators.txt",
+        "path_type": "hardlink",
+        "sha256": "b9745e0d161271bd0c2481d7bad444735dc47d41ae499d6ce15685754df6d250",
+        "sha256_in_prefix": "b9745e0d161271bd0c2481d7bad444735dc47d41ae499d6ce15685754df6d250",
+        "size_in_bytes": 274
+      },
+      {
+        "_path": "site-packages/randomname/wordlists/nouns/architecture.txt",
+        "path_type": "hardlink",
+        "sha256": "56e9602e41dcca8e5d7784664d4801a2f4875e29032e50423e542002b17dfda2",
+        "sha256_in_prefix": "56e9602e41dcca8e5d7784664d4801a2f4875e29032e50423e542002b17dfda2",
+        "size_in_bytes": 276
+      },
+      {
+        "_path": "site-packages/randomname/wordlists/nouns/astronomy.txt",
+        "path_type": "hardlink",
+        "sha256": "b617be535e83551c4578744271fd450e9ba44889fa2245bf2002da1006d779f5",
+        "sha256_in_prefix": "b617be535e83551c4578744271fd450e9ba44889fa2245bf2002da1006d779f5",
+        "size_in_bytes": 291
+      },
+      {
+        "_path": "site-packages/randomname/wordlists/nouns/automobiles.txt",
+        "path_type": "hardlink",
+        "sha256": "e7a2bf8e6b116859e04d571047a2fe6d4b8da77d91d31366c1eb00b9a83b3adf",
+        "sha256_in_prefix": "e7a2bf8e6b116859e04d571047a2fe6d4b8da77d91d31366c1eb00b9a83b3adf",
+        "size_in_bytes": 168
+      },
+      {
+        "_path": "site-packages/randomname/wordlists/nouns/birds.txt",
+        "path_type": "hardlink",
+        "sha256": "4b3b9fe022d1212b86613f22a40b68f9ab0b13cb83b2fdd852c237cd4163e79d",
+        "sha256_in_prefix": "4b3b9fe022d1212b86613f22a40b68f9ab0b13cb83b2fdd852c237cd4163e79d",
+        "size_in_bytes": 452
+      },
+      {
+        "_path": "site-packages/randomname/wordlists/nouns/buildings.txt",
+        "path_type": "hardlink",
+        "sha256": "6470357c730fa62ff79a324b59cea400b1126a141f6bf9723736c39af0d2b1e3",
+        "sha256_in_prefix": "6470357c730fa62ff79a324b59cea400b1126a141f6bf9723736c39af0d2b1e3",
+        "size_in_bytes": 598
+      },
+      {
+        "_path": "site-packages/randomname/wordlists/nouns/car_parts.txt",
+        "path_type": "hardlink",
+        "sha256": "4f080c4a54da106407a2a54f34248ac66575251b958724c6c692d8bd48963c8d",
+        "sha256_in_prefix": "4f080c4a54da106407a2a54f34248ac66575251b958724c6c692d8bd48963c8d",
+        "size_in_bytes": 273
+      },
+      {
+        "_path": "site-packages/randomname/wordlists/nouns/cats.txt",
+        "path_type": "hardlink",
+        "sha256": "e0939a2b72bd904a371ab96eb179eeb9a1b5438538851a5379b50df74e8474d7",
+        "sha256_in_prefix": "e0939a2b72bd904a371ab96eb179eeb9a1b5438538851a5379b50df74e8474d7",
+        "size_in_bytes": 155
+      },
+      {
+        "_path": "site-packages/randomname/wordlists/nouns/cheese.txt",
+        "path_type": "hardlink",
+        "sha256": "e07cd59303870b2893a48a532619de2a0af17615ff8bbcda6e91a6d2216eee67",
+        "sha256_in_prefix": "e07cd59303870b2893a48a532619de2a0af17615ff8bbcda6e91a6d2216eee67",
+        "size_in_bytes": 231
+      },
+      {
+        "_path": "site-packages/randomname/wordlists/nouns/chemistry.txt",
+        "path_type": "hardlink",
+        "sha256": "197cf0335bfcde9180c0a8ef556c1507147219259b5b1470a37d4f95228c5fa4",
+        "sha256_in_prefix": "197cf0335bfcde9180c0a8ef556c1507147219259b5b1470a37d4f95228c5fa4",
+        "size_in_bytes": 314
+      },
+      {
+        "_path": "site-packages/randomname/wordlists/nouns/coding.txt",
+        "path_type": "hardlink",
+        "sha256": "6ddbe143aa2e67f1fba3ab47ca34faefbd67f40179492f20bb68fb1a73098c53",
+        "sha256_in_prefix": "6ddbe143aa2e67f1fba3ab47ca34faefbd67f40179492f20bb68fb1a73098c53",
+        "size_in_bytes": 154
+      },
+      {
+        "_path": "site-packages/randomname/wordlists/nouns/condiments.txt",
+        "path_type": "hardlink",
+        "sha256": "aba787ef98693c491a2ecc4b487e7e964bc68e7f6fb18e22e221ba7ecaabb682",
+        "sha256_in_prefix": "aba787ef98693c491a2ecc4b487e7e964bc68e7f6fb18e22e221ba7ecaabb682",
+        "size_in_bytes": 169
+      },
+      {
+        "_path": "site-packages/randomname/wordlists/nouns/construction.txt",
+        "path_type": "hardlink",
+        "sha256": "3f37784aff8714a0a9422d2ca3527a65bdd6ce567a5bd830b92aa033f15775a2",
+        "sha256_in_prefix": "3f37784aff8714a0a9422d2ca3527a65bdd6ce567a5bd830b92aa033f15775a2",
+        "size_in_bytes": 1596
+      },
+      {
+        "_path": "site-packages/randomname/wordlists/nouns/containers.txt",
+        "path_type": "hardlink",
+        "sha256": "a7d1e18273e8024f6d54296d9b8aebf15abaf73c5ac86ba9651dbfc088d121a3",
+        "sha256_in_prefix": "a7d1e18273e8024f6d54296d9b8aebf15abaf73c5ac86ba9651dbfc088d121a3",
+        "size_in_bytes": 381
+      },
+      {
+        "_path": "site-packages/randomname/wordlists/nouns/corporate.txt",
+        "path_type": "hardlink",
+        "sha256": "ad5492b4451e274183bd54b22d3ed89dfb2defb1f3552830fa051b702e916448",
+        "sha256_in_prefix": "ad5492b4451e274183bd54b22d3ed89dfb2defb1f3552830fa051b702e916448",
+        "size_in_bytes": 915
+      },
+      {
+        "_path": "site-packages/randomname/wordlists/nouns/corporate_job.txt",
+        "path_type": "hardlink",
+        "sha256": "7824052107cee4c856eb3eeedb136b04f1970f83b64bfd43526f518dd9bece6a",
+        "sha256_in_prefix": "7824052107cee4c856eb3eeedb136b04f1970f83b64bfd43526f518dd9bece6a",
+        "size_in_bytes": 312
+      },
+      {
+        "_path": "site-packages/randomname/wordlists/nouns/cotton.txt",
+        "path_type": "hardlink",
+        "sha256": "269bb7b21d4ea2a4702a9bda93b8963aa017332a1ca9f3ed1dd1ea2d697cac7a",
+        "sha256_in_prefix": "269bb7b21d4ea2a4702a9bda93b8963aa017332a1ca9f3ed1dd1ea2d697cac7a",
+        "size_in_bytes": 215
+      },
+      {
+        "_path": "site-packages/randomname/wordlists/nouns/data_structures.txt",
+        "path_type": "hardlink",
+        "sha256": "6ff8a0caab022c70b5e0646ec4799cff4699b49528e35f5f87c0bb4fca9dc768",
+        "sha256_in_prefix": "6ff8a0caab022c70b5e0646ec4799cff4699b49528e35f5f87c0bb4fca9dc768",
+        "size_in_bytes": 181
+      },
+      {
+        "_path": "site-packages/randomname/wordlists/nouns/design.txt",
+        "path_type": "hardlink",
+        "sha256": "dc4cb90d7a0081cd8c729b99e4387fa2f83026e8745c67939df6abdf3f9b5190",
+        "sha256_in_prefix": "dc4cb90d7a0081cd8c729b99e4387fa2f83026e8745c67939df6abdf3f9b5190",
+        "size_in_bytes": 504
+      },
+      {
+        "_path": "site-packages/randomname/wordlists/nouns/dogs.txt",
+        "path_type": "hardlink",
+        "sha256": "410adf1a60035bc9bb7a9533f775191574007236de690f519dc8b74720748823",
+        "sha256_in_prefix": "410adf1a60035bc9bb7a9533f775191574007236de690f519dc8b74720748823",
+        "size_in_bytes": 188
+      },
+      {
+        "_path": "site-packages/randomname/wordlists/nouns/driving.txt",
+        "path_type": "hardlink",
+        "sha256": "133d0eba932d2896339d80dbd85b0cc8154ebdc4bacb64eb7595e5d8fe739550",
+        "sha256_in_prefix": "133d0eba932d2896339d80dbd85b0cc8154ebdc4bacb64eb7595e5d8fe739550",
+        "size_in_bytes": 248
+      },
+      {
+        "_path": "site-packages/randomname/wordlists/nouns/fast_food.txt",
+        "path_type": "hardlink",
+        "sha256": "7bce095e62d7e71734f35bce18fabc083d6c72f9da8e3e745429d800c0d814ad",
+        "sha256_in_prefix": "7bce095e62d7e71734f35bce18fabc083d6c72f9da8e3e745429d800c0d814ad",
+        "size_in_bytes": 203
+      },
+      {
+        "_path": "site-packages/randomname/wordlists/nouns/filmmaking.txt",
+        "path_type": "hardlink",
+        "sha256": "502583911f0374f5bb028f3586dc9ffe6d0679de3ee399e3595825409c1acdf3",
+        "sha256_in_prefix": "502583911f0374f5bb028f3586dc9ffe6d0679de3ee399e3595825409c1acdf3",
+        "size_in_bytes": 437
+      },
+      {
+        "_path": "site-packages/randomname/wordlists/nouns/fish.txt",
+        "path_type": "hardlink",
+        "sha256": "5c4b274a631bb9fb711b7e22cca36d616f65c462b29301b0e5618af9321e2c1a",
+        "sha256_in_prefix": "5c4b274a631bb9fb711b7e22cca36d616f65c462b29301b0e5618af9321e2c1a",
+        "size_in_bytes": 242
+      },
+      {
+        "_path": "site-packages/randomname/wordlists/nouns/food.txt",
+        "path_type": "hardlink",
+        "sha256": "ed8c9ef57d24fae424f843222bf0b7e4f0767587985d9e530bbc685c2a9c31fe",
+        "sha256_in_prefix": "ed8c9ef57d24fae424f843222bf0b7e4f0767587985d9e530bbc685c2a9c31fe",
+        "size_in_bytes": 716
+      },
+      {
+        "_path": "site-packages/randomname/wordlists/nouns/fortifications.txt",
+        "path_type": "hardlink",
+        "sha256": "c1968bd2fc26da254bf2157aa047708fbef6637c304c405d769ae05f83cc46b7",
+        "sha256_in_prefix": "c1968bd2fc26da254bf2157aa047708fbef6637c304c405d769ae05f83cc46b7",
+        "size_in_bytes": 154
+      },
+      {
+        "_path": "site-packages/randomname/wordlists/nouns/fruit.txt",
+        "path_type": "hardlink",
+        "sha256": "f0dc50a1b9ff9cd7c29025036c75fdc880d76e9121f4105d4efd51a121d9363a",
+        "sha256_in_prefix": "f0dc50a1b9ff9cd7c29025036c75fdc880d76e9121f4105d4efd51a121d9363a",
+        "size_in_bytes": 216
+      },
+      {
+        "_path": "site-packages/randomname/wordlists/nouns/furniture.txt",
+        "path_type": "hardlink",
+        "sha256": "501f64a31f06bf68f52710287fca2859e38b04d5aff34930f6c986808ac29a30",
+        "sha256_in_prefix": "501f64a31f06bf68f52710287fca2859e38b04d5aff34930f6c986808ac29a30",
+        "size_in_bytes": 91
+      },
+      {
+        "_path": "site-packages/randomname/wordlists/nouns/gaming.txt",
+        "path_type": "hardlink",
+        "sha256": "9f6af7c1ce2437d1deda99844e4b3822d4f0332ceba59e8a098e69a7d3a0a8c9",
+        "sha256_in_prefix": "9f6af7c1ce2437d1deda99844e4b3822d4f0332ceba59e8a098e69a7d3a0a8c9",
+        "size_in_bytes": 308
+      },
+      {
+        "_path": "site-packages/randomname/wordlists/nouns/geography.txt",
+        "path_type": "hardlink",
+        "sha256": "b419ef3de9dffea048cb46818417cd15e95795ecd7ce01ea314a27f4a7b0cbef",
+        "sha256_in_prefix": "b419ef3de9dffea048cb46818417cd15e95795ecd7ce01ea314a27f4a7b0cbef",
+        "size_in_bytes": 594
+      },
+      {
+        "_path": "site-packages/randomname/wordlists/nouns/geometry.txt",
+        "path_type": "hardlink",
+        "sha256": "d6c58380039dd0604c4b9a0c47598978a4d1d7383b496f5f5697972f2e9a04f9",
+        "sha256_in_prefix": "d6c58380039dd0604c4b9a0c47598978a4d1d7383b496f5f5697972f2e9a04f9",
+        "size_in_bytes": 659
+      },
+      {
+        "_path": "site-packages/randomname/wordlists/nouns/ghosts.txt",
+        "path_type": "hardlink",
+        "sha256": "895b192c7b086a69c6382d36aaf9cc6288b448f0d3ad16f0bf274595b99b7b20",
+        "sha256_in_prefix": "895b192c7b086a69c6382d36aaf9cc6288b448f0d3ad16f0bf274595b99b7b20",
+        "size_in_bytes": 104
+      },
+      {
+        "_path": "site-packages/randomname/wordlists/nouns/history.txt",
+        "path_type": "hardlink",
+        "sha256": "974a5b35dd771cc98f1ce287b32660c2c67ec10036e35b065b7bf096259920d1",
+        "sha256_in_prefix": "974a5b35dd771cc98f1ce287b32660c2c67ec10036e35b065b7bf096259920d1",
+        "size_in_bytes": 153
+      },
+      {
+        "_path": "site-packages/randomname/wordlists/nouns/houses.txt",
+        "path_type": "hardlink",
+        "sha256": "e26534b3df0b5e1bc4cc6d7c39f6439327d6688f8ae1d31d30a9bf6d57734ec9",
+        "sha256_in_prefix": "e26534b3df0b5e1bc4cc6d7c39f6439327d6688f8ae1d31d30a9bf6d57734ec9",
+        "size_in_bytes": 158
+      },
+      {
+        "_path": "site-packages/randomname/wordlists/nouns/infrastructure.txt",
+        "path_type": "hardlink",
+        "sha256": "29040d5c5200bd6a6f51c55726aa4e12f84641d8f3b5ccc99c037920a23391cb",
+        "sha256_in_prefix": "29040d5c5200bd6a6f51c55726aa4e12f84641d8f3b5ccc99c037920a23391cb",
+        "size_in_bytes": 72
+      },
+      {
+        "_path": "site-packages/randomname/wordlists/nouns/insurance.txt",
+        "path_type": "hardlink",
+        "sha256": "81379b80626bdc90b6e106bbd573fa81e19bf1f5a20184df1345ec003e56fc41",
+        "sha256_in_prefix": "81379b80626bdc90b6e106bbd573fa81e19bf1f5a20184df1345ec003e56fc41",
+        "size_in_bytes": 259
+      },
+      {
+        "_path": "site-packages/randomname/wordlists/nouns/linear_algebra.txt",
+        "path_type": "hardlink",
+        "sha256": "2bbd4f15ca636a47839162653c7fc21f2137cc30368562944ffaa500080d6655",
+        "sha256_in_prefix": "2bbd4f15ca636a47839162653c7fc21f2137cc30368562944ffaa500080d6655",
+        "size_in_bytes": 229
+      },
+      {
+        "_path": "site-packages/randomname/wordlists/nouns/machine_learning.txt",
+        "path_type": "hardlink",
+        "sha256": "db7f89d2299eabdad9cd9958decf62cafc54a899dd5ce8ab7545b6ccc1f0aae7",
+        "sha256_in_prefix": "db7f89d2299eabdad9cd9958decf62cafc54a899dd5ce8ab7545b6ccc1f0aae7",
+        "size_in_bytes": 453
+      },
+      {
+        "_path": "site-packages/randomname/wordlists/nouns/meat.txt",
+        "path_type": "hardlink",
+        "sha256": "ef6234ea776d2ab8a86cc434e0cba1b7f8f39e9bbd15f0cd2395419a90525b41",
+        "sha256_in_prefix": "ef6234ea776d2ab8a86cc434e0cba1b7f8f39e9bbd15f0cd2395419a90525b41",
+        "size_in_bytes": 115
+      },
+      {
+        "_path": "site-packages/randomname/wordlists/nouns/metals.txt",
+        "path_type": "hardlink",
+        "sha256": "fcbaa139edbf8058b1b54ab6a1b5c0290fdaf8b9a1cd342b2dce02199a08d43b",
+        "sha256_in_prefix": "fcbaa139edbf8058b1b54ab6a1b5c0290fdaf8b9a1cd342b2dce02199a08d43b",
+        "size_in_bytes": 121
+      },
+      {
+        "_path": "site-packages/randomname/wordlists/nouns/military_airforce.txt",
+        "path_type": "hardlink",
+        "sha256": "e07f802662299d91462ba6618f5b6e2c74eb0e9e641b27bae1f1a28aee169233",
+        "sha256_in_prefix": "e07f802662299d91462ba6618f5b6e2c74eb0e9e641b27bae1f1a28aee169233",
+        "size_in_bytes": 257
+      },
+      {
+        "_path": "site-packages/randomname/wordlists/nouns/military_army.txt",
+        "path_type": "hardlink",
+        "sha256": "f1944ee971934bf2d7bdc21a5ff7512378ec6734bed5262c80604618a8ba2fbc",
+        "sha256_in_prefix": "f1944ee971934bf2d7bdc21a5ff7512378ec6734bed5262c80604618a8ba2fbc",
+        "size_in_bytes": 562
+      },
+      {
+        "_path": "site-packages/randomname/wordlists/nouns/military_navy.txt",
+        "path_type": "hardlink",
+        "sha256": "106a63c85c5f37ec739356d1477a58d4a6be7d6994691f88da7574a13982ecea",
+        "sha256_in_prefix": "106a63c85c5f37ec739356d1477a58d4a6be7d6994691f88da7574a13982ecea",
+        "size_in_bytes": 1010
+      },
+      {
+        "_path": "site-packages/randomname/wordlists/nouns/minerals.txt",
+        "path_type": "hardlink",
+        "sha256": "8ba1378611e7247c13b76d00d368f70655b80af5d5f5c4974ad6968aa13461ee",
+        "sha256_in_prefix": "8ba1378611e7247c13b76d00d368f70655b80af5d5f5c4974ad6968aa13461ee",
+        "size_in_bytes": 45
+      },
+      {
+        "_path": "site-packages/randomname/wordlists/nouns/music_instruments.txt",
+        "path_type": "hardlink",
+        "sha256": "eac7cc33712d3cc34eb64ada87e63604a3e8483ddbe74a226864b1e5cadd9e52",
+        "sha256_in_prefix": "eac7cc33712d3cc34eb64ada87e63604a3e8483ddbe74a226864b1e5cadd9e52",
+        "size_in_bytes": 206
+      },
+      {
+        "_path": "site-packages/randomname/wordlists/nouns/music_production.txt",
+        "path_type": "hardlink",
+        "sha256": "b5ac05b0301f5c32839359b746a975ec108ad1a2d7a967deaeab54dabab3deea",
+        "sha256_in_prefix": "b5ac05b0301f5c32839359b746a975ec108ad1a2d7a967deaeab54dabab3deea",
+        "size_in_bytes": 772
+      },
+      {
+        "_path": "site-packages/randomname/wordlists/nouns/music_theory.txt",
+        "path_type": "hardlink",
+        "sha256": "7a2397f58e87747c25e1e16b3661a43b026a955cc7ccd78f9052b12592cf2e68",
+        "sha256_in_prefix": "7a2397f58e87747c25e1e16b3661a43b026a955cc7ccd78f9052b12592cf2e68",
+        "size_in_bytes": 416
+      },
+      {
+        "_path": "site-packages/randomname/wordlists/nouns/phones.txt",
+        "path_type": "hardlink",
+        "sha256": "3d96ef63a4a2a5cfe25f4f1d93e769e3ccb150a08b29bfa4b8e635520b8f7148",
+        "sha256_in_prefix": "3d96ef63a4a2a5cfe25f4f1d93e769e3ccb150a08b29bfa4b8e635520b8f7148",
+        "size_in_bytes": 361
+      },
+      {
+        "_path": "site-packages/randomname/wordlists/nouns/physics.txt",
+        "path_type": "hardlink",
+        "sha256": "fba573516319b1c23e993f85c55e5ca4b1494ff0e2498ad09369193bf30677dd",
+        "sha256_in_prefix": "fba573516319b1c23e993f85c55e5ca4b1494ff0e2498ad09369193bf30677dd",
+        "size_in_bytes": 508
+      },
+      {
+        "_path": "site-packages/randomname/wordlists/nouns/physics_optics.txt",
+        "path_type": "hardlink",
+        "sha256": "33b704243b66b75fd9a1d9f13bb8693baf77942e6fa12c692dab2b1c63d5302a",
+        "sha256_in_prefix": "33b704243b66b75fd9a1d9f13bb8693baf77942e6fa12c692dab2b1c63d5302a",
+        "size_in_bytes": 177
+      },
+      {
+        "_path": "site-packages/randomname/wordlists/nouns/physics_units.txt",
+        "path_type": "hardlink",
+        "sha256": "a37acec90ce582b57187fb1b699dfe239cf564deae8b35b2de1a526762fcbe1e",
+        "sha256_in_prefix": "a37acec90ce582b57187fb1b699dfe239cf564deae8b35b2de1a526762fcbe1e",
+        "size_in_bytes": 219
+      },
+      {
+        "_path": "site-packages/randomname/wordlists/nouns/physics_waves.txt",
+        "path_type": "hardlink",
+        "sha256": "f301667e010b8a4d77b9dc43340be1067bbb9ec781c1690a12f1727868d2fba0",
+        "sha256_in_prefix": "f301667e010b8a4d77b9dc43340be1067bbb9ec781c1690a12f1727868d2fba0",
+        "size_in_bytes": 67
+      },
+      {
+        "_path": "site-packages/randomname/wordlists/nouns/plants.txt",
+        "path_type": "hardlink",
+        "sha256": "02b627aece94d4758257d091c71c5c2c067ac71da90b440c93b3940f853ead4c",
+        "sha256_in_prefix": "02b627aece94d4758257d091c71c5c2c067ac71da90b440c93b3940f853ead4c",
+        "size_in_bytes": 333
+      },
+      {
+        "_path": "site-packages/randomname/wordlists/nouns/radio.txt",
+        "path_type": "hardlink",
+        "sha256": "c14687e99d114310368c9ebd25b8128ccf4ff28dc03339eb3f7949e9b8253bc7",
+        "sha256_in_prefix": "c14687e99d114310368c9ebd25b8128ccf4ff28dc03339eb3f7949e9b8253bc7",
+        "size_in_bytes": 401
+      },
+      {
+        "_path": "site-packages/randomname/wordlists/nouns/real_estate.txt",
+        "path_type": "hardlink",
+        "sha256": "20ab352aff55df09c456719cdd1ef31b91ff53566c7c79c336b8342247193c3c",
+        "sha256_in_prefix": "20ab352aff55df09c456719cdd1ef31b91ff53566c7c79c336b8342247193c3c",
+        "size_in_bytes": 313
+      },
+      {
+        "_path": "site-packages/randomname/wordlists/nouns/screenwriting.txt",
+        "path_type": "hardlink",
+        "sha256": "5703c0f33791a9bf40f7a33664ae8b454ddbb83312e17adbd7aeb66828981e55",
+        "sha256_in_prefix": "5703c0f33791a9bf40f7a33664ae8b454ddbb83312e17adbd7aeb66828981e55",
+        "size_in_bytes": 85
+      },
+      {
+        "_path": "site-packages/randomname/wordlists/nouns/seasonings.txt",
+        "path_type": "hardlink",
+        "sha256": "74805dc5002f4a5fbaa4735d67a560f49c6a32c486557e76c8668aee024a6632",
+        "sha256_in_prefix": "74805dc5002f4a5fbaa4735d67a560f49c6a32c486557e76c8668aee024a6632",
+        "size_in_bytes": 202
+      },
+      {
+        "_path": "site-packages/randomname/wordlists/nouns/set_theory.txt",
+        "path_type": "hardlink",
+        "sha256": "dfc8bf830785e2ddd816e7bd0a16080bc36dd6d9357ca507714ce1323d429a5c",
+        "sha256_in_prefix": "dfc8bf830785e2ddd816e7bd0a16080bc36dd6d9357ca507714ce1323d429a5c",
+        "size_in_bytes": 121
+      },
+      {
+        "_path": "site-packages/randomname/wordlists/nouns/shopping.txt",
+        "path_type": "hardlink",
+        "sha256": "d403de4b16e2836da98326c88c7551f69d198d352388d89d1fe73ef860197180",
+        "sha256_in_prefix": "d403de4b16e2836da98326c88c7551f69d198d352388d89d1fe73ef860197180",
+        "size_in_bytes": 309
+      },
+      {
+        "_path": "site-packages/randomname/wordlists/nouns/software.txt",
+        "path_type": "hardlink",
+        "sha256": "a9a36869403024c0ef0af25bef8e81859b1211f56d5d3c6d6618122bfb1fd478",
+        "sha256_in_prefix": "a9a36869403024c0ef0af25bef8e81859b1211f56d5d3c6d6618122bfb1fd478",
+        "size_in_bytes": 140
+      },
+      {
+        "_path": "site-packages/randomname/wordlists/nouns/spirits.txt",
+        "path_type": "hardlink",
+        "sha256": "623357cbe1c6e10b7e68d52cd23bed6ffeeb39fd59066c4b88b43887ad7a0103",
+        "sha256_in_prefix": "623357cbe1c6e10b7e68d52cd23bed6ffeeb39fd59066c4b88b43887ad7a0103",
+        "size_in_bytes": 66
+      },
+      {
+        "_path": "site-packages/randomname/wordlists/nouns/sports.txt",
+        "path_type": "hardlink",
+        "sha256": "cfcb6ac2d04d0ac185cc9e530e0b391d639b9872856534856169a62913cf4104",
+        "sha256_in_prefix": "cfcb6ac2d04d0ac185cc9e530e0b391d639b9872856534856169a62913cf4104",
+        "size_in_bytes": 793
+      },
+      {
+        "_path": "site-packages/randomname/wordlists/nouns/startups.txt",
+        "path_type": "hardlink",
+        "sha256": "ecdf28eb591abe19ea583fcfd6ba986656d162258702c02b5ab71f9a91e762cb",
+        "sha256_in_prefix": "ecdf28eb591abe19ea583fcfd6ba986656d162258702c02b5ab71f9a91e762cb",
+        "size_in_bytes": 342
+      },
+      {
+        "_path": "site-packages/randomname/wordlists/nouns/storage.txt",
+        "path_type": "hardlink",
+        "sha256": "0db1e724a6b6078463416b755d2604f78da5802058973c5e443f906667a710ca",
+        "sha256_in_prefix": "0db1e724a6b6078463416b755d2604f78da5802058973c5e443f906667a710ca",
+        "size_in_bytes": 66
+      },
+      {
+        "_path": "site-packages/randomname/wordlists/nouns/travel.txt",
+        "path_type": "hardlink",
+        "sha256": "c72963bc3ae5ad35376f96e314abbe692810d01fe26dd1c947f796330ce0caf0",
+        "sha256_in_prefix": "c72963bc3ae5ad35376f96e314abbe692810d01fe26dd1c947f796330ce0caf0",
+        "size_in_bytes": 330
+      },
+      {
+        "_path": "site-packages/randomname/wordlists/nouns/typography.txt",
+        "path_type": "hardlink",
+        "sha256": "92882c31bab2a1874d5643b7d7a74fb845ffbf676b696005c561263457873203",
+        "sha256_in_prefix": "92882c31bab2a1874d5643b7d7a74fb845ffbf676b696005c561263457873203",
+        "size_in_bytes": 283
+      },
+      {
+        "_path": "site-packages/randomname/wordlists/nouns/vcs.txt",
+        "path_type": "hardlink",
+        "sha256": "fcb9ff42c23c744dfffd652a5685e99d1364419f13529d1c9687890946b74b26",
+        "sha256_in_prefix": "fcb9ff42c23c744dfffd652a5685e99d1364419f13529d1c9687890946b74b26",
+        "size_in_bytes": 244
+      },
+      {
+        "_path": "site-packages/randomname/wordlists/nouns/water.txt",
+        "path_type": "hardlink",
+        "sha256": "82b559ceba2426cd00038b96ae222b3f4607520d6ab8d2e85d1e975db9597345",
+        "sha256_in_prefix": "82b559ceba2426cd00038b96ae222b3f4607520d6ab8d2e85d1e975db9597345",
+        "size_in_bytes": 416
+      },
+      {
+        "_path": "site-packages/randomname/wordlists/nouns/web_development.txt",
+        "path_type": "hardlink",
+        "sha256": "a5b039ff2e09b6028de4f89797bbcefe17b258a4f3cc10ab357a19c64869b764",
+        "sha256_in_prefix": "a5b039ff2e09b6028de4f89797bbcefe17b258a4f3cc10ab357a19c64869b764",
+        "size_in_bytes": 418
+      },
+      {
+        "_path": "site-packages/randomname/wordlists/nouns/wine.txt",
+        "path_type": "hardlink",
+        "sha256": "a2c3c4c370a84f6f431aaa8a1f36829baed70c4b6ee81109dbab0162ee236794",
+        "sha256_in_prefix": "a2c3c4c370a84f6f431aaa8a1f36829baed70c4b6ee81109dbab0162ee236794",
+        "size_in_bytes": 306
+      },
+      {
+        "_path": "site-packages/randomname/wordlists/nouns/wood.txt",
+        "path_type": "hardlink",
+        "sha256": "1f986e3c4c02d69c845e0d04c79f18a2bec7364634d0a5d1a2c6f40cff907d7c",
+        "sha256_in_prefix": "1f986e3c4c02d69c845e0d04c79f18a2bec7364634d0a5d1a2c6f40cff907d7c",
+        "size_in_bytes": 123
+      },
+      {
+        "_path": "site-packages/randomname/wordlists/nouns/writing.txt",
+        "path_type": "hardlink",
+        "sha256": "0a8ad7c5f296c4d05f0fa6f9470ae8840519111b1053e50408840f7af7f0cab2",
+        "sha256_in_prefix": "0a8ad7c5f296c4d05f0fa6f9470ae8840519111b1053e50408840f7af7f0cab2",
+        "size_in_bytes": 431
+      },
+      {
+        "_path": "site-packages/randomname/wordlists/verbs/3d_graphics.txt",
+        "path_type": "hardlink",
+        "sha256": "3c56a9ac9ca2f7eb03fcd0057b36c1fc3f2744ab194847f6414766b00ee97ed2",
+        "sha256_in_prefix": "3c56a9ac9ca2f7eb03fcd0057b36c1fc3f2744ab194847f6414766b00ee97ed2",
+        "size_in_bytes": 203
+      },
+      {
+        "_path": "site-packages/randomname/wordlists/verbs/art.txt",
+        "path_type": "hardlink",
+        "sha256": "9d4c12ec5b754069eca81ac481fcf612a8e2f80df71194f734c5c9364c6745b7",
+        "sha256_in_prefix": "9d4c12ec5b754069eca81ac481fcf612a8e2f80df71194f734c5c9364c6745b7",
+        "size_in_bytes": 158
+      },
+      {
+        "_path": "site-packages/randomname/wordlists/verbs/collection.txt",
+        "path_type": "hardlink",
+        "sha256": "4923f12c207941135a4cb60aed2a3f4b53549c5ad2991eb962f67c84060ac3a5",
+        "sha256_in_prefix": "4923f12c207941135a4cb60aed2a3f4b53549c5ad2991eb962f67c84060ac3a5",
+        "size_in_bytes": 117
+      },
+      {
+        "_path": "site-packages/randomname/wordlists/verbs/communication.txt",
+        "path_type": "hardlink",
+        "sha256": "b16d2a1ef612a50400531fdc0c644c15480e58e8e64531c21902e00441ca4ee7",
+        "sha256_in_prefix": "b16d2a1ef612a50400531fdc0c644c15480e58e8e64531c21902e00441ca4ee7",
+        "size_in_bytes": 198
+      },
+      {
+        "_path": "site-packages/randomname/wordlists/verbs/cooking.txt",
+        "path_type": "hardlink",
+        "sha256": "7116790e44829348e3fb9c9bdfa148cd0dd586eafbb6a21b55b9541cf6676b53",
+        "sha256_in_prefix": "7116790e44829348e3fb9c9bdfa148cd0dd586eafbb6a21b55b9541cf6676b53",
+        "size_in_bytes": 143
+      },
+      {
+        "_path": "site-packages/randomname/wordlists/verbs/corporate.txt",
+        "path_type": "hardlink",
+        "sha256": "a7a84d89ef9d145cbc18f7f63ca0feb50ab1bbb969543e11541077bf6229205e",
+        "sha256_in_prefix": "a7a84d89ef9d145cbc18f7f63ca0feb50ab1bbb969543e11541077bf6229205e",
+        "size_in_bytes": 260
+      },
+      {
+        "_path": "site-packages/randomname/wordlists/verbs/creation.txt",
+        "path_type": "hardlink",
+        "sha256": "7a2404c35a9dc36ef086862854af1d193354fd4b4b84dffc81e04d2092ac38f6",
+        "sha256_in_prefix": "7a2404c35a9dc36ef086862854af1d193354fd4b4b84dffc81e04d2092ac38f6",
+        "size_in_bytes": 153
+      },
+      {
+        "_path": "site-packages/randomname/wordlists/verbs/destruction.txt",
+        "path_type": "hardlink",
+        "sha256": "5236672490d63148543f7f60207364c0b7c276123313fb85ec39dfc8a9278055",
+        "sha256_in_prefix": "5236672490d63148543f7f60207364c0b7c276123313fb85ec39dfc8a9278055",
+        "size_in_bytes": 119
+      },
+      {
+        "_path": "site-packages/randomname/wordlists/verbs/driving.txt",
+        "path_type": "hardlink",
+        "sha256": "dbc0b7d6bc65be78477d39010c61d69f61075bdba53d7d946388450e5c9fd7ad",
+        "sha256_in_prefix": "dbc0b7d6bc65be78477d39010c61d69f61075bdba53d7d946388450e5c9fd7ad",
+        "size_in_bytes": 95
+      },
+      {
+        "_path": "site-packages/randomname/wordlists/verbs/fire.txt",
+        "path_type": "hardlink",
+        "sha256": "7bbf027cb23eebc38fc4700da9fb61c651b1db81452421e72351d95242865eb1",
+        "sha256_in_prefix": "7bbf027cb23eebc38fc4700da9fb61c651b1db81452421e72351d95242865eb1",
+        "size_in_bytes": 118
+      },
+      {
+        "_path": "site-packages/randomname/wordlists/verbs/graphics.txt",
+        "path_type": "hardlink",
+        "sha256": "cb4ee27beae7bb61c2f2dfceb688e6f5b3a664ea5227774c68f8eadfe7422efc",
+        "sha256_in_prefix": "cb4ee27beae7bb61c2f2dfceb688e6f5b3a664ea5227774c68f8eadfe7422efc",
+        "size_in_bytes": 157
+      },
+      {
+        "_path": "site-packages/randomname/wordlists/verbs/look.txt",
+        "path_type": "hardlink",
+        "sha256": "50bf998e61e2613350e910f901449e3fa4b646372146ccceb12ffa80772a2490",
+        "sha256_in_prefix": "50bf998e61e2613350e910f901449e3fa4b646372146ccceb12ffa80772a2490",
+        "size_in_bytes": 69
+      },
+      {
+        "_path": "site-packages/randomname/wordlists/verbs/manipulation.txt",
+        "path_type": "hardlink",
+        "sha256": "f5c9d3ab806210d562d01fb9012881d438aa6c5bee2a3630a5aa498e079b1f7e",
+        "sha256_in_prefix": "f5c9d3ab806210d562d01fb9012881d438aa6c5bee2a3630a5aa498e079b1f7e",
+        "size_in_bytes": 215
+      },
+      {
+        "_path": "site-packages/randomname/wordlists/verbs/military_navy.txt",
+        "path_type": "hardlink",
+        "sha256": "1fc1a5e5905274afe6fb8b2f5c233c854bd5025ed876db012f82e8b782774afd",
+        "sha256_in_prefix": "1fc1a5e5905274afe6fb8b2f5c233c854bd5025ed876db012f82e8b782774afd",
+        "size_in_bytes": 194
+      },
+      {
+        "_path": "site-packages/randomname/wordlists/verbs/movement.txt",
+        "path_type": "hardlink",
+        "sha256": "875c767b50b248f82633b7a27844a9590e7a68f50554830a0f42e82bf2cf3a72",
+        "sha256_in_prefix": "875c767b50b248f82633b7a27844a9590e7a68f50554830a0f42e82bf2cf3a72",
+        "size_in_bytes": 194
+      },
+      {
+        "_path": "site-packages/randomname/wordlists/verbs/music.txt",
+        "path_type": "hardlink",
+        "sha256": "81850aef80b434bcd7d7b7734ee8723b257c6abee62a0c6e9eddd829bed1d167",
+        "sha256_in_prefix": "81850aef80b434bcd7d7b7734ee8723b257c6abee62a0c6e9eddd829bed1d167",
+        "size_in_bytes": 162
+      },
+      {
+        "_path": "site-packages/randomname/wordlists/verbs/music_production.txt",
+        "path_type": "hardlink",
+        "sha256": "9de24caa9df242e00a7fd69627872bdb0399f03947e2c3b219716ad185941b51",
+        "sha256_in_prefix": "9de24caa9df242e00a7fd69627872bdb0399f03947e2c3b219716ad185941b51",
+        "size_in_bytes": 280
+      },
+      {
+        "_path": "site-packages/randomname/wordlists/verbs/programming.txt",
+        "path_type": "hardlink",
+        "sha256": "cef9ec66102c90710209787bb68c71fe537f159cafd7bce6bea6e128cee1cb67",
+        "sha256_in_prefix": "cef9ec66102c90710209787bb68c71fe537f159cafd7bce6bea6e128cee1cb67",
+        "size_in_bytes": 129
+      },
+      {
+        "_path": "site-packages/randomname/wordlists/verbs/quantity.txt",
+        "path_type": "hardlink",
+        "sha256": "7eaa0933df36f228ce1c427ba97a093091c1b8ca4260c6199ff61458f66f4c42",
+        "sha256_in_prefix": "7eaa0933df36f228ce1c427ba97a093091c1b8ca4260c6199ff61458f66f4c42",
+        "size_in_bytes": 166
+      },
+      {
+        "_path": "site-packages/randomname/wordlists/verbs/radio.txt",
+        "path_type": "hardlink",
+        "sha256": "e28afe0d2535d577ffdddfccafd68ad7e1feed781288cdf4eaa44468b79ffbe1",
+        "sha256_in_prefix": "e28afe0d2535d577ffdddfccafd68ad7e1feed781288cdf4eaa44468b79ffbe1",
+        "size_in_bytes": 66
+      },
+      {
+        "_path": "site-packages/randomname/wordlists/verbs/sports.txt",
+        "path_type": "hardlink",
+        "sha256": "b79831e7ef4e924a57751d25a6b6d183dbbbee1171e3f875e70d8c1fb1f00c5d",
+        "sha256_in_prefix": "b79831e7ef4e924a57751d25a6b6d183dbbbee1171e3f875e70d8c1fb1f00c5d",
+        "size_in_bytes": 169
+      },
+      {
+        "_path": "site-packages/randomname/wordlists/verbs/startups.txt",
+        "path_type": "hardlink",
+        "sha256": "5326fda3a89e26117916cdbf0442aa151bde5f95089bd575f20b8b2b95eeb4f4",
+        "sha256_in_prefix": "5326fda3a89e26117916cdbf0442aa151bde5f95089bd575f20b8b2b95eeb4f4",
+        "size_in_bytes": 66
+      },
+      {
+        "_path": "site-packages/randomname/wordlists/verbs/thought.txt",
+        "path_type": "hardlink",
+        "sha256": "76cd61be787fcb1560156ef58227410ab90f6691f52e32dc7a360f53fda3abf0",
+        "sha256_in_prefix": "76cd61be787fcb1560156ef58227410ab90f6691f52e32dc7a360f53fda3abf0",
+        "size_in_bytes": 101
+      },
+      {
+        "_path": "site-packages/randomname/wordlists/verbs/vcs.txt",
+        "path_type": "hardlink",
+        "sha256": "3d143b2b00eb1518e6599cc632655612d6de4c8b8ad14910c0096d2e55795396",
+        "sha256_in_prefix": "3d143b2b00eb1518e6599cc632655612d6de4c8b8ad14910c0096d2e55795396",
+        "size_in_bytes": 132
+      },
+      {
+        "_path": "site-packages/randomname/wordlists/verbs/web.txt",
+        "path_type": "hardlink",
+        "sha256": "33a80ee0c5e5ef7a70de1b83ca2a3bc62c8fc669358f8228046fe45e3fc432b8",
+        "sha256_in_prefix": "33a80ee0c5e5ef7a70de1b83ca2a3bc62c8fc669358f8228046fe45e3fc432b8",
+        "size_in_bytes": 150
+      },
+      {
+        "_path": "lib/python3.10/site-packages/randomname/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/randomname/__pycache__/__main__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/randomname/__pyinstaller/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/randomname/__pyinstaller/__pycache__/hook-randomname.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/randomname/__pycache__/core.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/randomname/__pycache__/util.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "bin/randomname",
+        "path_type": "unix_python_entry_point"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "randomname",
+  "sha256": "7b78bd5a8668f997c1ba6950d4856a1e39b227915ccdd2d53ee7fe087bbaef70",
+  "size": 75962,
+  "subdir": "noarch",
+  "timestamp": 1691794134000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/randomname-0.2.1-pyhd8ed1ab_0.conda",
+  "version": "0.2.1"
+}

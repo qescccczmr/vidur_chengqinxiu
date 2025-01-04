@@ -1,0 +1,186 @@
+{
+  "build": "py310hff52083_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.10,<3.11.0a0",
+    "python_abi 3.10.* *_cp310"
+  ],
+  "extracted_package_dir": "/cpfs01/user/chengqinxiu/anaconda3/pkgs/tzlocal-5.2-py310hff52083_1",
+  "files": [
+    "lib/python3.10/site-packages/tzlocal-5.2.dist-info/INSTALLER",
+    "lib/python3.10/site-packages/tzlocal-5.2.dist-info/LICENSE.txt",
+    "lib/python3.10/site-packages/tzlocal-5.2.dist-info/METADATA",
+    "lib/python3.10/site-packages/tzlocal-5.2.dist-info/RECORD",
+    "lib/python3.10/site-packages/tzlocal-5.2.dist-info/REQUESTED",
+    "lib/python3.10/site-packages/tzlocal-5.2.dist-info/WHEEL",
+    "lib/python3.10/site-packages/tzlocal-5.2.dist-info/direct_url.json",
+    "lib/python3.10/site-packages/tzlocal-5.2.dist-info/top_level.txt",
+    "lib/python3.10/site-packages/tzlocal/__init__.py",
+    "lib/python3.10/site-packages/tzlocal/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/tzlocal/__pycache__/unix.cpython-310.pyc",
+    "lib/python3.10/site-packages/tzlocal/__pycache__/utils.cpython-310.pyc",
+    "lib/python3.10/site-packages/tzlocal/__pycache__/win32.cpython-310.pyc",
+    "lib/python3.10/site-packages/tzlocal/__pycache__/windows_tz.cpython-310.pyc",
+    "lib/python3.10/site-packages/tzlocal/py.typed",
+    "lib/python3.10/site-packages/tzlocal/unix.py",
+    "lib/python3.10/site-packages/tzlocal/utils.py",
+    "lib/python3.10/site-packages/tzlocal/win32.py",
+    "lib/python3.10/site-packages/tzlocal/windows_tz.py"
+  ],
+  "fn": "tzlocal-5.2-py310hff52083_1.conda",
+  "license": "MIT",
+  "link": {
+    "source": "/cpfs01/user/chengqinxiu/anaconda3/pkgs/tzlocal-5.2-py310hff52083_1",
+    "type": 1
+  },
+  "md5": "a428bfcc3bfc8f850578317c72f0d61f",
+  "name": "tzlocal",
+  "package_tarball_full_path": "/cpfs01/user/chengqinxiu/anaconda3/pkgs/tzlocal-5.2-py310hff52083_1.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.10/site-packages/tzlocal-5.2.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tzlocal-5.2.dist-info/LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "d99ab209aeb16aad2c25c90ffd83c1a981e290ffff76a420a2ab03e03f041b8c",
+        "sha256_in_prefix": "d99ab209aeb16aad2c25c90ffd83c1a981e290ffff76a420a2ab03e03f041b8c",
+        "size_in_bytes": 1060
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tzlocal-5.2.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "9cc312a0b0f37121b14d5dd559deccaed9e7dd8a4614c3d98f0e791e811980a6",
+        "sha256_in_prefix": "9cc312a0b0f37121b14d5dd559deccaed9e7dd8a4614c3d98f0e791e811980a6",
+        "size_in_bytes": 7778
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tzlocal-5.2.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "1b82e5df20ccdc9b49c55dad73b0aac35cbad4865de941d7f20a99ad96321947",
+        "sha256_in_prefix": "1b82e5df20ccdc9b49c55dad73b0aac35cbad4865de941d7f20a99ad96321947",
+        "size_in_bytes": 1330
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tzlocal-5.2.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tzlocal-5.2.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "1e20998f3bb2e83c3485d5f94772c214f0e6152e015a5f07fbc5b7f577e6817e",
+        "sha256_in_prefix": "1e20998f3bb2e83c3485d5f94772c214f0e6152e015a5f07fbc5b7f577e6817e",
+        "size_in_bytes": 91
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tzlocal-5.2.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "2e43087daf638d6e4d6414b1e5fee27d8be5700f8d9b3bfda9d2df94b29cead1",
+        "sha256_in_prefix": "2e43087daf638d6e4d6414b1e5fee27d8be5700f8d9b3bfda9d2df94b29cead1",
+        "size_in_bytes": 103
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tzlocal-5.2.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "411eaf6563f9db4c1a1139e4a2d0293d03f2561f559e3a183e80151cb2b50eb1",
+        "sha256_in_prefix": "411eaf6563f9db4c1a1139e4a2d0293d03f2561f559e3a183e80151cb2b50eb1",
+        "size_in_bytes": 8
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tzlocal/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "d8e403c7ad5366ffc798197b24a28fe004e5765c7939d1173a329702df2b4306",
+        "sha256_in_prefix": "d8e403c7ad5366ffc798197b24a28fe004e5765c7939d1173a329702df2b4306",
+        "size_in_bytes": 396
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tzlocal/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "5ea9430b7087f620ec5c427be15dc06c52bfb7e37282e9078fe79eb212c69e1e",
+        "sha256_in_prefix": "5ea9430b7087f620ec5c427be15dc06c52bfb7e37282e9078fe79eb212c69e1e",
+        "size_in_bytes": 425
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tzlocal/__pycache__/unix.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "4d86bc8f425c6ad2b35f43aa07e2dc036737ed6cb0a7729561218237b75dd82c",
+        "sha256_in_prefix": "4d86bc8f425c6ad2b35f43aa07e2dc036737ed6cb0a7729561218237b75dd82c",
+        "size_in_bytes": 4966
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tzlocal/__pycache__/utils.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "06b73e01aedc0a0072126413249a338ad0f8c8aa78d43be0f949f220414a898b",
+        "sha256_in_prefix": "06b73e01aedc0a0072126413249a338ad0f8c8aa78d43be0f949f220414a898b",
+        "size_in_bytes": 2601
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tzlocal/__pycache__/win32.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "885b84dacc0ef4dfb0f084bcf747b15ce93d5941283da9b0fa2870657bcf5061",
+        "sha256_in_prefix": "885b84dacc0ef4dfb0f084bcf747b15ce93d5941283da9b0fa2870657bcf5061",
+        "size_in_bytes": 2987
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tzlocal/__pycache__/windows_tz.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "f9d9b95e20e005d2d42f28f1e15c4964609934d70637a641320b9737e9dcf24c",
+        "sha256_in_prefix": "f9d9b95e20e005d2d42f28f1e15c4964609934d70637a641320b9737e9dcf24c",
+        "size_in_bytes": 25827
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tzlocal/py.typed",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tzlocal/unix.py",
+        "path_type": "hardlink",
+        "sha256": "ef2405a7ad50d9696fe37e6400c97fcfb219133f0eacbbaa78ceb750ee18936f",
+        "sha256_in_prefix": "ef2405a7ad50d9696fe37e6400c97fcfb219133f0eacbbaa78ceb750ee18936f",
+        "size_in_bytes": 8168
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tzlocal/utils.py",
+        "path_type": "hardlink",
+        "sha256": "42d655df6bd9d7b51e3294475b6cea78023f73368f971a708ac633b33aa9cb26",
+        "sha256_in_prefix": "42d655df6bd9d7b51e3294475b6cea78023f73368f971a708ac633b33aa9cb26",
+        "size_in_bytes": 3329
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tzlocal/win32.py",
+        "path_type": "hardlink",
+        "sha256": "eefab349f0f21b8aea8ac39bdbaeb23276a1fe9b63b9a87cace0e36dcecc7c99",
+        "sha256_in_prefix": "eefab349f0f21b8aea8ac39bdbaeb23276a1fe9b63b9a87cace0e36dcecc7c99",
+        "size_in_bytes": 4772
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tzlocal/windows_tz.py",
+        "path_type": "hardlink",
+        "sha256": "7c6d97de5cb88b7711a1a40477a9dc261a8380fa7eaaf26e9e7456f9f8342649",
+        "sha256_in_prefix": "7c6d97de5cb88b7711a1a40477a9dc261a8380fa7eaaf26e9e7456f9f8342649",
+        "size_in_bytes": 35165
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "39fc4aaa19cb687e6ae261115b5cea1182394ef2cc5e82718c66b722092296de",
+  "size": 35133,
+  "subdir": "linux-64",
+  "timestamp": 1724952160000,
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/tzlocal-5.2-py310hff52083_1.conda",
+  "version": "5.2"
+}

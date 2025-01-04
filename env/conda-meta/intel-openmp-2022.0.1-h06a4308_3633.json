@@ -1,0 +1,145 @@
+{
+  "build": "h06a4308_3633",
+  "build_number": 3633,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [
+    "__glibc >=2.17"
+  ],
+  "depends": [],
+  "extracted_package_dir": "/cpfs01/user/chengqinxiu/anaconda3/pkgs/intel-openmp-2022.0.1-h06a4308_3633",
+  "files": [
+    "lib/libiomp5.so",
+    "lib/libiomp5_db.so",
+    "lib/libiompstubs5.so",
+    "lib/libomp-fallback-cstring.o",
+    "lib/libomp-fallback-cstring.spv",
+    "lib/libomp-spirvdevicertl-optional.o",
+    "lib/libomp-spirvdevicertl-required.o",
+    "lib/libomptarget-opencl-optional.bc",
+    "lib/libomptarget-opencl-required.bc",
+    "lib/libomptarget.rtl.level0.so",
+    "lib/libomptarget.rtl.opencl.so",
+    "lib/libomptarget.rtl.x86_64.so",
+    "lib/libomptarget.so",
+    "licensing/compiler/openmp/third-party-programs.txt"
+  ],
+  "fn": "intel-openmp-2022.0.1-h06a4308_3633.conda",
+  "license": "LicenseRef-ProprietaryIntel",
+  "link": {
+    "source": "/cpfs01/user/chengqinxiu/anaconda3/pkgs/intel-openmp-2022.0.1-h06a4308_3633",
+    "type": 1
+  },
+  "md5": "c9bf9cea63382b0c0cf1cbdfcc64942f",
+  "name": "intel-openmp",
+  "package_tarball_full_path": "/cpfs01/user/chengqinxiu/anaconda3/pkgs/intel-openmp-2022.0.1-h06a4308_3633.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/libiomp5.so",
+        "path_type": "hardlink",
+        "sha256": "c273031fe6f9cd19192305bf935f09e8400ca1d073fd2ded741e42eaa13eb3c1",
+        "sha256_in_prefix": "c273031fe6f9cd19192305bf935f09e8400ca1d073fd2ded741e42eaa13eb3c1",
+        "size_in_bytes": 2478686
+      },
+      {
+        "_path": "lib/libiomp5_db.so",
+        "path_type": "hardlink",
+        "sha256": "c342bf56d13587cb096caa3d47d7939b58214908ad93efc0021cd22e53727461",
+        "sha256_in_prefix": "c342bf56d13587cb096caa3d47d7939b58214908ad93efc0021cd22e53727461",
+        "size_in_bytes": 624633
+      },
+      {
+        "_path": "lib/libiompstubs5.so",
+        "path_type": "hardlink",
+        "sha256": "da122b1b71fbb17859a5b4ccd810d3cae6ec2a17038cde731cde3f8adfa56fd6",
+        "sha256_in_prefix": "da122b1b71fbb17859a5b4ccd810d3cae6ec2a17038cde731cde3f8adfa56fd6",
+        "size_in_bytes": 205094
+      },
+      {
+        "_path": "lib/libomp-fallback-cstring.o",
+        "path_type": "hardlink",
+        "sha256": "95a023f9770e6210449373d4c92fc3298c8be82d6f6596de49d4016f117c1e7e",
+        "sha256_in_prefix": "95a023f9770e6210449373d4c92fc3298c8be82d6f6596de49d4016f117c1e7e",
+        "size_in_bytes": 17904
+      },
+      {
+        "_path": "lib/libomp-fallback-cstring.spv",
+        "path_type": "hardlink",
+        "sha256": "45ef9020a6e1fabec1762fed52d2de9beb9bfb22ead5df34b1f1f084e7e01d66",
+        "sha256_in_prefix": "45ef9020a6e1fabec1762fed52d2de9beb9bfb22ead5df34b1f1f084e7e01d66",
+        "size_in_bytes": 3900
+      },
+      {
+        "_path": "lib/libomp-spirvdevicertl-optional.o",
+        "path_type": "hardlink",
+        "sha256": "0ba1b11e5fa2994f0865dfa94db62d24f97215c8f8326db6ebb2c36a74eb0e76",
+        "sha256_in_prefix": "0ba1b11e5fa2994f0865dfa94db62d24f97215c8f8326db6ebb2c36a74eb0e76",
+        "size_in_bytes": 358864
+      },
+      {
+        "_path": "lib/libomp-spirvdevicertl-required.o",
+        "path_type": "hardlink",
+        "sha256": "d74b96db1c11f7bbe499e7d6e48c95d0356364ddfe0cea8ab0aab41188830d8b",
+        "sha256_in_prefix": "d74b96db1c11f7bbe499e7d6e48c95d0356364ddfe0cea8ab0aab41188830d8b",
+        "size_in_bytes": 9120
+      },
+      {
+        "_path": "lib/libomptarget-opencl-optional.bc",
+        "path_type": "hardlink",
+        "sha256": "f97838547b975c5356009e30d69ecc657f859732caf96ec615cd38c2c8875bb9",
+        "sha256_in_prefix": "f97838547b975c5356009e30d69ecc657f859732caf96ec615cd38c2c8875bb9",
+        "size_in_bytes": 110880
+      },
+      {
+        "_path": "lib/libomptarget-opencl-required.bc",
+        "path_type": "hardlink",
+        "sha256": "3ca6b8c58d60b0877139d1cd53af32e9407341d1c1509e4df56bf15fef7c4981",
+        "sha256_in_prefix": "3ca6b8c58d60b0877139d1cd53af32e9407341d1c1509e4df56bf15fef7c4981",
+        "size_in_bytes": 2420
+      },
+      {
+        "_path": "lib/libomptarget.rtl.level0.so",
+        "path_type": "hardlink",
+        "sha256": "27c1c04f94081a318818f39aa2364975d1ab281b7a3a8dd8d3981fe2f30b1ada",
+        "sha256_in_prefix": "27c1c04f94081a318818f39aa2364975d1ab281b7a3a8dd8d3981fe2f30b1ada",
+        "size_in_bytes": 8690912
+      },
+      {
+        "_path": "lib/libomptarget.rtl.opencl.so",
+        "path_type": "hardlink",
+        "sha256": "a8a29b8bbb9f6d6c56d1d443ee5fdc2f7ff28e89f7c0838b1d31713349f54cc7",
+        "sha256_in_prefix": "a8a29b8bbb9f6d6c56d1d443ee5fdc2f7ff28e89f7c0838b1d31713349f54cc7",
+        "size_in_bytes": 8673576
+      },
+      {
+        "_path": "lib/libomptarget.rtl.x86_64.so",
+        "path_type": "hardlink",
+        "sha256": "225fe053f44231a1a02ec2f0339453ccfe915926b4c1b690a2b8aed3530133e8",
+        "sha256_in_prefix": "225fe053f44231a1a02ec2f0339453ccfe915926b4c1b690a2b8aed3530133e8",
+        "size_in_bytes": 8328280
+      },
+      {
+        "_path": "lib/libomptarget.so",
+        "path_type": "hardlink",
+        "sha256": "4f84f461e585b21f08848efaf0060745aae32364e39e0727bce60444e7f5d73e",
+        "sha256_in_prefix": "4f84f461e585b21f08848efaf0060745aae32364e39e0727bce60444e7f5d73e",
+        "size_in_bytes": 592776
+      },
+      {
+        "_path": "licensing/compiler/openmp/third-party-programs.txt",
+        "path_type": "hardlink",
+        "sha256": "753301db61ffc9b486e9d3e8c6758ffc5db6679ea0cee32c4935b9e1a2d56bc5",
+        "sha256_in_prefix": "753301db61ffc9b486e9d3e8c6758ffc5db6679ea0cee32c4935b9e1a2d56bc5",
+        "size_in_bytes": 31156
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "43cf01ba59e93fe929a9ecdaf376021aa5a497d87cd8dc1ab611641433aa677e",
+  "size": 4394834,
+  "subdir": "linux-64",
+  "timestamp": 1642705440000,
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/intel-openmp-2022.0.1-h06a4308_3633.conda",
+  "version": "2022.0.1"
+}

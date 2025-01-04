@@ -1,0 +1,51 @@
+{
+  "build": "py310hff52083_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "aiorwlock",
+    "fastapi",
+    "python >=3.10,<3.11.0a0",
+    "python_abi 3.10.* *_cp310",
+    "ray-default 2.40.0 py310ha1e06c9_0",
+    "requests",
+    "starlette",
+    "uvicorn",
+    "watchfiles"
+  ],
+  "extracted_package_dir": "/cpfs01/user/chengqinxiu/anaconda3/pkgs/ray-serve-2.40.0-py310hff52083_0",
+  "files": [
+    "bin/serve"
+  ],
+  "fn": "ray-serve-2.40.0-py310hff52083_0.conda",
+  "license": "Apache-2.0",
+  "link": {
+    "source": "/cpfs01/user/chengqinxiu/anaconda3/pkgs/ray-serve-2.40.0-py310hff52083_0",
+    "type": 1
+  },
+  "md5": "33d843a6e97316e3027c4af8a002e685",
+  "name": "ray-serve",
+  "package_tarball_full_path": "/cpfs01/user/chengqinxiu/anaconda3/pkgs/ray-serve-2.40.0-py310hff52083_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/serve",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/ray-packages_1733424429012/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol",
+        "sha256": "59914e6da1d6fae64e7a3da7171f6042d9effc424581f9e81e7ce391124b52fc",
+        "sha256_in_prefix": "b1f88de32908e117f965c3257cd4ad7cbef624ff0922063a68d6655a8423e709",
+        "size_in_bytes": 468
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "1739794baeb958fbe70e07ba449de59447ea6585b4cea066258c2c1f76792f11",
+  "size": 52708,
+  "subdir": "linux-64",
+  "timestamp": 1733432666000,
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/ray-serve-2.40.0-py310hff52083_0.conda",
+  "version": "2.40.0"
+}

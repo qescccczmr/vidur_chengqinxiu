@@ -1,0 +1,14 @@
+prefix=/cpfs01/user/chengqinxiu/vidur/env
+exec_prefix=${prefix}
+libdir=/cpfs01/user/chengqinxiu/vidur/env/lib
+includedir=/cpfs01/user/chengqinxiu/vidur/env/include
+
+Name: libavutil
+Description: FFmpeg utility library
+Version: 56.70.100
+Requires: 
+Requires.private: 
+Conflicts:
+Libs: -L${libdir}  -lavutil 
+Libs.private: -pthread -lrt -lm
+Cflags: -I${includedir}

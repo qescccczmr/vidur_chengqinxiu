@@ -1,0 +1,35 @@
+{
+  "build": "hd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "rich",
+    "shellingham",
+    "typer-slim 0.15.1 pyhd8ed1ab_0"
+  ],
+  "extracted_package_dir": "/cpfs01/user/chengqinxiu/anaconda3/pkgs/typer-slim-standard-0.15.1-hd8ed1ab_0",
+  "files": [],
+  "fn": "typer-slim-standard-0.15.1-hd8ed1ab_0.conda",
+  "license": "MIT",
+  "link": {
+    "source": "/cpfs01/user/chengqinxiu/anaconda3/pkgs/typer-slim-standard-0.15.1-hd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "4e603c43bfdfc7b533be087c3e070cc9",
+  "name": "typer-slim-standard",
+  "noarch": "generic",
+  "package_tarball_full_path": "/cpfs01/user/chengqinxiu/anaconda3/pkgs/typer-slim-standard-0.15.1-hd8ed1ab_0.conda",
+  "package_type": "noarch_generic",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "f31c56fe98315da8b9ce848256c17e0b9f87896b41a6ccf0c9cc74644dcef20f",
+  "size": 49531,
+  "subdir": "noarch",
+  "timestamp": 1733408570000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/typer-slim-standard-0.15.1-hd8ed1ab_0.conda",
+  "version": "0.15.1"
+}

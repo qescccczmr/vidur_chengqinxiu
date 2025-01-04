@@ -1,0 +1,440 @@
+{
+  "build": "py310ha1e06c9_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "aiohttp-cors",
+    "async-timeout",
+    "colorful",
+    "grpcio",
+    "memray",
+    "opencensus",
+    "prometheus_client >=0.7.1",
+    "py-spy >=0.2.0",
+    "pydantic !=2.0.*,!=2.1.*,!=2.2.*,!=2.3.*,!=2.4.*,<3",
+    "python >=3.10,<3.11.0a0",
+    "python_abi 3.10.* *_cp310",
+    "ray-core 2.40.0 py310hb8c4c43_0",
+    "requests",
+    "smart_open",
+    "typing-extensions",
+    "virtualenv >=20.0.24,!=20.21.1"
+  ],
+  "extracted_package_dir": "/cpfs01/user/chengqinxiu/anaconda3/pkgs/ray-default-2.40.0-py310ha1e06c9_0",
+  "files": [
+    "lib/python3.10/site-packages/ray/dashboard/client/build/asset-manifest.json",
+    "lib/python3.10/site-packages/ray/dashboard/client/build/favicon.ico",
+    "lib/python3.10/site-packages/ray/dashboard/client/build/index.html",
+    "lib/python3.10/site-packages/ray/dashboard/client/build/speedscope-1.5.3/LICENSE",
+    "lib/python3.10/site-packages/ray/dashboard/client/build/speedscope-1.5.3/README",
+    "lib/python3.10/site-packages/ray/dashboard/client/build/speedscope-1.5.3/demangle-cpp.8a387750.js",
+    "lib/python3.10/site-packages/ray/dashboard/client/build/speedscope-1.5.3/favicon-16x16.361d2b26.png",
+    "lib/python3.10/site-packages/ray/dashboard/client/build/speedscope-1.5.3/favicon-32x32.1165a94e.png",
+    "lib/python3.10/site-packages/ray/dashboard/client/build/speedscope-1.5.3/file-format-schema.json",
+    "lib/python3.10/site-packages/ray/dashboard/client/build/speedscope-1.5.3/import.a03c2bef.js",
+    "lib/python3.10/site-packages/ray/dashboard/client/build/speedscope-1.5.3/index.html",
+    "lib/python3.10/site-packages/ray/dashboard/client/build/speedscope-1.5.3/perf-vertx-stacks-01-collapsed-all.3e0a632c.txt",
+    "lib/python3.10/site-packages/ray/dashboard/client/build/speedscope-1.5.3/release.txt",
+    "lib/python3.10/site-packages/ray/dashboard/client/build/speedscope-1.5.3/reset.7ae984ff.css",
+    "lib/python3.10/site-packages/ray/dashboard/client/build/speedscope-1.5.3/speedscope.75eb7d8e.js",
+    "lib/python3.10/site-packages/ray/dashboard/client/build/static/css/main.388a904b.css",
+    "lib/python3.10/site-packages/ray/dashboard/client/build/static/css/main.388a904b.css.map",
+    "lib/python3.10/site-packages/ray/dashboard/client/build/static/js/495.01ff0983.chunk.js",
+    "lib/python3.10/site-packages/ray/dashboard/client/build/static/js/495.01ff0983.chunk.js.map",
+    "lib/python3.10/site-packages/ray/dashboard/client/build/static/js/591.222f4f03.chunk.js",
+    "lib/python3.10/site-packages/ray/dashboard/client/build/static/js/591.222f4f03.chunk.js.map",
+    "lib/python3.10/site-packages/ray/dashboard/client/build/static/js/main.b65bbda9.js",
+    "lib/python3.10/site-packages/ray/dashboard/client/build/static/js/main.b65bbda9.js.LICENSE.txt",
+    "lib/python3.10/site-packages/ray/dashboard/client/build/static/js/main.b65bbda9.js.map",
+    "lib/python3.10/site-packages/ray/dashboard/client/build/static/media/logo.3704c1bbca650bb72a64b5d4c3fa5ced.svg",
+    "lib/python3.10/site-packages/ray/dashboard/client/build/static/media/roboto-latin-100.a45108d3b34af91f9113.woff",
+    "lib/python3.10/site-packages/ray/dashboard/client/build/static/media/roboto-latin-100.c2aa4ab115bf9c6057cb.woff2",
+    "lib/python3.10/site-packages/ray/dashboard/client/build/static/media/roboto-latin-100italic.451d4e559d6f57cdf6a1.woff",
+    "lib/python3.10/site-packages/ray/dashboard/client/build/static/media/roboto-latin-100italic.7f839a8652da29745ce4.woff2",
+    "lib/python3.10/site-packages/ray/dashboard/client/build/static/media/roboto-latin-300.37a7069dc30fc663c878.woff2",
+    "lib/python3.10/site-packages/ray/dashboard/client/build/static/media/roboto-latin-300.865f928cbabcc9f8f2b5.woff",
+    "lib/python3.10/site-packages/ray/dashboard/client/build/static/media/roboto-latin-300italic.bd5b7a13f2c52b531a2a.woff",
+    "lib/python3.10/site-packages/ray/dashboard/client/build/static/media/roboto-latin-300italic.c64e7e354c88e613c77c.woff2",
+    "lib/python3.10/site-packages/ray/dashboard/client/build/static/media/roboto-latin-400.176f8f5bd5f02b3abfcf.woff2",
+    "lib/python3.10/site-packages/ray/dashboard/client/build/static/media/roboto-latin-400.49ae34d4cc6b98c00c69.woff",
+    "lib/python3.10/site-packages/ray/dashboard/client/build/static/media/roboto-latin-400italic.b1d9d9904bfca8802a63.woff",
+    "lib/python3.10/site-packages/ray/dashboard/client/build/static/media/roboto-latin-400italic.d022bc70dc1bf7b3425d.woff2",
+    "lib/python3.10/site-packages/ray/dashboard/client/build/static/media/roboto-latin-500.cea99d3e3e13a3a599a0.woff",
+    "lib/python3.10/site-packages/ray/dashboard/client/build/static/media/roboto-latin-500.f5b74d7ffcdf85b9dd60.woff2",
+    "lib/python3.10/site-packages/ray/dashboard/client/build/static/media/roboto-latin-500italic.0d8bb5b3ee5f5dac9e44.woff2",
+    "lib/python3.10/site-packages/ray/dashboard/client/build/static/media/roboto-latin-500italic.18d00f739ff1e1c52db1.woff",
+    "lib/python3.10/site-packages/ray/dashboard/client/build/static/media/roboto-latin-700.2267169ee7270a22a963.woff",
+    "lib/python3.10/site-packages/ray/dashboard/client/build/static/media/roboto-latin-700.c18ee39fb002ad58b6dc.woff2",
+    "lib/python3.10/site-packages/ray/dashboard/client/build/static/media/roboto-latin-700italic.7d8125ff7f707231fd89.woff2",
+    "lib/python3.10/site-packages/ray/dashboard/client/build/static/media/roboto-latin-700italic.9360531f9bb817f917f0.woff",
+    "lib/python3.10/site-packages/ray/dashboard/client/build/static/media/roboto-latin-900.870c8c1486f76054301a.woff2",
+    "lib/python3.10/site-packages/ray/dashboard/client/build/static/media/roboto-latin-900.bac8362e7a6ea60b6983.woff",
+    "lib/python3.10/site-packages/ray/dashboard/client/build/static/media/roboto-latin-900italic.c20d916c1a1b094c1cec.woff",
+    "lib/python3.10/site-packages/ray/dashboard/client/build/static/media/roboto-latin-900italic.cb5ad999740e9d8a8bd1.woff2"
+  ],
+  "fn": "ray-default-2.40.0-py310ha1e06c9_0.conda",
+  "license": "Apache-2.0",
+  "link": {
+    "source": "/cpfs01/user/chengqinxiu/anaconda3/pkgs/ray-default-2.40.0-py310ha1e06c9_0",
+    "type": 1
+  },
+  "md5": "cc865e180579e5db221b69b57cc8bc01",
+  "name": "ray-default",
+  "package_tarball_full_path": "/cpfs01/user/chengqinxiu/anaconda3/pkgs/ray-default-2.40.0-py310ha1e06c9_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.10/site-packages/ray/dashboard/client/build/asset-manifest.json",
+        "path_type": "hardlink",
+        "sha256": "68831b5636163436b15b2c4e985d74b9dc4f91093afd0ee9ddd2d36a70cfaaf3",
+        "sha256_in_prefix": "68831b5636163436b15b2c4e985d74b9dc4f91093afd0ee9ddd2d36a70cfaaf3",
+        "size_in_bytes": 3403
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ray/dashboard/client/build/favicon.ico",
+        "path_type": "hardlink",
+        "sha256": "ad0c7b8500aca049576db05e5e1874311ce2f7306838404551648e1a1c947651",
+        "sha256_in_prefix": "ad0c7b8500aca049576db05e5e1874311ce2f7306838404551648e1a1c947651",
+        "size_in_bytes": 4286
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ray/dashboard/client/build/index.html",
+        "path_type": "hardlink",
+        "sha256": "0e6834816efc8afd0bfb6c81d4a0d52d59fbfd1e2e9246e0d541fbbfc9a8f310",
+        "sha256_in_prefix": "0e6834816efc8afd0bfb6c81d4a0d52d59fbfd1e2e9246e0d541fbbfc9a8f310",
+        "size_in_bytes": 446
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ray/dashboard/client/build/speedscope-1.5.3/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "6244b13e9bf25cfd42d81c939d6c535d932596e8c320050234f2c2ac5a6f36a0",
+        "sha256_in_prefix": "6244b13e9bf25cfd42d81c939d6c535d932596e8c320050234f2c2ac5a6f36a0",
+        "size_in_bytes": 1067
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ray/dashboard/client/build/speedscope-1.5.3/README",
+        "path_type": "hardlink",
+        "sha256": "f8f44be85767f0f2dda603f5015803d579742526e53c434cc1e7235dead371c4",
+        "sha256_in_prefix": "f8f44be85767f0f2dda603f5015803d579742526e53c434cc1e7235dead371c4",
+        "size_in_bytes": 124
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ray/dashboard/client/build/speedscope-1.5.3/demangle-cpp.8a387750.js",
+        "path_type": "hardlink",
+        "sha256": "9aff8da67eb9c3f258dfc60179ee2df51cdfc8a385f9b5d9f4d8e74bfdc25bbe",
+        "sha256_in_prefix": "9aff8da67eb9c3f258dfc60179ee2df51cdfc8a385f9b5d9f4d8e74bfdc25bbe",
+        "size_in_bytes": 168983
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ray/dashboard/client/build/speedscope-1.5.3/favicon-16x16.361d2b26.png",
+        "path_type": "hardlink",
+        "sha256": "a62a6da7742b43ee798b106b709aa82eafd1b500ef050427cfec05e4d41dacac",
+        "sha256_in_prefix": "a62a6da7742b43ee798b106b709aa82eafd1b500ef050427cfec05e4d41dacac",
+        "size_in_bytes": 679
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ray/dashboard/client/build/speedscope-1.5.3/favicon-32x32.1165a94e.png",
+        "path_type": "hardlink",
+        "sha256": "9ea6e6d13b7b8064187866deba1e8674d8ba25071279ba7b15f34b54df2508d0",
+        "sha256_in_prefix": "9ea6e6d13b7b8064187866deba1e8674d8ba25071279ba7b15f34b54df2508d0",
+        "size_in_bytes": 1585
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ray/dashboard/client/build/speedscope-1.5.3/file-format-schema.json",
+        "path_type": "hardlink",
+        "sha256": "c3dcafcd949f7bab1266dd4cb41f3295ea9eaa13cebb0a0656d4353f3dea91fb",
+        "sha256_in_prefix": "c3dcafcd949f7bab1266dd4cb41f3295ea9eaa13cebb0a0656d4353f3dea91fb",
+        "size_in_bytes": 9517
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ray/dashboard/client/build/speedscope-1.5.3/import.a03c2bef.js",
+        "path_type": "hardlink",
+        "sha256": "41ee19fcbe51afb50b7d12021f749d5a2aad06080d845ab66eefb1fefc23943a",
+        "sha256_in_prefix": "41ee19fcbe51afb50b7d12021f749d5a2aad06080d845ab66eefb1fefc23943a",
+        "size_in_bytes": 184993
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ray/dashboard/client/build/speedscope-1.5.3/index.html",
+        "path_type": "hardlink",
+        "sha256": "9c042384b3d4ea39195f3c66e78ef968f23bf855d7fb08c1cff3fb268e89ca34",
+        "sha256_in_prefix": "9c042384b3d4ea39195f3c66e78ef968f23bf855d7fb08c1cff3fb268e89ca34",
+        "size_in_bytes": 611
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ray/dashboard/client/build/speedscope-1.5.3/perf-vertx-stacks-01-collapsed-all.3e0a632c.txt",
+        "path_type": "hardlink",
+        "sha256": "dedaa1c8055267638030efa25081116105fd0e357944cefc0974e792dfcabedd",
+        "sha256_in_prefix": "dedaa1c8055267638030efa25081116105fd0e357944cefc0974e792dfcabedd",
+        "size_in_bytes": 263949
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ray/dashboard/client/build/speedscope-1.5.3/release.txt",
+        "path_type": "hardlink",
+        "sha256": "a2c411b7bfa9875d43edae3a51769b1c31cfa17ac890c8e91f97f9713f612c63",
+        "sha256_in_prefix": "a2c411b7bfa9875d43edae3a51769b1c31cfa17ac890c8e91f97f9713f612c63",
+        "size_in_bytes": 87
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ray/dashboard/client/build/speedscope-1.5.3/reset.7ae984ff.css",
+        "path_type": "hardlink",
+        "sha256": "8da927c4e19dab39c5e6962a47d3728e6295c779f0856fc3df0026f1d78dda74",
+        "sha256_in_prefix": "8da927c4e19dab39c5e6962a47d3728e6295c779f0856fc3df0026f1d78dda74",
+        "size_in_bytes": 835
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ray/dashboard/client/build/speedscope-1.5.3/speedscope.75eb7d8e.js",
+        "path_type": "hardlink",
+        "sha256": "605b558612184b42c6dc2e670342fadfb06f5f12a38f4fb9428138119773fde0",
+        "sha256_in_prefix": "605b558612184b42c6dc2e670342fadfb06f5f12a38f4fb9428138119773fde0",
+        "size_in_bytes": 209212
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ray/dashboard/client/build/static/css/main.388a904b.css",
+        "path_type": "hardlink",
+        "sha256": "057334eccdc69dac59aa1b6707526c930dab8c3f5c840803335be36a5fa1dd1b",
+        "sha256_in_prefix": "057334eccdc69dac59aa1b6707526c930dab8c3f5c840803335be36a5fa1dd1b",
+        "size_in_bytes": 5995
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ray/dashboard/client/build/static/css/main.388a904b.css.map",
+        "path_type": "hardlink",
+        "sha256": "1b229506f3613ca8ed3c577da0e5764381f71630affb38bb9dd60ae14ecd0a35",
+        "sha256_in_prefix": "1b229506f3613ca8ed3c577da0e5764381f71630affb38bb9dd60ae14ecd0a35",
+        "size_in_bytes": 9323
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ray/dashboard/client/build/static/js/495.01ff0983.chunk.js",
+        "path_type": "hardlink",
+        "sha256": "b181368730fe24bf33817202d37572bdddeafc74113f3a7330d68597dee2fb9c",
+        "sha256_in_prefix": "b181368730fe24bf33817202d37572bdddeafc74113f3a7330d68597dee2fb9c",
+        "size_in_bytes": 354
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ray/dashboard/client/build/static/js/495.01ff0983.chunk.js.map",
+        "path_type": "hardlink",
+        "sha256": "c70d0313508b6ce52e166cc097384c302e60a5dca0d66231e8d3c99cc5f6a14e",
+        "sha256_in_prefix": "c70d0313508b6ce52e166cc097384c302e60a5dca0d66231e8d3c99cc5f6a14e",
+        "size_in_bytes": 685
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ray/dashboard/client/build/static/js/591.222f4f03.chunk.js",
+        "path_type": "hardlink",
+        "sha256": "328ca408056b3a8d3e89c58f62d07c4fe2d1687b2c91588e9fc85d66510eda57",
+        "sha256_in_prefix": "328ca408056b3a8d3e89c58f62d07c4fe2d1687b2c91588e9fc85d66510eda57",
+        "size_in_bytes": 1808
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ray/dashboard/client/build/static/js/591.222f4f03.chunk.js.map",
+        "path_type": "hardlink",
+        "sha256": "34061365b86d9f1401138260e4ef139ded259aec98ce53155de6e8581d86736c",
+        "sha256_in_prefix": "34061365b86d9f1401138260e4ef139ded259aec98ce53155de6e8581d86736c",
+        "size_in_bytes": 6543
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ray/dashboard/client/build/static/js/main.b65bbda9.js",
+        "path_type": "hardlink",
+        "sha256": "5d9641075a002177d7577be7272fc1c5388c0ef118cabbeabb3f8e9c871a97a1",
+        "sha256_in_prefix": "5d9641075a002177d7577be7272fc1c5388c0ef118cabbeabb3f8e9c871a97a1",
+        "size_in_bytes": 1066742
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ray/dashboard/client/build/static/js/main.b65bbda9.js.LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "4a7b1a9f6a9cecb3f9778c45d1829fdca6122583e614ce4a38d85209ebe796c7",
+        "sha256_in_prefix": "4a7b1a9f6a9cecb3f9778c45d1829fdca6122583e614ce4a38d85209ebe796c7",
+        "size_in_bytes": 2804
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ray/dashboard/client/build/static/js/main.b65bbda9.js.map",
+        "path_type": "hardlink",
+        "sha256": "b1d839231e43ad498baa2c0377921354dba94f260cafb1131c1cc3787bab08e5",
+        "sha256_in_prefix": "b1d839231e43ad498baa2c0377921354dba94f260cafb1131c1cc3787bab08e5",
+        "size_in_bytes": 6391274
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ray/dashboard/client/build/static/media/logo.3704c1bbca650bb72a64b5d4c3fa5ced.svg",
+        "path_type": "hardlink",
+        "sha256": "db9dea93bd454b6b6dce6301fc16f1acc8fb0c605e7b53fb4d129ee6f3d8b4da",
+        "sha256_in_prefix": "db9dea93bd454b6b6dce6301fc16f1acc8fb0c605e7b53fb4d129ee6f3d8b4da",
+        "size_in_bytes": 2625
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ray/dashboard/client/build/static/media/roboto-latin-100.a45108d3b34af91f9113.woff",
+        "path_type": "hardlink",
+        "sha256": "c4ead4de9f7aff237d06b530ead8413d1357427f6a925944342bb4e2b1dce6d0",
+        "sha256_in_prefix": "c4ead4de9f7aff237d06b530ead8413d1357427f6a925944342bb4e2b1dce6d0",
+        "size_in_bytes": 20368
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ray/dashboard/client/build/static/media/roboto-latin-100.c2aa4ab115bf9c6057cb.woff2",
+        "path_type": "hardlink",
+        "sha256": "12823d585605238121554aff8bb060a235dc36f37efd9fb1e7e6ea1a9622bc35",
+        "sha256_in_prefix": "12823d585605238121554aff8bb060a235dc36f37efd9fb1e7e6ea1a9622bc35",
+        "size_in_bytes": 15808
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ray/dashboard/client/build/static/media/roboto-latin-100italic.451d4e559d6f57cdf6a1.woff",
+        "path_type": "hardlink",
+        "sha256": "5a3a9840414768fa2ec988b33c9e966fdffe2db7e560a270b3a9c6ba01f17718",
+        "sha256_in_prefix": "5a3a9840414768fa2ec988b33c9e966fdffe2db7e560a270b3a9c6ba01f17718",
+        "size_in_bytes": 21704
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ray/dashboard/client/build/static/media/roboto-latin-100italic.7f839a8652da29745ce4.woff2",
+        "path_type": "hardlink",
+        "sha256": "26c91ea43b79b1d456695de468f503e0141e9eb767fe164daf8bf3f3a101256f",
+        "sha256_in_prefix": "26c91ea43b79b1d456695de468f503e0141e9eb767fe164daf8bf3f3a101256f",
+        "size_in_bytes": 17008
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ray/dashboard/client/build/static/media/roboto-latin-300.37a7069dc30fc663c878.woff2",
+        "path_type": "hardlink",
+        "sha256": "29f6da0a8c21c5681511bb9b08663d3fd2c5d09c9bd8054ec354c563b8c8b7c1",
+        "sha256_in_prefix": "29f6da0a8c21c5681511bb9b08663d3fd2c5d09c9bd8054ec354c563b8c8b7c1",
+        "size_in_bytes": 15784
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ray/dashboard/client/build/static/media/roboto-latin-300.865f928cbabcc9f8f2b5.woff",
+        "path_type": "hardlink",
+        "sha256": "76b05400fff9da5b43862e3713099e3913916a629560265ed24b19d031227cbf",
+        "sha256_in_prefix": "76b05400fff9da5b43862e3713099e3913916a629560265ed24b19d031227cbf",
+        "size_in_bytes": 20348
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ray/dashboard/client/build/static/media/roboto-latin-300italic.bd5b7a13f2c52b531a2a.woff",
+        "path_type": "hardlink",
+        "sha256": "0be0ae6efd852b3695cb7a76286096f60e93b7d31c16e0b71ca35eced7fde8f6",
+        "sha256_in_prefix": "0be0ae6efd852b3695cb7a76286096f60e93b7d31c16e0b71ca35eced7fde8f6",
+        "size_in_bytes": 22204
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ray/dashboard/client/build/static/media/roboto-latin-300italic.c64e7e354c88e613c77c.woff2",
+        "path_type": "hardlink",
+        "sha256": "9e02524ebecd813fc4bcb40336bb2b033871b1fdcbd234229dee4189dc44850d",
+        "sha256_in_prefix": "9e02524ebecd813fc4bcb40336bb2b033871b1fdcbd234229dee4189dc44850d",
+        "size_in_bytes": 17448
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ray/dashboard/client/build/static/media/roboto-latin-400.176f8f5bd5f02b3abfcf.woff2",
+        "path_type": "hardlink",
+        "sha256": "48c3fa6f86c54f1d9bb519220713d4b0a1f8cd1a589a3c03b9fa82e98ecb13e3",
+        "sha256_in_prefix": "48c3fa6f86c54f1d9bb519220713d4b0a1f8cd1a589a3c03b9fa82e98ecb13e3",
+        "size_in_bytes": 15736
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ray/dashboard/client/build/static/media/roboto-latin-400.49ae34d4cc6b98c00c69.woff",
+        "path_type": "hardlink",
+        "sha256": "c1dc87f99c7ff228806117d58f085c6c573057fa237228081802b7d8d3cf7684",
+        "sha256_in_prefix": "c1dc87f99c7ff228806117d58f085c6c573057fa237228081802b7d8d3cf7684",
+        "size_in_bytes": 20268
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ray/dashboard/client/build/static/media/roboto-latin-400italic.b1d9d9904bfca8802a63.woff",
+        "path_type": "hardlink",
+        "sha256": "80815efe3bd9317c666df0f2e6d701335e178954f64eb1e99103fea81c2aa137",
+        "sha256_in_prefix": "80815efe3bd9317c666df0f2e6d701335e178954f64eb1e99103fea81c2aa137",
+        "size_in_bytes": 21952
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ray/dashboard/client/build/static/media/roboto-latin-400italic.d022bc70dc1bf7b3425d.woff2",
+        "path_type": "hardlink",
+        "sha256": "401e6c25801ba2d59795d05a6dd973f95566b41070d3939ba9307d65860ae50e",
+        "sha256_in_prefix": "401e6c25801ba2d59795d05a6dd973f95566b41070d3939ba9307d65860ae50e",
+        "size_in_bytes": 17324
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ray/dashboard/client/build/static/media/roboto-latin-500.cea99d3e3e13a3a599a0.woff",
+        "path_type": "hardlink",
+        "sha256": "ba98f991d002c6bfaaf7b874652ffdcde9261a86925db87df3ed2861ea080adf",
+        "sha256_in_prefix": "ba98f991d002c6bfaaf7b874652ffdcde9261a86925db87df3ed2861ea080adf",
+        "size_in_bytes": 20464
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ray/dashboard/client/build/static/media/roboto-latin-500.f5b74d7ffcdf85b9dd60.woff2",
+        "path_type": "hardlink",
+        "sha256": "24369e1b2461af9dcefecaf9cc93d64cf22a4c5bac32506100b9e21014507bcf",
+        "sha256_in_prefix": "24369e1b2461af9dcefecaf9cc93d64cf22a4c5bac32506100b9e21014507bcf",
+        "size_in_bytes": 15872
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ray/dashboard/client/build/static/media/roboto-latin-500italic.0d8bb5b3ee5f5dac9e44.woff2",
+        "path_type": "hardlink",
+        "sha256": "8688b62042738eba39e8bc2edf86ae832905e8ee3241b55835526465d9eb8e1b",
+        "sha256_in_prefix": "8688b62042738eba39e8bc2edf86ae832905e8ee3241b55835526465d9eb8e1b",
+        "size_in_bytes": 17316
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ray/dashboard/client/build/static/media/roboto-latin-500italic.18d00f739ff1e1c52db1.woff",
+        "path_type": "hardlink",
+        "sha256": "6f2974a396dc0695d071e842551e7af9c72f0ef8d2d076fe73a523b1a3c2d0e7",
+        "sha256_in_prefix": "6f2974a396dc0695d071e842551e7af9c72f0ef8d2d076fe73a523b1a3c2d0e7",
+        "size_in_bytes": 22020
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ray/dashboard/client/build/static/media/roboto-latin-700.2267169ee7270a22a963.woff",
+        "path_type": "hardlink",
+        "sha256": "806ea46c426af8fc24e5cf42a210228739696933d36299eb28aee64f69fc71f1",
+        "sha256_in_prefix": "806ea46c426af8fc24e5cf42a210228739696933d36299eb28aee64f69fc71f1",
+        "size_in_bytes": 20356
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ray/dashboard/client/build/static/media/roboto-latin-700.c18ee39fb002ad58b6dc.woff2",
+        "path_type": "hardlink",
+        "sha256": "b4d07892cde715d50bb69c1982df496385d1dfd8f9d1867c31f19a3c8634cfae",
+        "sha256_in_prefix": "b4d07892cde715d50bb69c1982df496385d1dfd8f9d1867c31f19a3c8634cfae",
+        "size_in_bytes": 15816
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ray/dashboard/client/build/static/media/roboto-latin-700italic.7d8125ff7f707231fd89.woff2",
+        "path_type": "hardlink",
+        "sha256": "5cc2e47701ee7dc9e0ba16303e170db0fcb2df2989b7763ac705893d37b4e237",
+        "sha256_in_prefix": "5cc2e47701ee7dc9e0ba16303e170db0fcb2df2989b7763ac705893d37b4e237",
+        "size_in_bytes": 17020
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ray/dashboard/client/build/static/media/roboto-latin-700italic.9360531f9bb817f917f0.woff",
+        "path_type": "hardlink",
+        "sha256": "eec142608e8b417e2acb6e5301a750047a04e2c5a6563223caae499e19ea08ee",
+        "sha256_in_prefix": "eec142608e8b417e2acb6e5301a750047a04e2c5a6563223caae499e19ea08ee",
+        "size_in_bytes": 21588
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ray/dashboard/client/build/static/media/roboto-latin-900.870c8c1486f76054301a.woff2",
+        "path_type": "hardlink",
+        "sha256": "edcdf3f60252a5987bedc9c86b5422d972ba509bbbe60d58925310c744a33e28",
+        "sha256_in_prefix": "edcdf3f60252a5987bedc9c86b5422d972ba509bbbe60d58925310c744a33e28",
+        "size_in_bytes": 15712
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ray/dashboard/client/build/static/media/roboto-latin-900.bac8362e7a6ea60b6983.woff",
+        "path_type": "hardlink",
+        "sha256": "e8586f9db7c0503a984c944ad2f1f783bf6051aea2a066bc21fdedc8fe7fa68a",
+        "sha256_in_prefix": "e8586f9db7c0503a984c944ad2f1f783bf6051aea2a066bc21fdedc8fe7fa68a",
+        "size_in_bytes": 20392
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ray/dashboard/client/build/static/media/roboto-latin-900italic.c20d916c1a1b094c1cec.woff",
+        "path_type": "hardlink",
+        "sha256": "6a80d9cb4f49b5951b407f8905cfa887f1e3f2e2ec4369bf58eac633b2e05948",
+        "sha256_in_prefix": "6a80d9cb4f49b5951b407f8905cfa887f1e3f2e2ec4369bf58eac633b2e05948",
+        "size_in_bytes": 22304
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ray/dashboard/client/build/static/media/roboto-latin-900italic.cb5ad999740e9d8a8bd1.woff2",
+        "path_type": "hardlink",
+        "sha256": "95e60b9391931dc4d5cc9b3b0c28b0eb2751b9066037f7594ba76c47739c187b",
+        "sha256_in_prefix": "95e60b9391931dc4d5cc9b3b0c28b0eb2751b9066037f7594ba76c47739c187b",
+        "size_in_bytes": 17520
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "496bccc6adec0e269bf4d08c08a1c00507ac0c08abad7e445a0d59288f293550",
+  "size": 2039367,
+  "subdir": "linux-64",
+  "timestamp": 1733432642000,
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/ray-default-2.40.0-py310ha1e06c9_0.conda",
+  "version": "2.40.0"
+}

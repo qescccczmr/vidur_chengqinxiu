@@ -1,0 +1,14 @@
+prefix=/cpfs01/user/chengqinxiu/vidur/env
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libpgtypes
+Description: PostgreSQL libpgtypes library
+URL: https://www.postgresql.org/
+Version: 17.2
+Requires: 
+Requires.private: 
+Cflags: -I${includedir}
+Libs: -L${libdir} -lpgtypes
+Libs.private: -L/cpfs01/user/chengqinxiu/vidur/env/lib -lpgcommon -lpgport -lm

@@ -1,0 +1,151 @@
+{
+  "build": "pyhd8ed1ab_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python >=3.9"
+  ],
+  "extracted_package_dir": "/cpfs01/user/chengqinxiu/anaconda3/pkgs/termcolor-2.5.0-pyhd8ed1ab_1",
+  "files": [
+    "lib/python3.10/site-packages/termcolor-2.5.0.dist-info/INSTALLER",
+    "lib/python3.10/site-packages/termcolor-2.5.0.dist-info/METADATA",
+    "lib/python3.10/site-packages/termcolor-2.5.0.dist-info/RECORD",
+    "lib/python3.10/site-packages/termcolor-2.5.0.dist-info/REQUESTED",
+    "lib/python3.10/site-packages/termcolor-2.5.0.dist-info/WHEEL",
+    "lib/python3.10/site-packages/termcolor-2.5.0.dist-info/direct_url.json",
+    "lib/python3.10/site-packages/termcolor-2.5.0.dist-info/licenses/COPYING.txt",
+    "lib/python3.10/site-packages/termcolor/__init__.py",
+    "lib/python3.10/site-packages/termcolor/__main__.py",
+    "lib/python3.10/site-packages/termcolor/_types.py",
+    "lib/python3.10/site-packages/termcolor/py.typed",
+    "lib/python3.10/site-packages/termcolor/termcolor.py",
+    "lib/python3.10/site-packages/termcolor/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/termcolor/__pycache__/__main__.cpython-310.pyc",
+    "lib/python3.10/site-packages/termcolor/__pycache__/_types.cpython-310.pyc",
+    "lib/python3.10/site-packages/termcolor/__pycache__/termcolor.cpython-310.pyc"
+  ],
+  "fn": "termcolor-2.5.0-pyhd8ed1ab_1.conda",
+  "license": "MIT",
+  "link": {
+    "source": "/cpfs01/user/chengqinxiu/anaconda3/pkgs/termcolor-2.5.0-pyhd8ed1ab_1",
+    "type": 1
+  },
+  "md5": "1ce02d60767af357e864ce61895268d2",
+  "name": "termcolor",
+  "noarch": "python",
+  "package_tarball_full_path": "/cpfs01/user/chengqinxiu/anaconda3/pkgs/termcolor-2.5.0-pyhd8ed1ab_1.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/termcolor-2.5.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/termcolor-2.5.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "c68f35aa9e654d2eb2413936559646ac9ef30b6c85bc8f079b64d708355c11bc",
+        "sha256_in_prefix": "c68f35aa9e654d2eb2413936559646ac9ef30b6c85bc8f079b64d708355c11bc",
+        "size_in_bytes": 6030
+      },
+      {
+        "_path": "site-packages/termcolor-2.5.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "095728479a1b2578a92510c9577aa2cf196c99d30a5b88c5e22b49f549d18552",
+        "sha256_in_prefix": "095728479a1b2578a92510c9577aa2cf196c99d30a5b88c5e22b49f549d18552",
+        "size_in_bytes": 1178
+      },
+      {
+        "_path": "site-packages/termcolor-2.5.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/termcolor-2.5.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "0b615483066088b6f39d1fa4d1bff9937022ff568048e5c3b2cde5cc252c52e8",
+        "sha256_in_prefix": "0b615483066088b6f39d1fa4d1bff9937022ff568048e5c3b2cde5cc252c52e8",
+        "size_in_bytes": 87
+      },
+      {
+        "_path": "site-packages/termcolor-2.5.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "42100e8ad6c62c4a3c1656e57367e81fe270ce97f3ba12babfaaa3c3a8562b4d",
+        "sha256_in_prefix": "42100e8ad6c62c4a3c1656e57367e81fe270ce97f3ba12babfaaa3c3a8562b4d",
+        "size_in_bytes": 105
+      },
+      {
+        "_path": "site-packages/termcolor-2.5.0.dist-info/licenses/COPYING.txt",
+        "path_type": "hardlink",
+        "sha256": "e79b6bd82962c1330caaa7c42278567b08667777673f8e2371a624d5715d4c0e",
+        "sha256_in_prefix": "e79b6bd82962c1330caaa7c42278567b08667777673f8e2371a624d5715d4c0e",
+        "size_in_bytes": 1072
+      },
+      {
+        "_path": "site-packages/termcolor/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "a53be7cf03aece56affe5069e0faccef97771145cf0def9bba00fe67c186f179",
+        "sha256_in_prefix": "a53be7cf03aece56affe5069e0faccef97771145cf0def9bba00fe67c186f179",
+        "size_in_bytes": 283
+      },
+      {
+        "_path": "site-packages/termcolor/__main__.py",
+        "path_type": "hardlink",
+        "sha256": "ab6897f0127dbb55600b04568bf75f6969ec9d2c31b50c6bbfc761e8a1fc51be",
+        "sha256_in_prefix": "ab6897f0127dbb55600b04568bf75f6969ec9d2c31b50c6bbfc761e8a1fc51be",
+        "size_in_bytes": 2713
+      },
+      {
+        "_path": "site-packages/termcolor/_types.py",
+        "path_type": "hardlink",
+        "sha256": "9c373968f676a86a6f94169ab24df34e38bb5528131c564f95abb1793d682955",
+        "sha256_in_prefix": "9c373968f676a86a6f94169ab24df34e38bb5528131c564f95abb1793d682955",
+        "size_in_bytes": 808
+      },
+      {
+        "_path": "site-packages/termcolor/py.typed",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/termcolor/termcolor.py",
+        "path_type": "hardlink",
+        "sha256": "85353761bf852dadfe7a7bec8c9c2fb145edcec02e0007800b2111864e6ea417",
+        "sha256_in_prefix": "85353761bf852dadfe7a7bec8c9c2fb145edcec02e0007800b2111864e6ea417",
+        "size_in_bytes": 6022
+      },
+      {
+        "_path": "lib/python3.10/site-packages/termcolor/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/termcolor/__pycache__/__main__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/termcolor/__pycache__/_types.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/termcolor/__pycache__/termcolor.cpython-310.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "4a7e13776ebd78afcdba3985ea42317e4e0a20722d2c27ecaae3d9f8849e6516",
+  "size": 12665,
+  "subdir": "noarch",
+  "timestamp": 1733754731000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/termcolor-2.5.0-pyhd8ed1ab_1.conda",
+  "version": "2.5.0"
+}

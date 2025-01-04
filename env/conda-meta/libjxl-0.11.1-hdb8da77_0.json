@@ -1,0 +1,310 @@
+{
+  "build": "hdb8da77_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "__glibc >=2.17,<3.0.a0",
+    "libbrotlidec >=1.1.0,<1.2.0a0",
+    "libbrotlienc >=1.1.0,<1.2.0a0",
+    "libgcc >=13",
+    "libhwy >=1.1.0,<1.2.0a0",
+    "libstdcxx >=13"
+  ],
+  "extracted_package_dir": "/cpfs01/user/chengqinxiu/anaconda3/pkgs/libjxl-0.11.1-hdb8da77_0",
+  "files": [
+    "include/jxl/cms.h",
+    "include/jxl/cms_interface.h",
+    "include/jxl/codestream_header.h",
+    "include/jxl/color_encoding.h",
+    "include/jxl/compressed_icc.h",
+    "include/jxl/decode.h",
+    "include/jxl/decode_cxx.h",
+    "include/jxl/encode.h",
+    "include/jxl/encode_cxx.h",
+    "include/jxl/gain_map.h",
+    "include/jxl/jxl_cms_export.h",
+    "include/jxl/jxl_export.h",
+    "include/jxl/jxl_threads_export.h",
+    "include/jxl/memory_manager.h",
+    "include/jxl/parallel_runner.h",
+    "include/jxl/resizable_parallel_runner.h",
+    "include/jxl/resizable_parallel_runner_cxx.h",
+    "include/jxl/stats.h",
+    "include/jxl/thread_parallel_runner.h",
+    "include/jxl/thread_parallel_runner_cxx.h",
+    "include/jxl/types.h",
+    "include/jxl/version.h",
+    "lib/libjxl.so",
+    "lib/libjxl.so.0.11",
+    "lib/libjxl.so.0.11.1",
+    "lib/libjxl_cms.so",
+    "lib/libjxl_cms.so.0.11",
+    "lib/libjxl_cms.so.0.11.1",
+    "lib/libjxl_threads.so",
+    "lib/libjxl_threads.so.0.11",
+    "lib/libjxl_threads.so.0.11.1",
+    "lib/pkgconfig/libjxl.pc",
+    "lib/pkgconfig/libjxl_cms.pc",
+    "lib/pkgconfig/libjxl_threads.pc"
+  ],
+  "fn": "libjxl-0.11.1-hdb8da77_0.conda",
+  "license": "BSD-3-Clause",
+  "link": {
+    "source": "/cpfs01/user/chengqinxiu/anaconda3/pkgs/libjxl-0.11.1-hdb8da77_0",
+    "type": 1
+  },
+  "md5": "32b23f3487beae7e81495fbc1099ae9e",
+  "name": "libjxl",
+  "package_tarball_full_path": "/cpfs01/user/chengqinxiu/anaconda3/pkgs/libjxl-0.11.1-hdb8da77_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "include/jxl/cms.h",
+        "path_type": "hardlink",
+        "sha256": "f9fab00a2ad226eada1eb25e398516dd8a653039e775e764beaf3b0697743f4a",
+        "sha256_in_prefix": "f9fab00a2ad226eada1eb25e398516dd8a653039e775e764beaf3b0697743f4a",
+        "size_in_bytes": 474
+      },
+      {
+        "_path": "include/jxl/cms_interface.h",
+        "path_type": "hardlink",
+        "sha256": "8babe9fee6a4434f3562490ed4d5cbf8b445431ac640e92e9e55f2ac984850bf",
+        "sha256_in_prefix": "8babe9fee6a4434f3562490ed4d5cbf8b445431ac640e92e9e55f2ac984850bf",
+        "size_in_bytes": 10202
+      },
+      {
+        "_path": "include/jxl/codestream_header.h",
+        "path_type": "hardlink",
+        "sha256": "559260da655df819f226825021767df061605da57c3adf3a8f7a706997cb6e70",
+        "sha256_in_prefix": "559260da655df819f226825021767df061605da57c3adf3a8f7a706997cb6e70",
+        "size_in_bytes": 15157
+      },
+      {
+        "_path": "include/jxl/color_encoding.h",
+        "path_type": "hardlink",
+        "sha256": "c08460784dd671a83e199c434aafddae032c531aa219ad87d1739dc00963d6ea",
+        "sha256_in_prefix": "c08460784dd671a83e199c434aafddae032c531aa219ad87d1739dc00963d6ea",
+        "size_in_bytes": 5652
+      },
+      {
+        "_path": "include/jxl/compressed_icc.h",
+        "path_type": "hardlink",
+        "sha256": "13202b4f19baa60141d991790e4ccfeb9bfa888e8a3b5bfef5ab328911c34630",
+        "sha256_in_prefix": "13202b4f19baa60141d991790e4ccfeb9bfa888e8a3b5bfef5ab328911c34630",
+        "size_in_bytes": 2737
+      },
+      {
+        "_path": "include/jxl/decode.h",
+        "path_type": "hardlink",
+        "sha256": "4aaf05b3ff83b0cbc0a511539286da9187615119c17eeb7fb8ddde910c429a7d",
+        "sha256_in_prefix": "4aaf05b3ff83b0cbc0a511539286da9187615119c17eeb7fb8ddde910c429a7d",
+        "size_in_bytes": 70762
+      },
+      {
+        "_path": "include/jxl/decode_cxx.h",
+        "path_type": "hardlink",
+        "sha256": "04176846ccdc45bcf04e1b1fd08280f05910cde46dba14a9b8023adbd5b75b27",
+        "sha256_in_prefix": "04176846ccdc45bcf04e1b1fd08280f05910cde46dba14a9b8023adbd5b75b27",
+        "size_in_bytes": 1879
+      },
+      {
+        "_path": "include/jxl/encode.h",
+        "path_type": "hardlink",
+        "sha256": "4be23340032f2410ecbde76be7ec61ed5cb251b77deb2fa237792ae364075c49",
+        "sha256_in_prefix": "4be23340032f2410ecbde76be7ec61ed5cb251b77deb2fa237792ae364075c49",
+        "size_in_bytes": 70052
+      },
+      {
+        "_path": "include/jxl/encode_cxx.h",
+        "path_type": "hardlink",
+        "sha256": "02973e315fc7127840ed868cdfdcfdbda9d86f4a62fab5f4c314164a1aa67439",
+        "sha256_in_prefix": "02973e315fc7127840ed868cdfdcfdbda9d86f4a62fab5f4c314164a1aa67439",
+        "size_in_bytes": 1878
+      },
+      {
+        "_path": "include/jxl/gain_map.h",
+        "path_type": "hardlink",
+        "sha256": "5e6f189b485c635618d3515e1b5c506e356515fbc52e2dfb04e39840e3b5f614",
+        "sha256_in_prefix": "5e6f189b485c635618d3515e1b5c506e356515fbc52e2dfb04e39840e3b5f614",
+        "size_in_bytes": 5260
+      },
+      {
+        "_path": "include/jxl/jxl_cms_export.h",
+        "path_type": "hardlink",
+        "sha256": "71674041ac394df3feb133f83f50da76a3438f47f034b8a028114eef57715beb",
+        "sha256_in_prefix": "71674041ac394df3feb133f83f50da76a3438f47f034b8a028114eef57715beb",
+        "size_in_bytes": 1101
+      },
+      {
+        "_path": "include/jxl/jxl_export.h",
+        "path_type": "hardlink",
+        "sha256": "9ec7d7de9f4796c5175a635a0dd7de096a2d0e1d73f619963ca10c3841078c72",
+        "sha256_in_prefix": "9ec7d7de9f4796c5175a635a0dd7de096a2d0e1d73f619963ca10c3841078c72",
+        "size_in_bytes": 1020
+      },
+      {
+        "_path": "include/jxl/jxl_threads_export.h",
+        "path_type": "hardlink",
+        "sha256": "c76e59983f7bbab735f64e6c35300c78abc4373e3258e3347e0a7659f4d434bf",
+        "sha256_in_prefix": "c76e59983f7bbab735f64e6c35300c78abc4373e3258e3347e0a7659f4d434bf",
+        "size_in_bytes": 1212
+      },
+      {
+        "_path": "include/jxl/memory_manager.h",
+        "path_type": "hardlink",
+        "sha256": "82967b8fd6b827f3e9be839d648ac6cc29e107a9ac048808e9a472adf64c5302",
+        "sha256_in_prefix": "82967b8fd6b827f3e9be839d648ac6cc29e107a9ac048808e9a472adf64c5302",
+        "size_in_bytes": 2109
+      },
+      {
+        "_path": "include/jxl/parallel_runner.h",
+        "path_type": "hardlink",
+        "sha256": "88cc126a10a72c781f9b731ed3a841560d452405c78b90ce4816b1eab978275b",
+        "sha256_in_prefix": "88cc126a10a72c781f9b731ed3a841560d452405c78b90ce4816b1eab978275b",
+        "size_in_bytes": 6843
+      },
+      {
+        "_path": "include/jxl/resizable_parallel_runner.h",
+        "path_type": "hardlink",
+        "sha256": "af796e774514ec68b2e922ade79983939d5e32fdcb8ab039a8cbbae2c1150f3a",
+        "sha256_in_prefix": "af796e774514ec68b2e922ade79983939d5e32fdcb8ab039a8cbbae2c1150f3a",
+        "size_in_bytes": 2731
+      },
+      {
+        "_path": "include/jxl/resizable_parallel_runner_cxx.h",
+        "path_type": "hardlink",
+        "sha256": "5862d795cdde1d5d957cb72a4a561fe03ffd1a34bc8c98ab525bc8ffbf207e10",
+        "sha256_in_prefix": "5862d795cdde1d5d957cb72a4a561fe03ffd1a34bc8c98ab525bc8ffbf207e10",
+        "size_in_bytes": 2340
+      },
+      {
+        "_path": "include/jxl/stats.h",
+        "path_type": "hardlink",
+        "sha256": "168334907755225e021742c93ab68585b47ec5ccbf6e324d444c7761e2b95e0a",
+        "sha256_in_prefix": "168334907755225e021742c93ab68585b47ec5ccbf6e324d444c7761e2b95e0a",
+        "size_in_bytes": 2876
+      },
+      {
+        "_path": "include/jxl/thread_parallel_runner.h",
+        "path_type": "hardlink",
+        "sha256": "593b76d2a061f938d29dddad9ff387769f25fade45a3b4877a855e0ef2add5ae",
+        "sha256_in_prefix": "593b76d2a061f938d29dddad9ff387769f25fade45a3b4877a855e0ef2add5ae",
+        "size_in_bytes": 2459
+      },
+      {
+        "_path": "include/jxl/thread_parallel_runner_cxx.h",
+        "path_type": "hardlink",
+        "sha256": "5ab85be1e6ba46357eb39998daca2eae58807f8b139e2980369a7760cc82699a",
+        "sha256_in_prefix": "5ab85be1e6ba46357eb39998daca2eae58807f8b139e2980369a7760cc82699a",
+        "size_in_bytes": 2373
+      },
+      {
+        "_path": "include/jxl/types.h",
+        "path_type": "hardlink",
+        "sha256": "317bf87d55b133c073b7fa48436c8e2ab3a7c48a2263f26f4eaa407090f93f6d",
+        "sha256_in_prefix": "317bf87d55b133c073b7fa48436c8e2ab3a7c48a2263f26f4eaa407090f93f6d",
+        "size_in_bytes": 5109
+      },
+      {
+        "_path": "include/jxl/version.h",
+        "path_type": "hardlink",
+        "sha256": "6d26f768e044c2e0e11051e3a02831a767313a71d99819e4ebf924db70dafadd",
+        "sha256_in_prefix": "6d26f768e044c2e0e11051e3a02831a767313a71d99819e4ebf924db70dafadd",
+        "size_in_bytes": 1119
+      },
+      {
+        "_path": "lib/libjxl.so",
+        "path_type": "softlink",
+        "sha256": "835ec887b3ff771c3525f36eb65e262c1551aff0019415915664103cc8837869",
+        "size_in_bytes": 4305720
+      },
+      {
+        "_path": "lib/libjxl.so.0.11",
+        "path_type": "softlink",
+        "sha256": "835ec887b3ff771c3525f36eb65e262c1551aff0019415915664103cc8837869",
+        "size_in_bytes": 4305720
+      },
+      {
+        "_path": "lib/libjxl.so.0.11.1",
+        "path_type": "hardlink",
+        "sha256": "835ec887b3ff771c3525f36eb65e262c1551aff0019415915664103cc8837869",
+        "sha256_in_prefix": "835ec887b3ff771c3525f36eb65e262c1551aff0019415915664103cc8837869",
+        "size_in_bytes": 4305720
+      },
+      {
+        "_path": "lib/libjxl_cms.so",
+        "path_type": "softlink",
+        "sha256": "9fe66eeab53b7d2524e51bcf45ceb7148bd8e461d4982a81f48667461e89b894",
+        "size_in_bytes": 295496
+      },
+      {
+        "_path": "lib/libjxl_cms.so.0.11",
+        "path_type": "softlink",
+        "sha256": "9fe66eeab53b7d2524e51bcf45ceb7148bd8e461d4982a81f48667461e89b894",
+        "size_in_bytes": 295496
+      },
+      {
+        "_path": "lib/libjxl_cms.so.0.11.1",
+        "path_type": "hardlink",
+        "sha256": "9fe66eeab53b7d2524e51bcf45ceb7148bd8e461d4982a81f48667461e89b894",
+        "sha256_in_prefix": "9fe66eeab53b7d2524e51bcf45ceb7148bd8e461d4982a81f48667461e89b894",
+        "size_in_bytes": 295496
+      },
+      {
+        "_path": "lib/libjxl_threads.so",
+        "path_type": "softlink",
+        "sha256": "5b908784e71ec205bbe2203ef2ba29dcfb1b76ef2787d0697384ef47a8c2a0c4",
+        "size_in_bytes": 28000
+      },
+      {
+        "_path": "lib/libjxl_threads.so.0.11",
+        "path_type": "softlink",
+        "sha256": "5b908784e71ec205bbe2203ef2ba29dcfb1b76ef2787d0697384ef47a8c2a0c4",
+        "size_in_bytes": 28000
+      },
+      {
+        "_path": "lib/libjxl_threads.so.0.11.1",
+        "path_type": "hardlink",
+        "sha256": "5b908784e71ec205bbe2203ef2ba29dcfb1b76ef2787d0697384ef47a8c2a0c4",
+        "sha256_in_prefix": "5b908784e71ec205bbe2203ef2ba29dcfb1b76ef2787d0697384ef47a8c2a0c4",
+        "size_in_bytes": 28000
+      },
+      {
+        "_path": "lib/pkgconfig/libjxl.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/libjxl-split_1732676304651/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol",
+        "sha256": "715821ee702e9fd3f8a4af057a0cddc7734de4b29f157142fdcdebeb953d8b1e",
+        "sha256_in_prefix": "55849c771b3f4d9aff141d4e7cc0746ce585b4cf887f0dff37af668c6ac6caa9",
+        "size_in_bytes": 587
+      },
+      {
+        "_path": "lib/pkgconfig/libjxl_cms.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/libjxl-split_1732676304651/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol",
+        "sha256": "f0f2d1d16a03b98f732ce7308426c59aed921d368912a2b670341b6106f56c56",
+        "sha256_in_prefix": "d577bd3432a66726edee1308bb2f3753c702c5db93054d03dffb95d930f4b9bb",
+        "size_in_bytes": 557
+      },
+      {
+        "_path": "lib/pkgconfig/libjxl_threads.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/libjxl-split_1732676304651/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol",
+        "sha256": "d42a60fe29a37e3ac7f297a2d1817187365d5d6e5a2d19d36426356182569db0",
+        "sha256_in_prefix": "c71d7cf6f92e1e9fc07cb798e0ab2ecb6c5646b308829f5c1775d7ce826b5bb7",
+        "size_in_bytes": 576
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "0c7c921e182900d65206bef27ef9de491d2b5efe17a5b7a8e200227e123cd826",
+  "size": 1504828,
+  "subdir": "linux-64",
+  "timestamp": 1732676630000,
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/libjxl-0.11.1-hdb8da77_0.conda",
+  "version": "0.11.1"
+}

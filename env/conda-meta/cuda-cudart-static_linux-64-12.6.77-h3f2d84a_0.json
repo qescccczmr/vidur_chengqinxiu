@@ -1,0 +1,59 @@
+{
+  "build": "h3f2d84a_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "cuda-version >=12.6,<12.7.0a0"
+  ],
+  "extracted_package_dir": "/cpfs01/user/chengqinxiu/anaconda3/pkgs/cuda-cudart-static_linux-64-12.6.77-h3f2d84a_0",
+  "files": [
+    "targets/x86_64-linux/lib/libcudadevrt.a",
+    "targets/x86_64-linux/lib/libcudart_static.a",
+    "targets/x86_64-linux/lib/libculibos.a"
+  ],
+  "fn": "cuda-cudart-static_linux-64-12.6.77-h3f2d84a_0.conda",
+  "license": "LicenseRef-NVIDIA-End-User-License-Agreement",
+  "link": {
+    "source": "/cpfs01/user/chengqinxiu/anaconda3/pkgs/cuda-cudart-static_linux-64-12.6.77-h3f2d84a_0",
+    "type": 1
+  },
+  "md5": "3ad8eacbf716ddbca1b5292a3668c821",
+  "name": "cuda-cudart-static_linux-64",
+  "noarch": "generic",
+  "package_tarball_full_path": "/cpfs01/user/chengqinxiu/anaconda3/pkgs/cuda-cudart-static_linux-64-12.6.77-h3f2d84a_0.conda",
+  "package_type": "noarch_generic",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "targets/x86_64-linux/lib/libcudadevrt.a",
+        "path_type": "hardlink",
+        "sha256": "47dd870712b5e09ac9c1471a82df6dbcad63cfc5d376a6f010a42bc349cee573",
+        "sha256_in_prefix": "47dd870712b5e09ac9c1471a82df6dbcad63cfc5d376a6f010a42bc349cee573",
+        "size_in_bytes": 1673306
+      },
+      {
+        "_path": "targets/x86_64-linux/lib/libcudart_static.a",
+        "path_type": "hardlink",
+        "sha256": "5a90415e481a710fa00676f9fe1bbae703f33450c4fd3f35146a3f2980567b06",
+        "sha256_in_prefix": "5a90415e481a710fa00676f9fe1bbae703f33450c4fd3f35146a3f2980567b06",
+        "size_in_bytes": 1436906
+      },
+      {
+        "_path": "targets/x86_64-linux/lib/libculibos.a",
+        "path_type": "hardlink",
+        "sha256": "5349773e44c22fd17aefd46f9f595e07eb033bd04017423f41298bf5f935900a",
+        "sha256_in_prefix": "5349773e44c22fd17aefd46f9f595e07eb033bd04017423f41298bf5f935900a",
+        "size_in_bytes": 30922
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "aefed29499bdbe5d0c65ca44ef596929cf34cc3014f0ae225cdd45a0e66f2660",
+  "size": 762328,
+  "subdir": "noarch",
+  "timestamp": 1727810443000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/cuda-cudart-static_linux-64-12.6.77-h3f2d84a_0.conda",
+  "version": "12.6.77"
+}

@@ -1,0 +1,16 @@
+#libevent pkg-config source file
+
+prefix=/cpfs01/user/chengqinxiu/vidur/env
+exec_prefix=/cpfs01/user/chengqinxiu/vidur/env
+libdir=/cpfs01/user/chengqinxiu/vidur/env/lib
+includedir=/cpfs01/user/chengqinxiu/vidur/env/include
+
+Name: libevent
+Description: libevent is an asynchronous notification event loop library
+Version: 2.1.12
+Requires:
+Conflicts:
+Libs: -L${libdir} -levent
+Libs.private: 
+Cflags: -I${includedir}
+

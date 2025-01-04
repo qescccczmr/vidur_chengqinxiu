@@ -1,0 +1,50 @@
+{
+  "build": "py310hff52083_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "fsspec",
+    "pandas",
+    "pyarrow >=6.0.1",
+    "python >=3.10,<3.11.0a0",
+    "python_abi 3.10.* *_cp310",
+    "ray-default 2.40.0 py310ha1e06c9_0",
+    "requests",
+    "tensorboardx >=1.9"
+  ],
+  "extracted_package_dir": "/cpfs01/user/chengqinxiu/anaconda3/pkgs/ray-tune-2.40.0-py310hff52083_0",
+  "files": [
+    "bin/tune"
+  ],
+  "fn": "ray-tune-2.40.0-py310hff52083_0.conda",
+  "license": "Apache-2.0",
+  "link": {
+    "source": "/cpfs01/user/chengqinxiu/anaconda3/pkgs/ray-tune-2.40.0-py310hff52083_0",
+    "type": 1
+  },
+  "md5": "6ec4d99aeca1c1e405bb24b51cda99e7",
+  "name": "ray-tune",
+  "package_tarball_full_path": "/cpfs01/user/chengqinxiu/anaconda3/pkgs/ray-tune-2.40.0-py310hff52083_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/tune",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/ray-packages_1733424429012/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol",
+        "sha256": "5962b39f0bcdad24ce2fa1b6adac30a32aea304a0a421e281ae911f028d4bbfe",
+        "sha256_in_prefix": "8e962717a3174240d72547bcbc58604665eff10069719e68c21cde3df4351776",
+        "size_in_bytes": 467
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "e94c9e6b938e4010d11d202f750e9820e8d0c181f24ed8077b2654b723f05a8e",
+  "size": 52695,
+  "subdir": "linux-64",
+  "timestamp": 1733432672000,
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/ray-tune-2.40.0-py310hff52083_0.conda",
+  "version": "2.40.0"
+}

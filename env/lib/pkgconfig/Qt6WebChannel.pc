@@ -1,0 +1,13 @@
+prefix=/cpfs01/user/chengqinxiu/vidur/env
+exec_prefix=${prefix}
+bindir=${prefix}/lib/qt6/bin
+libexecdir=${prefix}/lib/qt6
+libdir=${prefix}/lib
+includedir=${prefix}/include/qt6
+
+Name: Qt6 WebChannel
+Description: Qt WebChannel module
+Version: 6.8.0
+Libs: -L${libdir} -lQt6WebChannel
+Cflags: -I${includedir}/QtWebChannel -I${includedir} -DQT_WEBCHANNEL_LIB
+Requires: Qt6Qml

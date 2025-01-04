@@ -1,0 +1,162 @@
+{
+  "build": "py310hff52083_3",
+  "build_number": 3,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.10,<3.11.0a0",
+    "python_abi 3.10.* *_cp310"
+  ],
+  "extracted_package_dir": "/cpfs01/user/chengqinxiu/anaconda3/pkgs/opencensus-context-0.1.3-py310hff52083_3",
+  "files": [
+    "lib/python3.10/site-packages/opencensus/__init__.py",
+    "lib/python3.10/site-packages/opencensus/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/opencensus/common/__init__.py",
+    "lib/python3.10/site-packages/opencensus/common/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/opencensus/common/runtime_context/__init__.py",
+    "lib/python3.10/site-packages/opencensus/common/runtime_context/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/opencensus/common/runtime_context/__pycache__/version.cpython-310.pyc",
+    "lib/python3.10/site-packages/opencensus/common/runtime_context/version.py",
+    "lib/python3.10/site-packages/opencensus_context-0.1.3.dist-info/INSTALLER",
+    "lib/python3.10/site-packages/opencensus_context-0.1.3.dist-info/METADATA",
+    "lib/python3.10/site-packages/opencensus_context-0.1.3.dist-info/RECORD",
+    "lib/python3.10/site-packages/opencensus_context-0.1.3.dist-info/REQUESTED",
+    "lib/python3.10/site-packages/opencensus_context-0.1.3.dist-info/WHEEL",
+    "lib/python3.10/site-packages/opencensus_context-0.1.3.dist-info/direct_url.json",
+    "lib/python3.10/site-packages/opencensus_context-0.1.3.dist-info/namespace_packages.txt",
+    "lib/python3.10/site-packages/opencensus_context-0.1.3.dist-info/top_level.txt"
+  ],
+  "fn": "opencensus-context-0.1.3-py310hff52083_3.conda",
+  "license": "Apache-2.0",
+  "link": {
+    "source": "/cpfs01/user/chengqinxiu/anaconda3/pkgs/opencensus-context-0.1.3-py310hff52083_3",
+    "type": 1
+  },
+  "md5": "3dda30363ce57a3bd904a5344ebec1e9",
+  "name": "opencensus-context",
+  "package_tarball_full_path": "/cpfs01/user/chengqinxiu/anaconda3/pkgs/opencensus-context-0.1.3-py310hff52083_3.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.10/site-packages/opencensus/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "174503e380ee642a55bc8d4f5f9ad6e0570a434d3839176a78e85fe09b217886",
+        "sha256_in_prefix": "174503e380ee642a55bc8d4f5f9ad6e0570a434d3839176a78e85fe09b217886",
+        "size_in_bytes": 66
+      },
+      {
+        "_path": "lib/python3.10/site-packages/opencensus/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "61941cc20a3d3583d9e86c4afa507183c76b1d5f0dea9eb3e279be34430543bf",
+        "sha256_in_prefix": "61941cc20a3d3583d9e86c4afa507183c76b1d5f0dea9eb3e279be34430543bf",
+        "size_in_bytes": 211
+      },
+      {
+        "_path": "lib/python3.10/site-packages/opencensus/common/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "174503e380ee642a55bc8d4f5f9ad6e0570a434d3839176a78e85fe09b217886",
+        "sha256_in_prefix": "174503e380ee642a55bc8d4f5f9ad6e0570a434d3839176a78e85fe09b217886",
+        "size_in_bytes": 66
+      },
+      {
+        "_path": "lib/python3.10/site-packages/opencensus/common/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "89fa218823b77bace61b1075638c4b4fe4565225b54d3c91c3e2b36920c51d4e",
+        "sha256_in_prefix": "89fa218823b77bace61b1075638c4b4fe4565225b54d3c91c3e2b36920c51d4e",
+        "size_in_bytes": 218
+      },
+      {
+        "_path": "lib/python3.10/site-packages/opencensus/common/runtime_context/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "85ea8a34c7324ffaea87b721c569b9ea5aed8819b651dfaace263dc94e76c6c8",
+        "sha256_in_prefix": "85ea8a34c7324ffaea87b721c569b9ea5aed8819b651dfaace263dc94e76c6c8",
+        "size_in_bytes": 5384
+      },
+      {
+        "_path": "lib/python3.10/site-packages/opencensus/common/runtime_context/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "74bd60b16830fcd7bd69604a4524e4e382f8065c532c44b561b38f6613317bfc",
+        "sha256_in_prefix": "74bd60b16830fcd7bd69604a4524e4e382f8065c532c44b561b38f6613317bfc",
+        "size_in_bytes": 6197
+      },
+      {
+        "_path": "lib/python3.10/site-packages/opencensus/common/runtime_context/__pycache__/version.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "8e6efbb9fcf185b720bf56e7624be94c3d2ace69b8419f2039f435082e5563ad",
+        "sha256_in_prefix": "8e6efbb9fcf185b720bf56e7624be94c3d2ace69b8419f2039f435082e5563ad",
+        "size_in_bytes": 187
+      },
+      {
+        "_path": "lib/python3.10/site-packages/opencensus/common/runtime_context/version.py",
+        "path_type": "hardlink",
+        "sha256": "4375bfbf34636b447e8eb55b5a5e847d36590e068bd742047357a20a77b123d3",
+        "sha256_in_prefix": "4375bfbf34636b447e8eb55b5a5e847d36590e068bd742047357a20a77b123d3",
+        "size_in_bytes": 621
+      },
+      {
+        "_path": "lib/python3.10/site-packages/opencensus_context-0.1.3.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.10/site-packages/opencensus_context-0.1.3.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "04e199b4b80336ed2e8d3e42e017cfba4d109fb1ab8a13f28d5f9296528b40cd",
+        "sha256_in_prefix": "04e199b4b80336ed2e8d3e42e017cfba4d109fb1ab8a13f28d5f9296528b40cd",
+        "size_in_bytes": 3324
+      },
+      {
+        "_path": "lib/python3.10/site-packages/opencensus_context-0.1.3.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "3a94cca66c65414690151a2b0c8c915143b2239586f2c8aad0f8ebff44036148",
+        "sha256_in_prefix": "3a94cca66c65414690151a2b0c8c915143b2239586f2c8aad0f8ebff44036148",
+        "size_in_bytes": 1387
+      },
+      {
+        "_path": "lib/python3.10/site-packages/opencensus_context-0.1.3.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.10/site-packages/opencensus_context-0.1.3.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "a7178d5f925db427b9f0f51260ff6ea6673b8dd44f82f4f41a6f646f5487955c",
+        "sha256_in_prefix": "a7178d5f925db427b9f0f51260ff6ea6673b8dd44f82f4f41a6f646f5487955c",
+        "size_in_bytes": 109
+      },
+      {
+        "_path": "lib/python3.10/site-packages/opencensus_context-0.1.3.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "78a17784a4137a726e220ec809d828f274ab09d8f8bb2988ed887a029088bb90",
+        "sha256_in_prefix": "78a17784a4137a726e220ec809d828f274ab09d8f8bb2988ed887a029088bb90",
+        "size_in_bytes": 114
+      },
+      {
+        "_path": "lib/python3.10/site-packages/opencensus_context-0.1.3.dist-info/namespace_packages.txt",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "lib/python3.10/site-packages/opencensus_context-0.1.3.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "276e0e53ad659c578c32ec0e2cfb53372c18b1dd81ce9e4a6c108fb4084381a2",
+        "sha256_in_prefix": "276e0e53ad659c578c32ec0e2cfb53372c18b1dd81ce9e4a6c108fb4084381a2",
+        "size_in_bytes": 11
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "4a0c04bfa2fdb7887ca46c28513ef67baba0de2decd136d080dde26b73df673f",
+  "size": 20325,
+  "subdir": "linux-64",
+  "timestamp": 1732422001000,
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/opencensus-context-0.1.3-py310hff52083_3.conda",
+  "version": "0.1.3"
+}

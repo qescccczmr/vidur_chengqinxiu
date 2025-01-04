@@ -1,0 +1,41 @@
+{
+  "build": "py310hff52083_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.10,<3.11.0a0",
+    "python_abi 3.10.* *_cp310",
+    "ray-adag 2.40.0 py310hff52083_0",
+    "ray-air 2.40.0 py310hff52083_0",
+    "ray-client 2.40.0 py310hff52083_0",
+    "ray-data 2.40.0 py310hff52083_0",
+    "ray-default 2.40.0 py310ha1e06c9_0",
+    "ray-rllib 2.40.0 py310hff52083_0",
+    "ray-serve 2.40.0 py310hff52083_0",
+    "ray-train 2.40.0 py310hff52083_0",
+    "ray-tune 2.40.0 py310hff52083_0"
+  ],
+  "extracted_package_dir": "/cpfs01/user/chengqinxiu/anaconda3/pkgs/ray-all-2.40.0-py310hff52083_0",
+  "files": [],
+  "fn": "ray-all-2.40.0-py310hff52083_0.conda",
+  "license": "Apache-2.0",
+  "link": {
+    "source": "/cpfs01/user/chengqinxiu/anaconda3/pkgs/ray-all-2.40.0-py310hff52083_0",
+    "type": 1
+  },
+  "md5": "95db1b8d5172fd790247ba6dd2363939",
+  "name": "ray-all",
+  "package_tarball_full_path": "/cpfs01/user/chengqinxiu/anaconda3/pkgs/ray-all-2.40.0-py310hff52083_0.conda",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "ray-all",
+  "sha256": "1f8109d0343e0648e9f81168f8be0c0b3017412c5b7e70cbf9b4b5a5dd376ed1",
+  "size": 52224,
+  "subdir": "linux-64",
+  "timestamp": 1733432696000,
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/ray-all-2.40.0-py310hff52083_0.conda",
+  "version": "2.40.0"
+}

@@ -1,0 +1,13 @@
+prefix=/cpfs01/user/chengqinxiu/vidur/env
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+modules=1
+
+Name: libXML
+Version: 2.13.5
+Description: libXML library version2.
+Requires.private:  icu-i18n
+Libs: -L${libdir} -lxml2 
+Libs.private:  -L/cpfs01/user/chengqinxiu/vidur/env/lib -lz -L/cpfs01/user/chengqinxiu/vidur/env/lib -llzma  -L/cpfs01/user/chengqinxiu/vidur/env/lib -liconv -lm   
+Cflags: -I${includedir}/libxml2 -I/cpfs01/user/chengqinxiu/vidur/env/include 

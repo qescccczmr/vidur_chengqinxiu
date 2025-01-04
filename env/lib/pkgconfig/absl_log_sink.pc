@@ -1,0 +1,12 @@
+prefix=/cpfs01/user/chengqinxiu/vidur/env
+exec_prefix=${prefix}
+libdir=/cpfs01/user/chengqinxiu/vidur/env/lib
+includedir=/cpfs01/user/chengqinxiu/vidur/env/include
+
+Name: absl_log_sink
+Description: Abseil log_sink library
+URL: https://abseil.io/
+Version: 20240722
+Requires: absl_config = 20240722, absl_log_entry = 20240722
+Libs: -L${libdir}  -labsl_log_sink 
+Cflags: -I${includedir} -Wnon-virtual-dtor -DNOMINMAX

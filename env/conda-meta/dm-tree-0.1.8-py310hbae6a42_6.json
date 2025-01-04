@@ -1,0 +1,175 @@
+{
+  "build": "py310hbae6a42_6",
+  "build_number": 6,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "__glibc >=2.17,<3.0.a0",
+    "libabseil * cxx17*",
+    "libabseil >=20240722.0,<20240723.0a0",
+    "libgcc >=13",
+    "libstdcxx >=13",
+    "python >=3.10,<3.11.0a0",
+    "python_abi 3.10.* *_cp310"
+  ],
+  "extracted_package_dir": "/cpfs01/user/chengqinxiu/anaconda3/pkgs/dm-tree-0.1.8-py310hbae6a42_6",
+  "files": [
+    "lib/python3.10/site-packages/dm_tree-0.1.8.dist-info/INSTALLER",
+    "lib/python3.10/site-packages/dm_tree-0.1.8.dist-info/LICENSE",
+    "lib/python3.10/site-packages/dm_tree-0.1.8.dist-info/METADATA",
+    "lib/python3.10/site-packages/dm_tree-0.1.8.dist-info/RECORD",
+    "lib/python3.10/site-packages/dm_tree-0.1.8.dist-info/REQUESTED",
+    "lib/python3.10/site-packages/dm_tree-0.1.8.dist-info/WHEEL",
+    "lib/python3.10/site-packages/dm_tree-0.1.8.dist-info/direct_url.json",
+    "lib/python3.10/site-packages/dm_tree-0.1.8.dist-info/top_level.txt",
+    "lib/python3.10/site-packages/tree/__init__.py",
+    "lib/python3.10/site-packages/tree/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/tree/__pycache__/sequence.cpython-310.pyc",
+    "lib/python3.10/site-packages/tree/__pycache__/tree_benchmark.cpython-310.pyc",
+    "lib/python3.10/site-packages/tree/__pycache__/tree_test.cpython-310.pyc",
+    "lib/python3.10/site-packages/tree/_tree.cpython-310-x86_64-linux-gnu.so",
+    "lib/python3.10/site-packages/tree/sequence.py",
+    "lib/python3.10/site-packages/tree/tree_benchmark.py",
+    "lib/python3.10/site-packages/tree/tree_test.py"
+  ],
+  "fn": "dm-tree-0.1.8-py310hbae6a42_6.conda",
+  "license": "Apache-2.0",
+  "link": {
+    "source": "/cpfs01/user/chengqinxiu/anaconda3/pkgs/dm-tree-0.1.8-py310hbae6a42_6",
+    "type": 1
+  },
+  "md5": "f82989c4bdc66b9aa1f8642b3ad7b566",
+  "name": "dm-tree",
+  "package_tarball_full_path": "/cpfs01/user/chengqinxiu/anaconda3/pkgs/dm-tree-0.1.8-py310hbae6a42_6.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.10/site-packages/dm_tree-0.1.8.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.10/site-packages/dm_tree-0.1.8.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+        "sha256_in_prefix": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+        "size_in_bytes": 11358
+      },
+      {
+        "_path": "lib/python3.10/site-packages/dm_tree-0.1.8.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "6558972cf4f480b71a312469812586fb51fa9a0b0dd53cdae6ae971162b5a3af",
+        "sha256_in_prefix": "6558972cf4f480b71a312469812586fb51fa9a0b0dd53cdae6ae971162b5a3af",
+        "size_in_bytes": 1886
+      },
+      {
+        "_path": "lib/python3.10/site-packages/dm_tree-0.1.8.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "abec37df07eba83cd1827d2620f2d6e7269018cdb89cac9788da81c0700fa4bd",
+        "sha256_in_prefix": "abec37df07eba83cd1827d2620f2d6e7269018cdb89cac9788da81c0700fa4bd",
+        "size_in_bytes": 1259
+      },
+      {
+        "_path": "lib/python3.10/site-packages/dm_tree-0.1.8.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.10/site-packages/dm_tree-0.1.8.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "c8cf64865b4b33a744f02596c1bdfc6646f33181e6fd4fd76803eae893027036",
+        "sha256_in_prefix": "c8cf64865b4b33a744f02596c1bdfc6646f33181e6fd4fd76803eae893027036",
+        "size_in_bytes": 104
+      },
+      {
+        "_path": "lib/python3.10/site-packages/dm_tree-0.1.8.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "6f0760aba0a1e0a3209a03806ad4a430c0c6f3ae61291248f5b8e5e46629db6f",
+        "sha256_in_prefix": "6f0760aba0a1e0a3209a03806ad4a430c0c6f3ae61291248f5b8e5e46629db6f",
+        "size_in_bytes": 103
+      },
+      {
+        "_path": "lib/python3.10/site-packages/dm_tree-0.1.8.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "2dbc69f8a273fa0658b34fbd10b9c30674e2a9c8abf699736a8985333c22676d",
+        "sha256_in_prefix": "2dbc69f8a273fa0658b34fbd10b9c30674e2a9c8abf699736a8985333c22676d",
+        "size_in_bytes": 11
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tree/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "75ceea8bb8257ca958185321f63d34b321c5ea8811ddd077e3d1a491720b01d9",
+        "sha256_in_prefix": "75ceea8bb8257ca958185321f63d34b321c5ea8811ddd077e3d1a491720b01d9",
+        "size_in_bytes": 33924
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tree/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "bc8483c78584c31d9874f5cb816a3f91aacf0b0930d695eb33a5515119289381",
+        "sha256_in_prefix": "bc8483c78584c31d9874f5cb816a3f91aacf0b0930d695eb33a5515119289381",
+        "size_in_bytes": 30778
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tree/__pycache__/sequence.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "6dff26345d66b28f62a5e2032c2abe6c6009fa4bc538044d2eedf537ed771e02",
+        "sha256_in_prefix": "6dff26345d66b28f62a5e2032c2abe6c6009fa4bc538044d2eedf537ed771e02",
+        "size_in_bytes": 2975
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tree/__pycache__/tree_benchmark.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "6c8735a3676e79d047eb3e4fb037d4ddb8c961266b8332090197fafdca96855d",
+        "sha256_in_prefix": "6c8735a3676e79d047eb3e4fb037d4ddb8c961266b8332090197fafdca96855d",
+        "size_in_bytes": 1805
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tree/__pycache__/tree_test.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "83b0316e78eb8da8f12f80419cb363a55f7e997e707a4d144f2f92de2552f8e7",
+        "sha256_in_prefix": "83b0316e78eb8da8f12f80419cb363a55f7e997e707a4d144f2f92de2552f8e7",
+        "size_in_bytes": 37981
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tree/_tree.cpython-310-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "22029bb27328b92b53e29563de8188e33acd2da17a5e3d46da74927fba09212b",
+        "sha256_in_prefix": "22029bb27328b92b53e29563de8188e33acd2da17a5e3d46da74927fba09212b",
+        "size_in_bytes": 149512
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tree/sequence.py",
+        "path_type": "hardlink",
+        "sha256": "0e333a1769a91b24bfe1ff276fefb61786478a5473f194497f7b725051bb178b",
+        "sha256_in_prefix": "0e333a1769a91b24bfe1ff276fefb61786478a5473f194497f7b725051bb178b",
+        "size_in_bytes": 4122
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tree/tree_benchmark.py",
+        "path_type": "hardlink",
+        "sha256": "98740024f67cbd0df8935658d487d21a0ff46ecd19f04a1ab00209f91615d77d",
+        "sha256_in_prefix": "98740024f67cbd0df8935658d487d21a0ff46ecd19f04a1ab00209f91615d77d",
+        "size_in_bytes": 1988
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tree/tree_test.py",
+        "path_type": "hardlink",
+        "sha256": "db4c93da42f7d1fd3045f19c677472619a2651b2364abb515b8e79de4bdf4375",
+        "sha256_in_prefix": "db4c93da42f7d1fd3045f19c677472619a2651b2364abb515b8e79de4bdf4375",
+        "size_in_bytes": 48082
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "7a443db1e2c8e417f12025243d37b9d66077790295f52d214d10868ae784f06e",
+  "size": 109898,
+  "subdir": "linux-64",
+  "timestamp": 1727275878000,
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/dm-tree-0.1.8-py310hbae6a42_6.conda",
+  "version": "0.1.8"
+}

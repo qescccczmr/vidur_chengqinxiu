@@ -1,0 +1,34 @@
+{
+  "build": "py310hff52083_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "cupy",
+    "python >=3.10,<3.11.0a0",
+    "python_abi 3.10.* *_cp310",
+    "ray-default 2.40.0 py310ha1e06c9_0"
+  ],
+  "extracted_package_dir": "/cpfs01/user/chengqinxiu/anaconda3/pkgs/ray-adag-2.40.0-py310hff52083_0",
+  "files": [],
+  "fn": "ray-adag-2.40.0-py310hff52083_0.conda",
+  "license": "Apache-2.0",
+  "link": {
+    "source": "/cpfs01/user/chengqinxiu/anaconda3/pkgs/ray-adag-2.40.0-py310hff52083_0",
+    "type": 1
+  },
+  "md5": "725b062349c5b97a1ae69ccda301aafc",
+  "name": "ray-adag",
+  "package_tarball_full_path": "/cpfs01/user/chengqinxiu/anaconda3/pkgs/ray-adag-2.40.0-py310hff52083_0.conda",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "f5436b291d765102f049c8695d0461a770ea183387693f60128fa0fc68b85fd0",
+  "size": 52159,
+  "subdir": "linux-64",
+  "timestamp": 1733432653000,
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/ray-adag-2.40.0-py310hff52083_0.conda",
+  "version": "2.40.0"
+}

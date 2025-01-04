@@ -1,0 +1,33 @@
+{
+  "build": "py310hff52083_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.10,<3.11.0a0",
+    "python_abi 3.10.* *_cp310",
+    "ray-tune 2.40.0 py310hff52083_0"
+  ],
+  "extracted_package_dir": "/cpfs01/user/chengqinxiu/anaconda3/pkgs/ray-train-2.40.0-py310hff52083_0",
+  "files": [],
+  "fn": "ray-train-2.40.0-py310hff52083_0.conda",
+  "license": "Apache-2.0",
+  "link": {
+    "source": "/cpfs01/user/chengqinxiu/anaconda3/pkgs/ray-train-2.40.0-py310hff52083_0",
+    "type": 1
+  },
+  "md5": "3cc2e4708362f18817107f36dee1f5d8",
+  "name": "ray-train",
+  "package_tarball_full_path": "/cpfs01/user/chengqinxiu/anaconda3/pkgs/ray-train-2.40.0-py310hff52083_0.conda",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "dd0e1e9c2d58d5ef43fb6d04ad7a304de5c21387b483567f41301337479f9c8e",
+  "size": 52163,
+  "subdir": "linux-64",
+  "timestamp": 1733432684000,
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/ray-train-2.40.0-py310hff52083_0.conda",
+  "version": "2.40.0"
+}

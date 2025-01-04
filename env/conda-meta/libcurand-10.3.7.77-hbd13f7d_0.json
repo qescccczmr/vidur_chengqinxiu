@@ -1,0 +1,65 @@
+{
+  "build": "hbd13f7d_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "__glibc >=2.17,<3.0.a0",
+    "cuda-version >=12.6,<12.7.0a0",
+    "libgcc >=13",
+    "libstdcxx >=13"
+  ],
+  "extracted_package_dir": "/cpfs01/user/chengqinxiu/anaconda3/pkgs/libcurand-10.3.7.77-hbd13f7d_0",
+  "files": [
+    "lib/libcurand.so.10",
+    "lib/libcurand.so.10.3.7.77",
+    "targets/x86_64-linux/lib/libcurand.so.10",
+    "targets/x86_64-linux/lib/libcurand.so.10.3.7.77"
+  ],
+  "fn": "libcurand-10.3.7.77-hbd13f7d_0.conda",
+  "license": "LicenseRef-NVIDIA-End-User-License-Agreement",
+  "link": {
+    "source": "/cpfs01/user/chengqinxiu/anaconda3/pkgs/libcurand-10.3.7.77-hbd13f7d_0",
+    "type": 1
+  },
+  "md5": "d8b8a1e6e6205447289cd09212c914ac",
+  "name": "libcurand",
+  "package_tarball_full_path": "/cpfs01/user/chengqinxiu/anaconda3/pkgs/libcurand-10.3.7.77-hbd13f7d_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/libcurand.so.10",
+        "path_type": "softlink",
+        "sha256": "ec92ed2c9c967a67d95d5c7e7ff98e5dde5ca03975b959307066ce81662dfffb",
+        "size_in_bytes": 96472496
+      },
+      {
+        "_path": "lib/libcurand.so.10.3.7.77",
+        "path_type": "softlink",
+        "sha256": "ec92ed2c9c967a67d95d5c7e7ff98e5dde5ca03975b959307066ce81662dfffb",
+        "size_in_bytes": 96472496
+      },
+      {
+        "_path": "targets/x86_64-linux/lib/libcurand.so.10",
+        "path_type": "softlink",
+        "sha256": "ec92ed2c9c967a67d95d5c7e7ff98e5dde5ca03975b959307066ce81662dfffb",
+        "size_in_bytes": 96472496
+      },
+      {
+        "_path": "targets/x86_64-linux/lib/libcurand.so.10.3.7.77",
+        "path_type": "hardlink",
+        "sha256": "ec92ed2c9c967a67d95d5c7e7ff98e5dde5ca03975b959307066ce81662dfffb",
+        "sha256_in_prefix": "ec92ed2c9c967a67d95d5c7e7ff98e5dde5ca03975b959307066ce81662dfffb",
+        "size_in_bytes": 96472496
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "58ee962804a9df475638e0e83f1116bfbf00a5e4681ed180eb872990d49d7902",
+  "size": 41790488,
+  "subdir": "linux-64",
+  "timestamp": 1727807993000,
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/libcurand-10.3.7.77-hbd13f7d_0.conda",
+  "version": "10.3.7.77"
+}

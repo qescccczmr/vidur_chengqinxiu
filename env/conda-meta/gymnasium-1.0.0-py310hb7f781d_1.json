@@ -1,0 +1,3071 @@
+{
+  "build": "py310hb7f781d_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "cloudpickle >=1.2.0",
+    "farama-notifications",
+    "jax-jumpy >=1.0.0",
+    "numpy >=1.19,<3",
+    "python >=3.10,<3.11.0a0",
+    "python_abi 3.10.* *_cp310",
+    "typing_extensions >=4.3.0"
+  ],
+  "extracted_package_dir": "/cpfs01/user/chengqinxiu/anaconda3/pkgs/gymnasium-1.0.0-py310hb7f781d_1",
+  "files": [
+    "lib/python3.10/site-packages/gymnasium-1.0.0.dist-info/INSTALLER",
+    "lib/python3.10/site-packages/gymnasium-1.0.0.dist-info/LICENSE",
+    "lib/python3.10/site-packages/gymnasium-1.0.0.dist-info/METADATA",
+    "lib/python3.10/site-packages/gymnasium-1.0.0.dist-info/RECORD",
+    "lib/python3.10/site-packages/gymnasium-1.0.0.dist-info/REQUESTED",
+    "lib/python3.10/site-packages/gymnasium-1.0.0.dist-info/WHEEL",
+    "lib/python3.10/site-packages/gymnasium-1.0.0.dist-info/direct_url.json",
+    "lib/python3.10/site-packages/gymnasium-1.0.0.dist-info/top_level.txt",
+    "lib/python3.10/site-packages/gymnasium/__init__.py",
+    "lib/python3.10/site-packages/gymnasium/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/gymnasium/__pycache__/core.cpython-310.pyc",
+    "lib/python3.10/site-packages/gymnasium/__pycache__/error.cpython-310.pyc",
+    "lib/python3.10/site-packages/gymnasium/__pycache__/logger.cpython-310.pyc",
+    "lib/python3.10/site-packages/gymnasium/core.py",
+    "lib/python3.10/site-packages/gymnasium/envs/__init__.py",
+    "lib/python3.10/site-packages/gymnasium/envs/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/gymnasium/envs/__pycache__/functional_jax_env.cpython-310.pyc",
+    "lib/python3.10/site-packages/gymnasium/envs/__pycache__/registration.cpython-310.pyc",
+    "lib/python3.10/site-packages/gymnasium/envs/box2d/__init__.py",
+    "lib/python3.10/site-packages/gymnasium/envs/box2d/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/gymnasium/envs/box2d/__pycache__/bipedal_walker.cpython-310.pyc",
+    "lib/python3.10/site-packages/gymnasium/envs/box2d/__pycache__/car_dynamics.cpython-310.pyc",
+    "lib/python3.10/site-packages/gymnasium/envs/box2d/__pycache__/car_racing.cpython-310.pyc",
+    "lib/python3.10/site-packages/gymnasium/envs/box2d/__pycache__/lunar_lander.cpython-310.pyc",
+    "lib/python3.10/site-packages/gymnasium/envs/box2d/bipedal_walker.py",
+    "lib/python3.10/site-packages/gymnasium/envs/box2d/car_dynamics.py",
+    "lib/python3.10/site-packages/gymnasium/envs/box2d/car_racing.py",
+    "lib/python3.10/site-packages/gymnasium/envs/box2d/lunar_lander.py",
+    "lib/python3.10/site-packages/gymnasium/envs/classic_control/__init__.py",
+    "lib/python3.10/site-packages/gymnasium/envs/classic_control/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/gymnasium/envs/classic_control/__pycache__/acrobot.cpython-310.pyc",
+    "lib/python3.10/site-packages/gymnasium/envs/classic_control/__pycache__/cartpole.cpython-310.pyc",
+    "lib/python3.10/site-packages/gymnasium/envs/classic_control/__pycache__/continuous_mountain_car.cpython-310.pyc",
+    "lib/python3.10/site-packages/gymnasium/envs/classic_control/__pycache__/mountain_car.cpython-310.pyc",
+    "lib/python3.10/site-packages/gymnasium/envs/classic_control/__pycache__/pendulum.cpython-310.pyc",
+    "lib/python3.10/site-packages/gymnasium/envs/classic_control/__pycache__/utils.cpython-310.pyc",
+    "lib/python3.10/site-packages/gymnasium/envs/classic_control/acrobot.py",
+    "lib/python3.10/site-packages/gymnasium/envs/classic_control/assets/clockwise.png",
+    "lib/python3.10/site-packages/gymnasium/envs/classic_control/cartpole.py",
+    "lib/python3.10/site-packages/gymnasium/envs/classic_control/continuous_mountain_car.py",
+    "lib/python3.10/site-packages/gymnasium/envs/classic_control/mountain_car.py",
+    "lib/python3.10/site-packages/gymnasium/envs/classic_control/pendulum.py",
+    "lib/python3.10/site-packages/gymnasium/envs/classic_control/utils.py",
+    "lib/python3.10/site-packages/gymnasium/envs/functional_jax_env.py",
+    "lib/python3.10/site-packages/gymnasium/envs/mujoco/__init__.py",
+    "lib/python3.10/site-packages/gymnasium/envs/mujoco/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/gymnasium/envs/mujoco/__pycache__/ant.cpython-310.pyc",
+    "lib/python3.10/site-packages/gymnasium/envs/mujoco/__pycache__/ant_v3.cpython-310.pyc",
+    "lib/python3.10/site-packages/gymnasium/envs/mujoco/__pycache__/ant_v4.cpython-310.pyc",
+    "lib/python3.10/site-packages/gymnasium/envs/mujoco/__pycache__/ant_v5.cpython-310.pyc",
+    "lib/python3.10/site-packages/gymnasium/envs/mujoco/__pycache__/half_cheetah.cpython-310.pyc",
+    "lib/python3.10/site-packages/gymnasium/envs/mujoco/__pycache__/half_cheetah_v3.cpython-310.pyc",
+    "lib/python3.10/site-packages/gymnasium/envs/mujoco/__pycache__/half_cheetah_v4.cpython-310.pyc",
+    "lib/python3.10/site-packages/gymnasium/envs/mujoco/__pycache__/half_cheetah_v5.cpython-310.pyc",
+    "lib/python3.10/site-packages/gymnasium/envs/mujoco/__pycache__/hopper.cpython-310.pyc",
+    "lib/python3.10/site-packages/gymnasium/envs/mujoco/__pycache__/hopper_v3.cpython-310.pyc",
+    "lib/python3.10/site-packages/gymnasium/envs/mujoco/__pycache__/hopper_v4.cpython-310.pyc",
+    "lib/python3.10/site-packages/gymnasium/envs/mujoco/__pycache__/hopper_v5.cpython-310.pyc",
+    "lib/python3.10/site-packages/gymnasium/envs/mujoco/__pycache__/humanoid.cpython-310.pyc",
+    "lib/python3.10/site-packages/gymnasium/envs/mujoco/__pycache__/humanoid_v3.cpython-310.pyc",
+    "lib/python3.10/site-packages/gymnasium/envs/mujoco/__pycache__/humanoid_v4.cpython-310.pyc",
+    "lib/python3.10/site-packages/gymnasium/envs/mujoco/__pycache__/humanoid_v5.cpython-310.pyc",
+    "lib/python3.10/site-packages/gymnasium/envs/mujoco/__pycache__/humanoidstandup.cpython-310.pyc",
+    "lib/python3.10/site-packages/gymnasium/envs/mujoco/__pycache__/humanoidstandup_v4.cpython-310.pyc",
+    "lib/python3.10/site-packages/gymnasium/envs/mujoco/__pycache__/humanoidstandup_v5.cpython-310.pyc",
+    "lib/python3.10/site-packages/gymnasium/envs/mujoco/__pycache__/inverted_double_pendulum.cpython-310.pyc",
+    "lib/python3.10/site-packages/gymnasium/envs/mujoco/__pycache__/inverted_double_pendulum_v4.cpython-310.pyc",
+    "lib/python3.10/site-packages/gymnasium/envs/mujoco/__pycache__/inverted_double_pendulum_v5.cpython-310.pyc",
+    "lib/python3.10/site-packages/gymnasium/envs/mujoco/__pycache__/inverted_pendulum.cpython-310.pyc",
+    "lib/python3.10/site-packages/gymnasium/envs/mujoco/__pycache__/inverted_pendulum_v4.cpython-310.pyc",
+    "lib/python3.10/site-packages/gymnasium/envs/mujoco/__pycache__/inverted_pendulum_v5.cpython-310.pyc",
+    "lib/python3.10/site-packages/gymnasium/envs/mujoco/__pycache__/mujoco_env.cpython-310.pyc",
+    "lib/python3.10/site-packages/gymnasium/envs/mujoco/__pycache__/mujoco_py_env.cpython-310.pyc",
+    "lib/python3.10/site-packages/gymnasium/envs/mujoco/__pycache__/mujoco_rendering.cpython-310.pyc",
+    "lib/python3.10/site-packages/gymnasium/envs/mujoco/__pycache__/pusher.cpython-310.pyc",
+    "lib/python3.10/site-packages/gymnasium/envs/mujoco/__pycache__/pusher_v4.cpython-310.pyc",
+    "lib/python3.10/site-packages/gymnasium/envs/mujoco/__pycache__/pusher_v5.cpython-310.pyc",
+    "lib/python3.10/site-packages/gymnasium/envs/mujoco/__pycache__/reacher.cpython-310.pyc",
+    "lib/python3.10/site-packages/gymnasium/envs/mujoco/__pycache__/reacher_v4.cpython-310.pyc",
+    "lib/python3.10/site-packages/gymnasium/envs/mujoco/__pycache__/reacher_v5.cpython-310.pyc",
+    "lib/python3.10/site-packages/gymnasium/envs/mujoco/__pycache__/swimmer.cpython-310.pyc",
+    "lib/python3.10/site-packages/gymnasium/envs/mujoco/__pycache__/swimmer_v3.cpython-310.pyc",
+    "lib/python3.10/site-packages/gymnasium/envs/mujoco/__pycache__/swimmer_v4.cpython-310.pyc",
+    "lib/python3.10/site-packages/gymnasium/envs/mujoco/__pycache__/swimmer_v5.cpython-310.pyc",
+    "lib/python3.10/site-packages/gymnasium/envs/mujoco/__pycache__/utils.cpython-310.pyc",
+    "lib/python3.10/site-packages/gymnasium/envs/mujoco/__pycache__/walker2d.cpython-310.pyc",
+    "lib/python3.10/site-packages/gymnasium/envs/mujoco/__pycache__/walker2d_v3.cpython-310.pyc",
+    "lib/python3.10/site-packages/gymnasium/envs/mujoco/__pycache__/walker2d_v4.cpython-310.pyc",
+    "lib/python3.10/site-packages/gymnasium/envs/mujoco/__pycache__/walker2d_v5.cpython-310.pyc",
+    "lib/python3.10/site-packages/gymnasium/envs/mujoco/ant.py",
+    "lib/python3.10/site-packages/gymnasium/envs/mujoco/ant_v3.py",
+    "lib/python3.10/site-packages/gymnasium/envs/mujoco/ant_v4.py",
+    "lib/python3.10/site-packages/gymnasium/envs/mujoco/ant_v5.py",
+    "lib/python3.10/site-packages/gymnasium/envs/mujoco/assets/ant.xml",
+    "lib/python3.10/site-packages/gymnasium/envs/mujoco/assets/half_cheetah.xml",
+    "lib/python3.10/site-packages/gymnasium/envs/mujoco/assets/hopper.xml",
+    "lib/python3.10/site-packages/gymnasium/envs/mujoco/assets/humanoid.xml",
+    "lib/python3.10/site-packages/gymnasium/envs/mujoco/assets/humanoidstandup.xml",
+    "lib/python3.10/site-packages/gymnasium/envs/mujoco/assets/inverted_double_pendulum.xml",
+    "lib/python3.10/site-packages/gymnasium/envs/mujoco/assets/inverted_pendulum.xml",
+    "lib/python3.10/site-packages/gymnasium/envs/mujoco/assets/point.xml",
+    "lib/python3.10/site-packages/gymnasium/envs/mujoco/assets/pusher.xml",
+    "lib/python3.10/site-packages/gymnasium/envs/mujoco/assets/pusher_v5.xml",
+    "lib/python3.10/site-packages/gymnasium/envs/mujoco/assets/reacher.xml",
+    "lib/python3.10/site-packages/gymnasium/envs/mujoco/assets/swimmer.xml",
+    "lib/python3.10/site-packages/gymnasium/envs/mujoco/assets/walker2d.xml",
+    "lib/python3.10/site-packages/gymnasium/envs/mujoco/assets/walker2d_v5.xml",
+    "lib/python3.10/site-packages/gymnasium/envs/mujoco/half_cheetah.py",
+    "lib/python3.10/site-packages/gymnasium/envs/mujoco/half_cheetah_v3.py",
+    "lib/python3.10/site-packages/gymnasium/envs/mujoco/half_cheetah_v4.py",
+    "lib/python3.10/site-packages/gymnasium/envs/mujoco/half_cheetah_v5.py",
+    "lib/python3.10/site-packages/gymnasium/envs/mujoco/hopper.py",
+    "lib/python3.10/site-packages/gymnasium/envs/mujoco/hopper_v3.py",
+    "lib/python3.10/site-packages/gymnasium/envs/mujoco/hopper_v4.py",
+    "lib/python3.10/site-packages/gymnasium/envs/mujoco/hopper_v5.py",
+    "lib/python3.10/site-packages/gymnasium/envs/mujoco/humanoid.py",
+    "lib/python3.10/site-packages/gymnasium/envs/mujoco/humanoid_v3.py",
+    "lib/python3.10/site-packages/gymnasium/envs/mujoco/humanoid_v4.py",
+    "lib/python3.10/site-packages/gymnasium/envs/mujoco/humanoid_v5.py",
+    "lib/python3.10/site-packages/gymnasium/envs/mujoco/humanoidstandup.py",
+    "lib/python3.10/site-packages/gymnasium/envs/mujoco/humanoidstandup_v4.py",
+    "lib/python3.10/site-packages/gymnasium/envs/mujoco/humanoidstandup_v5.py",
+    "lib/python3.10/site-packages/gymnasium/envs/mujoco/inverted_double_pendulum.py",
+    "lib/python3.10/site-packages/gymnasium/envs/mujoco/inverted_double_pendulum_v4.py",
+    "lib/python3.10/site-packages/gymnasium/envs/mujoco/inverted_double_pendulum_v5.py",
+    "lib/python3.10/site-packages/gymnasium/envs/mujoco/inverted_pendulum.py",
+    "lib/python3.10/site-packages/gymnasium/envs/mujoco/inverted_pendulum_v4.py",
+    "lib/python3.10/site-packages/gymnasium/envs/mujoco/inverted_pendulum_v5.py",
+    "lib/python3.10/site-packages/gymnasium/envs/mujoco/mujoco_env.py",
+    "lib/python3.10/site-packages/gymnasium/envs/mujoco/mujoco_py_env.py",
+    "lib/python3.10/site-packages/gymnasium/envs/mujoco/mujoco_rendering.py",
+    "lib/python3.10/site-packages/gymnasium/envs/mujoco/pusher.py",
+    "lib/python3.10/site-packages/gymnasium/envs/mujoco/pusher_v4.py",
+    "lib/python3.10/site-packages/gymnasium/envs/mujoco/pusher_v5.py",
+    "lib/python3.10/site-packages/gymnasium/envs/mujoco/reacher.py",
+    "lib/python3.10/site-packages/gymnasium/envs/mujoco/reacher_v4.py",
+    "lib/python3.10/site-packages/gymnasium/envs/mujoco/reacher_v5.py",
+    "lib/python3.10/site-packages/gymnasium/envs/mujoco/swimmer.py",
+    "lib/python3.10/site-packages/gymnasium/envs/mujoco/swimmer_v3.py",
+    "lib/python3.10/site-packages/gymnasium/envs/mujoco/swimmer_v4.py",
+    "lib/python3.10/site-packages/gymnasium/envs/mujoco/swimmer_v5.py",
+    "lib/python3.10/site-packages/gymnasium/envs/mujoco/utils.py",
+    "lib/python3.10/site-packages/gymnasium/envs/mujoco/walker2d.py",
+    "lib/python3.10/site-packages/gymnasium/envs/mujoco/walker2d_v3.py",
+    "lib/python3.10/site-packages/gymnasium/envs/mujoco/walker2d_v4.py",
+    "lib/python3.10/site-packages/gymnasium/envs/mujoco/walker2d_v5.py",
+    "lib/python3.10/site-packages/gymnasium/envs/phys2d/__init__.py",
+    "lib/python3.10/site-packages/gymnasium/envs/phys2d/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/gymnasium/envs/phys2d/__pycache__/cartpole.cpython-310.pyc",
+    "lib/python3.10/site-packages/gymnasium/envs/phys2d/__pycache__/pendulum.cpython-310.pyc",
+    "lib/python3.10/site-packages/gymnasium/envs/phys2d/assets/clockwise.png",
+    "lib/python3.10/site-packages/gymnasium/envs/phys2d/cartpole.py",
+    "lib/python3.10/site-packages/gymnasium/envs/phys2d/pendulum.py",
+    "lib/python3.10/site-packages/gymnasium/envs/registration.py",
+    "lib/python3.10/site-packages/gymnasium/envs/tabular/__init__.py",
+    "lib/python3.10/site-packages/gymnasium/envs/tabular/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/gymnasium/envs/tabular/__pycache__/blackjack.cpython-310.pyc",
+    "lib/python3.10/site-packages/gymnasium/envs/tabular/__pycache__/cliffwalking.cpython-310.pyc",
+    "lib/python3.10/site-packages/gymnasium/envs/tabular/blackjack.py",
+    "lib/python3.10/site-packages/gymnasium/envs/tabular/cliffwalking.py",
+    "lib/python3.10/site-packages/gymnasium/envs/toy_text/__init__.py",
+    "lib/python3.10/site-packages/gymnasium/envs/toy_text/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/gymnasium/envs/toy_text/__pycache__/blackjack.cpython-310.pyc",
+    "lib/python3.10/site-packages/gymnasium/envs/toy_text/__pycache__/cliffwalking.cpython-310.pyc",
+    "lib/python3.10/site-packages/gymnasium/envs/toy_text/__pycache__/frozen_lake.cpython-310.pyc",
+    "lib/python3.10/site-packages/gymnasium/envs/toy_text/__pycache__/taxi.cpython-310.pyc",
+    "lib/python3.10/site-packages/gymnasium/envs/toy_text/__pycache__/utils.cpython-310.pyc",
+    "lib/python3.10/site-packages/gymnasium/envs/toy_text/blackjack.py",
+    "lib/python3.10/site-packages/gymnasium/envs/toy_text/cliffwalking.py",
+    "lib/python3.10/site-packages/gymnasium/envs/toy_text/font/Minecraft.ttf",
+    "lib/python3.10/site-packages/gymnasium/envs/toy_text/frozen_lake.py",
+    "lib/python3.10/site-packages/gymnasium/envs/toy_text/img/C2.png",
+    "lib/python3.10/site-packages/gymnasium/envs/toy_text/img/C3.png",
+    "lib/python3.10/site-packages/gymnasium/envs/toy_text/img/C4.png",
+    "lib/python3.10/site-packages/gymnasium/envs/toy_text/img/C5.png",
+    "lib/python3.10/site-packages/gymnasium/envs/toy_text/img/C6.png",
+    "lib/python3.10/site-packages/gymnasium/envs/toy_text/img/C7.png",
+    "lib/python3.10/site-packages/gymnasium/envs/toy_text/img/C8.png",
+    "lib/python3.10/site-packages/gymnasium/envs/toy_text/img/C9.png",
+    "lib/python3.10/site-packages/gymnasium/envs/toy_text/img/CA.png",
+    "lib/python3.10/site-packages/gymnasium/envs/toy_text/img/CJ.png",
+    "lib/python3.10/site-packages/gymnasium/envs/toy_text/img/CK.png",
+    "lib/python3.10/site-packages/gymnasium/envs/toy_text/img/CQ.png",
+    "lib/python3.10/site-packages/gymnasium/envs/toy_text/img/CT.png",
+    "lib/python3.10/site-packages/gymnasium/envs/toy_text/img/Card.png",
+    "lib/python3.10/site-packages/gymnasium/envs/toy_text/img/D2.png",
+    "lib/python3.10/site-packages/gymnasium/envs/toy_text/img/D3.png",
+    "lib/python3.10/site-packages/gymnasium/envs/toy_text/img/D4.png",
+    "lib/python3.10/site-packages/gymnasium/envs/toy_text/img/D5.png",
+    "lib/python3.10/site-packages/gymnasium/envs/toy_text/img/D6.png",
+    "lib/python3.10/site-packages/gymnasium/envs/toy_text/img/D7.png",
+    "lib/python3.10/site-packages/gymnasium/envs/toy_text/img/D8.png",
+    "lib/python3.10/site-packages/gymnasium/envs/toy_text/img/D9.png",
+    "lib/python3.10/site-packages/gymnasium/envs/toy_text/img/DA.png",
+    "lib/python3.10/site-packages/gymnasium/envs/toy_text/img/DJ.png",
+    "lib/python3.10/site-packages/gymnasium/envs/toy_text/img/DK.png",
+    "lib/python3.10/site-packages/gymnasium/envs/toy_text/img/DQ.png",
+    "lib/python3.10/site-packages/gymnasium/envs/toy_text/img/DT.png",
+    "lib/python3.10/site-packages/gymnasium/envs/toy_text/img/H2.png",
+    "lib/python3.10/site-packages/gymnasium/envs/toy_text/img/H3.png",
+    "lib/python3.10/site-packages/gymnasium/envs/toy_text/img/H4.png",
+    "lib/python3.10/site-packages/gymnasium/envs/toy_text/img/H5.png",
+    "lib/python3.10/site-packages/gymnasium/envs/toy_text/img/H6.png",
+    "lib/python3.10/site-packages/gymnasium/envs/toy_text/img/H7.png",
+    "lib/python3.10/site-packages/gymnasium/envs/toy_text/img/H8.png",
+    "lib/python3.10/site-packages/gymnasium/envs/toy_text/img/H9.png",
+    "lib/python3.10/site-packages/gymnasium/envs/toy_text/img/HA.png",
+    "lib/python3.10/site-packages/gymnasium/envs/toy_text/img/HJ.png",
+    "lib/python3.10/site-packages/gymnasium/envs/toy_text/img/HK.png",
+    "lib/python3.10/site-packages/gymnasium/envs/toy_text/img/HQ.png",
+    "lib/python3.10/site-packages/gymnasium/envs/toy_text/img/HT.png",
+    "lib/python3.10/site-packages/gymnasium/envs/toy_text/img/S2.png",
+    "lib/python3.10/site-packages/gymnasium/envs/toy_text/img/S3.png",
+    "lib/python3.10/site-packages/gymnasium/envs/toy_text/img/S4.png",
+    "lib/python3.10/site-packages/gymnasium/envs/toy_text/img/S5.png",
+    "lib/python3.10/site-packages/gymnasium/envs/toy_text/img/S6.png",
+    "lib/python3.10/site-packages/gymnasium/envs/toy_text/img/S7.png",
+    "lib/python3.10/site-packages/gymnasium/envs/toy_text/img/S8.png",
+    "lib/python3.10/site-packages/gymnasium/envs/toy_text/img/S9.png",
+    "lib/python3.10/site-packages/gymnasium/envs/toy_text/img/SA.png",
+    "lib/python3.10/site-packages/gymnasium/envs/toy_text/img/SJ.png",
+    "lib/python3.10/site-packages/gymnasium/envs/toy_text/img/SK.png",
+    "lib/python3.10/site-packages/gymnasium/envs/toy_text/img/SQ.png",
+    "lib/python3.10/site-packages/gymnasium/envs/toy_text/img/ST.png",
+    "lib/python3.10/site-packages/gymnasium/envs/toy_text/img/cab_front.png",
+    "lib/python3.10/site-packages/gymnasium/envs/toy_text/img/cab_left.png",
+    "lib/python3.10/site-packages/gymnasium/envs/toy_text/img/cab_rear.png",
+    "lib/python3.10/site-packages/gymnasium/envs/toy_text/img/cab_right.png",
+    "lib/python3.10/site-packages/gymnasium/envs/toy_text/img/cookie.png",
+    "lib/python3.10/site-packages/gymnasium/envs/toy_text/img/cracked_hole.png",
+    "lib/python3.10/site-packages/gymnasium/envs/toy_text/img/elf_down.png",
+    "lib/python3.10/site-packages/gymnasium/envs/toy_text/img/elf_left.png",
+    "lib/python3.10/site-packages/gymnasium/envs/toy_text/img/elf_right.png",
+    "lib/python3.10/site-packages/gymnasium/envs/toy_text/img/elf_up.png",
+    "lib/python3.10/site-packages/gymnasium/envs/toy_text/img/goal.png",
+    "lib/python3.10/site-packages/gymnasium/envs/toy_text/img/gridworld_median_bottom.png",
+    "lib/python3.10/site-packages/gymnasium/envs/toy_text/img/gridworld_median_horiz.png",
+    "lib/python3.10/site-packages/gymnasium/envs/toy_text/img/gridworld_median_left.png",
+    "lib/python3.10/site-packages/gymnasium/envs/toy_text/img/gridworld_median_right.png",
+    "lib/python3.10/site-packages/gymnasium/envs/toy_text/img/gridworld_median_top.png",
+    "lib/python3.10/site-packages/gymnasium/envs/toy_text/img/gridworld_median_vert.png",
+    "lib/python3.10/site-packages/gymnasium/envs/toy_text/img/hole.png",
+    "lib/python3.10/site-packages/gymnasium/envs/toy_text/img/hotel.png",
+    "lib/python3.10/site-packages/gymnasium/envs/toy_text/img/ice.png",
+    "lib/python3.10/site-packages/gymnasium/envs/toy_text/img/mountain_bg1.png",
+    "lib/python3.10/site-packages/gymnasium/envs/toy_text/img/mountain_bg2.png",
+    "lib/python3.10/site-packages/gymnasium/envs/toy_text/img/mountain_cliff.png",
+    "lib/python3.10/site-packages/gymnasium/envs/toy_text/img/mountain_near-cliff1.png",
+    "lib/python3.10/site-packages/gymnasium/envs/toy_text/img/mountain_near-cliff2.png",
+    "lib/python3.10/site-packages/gymnasium/envs/toy_text/img/passenger.png",
+    "lib/python3.10/site-packages/gymnasium/envs/toy_text/img/stool.png",
+    "lib/python3.10/site-packages/gymnasium/envs/toy_text/img/taxi_background.png",
+    "lib/python3.10/site-packages/gymnasium/envs/toy_text/taxi.py",
+    "lib/python3.10/site-packages/gymnasium/envs/toy_text/utils.py",
+    "lib/python3.10/site-packages/gymnasium/error.py",
+    "lib/python3.10/site-packages/gymnasium/experimental/__init__.py",
+    "lib/python3.10/site-packages/gymnasium/experimental/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/gymnasium/experimental/__pycache__/functional.cpython-310.pyc",
+    "lib/python3.10/site-packages/gymnasium/experimental/functional.py",
+    "lib/python3.10/site-packages/gymnasium/logger.py",
+    "lib/python3.10/site-packages/gymnasium/py.typed",
+    "lib/python3.10/site-packages/gymnasium/spaces/__init__.py",
+    "lib/python3.10/site-packages/gymnasium/spaces/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/gymnasium/spaces/__pycache__/box.cpython-310.pyc",
+    "lib/python3.10/site-packages/gymnasium/spaces/__pycache__/dict.cpython-310.pyc",
+    "lib/python3.10/site-packages/gymnasium/spaces/__pycache__/discrete.cpython-310.pyc",
+    "lib/python3.10/site-packages/gymnasium/spaces/__pycache__/graph.cpython-310.pyc",
+    "lib/python3.10/site-packages/gymnasium/spaces/__pycache__/multi_binary.cpython-310.pyc",
+    "lib/python3.10/site-packages/gymnasium/spaces/__pycache__/multi_discrete.cpython-310.pyc",
+    "lib/python3.10/site-packages/gymnasium/spaces/__pycache__/oneof.cpython-310.pyc",
+    "lib/python3.10/site-packages/gymnasium/spaces/__pycache__/sequence.cpython-310.pyc",
+    "lib/python3.10/site-packages/gymnasium/spaces/__pycache__/space.cpython-310.pyc",
+    "lib/python3.10/site-packages/gymnasium/spaces/__pycache__/text.cpython-310.pyc",
+    "lib/python3.10/site-packages/gymnasium/spaces/__pycache__/tuple.cpython-310.pyc",
+    "lib/python3.10/site-packages/gymnasium/spaces/__pycache__/utils.cpython-310.pyc",
+    "lib/python3.10/site-packages/gymnasium/spaces/box.py",
+    "lib/python3.10/site-packages/gymnasium/spaces/dict.py",
+    "lib/python3.10/site-packages/gymnasium/spaces/discrete.py",
+    "lib/python3.10/site-packages/gymnasium/spaces/graph.py",
+    "lib/python3.10/site-packages/gymnasium/spaces/multi_binary.py",
+    "lib/python3.10/site-packages/gymnasium/spaces/multi_discrete.py",
+    "lib/python3.10/site-packages/gymnasium/spaces/oneof.py",
+    "lib/python3.10/site-packages/gymnasium/spaces/sequence.py",
+    "lib/python3.10/site-packages/gymnasium/spaces/space.py",
+    "lib/python3.10/site-packages/gymnasium/spaces/text.py",
+    "lib/python3.10/site-packages/gymnasium/spaces/tuple.py",
+    "lib/python3.10/site-packages/gymnasium/spaces/utils.py",
+    "lib/python3.10/site-packages/gymnasium/utils/__init__.py",
+    "lib/python3.10/site-packages/gymnasium/utils/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/gymnasium/utils/__pycache__/colorize.cpython-310.pyc",
+    "lib/python3.10/site-packages/gymnasium/utils/__pycache__/env_checker.cpython-310.pyc",
+    "lib/python3.10/site-packages/gymnasium/utils/__pycache__/env_match.cpython-310.pyc",
+    "lib/python3.10/site-packages/gymnasium/utils/__pycache__/ezpickle.cpython-310.pyc",
+    "lib/python3.10/site-packages/gymnasium/utils/__pycache__/passive_env_checker.cpython-310.pyc",
+    "lib/python3.10/site-packages/gymnasium/utils/__pycache__/performance.cpython-310.pyc",
+    "lib/python3.10/site-packages/gymnasium/utils/__pycache__/play.cpython-310.pyc",
+    "lib/python3.10/site-packages/gymnasium/utils/__pycache__/record_constructor.cpython-310.pyc",
+    "lib/python3.10/site-packages/gymnasium/utils/__pycache__/save_video.cpython-310.pyc",
+    "lib/python3.10/site-packages/gymnasium/utils/__pycache__/seeding.cpython-310.pyc",
+    "lib/python3.10/site-packages/gymnasium/utils/__pycache__/step_api_compatibility.cpython-310.pyc",
+    "lib/python3.10/site-packages/gymnasium/utils/colorize.py",
+    "lib/python3.10/site-packages/gymnasium/utils/env_checker.py",
+    "lib/python3.10/site-packages/gymnasium/utils/env_match.py",
+    "lib/python3.10/site-packages/gymnasium/utils/ezpickle.py",
+    "lib/python3.10/site-packages/gymnasium/utils/passive_env_checker.py",
+    "lib/python3.10/site-packages/gymnasium/utils/performance.py",
+    "lib/python3.10/site-packages/gymnasium/utils/play.py",
+    "lib/python3.10/site-packages/gymnasium/utils/record_constructor.py",
+    "lib/python3.10/site-packages/gymnasium/utils/save_video.py",
+    "lib/python3.10/site-packages/gymnasium/utils/seeding.py",
+    "lib/python3.10/site-packages/gymnasium/utils/step_api_compatibility.py",
+    "lib/python3.10/site-packages/gymnasium/vector/__init__.py",
+    "lib/python3.10/site-packages/gymnasium/vector/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/gymnasium/vector/__pycache__/async_vector_env.cpython-310.pyc",
+    "lib/python3.10/site-packages/gymnasium/vector/__pycache__/sync_vector_env.cpython-310.pyc",
+    "lib/python3.10/site-packages/gymnasium/vector/__pycache__/vector_env.cpython-310.pyc",
+    "lib/python3.10/site-packages/gymnasium/vector/async_vector_env.py",
+    "lib/python3.10/site-packages/gymnasium/vector/sync_vector_env.py",
+    "lib/python3.10/site-packages/gymnasium/vector/utils/__init__.py",
+    "lib/python3.10/site-packages/gymnasium/vector/utils/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/gymnasium/vector/utils/__pycache__/misc.cpython-310.pyc",
+    "lib/python3.10/site-packages/gymnasium/vector/utils/__pycache__/shared_memory.cpython-310.pyc",
+    "lib/python3.10/site-packages/gymnasium/vector/utils/__pycache__/space_utils.cpython-310.pyc",
+    "lib/python3.10/site-packages/gymnasium/vector/utils/misc.py",
+    "lib/python3.10/site-packages/gymnasium/vector/utils/shared_memory.py",
+    "lib/python3.10/site-packages/gymnasium/vector/utils/space_utils.py",
+    "lib/python3.10/site-packages/gymnasium/vector/vector_env.py",
+    "lib/python3.10/site-packages/gymnasium/wrappers/__init__.py",
+    "lib/python3.10/site-packages/gymnasium/wrappers/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/gymnasium/wrappers/__pycache__/atari_preprocessing.cpython-310.pyc",
+    "lib/python3.10/site-packages/gymnasium/wrappers/__pycache__/common.cpython-310.pyc",
+    "lib/python3.10/site-packages/gymnasium/wrappers/__pycache__/jax_to_numpy.cpython-310.pyc",
+    "lib/python3.10/site-packages/gymnasium/wrappers/__pycache__/jax_to_torch.cpython-310.pyc",
+    "lib/python3.10/site-packages/gymnasium/wrappers/__pycache__/numpy_to_torch.cpython-310.pyc",
+    "lib/python3.10/site-packages/gymnasium/wrappers/__pycache__/rendering.cpython-310.pyc",
+    "lib/python3.10/site-packages/gymnasium/wrappers/__pycache__/stateful_action.cpython-310.pyc",
+    "lib/python3.10/site-packages/gymnasium/wrappers/__pycache__/stateful_observation.cpython-310.pyc",
+    "lib/python3.10/site-packages/gymnasium/wrappers/__pycache__/stateful_reward.cpython-310.pyc",
+    "lib/python3.10/site-packages/gymnasium/wrappers/__pycache__/transform_action.cpython-310.pyc",
+    "lib/python3.10/site-packages/gymnasium/wrappers/__pycache__/transform_observation.cpython-310.pyc",
+    "lib/python3.10/site-packages/gymnasium/wrappers/__pycache__/transform_reward.cpython-310.pyc",
+    "lib/python3.10/site-packages/gymnasium/wrappers/__pycache__/utils.cpython-310.pyc",
+    "lib/python3.10/site-packages/gymnasium/wrappers/atari_preprocessing.py",
+    "lib/python3.10/site-packages/gymnasium/wrappers/common.py",
+    "lib/python3.10/site-packages/gymnasium/wrappers/jax_to_numpy.py",
+    "lib/python3.10/site-packages/gymnasium/wrappers/jax_to_torch.py",
+    "lib/python3.10/site-packages/gymnasium/wrappers/numpy_to_torch.py",
+    "lib/python3.10/site-packages/gymnasium/wrappers/rendering.py",
+    "lib/python3.10/site-packages/gymnasium/wrappers/stateful_action.py",
+    "lib/python3.10/site-packages/gymnasium/wrappers/stateful_observation.py",
+    "lib/python3.10/site-packages/gymnasium/wrappers/stateful_reward.py",
+    "lib/python3.10/site-packages/gymnasium/wrappers/transform_action.py",
+    "lib/python3.10/site-packages/gymnasium/wrappers/transform_observation.py",
+    "lib/python3.10/site-packages/gymnasium/wrappers/transform_reward.py",
+    "lib/python3.10/site-packages/gymnasium/wrappers/utils.py",
+    "lib/python3.10/site-packages/gymnasium/wrappers/vector/__init__.py",
+    "lib/python3.10/site-packages/gymnasium/wrappers/vector/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/gymnasium/wrappers/vector/__pycache__/common.cpython-310.pyc",
+    "lib/python3.10/site-packages/gymnasium/wrappers/vector/__pycache__/dict_info_to_list.cpython-310.pyc",
+    "lib/python3.10/site-packages/gymnasium/wrappers/vector/__pycache__/jax_to_numpy.cpython-310.pyc",
+    "lib/python3.10/site-packages/gymnasium/wrappers/vector/__pycache__/jax_to_torch.cpython-310.pyc",
+    "lib/python3.10/site-packages/gymnasium/wrappers/vector/__pycache__/numpy_to_torch.cpython-310.pyc",
+    "lib/python3.10/site-packages/gymnasium/wrappers/vector/__pycache__/rendering.cpython-310.pyc",
+    "lib/python3.10/site-packages/gymnasium/wrappers/vector/__pycache__/stateful_observation.cpython-310.pyc",
+    "lib/python3.10/site-packages/gymnasium/wrappers/vector/__pycache__/stateful_reward.cpython-310.pyc",
+    "lib/python3.10/site-packages/gymnasium/wrappers/vector/__pycache__/vectorize_action.cpython-310.pyc",
+    "lib/python3.10/site-packages/gymnasium/wrappers/vector/__pycache__/vectorize_observation.cpython-310.pyc",
+    "lib/python3.10/site-packages/gymnasium/wrappers/vector/__pycache__/vectorize_reward.cpython-310.pyc",
+    "lib/python3.10/site-packages/gymnasium/wrappers/vector/common.py",
+    "lib/python3.10/site-packages/gymnasium/wrappers/vector/dict_info_to_list.py",
+    "lib/python3.10/site-packages/gymnasium/wrappers/vector/jax_to_numpy.py",
+    "lib/python3.10/site-packages/gymnasium/wrappers/vector/jax_to_torch.py",
+    "lib/python3.10/site-packages/gymnasium/wrappers/vector/numpy_to_torch.py",
+    "lib/python3.10/site-packages/gymnasium/wrappers/vector/rendering.py",
+    "lib/python3.10/site-packages/gymnasium/wrappers/vector/stateful_observation.py",
+    "lib/python3.10/site-packages/gymnasium/wrappers/vector/stateful_reward.py",
+    "lib/python3.10/site-packages/gymnasium/wrappers/vector/vectorize_action.py",
+    "lib/python3.10/site-packages/gymnasium/wrappers/vector/vectorize_observation.py",
+    "lib/python3.10/site-packages/gymnasium/wrappers/vector/vectorize_reward.py"
+  ],
+  "fn": "gymnasium-1.0.0-py310hb7f781d_1.conda",
+  "license": "MIT",
+  "link": {
+    "source": "/cpfs01/user/chengqinxiu/anaconda3/pkgs/gymnasium-1.0.0-py310hb7f781d_1",
+    "type": 1
+  },
+  "md5": "c58f1b6623c41d11c0d1c49b1caf902d",
+  "name": "gymnasium",
+  "package_tarball_full_path": "/cpfs01/user/chengqinxiu/anaconda3/pkgs/gymnasium-1.0.0-py310hb7f781d_1.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium-1.0.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium-1.0.0.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "7dacaa9772e856aee6943b32ef663d3634d91d72ec7bbc74d136943673f91e18",
+        "sha256_in_prefix": "7dacaa9772e856aee6943b32ef663d3634d91d72ec7bbc74d136943673f91e18",
+        "size_in_bytes": 1104
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium-1.0.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "4f437ad0f8392c3807501b86552f571a0148db9b6459aeb37ad63d864b76f0ab",
+        "sha256_in_prefix": "4f437ad0f8392c3807501b86552f571a0148db9b6459aeb37ad63d864b76f0ab",
+        "size_in_bytes": 9463
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium-1.0.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "cf4d92c8a9108f7b88186de4b8ee2b857b88fa9dbde73eba291d7e1c6781fd1a",
+        "sha256_in_prefix": "cf4d92c8a9108f7b88186de4b8ee2b857b88fa9dbde73eba291d7e1c6781fd1a",
+        "size_in_bytes": 31563
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium-1.0.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium-1.0.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "3d9504c5d7fbd548bfb28ebb417a724ae1ed0a2dfe277c2f1783912ba93f4bc5",
+        "sha256_in_prefix": "3d9504c5d7fbd548bfb28ebb417a724ae1ed0a2dfe277c2f1783912ba93f4bc5",
+        "size_in_bytes": 91
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium-1.0.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "e5544937f835d10f63954db471f4a3be7e2e57708fea065e29c84874793004e9",
+        "sha256_in_prefix": "e5544937f835d10f63954db471f4a3be7e2e57708fea065e29c84874793004e9",
+        "size_in_bytes": 111
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium-1.0.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "c263c99270f54c6a82480038c54b3a2a96d8c6684d036421fa70119d699ec76e",
+        "sha256_in_prefix": "c263c99270f54c6a82480038c54b3a2a96d8c6684d036421fa70119d699ec76e",
+        "size_in_bytes": 10
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "a112a3b413b1287068ba5605f9905a2591915efc8a1e9f243298602f94220a54",
+        "sha256_in_prefix": "a112a3b413b1287068ba5605f9905a2591915efc8a1e9f243298602f94220a54",
+        "size_in_bytes": 1826
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "b196af7bc8b05f7c84c7b41d87edd672d575e89b687aef7c98aaccbb0ab77219",
+        "sha256_in_prefix": "b196af7bc8b05f7c84c7b41d87edd672d575e89b687aef7c98aaccbb0ab77219",
+        "size_in_bytes": 1316
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/__pycache__/core.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "73e0ef14fecb7ffabfdaa1862a4067022e0b9696a46b4a67386f4edecf4cf24d",
+        "sha256_in_prefix": "73e0ef14fecb7ffabfdaa1862a4067022e0b9696a46b4a67386f4edecf4cf24d",
+        "size_in_bytes": 29370
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/__pycache__/error.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "36911911b9e137ea7d5d860b67d8fb310fa2ca9a2cf2543bbfe317e0176d017e",
+        "sha256_in_prefix": "36911911b9e137ea7d5d860b67d8fb310fa2ca9a2cf2543bbfe317e0176d017e",
+        "size_in_bytes": 4838
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/__pycache__/logger.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "b67df4c3614b97c423d325b782f4150bb0446165f44a5dc7e00d472ac7891b27",
+        "sha256_in_prefix": "b67df4c3614b97c423d325b782f4150bb0446165f44a5dc7e00d472ac7891b27",
+        "size_in_bytes": 1552
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/core.py",
+        "path_type": "hardlink",
+        "sha256": "78e3c8d6e200060a63f342a97232eacf3ef1265737481e70ef18b42785f9d678",
+        "sha256_in_prefix": "78e3c8d6e200060a63f342a97232eacf3ef1265737481e70ef18b42785f9d678",
+        "size_in_bytes": 29110
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "03bab6c4bab721e50e9eeecfe6cfcd1ddad2afff02a6e4536b5377dde7e0594f",
+        "sha256_in_prefix": "03bab6c4bab721e50e9eeecfe6cfcd1ddad2afff02a6e4536b5377dde7e0594f",
+        "size_in_bytes": 10935
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "94ffe4f78b9d12cf1c1c9bba4b8f5235e49e7d5fa52610dcbd7545ce73dca678",
+        "sha256_in_prefix": "94ffe4f78b9d12cf1c1c9bba4b8f5235e49e7d5fa52610dcbd7545ce73dca678",
+        "size_in_bytes": 6869
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/__pycache__/functional_jax_env.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "fbb3d23ce48706fa4f6b086798f3275e21e754dcdd7881eea147744e70847d02",
+        "sha256_in_prefix": "fbb3d23ce48706fa4f6b086798f3275e21e754dcdd7881eea147744e70847d02",
+        "size_in_bytes": 5741
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/__pycache__/registration.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "e72fadc2a99770a12fb9383827fbce7c72587e741d72f211ec00401d7d0387fa",
+        "sha256_in_prefix": "e72fadc2a99770a12fb9383827fbce7c72587e741d72f211ec00401d7d0387fa",
+        "size_in_bytes": 32820
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/box2d/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "ed2327da31b45048f330f15fc1a5807627403c96bdc615182cf614ae70e8b68a",
+        "sha256_in_prefix": "ed2327da31b45048f330f15fc1a5807627403c96bdc615182cf614ae70e8b68a",
+        "size_in_bytes": 220
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/box2d/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "53f08e8df020f2af588b7df28fa697c424bc1cf40c24e7cdfc2ba30e0fcb6e83",
+        "sha256_in_prefix": "53f08e8df020f2af588b7df28fa697c424bc1cf40c24e7cdfc2ba30e0fcb6e83",
+        "size_in_bytes": 425
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/box2d/__pycache__/bipedal_walker.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "74100654c5c9db4273b6c9e6b64c60b9b2fafa2a1c25c81fa6f9c7573e57a8a3",
+        "sha256_in_prefix": "74100654c5c9db4273b6c9e6b64c60b9b2fafa2a1c25c81fa6f9c7573e57a8a3",
+        "size_in_bytes": 20960
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/box2d/__pycache__/car_dynamics.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "3ea30ff685df2631a53867aafebf7ddf611c6d94e411263dbdc75566884a9060",
+        "sha256_in_prefix": "3ea30ff685df2631a53867aafebf7ddf611c6d94e411263dbdc75566884a9060",
+        "size_in_bytes": 8879
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/box2d/__pycache__/car_racing.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "4d6faa68d46fa902cd23592550d8ec054b795edf7c486799aff3a2a3ebb48c2e",
+        "sha256_in_prefix": "4d6faa68d46fa902cd23592550d8ec054b795edf7c486799aff3a2a3ebb48c2e",
+        "size_in_bytes": 20843
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/box2d/__pycache__/lunar_lander.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "b04b0b96a143b528ce1ed834dd58993574d5006ac9194610e1d8e12ece95d39b",
+        "sha256_in_prefix": "b04b0b96a143b528ce1ed834dd58993574d5006ac9194610e1d8e12ece95d39b",
+        "size_in_bytes": 23065
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/box2d/bipedal_walker.py",
+        "path_type": "hardlink",
+        "sha256": "741a68375fad62582ac9d903af7a21562003b79cfbb7f5be7916228d93a08cfb",
+        "sha256_in_prefix": "741a68375fad62582ac9d903af7a21562003b79cfbb7f5be7916228d93a08cfb",
+        "size_in_bytes": 32059
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/box2d/car_dynamics.py",
+        "path_type": "hardlink",
+        "sha256": "1d47cc6405871a3ff268b79f0f1b44a2b796873c1a05b8036cd44220cd8de703",
+        "sha256_in_prefix": "1d47cc6405871a3ff268b79f0f1b44a2b796873c1a05b8036cd44220cd8de703",
+        "size_in_bytes": 12259
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/box2d/car_racing.py",
+        "path_type": "hardlink",
+        "sha256": "0f9dec06847430fa074e56db7d6866bcc8d1b33032222257ced51e76e374e670",
+        "sha256_in_prefix": "0f9dec06847430fa074e56db7d6866bcc8d1b33032222257ced51e76e374e670",
+        "size_in_bytes": 29662
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/box2d/lunar_lander.py",
+        "path_type": "hardlink",
+        "sha256": "2e482798dd3afa54833ce4b0474d47b4c6e33a7c8e4413a92f59fb8b1c55389c",
+        "sha256_in_prefix": "2e482798dd3afa54833ce4b0474d47b4c6e33a7c8e4413a92f59fb8b1c55389c",
+        "size_in_bytes": 33913
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/classic_control/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "6a23ea5190661684832dbedbdf313684985cd06602f7f04eaa2f569c2d09622a",
+        "sha256_in_prefix": "6a23ea5190661684832dbedbdf313684985cd06602f7f04eaa2f569c2d09622a",
+        "size_in_bytes": 363
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/classic_control/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "3239c594f44c9191bfb9b5b7e299ace951a70b18b68ae546f3f62db087cfd39d",
+        "sha256_in_prefix": "3239c594f44c9191bfb9b5b7e299ace951a70b18b68ae546f3f62db087cfd39d",
+        "size_in_bytes": 573
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/classic_control/__pycache__/acrobot.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "78bde3666b50718d0b61ccb2cc4ac41642ba04bd67acfb0a97806b21ed55daea",
+        "sha256_in_prefix": "78bde3666b50718d0b61ccb2cc4ac41642ba04bd67acfb0a97806b21ed55daea",
+        "size_in_bytes": 15005
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/classic_control/__pycache__/cartpole.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "0688e9b40c3c8dad598867779024b54795d8ce4bcaad4e6522249499ccd299eb",
+        "sha256_in_prefix": "0688e9b40c3c8dad598867779024b54795d8ce4bcaad4e6522249499ccd299eb",
+        "size_in_bytes": 16437
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/classic_control/__pycache__/continuous_mountain_car.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "3857c07590888ed6ac3255e6ec847ee0f0af2a89d134635bab1587155ad4e117",
+        "sha256_in_prefix": "3857c07590888ed6ac3255e6ec847ee0f0af2a89d134635bab1587155ad4e117",
+        "size_in_bytes": 9520
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/classic_control/__pycache__/mountain_car.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "91005049f391a9ae0d705ac57e7f0b8cff29954eb44c31ecbc27c5ca6ffd1490",
+        "sha256_in_prefix": "91005049f391a9ae0d705ac57e7f0b8cff29954eb44c31ecbc27c5ca6ffd1490",
+        "size_in_bytes": 8928
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/classic_control/__pycache__/pendulum.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "3327f4a0305f44a1346e4b40792f2e868057934db1f9b26ac27a1b60f8f2e152",
+        "sha256_in_prefix": "3327f4a0305f44a1346e4b40792f2e868057934db1f9b26ac27a1b60f8f2e152",
+        "size_in_bytes": 8404
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/classic_control/__pycache__/utils.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "cd0fe797314d78ac9fec1602e1f369e06ebfdc4e33733bc4a9dfcd9414188569",
+        "sha256_in_prefix": "cd0fe797314d78ac9fec1602e1f369e06ebfdc4e33733bc4a9dfcd9414188569",
+        "size_in_bytes": 1516
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/classic_control/acrobot.py",
+        "path_type": "hardlink",
+        "sha256": "e81960a3434ecd016e99a8e490cb69d75bcbce0f30630daa7b178d71410f7739",
+        "sha256_in_prefix": "e81960a3434ecd016e99a8e490cb69d75bcbce0f30630daa7b178d71410f7739",
+        "size_in_bytes": 17267
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/classic_control/assets/clockwise.png",
+        "path_type": "hardlink",
+        "sha256": "97b50edad865fb564c7634cc26fb5712880a16870f9f8b89b52d89f0374ac9a9",
+        "sha256_in_prefix": "97b50edad865fb564c7634cc26fb5712880a16870f9f8b89b52d89f0374ac9a9",
+        "size_in_bytes": 6992
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/classic_control/cartpole.py",
+        "path_type": "hardlink",
+        "sha256": "014eea86e20c3398161a02785470b55bba87d3c1aad9f10da43a28189b71bf02",
+        "sha256_in_prefix": "014eea86e20c3398161a02785470b55bba87d3c1aad9f10da43a28189b71bf02",
+        "size_in_bytes": 22759
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/classic_control/continuous_mountain_car.py",
+        "path_type": "hardlink",
+        "sha256": "be4bf1ebc8576d0e7095b29805f6b90d63a07fc8e1a12cd1b83b9150d978ea6c",
+        "sha256_in_prefix": "be4bf1ebc8576d0e7095b29805f6b90d63a07fc8e1a12cd1b83b9150d978ea6c",
+        "size_in_bytes": 11359
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/classic_control/mountain_car.py",
+        "path_type": "hardlink",
+        "sha256": "b76645b6480f4491667cf984a554d6d0c92cd4762a376cd9922e51071f372c3c",
+        "sha256_in_prefix": "b76645b6480f4491667cf984a554d6d0c92cd4762a376cd9922e51071f372c3c",
+        "size_in_bytes": 10403
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/classic_control/pendulum.py",
+        "path_type": "hardlink",
+        "sha256": "ce3b08152cccb75ef6c401c399860311cbaf85f44340445f28ae6eb48d1034f8",
+        "sha256_in_prefix": "ce3b08152cccb75ef6c401c399860311cbaf85f44340445f28ae6eb48d1034f8",
+        "size_in_bytes": 10340
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/classic_control/utils.py",
+        "path_type": "hardlink",
+        "sha256": "138d3b243635a1492c33ee4a07cb7a94a549190ff7f5b29ca14d01597456a21d",
+        "sha256_in_prefix": "138d3b243635a1492c33ee4a07cb7a94a549190ff7f5b29ca14d01597456a21d",
+        "size_in_bytes": 1427
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/functional_jax_env.py",
+        "path_type": "hardlink",
+        "sha256": "91a0a728fc8d2d5376a379c8abd515e90b983a5656f31ad6febf9129ca68e896",
+        "sha256_in_prefix": "91a0a728fc8d2d5376a379c8abd515e90b983a5656f31ad6febf9129ca68e896",
+        "size_in_bytes": 7312
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/mujoco/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "d359b24a0ad29564bb855a8217c1b0a1faf277e60116fc5c5d59a9c7c74b4d53",
+        "sha256_in_prefix": "d359b24a0ad29564bb855a8217c1b0a1faf277e60116fc5c5d59a9c7c74b4d53",
+        "size_in_bytes": 121
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/mujoco/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "00a2e53c9e3a78909291547ca65ebbb993ae00ee1d7c77fccc98b15c493c6427",
+        "sha256_in_prefix": "00a2e53c9e3a78909291547ca65ebbb993ae00ee1d7c77fccc98b15c493c6427",
+        "size_in_bytes": 298
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/mujoco/__pycache__/ant.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "6890c2951ec3e930d51c0d09b0b5aedde529ba909264caa8ecbf7d75ed77c165",
+        "sha256_in_prefix": "6890c2951ec3e930d51c0d09b0b5aedde529ba909264caa8ecbf7d75ed77c165",
+        "size_in_bytes": 2512
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/mujoco/__pycache__/ant_v3.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "8112b733aa43dfc5a25a1891f9d801ca33d3f9b4f4557e1c75e4c7b00c013243",
+        "sha256_in_prefix": "8112b733aa43dfc5a25a1891f9d801ca33d3f9b4f4557e1c75e4c7b00c013243",
+        "size_in_bytes": 4725
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/mujoco/__pycache__/ant_v4.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "7ae75d8e9e9104630a3393a0f57916bf8c0167311a8ff18e3081cccbf4360626",
+        "sha256_in_prefix": "7ae75d8e9e9104630a3393a0f57916bf8c0167311a8ff18e3081cccbf4360626",
+        "size_in_bytes": 4526
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/mujoco/__pycache__/ant_v5.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "9076f22d5d7ace677084d30b42bfea2057950bc6542051bd4f83da9fe80f62db",
+        "sha256_in_prefix": "9076f22d5d7ace677084d30b42bfea2057950bc6542051bd4f83da9fe80f62db",
+        "size_in_bytes": 26742
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/mujoco/__pycache__/half_cheetah.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "3119e5cfef7a9468e1993dca82df6b960964aa027426e60685b2763486b94390",
+        "sha256_in_prefix": "3119e5cfef7a9468e1993dca82df6b960964aa027426e60685b2763486b94390",
+        "size_in_bytes": 2202
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/mujoco/__pycache__/half_cheetah_v3.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "5ebe8279ea384221d2b2dba18eb506fe508c108c2318b13bbb6772f4e45ad8c3",
+        "sha256_in_prefix": "5ebe8279ea384221d2b2dba18eb506fe508c108c2318b13bbb6772f4e45ad8c3",
+        "size_in_bytes": 3164
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/mujoco/__pycache__/half_cheetah_v4.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "c5d06759d7172b807d5b3e703ccc0dd120b38a1ac9fe6ac3e2fb09bea18e994b",
+        "sha256_in_prefix": "c5d06759d7172b807d5b3e703ccc0dd120b38a1ac9fe6ac3e2fb09bea18e994b",
+        "size_in_bytes": 2838
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/mujoco/__pycache__/half_cheetah_v5.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "bc86d2cb3e88893b48d72b2e5dea46c6f63a58b5c6ea0b592a6b46e1ef0bca86",
+        "sha256_in_prefix": "bc86d2cb3e88893b48d72b2e5dea46c6f63a58b5c6ea0b592a6b46e1ef0bca86",
+        "size_in_bytes": 14916
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/mujoco/__pycache__/hopper.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "44c4407a0e29573b094a93013b18d858fccc4758a2f391dc7dcab7be8956bc40",
+        "sha256_in_prefix": "44c4407a0e29573b094a93013b18d858fccc4758a2f391dc7dcab7be8956bc40",
+        "size_in_bytes": 2403
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/mujoco/__pycache__/hopper_v3.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "f5305dd4f63c5fa90e4672a604989fefe20f19da74e88c39e986023469cb6066",
+        "sha256_in_prefix": "f5305dd4f63c5fa90e4672a604989fefe20f19da74e88c39e986023469cb6066",
+        "size_in_bytes": 4434
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/mujoco/__pycache__/hopper_v4.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "572d92bab05aed3ff7d15b6ea99b45dd206e455a6b0c5cbf1d548bbaafffa4fd",
+        "sha256_in_prefix": "572d92bab05aed3ff7d15b6ea99b45dd206e455a6b0c5cbf1d548bbaafffa4fd",
+        "size_in_bytes": 4076
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/mujoco/__pycache__/hopper_v5.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "3293b260b1b36030c6ccc9801e75be04b3a4055bc14adf4219ecb8c684b5ae92",
+        "sha256_in_prefix": "3293b260b1b36030c6ccc9801e75be04b3a4055bc14adf4219ecb8c684b5ae92",
+        "size_in_bytes": 18193
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/mujoco/__pycache__/humanoid.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "872285978f00f73c32b0cf7cd34b4b0eb321386e5fc205c7f08612e40870c9da",
+        "sha256_in_prefix": "872285978f00f73c32b0cf7cd34b4b0eb321386e5fc205c7f08612e40870c9da",
+        "size_in_bytes": 2845
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/mujoco/__pycache__/humanoid_v3.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "2d2477f2db9c899a75d453c80ecd74124cf20af93975cf19e6548b9e779b9b6b",
+        "sha256_in_prefix": "2d2477f2db9c899a75d453c80ecd74124cf20af93975cf19e6548b9e779b9b6b",
+        "size_in_bytes": 5115
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/mujoco/__pycache__/humanoid_v4.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "8f4337e771f043c991e7e2cc445100f830d59aaf10983eceab4b712e8c56b86d",
+        "sha256_in_prefix": "8f4337e771f043c991e7e2cc445100f830d59aaf10983eceab4b712e8c56b86d",
+        "size_in_bytes": 4312
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/mujoco/__pycache__/humanoid_v5.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "0aecf4d42f114e7d0d8c24ada706479c31cc23089f407ba49adb3ae57e42dcc1",
+        "sha256_in_prefix": "0aecf4d42f114e7d0d8c24ada706479c31cc23089f407ba49adb3ae57e42dcc1",
+        "size_in_bytes": 37333
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/mujoco/__pycache__/humanoidstandup.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "549a9008c0582504d6f1640c4944acd786c088cdff6bcebf3c61e6aa73de7aaf",
+        "sha256_in_prefix": "549a9008c0582504d6f1640c4944acd786c088cdff6bcebf3c61e6aa73de7aaf",
+        "size_in_bytes": 2528
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/mujoco/__pycache__/humanoidstandup_v4.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "11cd490c4e6e3d8eda04fdd882e03f7872ec6b49573acee818f81f39d98394da",
+        "sha256_in_prefix": "11cd490c4e6e3d8eda04fdd882e03f7872ec6b49573acee818f81f39d98394da",
+        "size_in_bytes": 2368
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/mujoco/__pycache__/humanoidstandup_v5.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "f3f9cd09f092e6cb34b20f00d35115af3612807ce7522fa35a281085ecc4be48",
+        "sha256_in_prefix": "f3f9cd09f092e6cb34b20f00d35115af3612807ce7522fa35a281085ecc4be48",
+        "size_in_bytes": 33367
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/mujoco/__pycache__/inverted_double_pendulum.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "717f56b5117ca31ad79aca8199f43f3618c6f5d89aa220ed95dd6ab1c8f4d55c",
+        "sha256_in_prefix": "717f56b5117ca31ad79aca8199f43f3618c6f5d89aa220ed95dd6ab1c8f4d55c",
+        "size_in_bytes": 2532
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/mujoco/__pycache__/inverted_double_pendulum_v4.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "c4ebb95c39ce256bf2b79e997d0d36037bd8373db32922d0ea4dd2cf9e69be5a",
+        "sha256_in_prefix": "c4ebb95c39ce256bf2b79e997d0d36037bd8373db32922d0ea4dd2cf9e69be5a",
+        "size_in_bytes": 2351
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/mujoco/__pycache__/inverted_double_pendulum_v5.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "8313200cc47b51e5c47bde84974a3c0ca406198eb2a88641527c58db1d5ae4bd",
+        "sha256_in_prefix": "8313200cc47b51e5c47bde84974a3c0ca406198eb2a88641527c58db1d5ae4bd",
+        "size_in_bytes": 12479
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/mujoco/__pycache__/inverted_pendulum.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "121e99be9408150861be143b61fb579cadf6b034330bc8284f5e38ed59895e58",
+        "sha256_in_prefix": "121e99be9408150861be143b61fb579cadf6b034330bc8284f5e38ed59895e58",
+        "size_in_bytes": 2112
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/mujoco/__pycache__/inverted_pendulum_v4.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "03bfb642ad1309e4b83c57204fbe783c44aeb25ccd5174ef68d3de1a21d1f087",
+        "sha256_in_prefix": "03bfb642ad1309e4b83c57204fbe783c44aeb25ccd5174ef68d3de1a21d1f087",
+        "size_in_bytes": 1960
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/mujoco/__pycache__/inverted_pendulum_v5.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "76875bb60d62a402afafff94cb7386186c451c12d4a53248b2ec95d2a67d1803",
+        "sha256_in_prefix": "76875bb60d62a402afafff94cb7386186c451c12d4a53248b2ec95d2a67d1803",
+        "size_in_bytes": 8705
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/mujoco/__pycache__/mujoco_env.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "c6c5d50eee07682714fb68582a7b306f79564611c650744121df282282d15349",
+        "sha256_in_prefix": "c6c5d50eee07682714fb68582a7b306f79564611c650744121df282282d15349",
+        "size_in_bytes": 7840
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/mujoco/__pycache__/mujoco_py_env.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "3d37a9370b785ff8ec9430227754075861bac89d731af050693c1a13094d2eea",
+        "sha256_in_prefix": "3d37a9370b785ff8ec9430227754075861bac89d731af050693c1a13094d2eea",
+        "size_in_bytes": 10971
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/mujoco/__pycache__/mujoco_rendering.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "6a3fee3eb84521f9de0727b711892ad81b41b54c711860ea40ee8b216de9f020",
+        "sha256_in_prefix": "6a3fee3eb84521f9de0727b711892ad81b41b54c711860ea40ee8b216de9f020",
+        "size_in_bytes": 20599
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/mujoco/__pycache__/pusher.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "2fcfde92663b9867789056a234913522f30835aa630595026c9880dee20df679",
+        "sha256_in_prefix": "2fcfde92663b9867789056a234913522f30835aa630595026c9880dee20df679",
+        "size_in_bytes": 2505
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/mujoco/__pycache__/pusher_v4.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "ebff5b4caedc630cc1c524e9a865a7f2a80b2c1ca4343fbb11c9d263a86a231f",
+        "sha256_in_prefix": "ebff5b4caedc630cc1c524e9a865a7f2a80b2c1ca4343fbb11c9d263a86a231f",
+        "size_in_bytes": 2595
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/mujoco/__pycache__/pusher_v5.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "f2af60aa63b52e8be3c05ff5e405b738771c97a219c48691b514a91cadf4ed79",
+        "sha256_in_prefix": "f2af60aa63b52e8be3c05ff5e405b738771c97a219c48691b514a91cadf4ed79",
+        "size_in_bytes": 14698
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/mujoco/__pycache__/reacher.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "1aaa5e7140ce836fbb4c2c57fd090745cafbe0f816c936ce0d3a078597a7a42d",
+        "sha256_in_prefix": "1aaa5e7140ce836fbb4c2c57fd090745cafbe0f816c936ce0d3a078597a7a42d",
+        "size_in_bytes": 2356
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/mujoco/__pycache__/reacher_v4.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "1f21dc29e501f0ed191f1055d76f90df9215d497148b551cfe086c3daecb186a",
+        "sha256_in_prefix": "1f21dc29e501f0ed191f1055d76f90df9215d497148b551cfe086c3daecb186a",
+        "size_in_bytes": 2233
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/mujoco/__pycache__/reacher_v5.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "4853bebf46cc1401e6536d7306d3cee385ed689016e2068a64857a92f7a2a8fb",
+        "sha256_in_prefix": "4853bebf46cc1401e6536d7306d3cee385ed689016e2068a64857a92f7a2a8fb",
+        "size_in_bytes": 12316
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/mujoco/__pycache__/swimmer.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "5a9442e97904673d06ac92b0de0f7b0a311f2367658d50b89d1c4e3ad38a29df",
+        "sha256_in_prefix": "5a9442e97904673d06ac92b0de0f7b0a311f2367658d50b89d1c4e3ad38a29df",
+        "size_in_bytes": 1950
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/mujoco/__pycache__/swimmer_v3.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "19f08931f644c563bd86867f83e23997165e289bcb4cdc6a1221e90be9550682",
+        "sha256_in_prefix": "19f08931f644c563bd86867f83e23997165e289bcb4cdc6a1221e90be9550682",
+        "size_in_bytes": 3247
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/mujoco/__pycache__/swimmer_v4.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "f0f767a8ae3d6915b16e89e4d43269dfcc4610cf8071ded347b883f7585f94b6",
+        "sha256_in_prefix": "f0f767a8ae3d6915b16e89e4d43269dfcc4610cf8071ded347b883f7585f94b6",
+        "size_in_bytes": 2858
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/mujoco/__pycache__/swimmer_v5.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "bb9471e997fea5a87537d72d6fe3aac3e5d781ca3a7e70699307d6eb4672f887",
+        "sha256_in_prefix": "bb9471e997fea5a87537d72d6fe3aac3e5d781ca3a7e70699307d6eb4672f887",
+        "size_in_bytes": 14129
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/mujoco/__pycache__/utils.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "45bff659b9ff3b37e04ab7fabc87adbecd89c1892cbe0541b78f817e5a8b71c1",
+        "sha256_in_prefix": "45bff659b9ff3b37e04ab7fabc87adbecd89c1892cbe0541b78f817e5a8b71c1",
+        "size_in_bytes": 2700
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/mujoco/__pycache__/walker2d.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "bbb64b1616b91e3aebd51a62fb26f4e9f0d07cda29209e0528f096d2916c2140",
+        "sha256_in_prefix": "bbb64b1616b91e3aebd51a62fb26f4e9f0d07cda29209e0528f096d2916c2140",
+        "size_in_bytes": 2334
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/mujoco/__pycache__/walker2d_v3.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "a2fc89cb055d1f76f01dced194c8dc1dfa2463635c642438830f0584c7668c70",
+        "sha256_in_prefix": "a2fc89cb055d1f76f01dced194c8dc1dfa2463635c642438830f0584c7668c70",
+        "size_in_bytes": 4217
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/mujoco/__pycache__/walker2d_v4.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "eeb1f8398d686bccb324fe441bb92526445c7c3fc257fd2ff920242530fc8ba9",
+        "sha256_in_prefix": "eeb1f8398d686bccb324fe441bb92526445c7c3fc257fd2ff920242530fc8ba9",
+        "size_in_bytes": 3887
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/mujoco/__pycache__/walker2d_v5.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "ca39d013b38f224892129286dfaa1f388ae61adc96e8b36febcbafa6929af56d",
+        "sha256_in_prefix": "ca39d013b38f224892129286dfaa1f388ae61adc96e8b36febcbafa6929af56d",
+        "size_in_bytes": 19045
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/mujoco/ant.py",
+        "path_type": "hardlink",
+        "sha256": "3807c743246c7f6a3f529a0b6a9e1452360aea461483413c3f03256f7c351e60",
+        "sha256_in_prefix": "3807c743246c7f6a3f529a0b6a9e1452360aea461483413c3f03256f7c351e60",
+        "size_in_bytes": 2535
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/mujoco/ant_v3.py",
+        "path_type": "hardlink",
+        "sha256": "69ec3c0cc7f76fc2b97535e9e0cabf57c144fb4fdac59a1190a4dc19f859d8e1",
+        "sha256_in_prefix": "69ec3c0cc7f76fc2b97535e9e0cabf57c144fb4fdac59a1190a4dc19f859d8e1",
+        "size_in_bytes": 5843
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/mujoco/ant_v4.py",
+        "path_type": "hardlink",
+        "sha256": "abd4e00041871f658dff38dcf2dbf2e8986b2c63de50a8909bcee79edd653bba",
+        "sha256_in_prefix": "abd4e00041871f658dff38dcf2dbf2e8986b2c63de50a8909bcee79edd653bba",
+        "size_in_bytes": 5833
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/mujoco/ant_v5.py",
+        "path_type": "hardlink",
+        "sha256": "8d3832e29155966c52f645a2d20907387bb99cac06492cf1fc972c85c75d6ad6",
+        "sha256_in_prefix": "8d3832e29155966c52f645a2d20907387bb99cac06492cf1fc972c85c75d6ad6",
+        "size_in_bytes": 28500
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/mujoco/assets/ant.xml",
+        "path_type": "hardlink",
+        "sha256": "cd5f83ef0ea35b0969e65d360c5bacd5b74ccaef6b27e4433b5168c605e3e2be",
+        "sha256_in_prefix": "cd5f83ef0ea35b0969e65d360c5bacd5b74ccaef6b27e4433b5168c605e3e2be",
+        "size_in_bytes": 4934
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/mujoco/assets/half_cheetah.xml",
+        "path_type": "hardlink",
+        "sha256": "11797a5d69e8ac955e89ca6fdd3a0087f1c990094fda401ac51420de1b6c5494",
+        "sha256_in_prefix": "11797a5d69e8ac955e89ca6fdd3a0087f1c990094fda401ac51420de1b6c5494",
+        "size_in_bytes": 5616
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/mujoco/assets/hopper.xml",
+        "path_type": "hardlink",
+        "sha256": "3ce93a055ffdcd83c0c701d2400768e40d2cbb9532f3c4ae33377c27f8b39f9e",
+        "sha256_in_prefix": "3ce93a055ffdcd83c0c701d2400768e40d2cbb9532f3c4ae33377c27f8b39f9e",
+        "size_in_bytes": 3228
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/mujoco/assets/humanoid.xml",
+        "path_type": "hardlink",
+        "sha256": "85816f372c826d2094b4a598918233bd9c5843b2439119eece2733bdc2e0d073",
+        "sha256_in_prefix": "85816f372c826d2094b4a598918233bd9c5843b2439119eece2733bdc2e0d073",
+        "size_in_bytes": 8745
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/mujoco/assets/humanoidstandup.xml",
+        "path_type": "hardlink",
+        "sha256": "9f72a3c4ef956d0d8b1fb555a6ae1a5c22334c5c58cf814ef987ea4d3880e8fc",
+        "sha256_in_prefix": "9f72a3c4ef956d0d8b1fb555a6ae1a5c22334c5c58cf814ef987ea4d3880e8fc",
+        "size_in_bytes": 8733
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/mujoco/assets/inverted_double_pendulum.xml",
+        "path_type": "hardlink",
+        "sha256": "2b4eadf03bd79a8772abd4c1a626b5755747f841801a694ea9528cc49211ba46",
+        "sha256_in_prefix": "2b4eadf03bd79a8772abd4c1a626b5755747f841801a694ea9528cc49211ba46",
+        "size_in_bytes": 1954
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/mujoco/assets/inverted_pendulum.xml",
+        "path_type": "hardlink",
+        "sha256": "80910a9af85cd47072be82d6f92c5e6a115d0eecc3eb464e58542b285c89fb7f",
+        "sha256_in_prefix": "80910a9af85cd47072be82d6f92c5e6a115d0eecc3eb464e58542b285c89fb7f",
+        "size_in_bytes": 1353
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/mujoco/assets/point.xml",
+        "path_type": "hardlink",
+        "sha256": "d0f71754a08c82fb4421801c56abeab45f7c186aa55f88809909a8ae2ff5c24f",
+        "sha256_in_prefix": "d0f71754a08c82fb4421801c56abeab45f7c186aa55f88809909a8ae2ff5c24f",
+        "size_in_bytes": 1815
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/mujoco/assets/pusher.xml",
+        "path_type": "hardlink",
+        "sha256": "561fb1a4f254afbbcdaf44b980aeaeb1a77ed67773f5f4d1653ecf2e1457dff5",
+        "sha256_in_prefix": "561fb1a4f254afbbcdaf44b980aeaeb1a77ed67773f5f4d1653ecf2e1457dff5",
+        "size_in_bytes": 5363
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/mujoco/assets/pusher_v5.xml",
+        "path_type": "hardlink",
+        "sha256": "3c9a717f6d2cecd555ab9b78694dba71019fa233230c68c8197ebb07d6713879",
+        "sha256_in_prefix": "3c9a717f6d2cecd555ab9b78694dba71019fa233230c68c8197ebb07d6713879",
+        "size_in_bytes": 5553
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/mujoco/assets/reacher.xml",
+        "path_type": "hardlink",
+        "sha256": "3fabc64fc738326485a8231a9a649f784090a0c3d8215f8d2ccd6038b8e60cc4",
+        "sha256_in_prefix": "3fabc64fc738326485a8231a9a649f784090a0c3d8215f8d2ccd6038b8e60cc4",
+        "size_in_bytes": 2323
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/mujoco/assets/swimmer.xml",
+        "path_type": "hardlink",
+        "sha256": "25b0d46bf5522920fea6a579353aee39d391ad9e2a0574b53f83704c11b21b12",
+        "sha256_in_prefix": "25b0d46bf5522920fea6a579353aee39d391ad9e2a0574b53f83704c11b21b12",
+        "size_in_bytes": 2322
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/mujoco/assets/walker2d.xml",
+        "path_type": "hardlink",
+        "sha256": "ac13373c7ac9003a5311c4704b314ed11149b3dd7600bbc02770487300f9ad2d",
+        "sha256_in_prefix": "ac13373c7ac9003a5311c4704b314ed11149b3dd7600bbc02770487300f9ad2d",
+        "size_in_bytes": 4951
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/mujoco/assets/walker2d_v5.xml",
+        "path_type": "hardlink",
+        "sha256": "6bed53a6cc3ca73c4fe8ac3486d3b4228927264a6454f4ef16d3eed3c58bc09d",
+        "sha256_in_prefix": "6bed53a6cc3ca73c4fe8ac3486d3b4228927264a6454f4ef16d3eed3c58bc09d",
+        "size_in_bytes": 4946
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/mujoco/half_cheetah.py",
+        "path_type": "hardlink",
+        "sha256": "0cd05769333c04f7c19ccc6323706c9c1da3f0eeb789753b1987a2d1e5b8de44",
+        "sha256_in_prefix": "0cd05769333c04f7c19ccc6323706c9c1da3f0eeb789753b1987a2d1e5b8de44",
+        "size_in_bytes": 1975
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/mujoco/half_cheetah_v3.py",
+        "path_type": "hardlink",
+        "sha256": "7492228008427281416a0ed517017f19c1bd3b84c679800c12fad2ccafd03a5b",
+        "sha256_in_prefix": "7492228008427281416a0ed517017f19c1bd3b84c679800c12fad2ccafd03a5b",
+        "size_in_bytes": 3807
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/mujoco/half_cheetah_v4.py",
+        "path_type": "hardlink",
+        "sha256": "41c36cc57bc8c0ea80787a0445c6b2758443b306e9add805adae88491767aabf",
+        "sha256_in_prefix": "41c36cc57bc8c0ea80787a0445c6b2758443b306e9add805adae88491767aabf",
+        "size_in_bytes": 3529
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/mujoco/half_cheetah_v5.py",
+        "path_type": "hardlink",
+        "sha256": "5b48dddc00919df8ed942a1f7a372c1062e934f4b4d732bfac44dfa5097dfe9b",
+        "sha256_in_prefix": "5b48dddc00919df8ed942a1f7a372c1062e934f4b4d732bfac44dfa5097dfe9b",
+        "size_in_bytes": 15794
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/mujoco/hopper.py",
+        "path_type": "hardlink",
+        "sha256": "b8dcc9a43492adeeb1a935f55facf824bc576c1182f67d339a41ccc1b5174e23",
+        "sha256_in_prefix": "b8dcc9a43492adeeb1a935f55facf824bc576c1182f67d339a41ccc1b5174e23",
+        "size_in_bytes": 2161
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/mujoco/hopper_v3.py",
+        "path_type": "hardlink",
+        "sha256": "4aebc0fcb391d8f1744b5866ff3c1e810b569b9599bee7ff6387595e6626d3f7",
+        "sha256_in_prefix": "4aebc0fcb391d8f1744b5866ff3c1e810b569b9599bee7ff6387595e6626d3f7",
+        "size_in_bytes": 5454
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/mujoco/hopper_v4.py",
+        "path_type": "hardlink",
+        "sha256": "c85cccdea9c1c50da7fef76c144d605b96ee277b0ddd54c8f4962f64fc5b4c9e",
+        "sha256_in_prefix": "c85cccdea9c1c50da7fef76c144d605b96ee277b0ddd54c8f4962f64fc5b4c9e",
+        "size_in_bytes": 5140
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/mujoco/hopper_v5.py",
+        "path_type": "hardlink",
+        "sha256": "f27c3eba7dbf84966d76d65b0822184d0bbfa194b99cb75dd3a7c3069a55d054",
+        "sha256_in_prefix": "f27c3eba7dbf84966d76d65b0822184d0bbfa194b99cb75dd3a7c3069a55d054",
+        "size_in_bytes": 19598
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/mujoco/humanoid.py",
+        "path_type": "hardlink",
+        "sha256": "b974552bf9df2f845b74039376fca7bce77f6619373c036d675398abdefb8dd2",
+        "sha256_in_prefix": "b974552bf9df2f845b74039376fca7bce77f6619373c036d675398abdefb8dd2",
+        "size_in_bytes": 2935
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/mujoco/humanoid_v3.py",
+        "path_type": "hardlink",
+        "sha256": "a6b964e7fee8e2f48ea7e84e1cae8d2177e53d4758f75ae5c2426db2aa8e9570",
+        "sha256_in_prefix": "a6b964e7fee8e2f48ea7e84e1cae8d2177e53d4758f75ae5c2426db2aa8e9570",
+        "size_in_bytes": 6437
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/mujoco/humanoid_v4.py",
+        "path_type": "hardlink",
+        "sha256": "a80bfca2a0056d1c630a34a4eec4a8e6830ad5036a38a8012d79721fe52db5aa",
+        "sha256_in_prefix": "a80bfca2a0056d1c630a34a4eec4a8e6830ad5036a38a8012d79721fe52db5aa",
+        "size_in_bytes": 5445
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/mujoco/humanoid_v5.py",
+        "path_type": "hardlink",
+        "sha256": "a2f133802ec499fe486412122a138177fa671e2f1a6320b1c0fd7be1fa932695",
+        "sha256_in_prefix": "a2f133802ec499fe486412122a138177fa671e2f1a6320b1c0fd7be1fa932695",
+        "size_in_bytes": 40082
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/mujoco/humanoidstandup.py",
+        "path_type": "hardlink",
+        "sha256": "638dae870ffd843f9c92d92ae7e96c5a49795c0d8973f09795643d3eea1b2139",
+        "sha256_in_prefix": "638dae870ffd843f9c92d92ae7e96c5a49795c0d8973f09795643d3eea1b2139",
+        "size_in_bytes": 2585
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/mujoco/humanoidstandup_v4.py",
+        "path_type": "hardlink",
+        "sha256": "41e13f3691a67c3c5dd84094c84262e6a7d0e07afdb5d2a4d9a528fa75b6bbbe",
+        "sha256_in_prefix": "41e13f3691a67c3c5dd84094c84262e6a7d0e07afdb5d2a4d9a528fa75b6bbbe",
+        "size_in_bytes": 2496
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/mujoco/humanoidstandup_v5.py",
+        "path_type": "hardlink",
+        "sha256": "fe3131c2e292aaeadc21abf2382bd73809655746a57fbadb7fffdc529f1678ad",
+        "sha256_in_prefix": "fe3131c2e292aaeadc21abf2382bd73809655746a57fbadb7fffdc529f1678ad",
+        "size_in_bytes": 36161
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/mujoco/inverted_double_pendulum.py",
+        "path_type": "hardlink",
+        "sha256": "257484720874f519a2c48d9b14bb19b0f0dc8282c85bcdbc57742f2a0c71f348",
+        "sha256_in_prefix": "257484720874f519a2c48d9b14bb19b0f0dc8282c85bcdbc57742f2a0c71f348",
+        "size_in_bytes": 2261
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/mujoco/inverted_double_pendulum_v4.py",
+        "path_type": "hardlink",
+        "sha256": "84bfd9736336d8208e5ba4f853c4c6b0eb1c498638273f1a616fb6694dec7670",
+        "sha256_in_prefix": "84bfd9736336d8208e5ba4f853c4c6b0eb1c498638273f1a616fb6694dec7670",
+        "size_in_bytes": 2153
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/mujoco/inverted_double_pendulum_v5.py",
+        "path_type": "hardlink",
+        "sha256": "a152b69747a0b2b147b58bbfbbdac1ab8e26ad98248f025f32e6fb4220d6f530",
+        "sha256_in_prefix": "a152b69747a0b2b147b58bbfbbdac1ab8e26ad98248f025f32e6fb4220d6f530",
+        "size_in_bytes": 12704
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/mujoco/inverted_pendulum.py",
+        "path_type": "hardlink",
+        "sha256": "ab4ca7dfb2c3fab07a1481ecd1e7bb5bd3cee2dae82976fd9269e9c774d364ed",
+        "sha256_in_prefix": "ab4ca7dfb2c3fab07a1481ecd1e7bb5bd3cee2dae82976fd9269e9c774d364ed",
+        "size_in_bytes": 1732
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/mujoco/inverted_pendulum_v4.py",
+        "path_type": "hardlink",
+        "sha256": "9d321256753e62d0ab467f8554b9f8964c5a4e6526ebdef127078eac6141d82f",
+        "sha256_in_prefix": "9d321256753e62d0ab467f8554b9f8964c5a4e6526ebdef127078eac6141d82f",
+        "size_in_bytes": 1667
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/mujoco/inverted_pendulum_v5.py",
+        "path_type": "hardlink",
+        "sha256": "67e5ad99c82c0ae1d7a41e048a973d01a8e22cfa3223ca3282359cd49d37e0ad",
+        "sha256_in_prefix": "67e5ad99c82c0ae1d7a41e048a973d01a8e22cfa3223ca3282359cd49d37e0ad",
+        "size_in_bytes": 8855
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/mujoco/mujoco_env.py",
+        "path_type": "hardlink",
+        "sha256": "c8077c0d426cfe497e85dc475cbbaafdd45f27e0151710943f6257d6a2c36ab1",
+        "sha256_in_prefix": "c8077c0d426cfe497e85dc475cbbaafdd45f27e0151710943f6257d6a2c36ab1",
+        "size_in_bytes": 8044
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/mujoco/mujoco_py_env.py",
+        "path_type": "hardlink",
+        "sha256": "4dc88a1fb02a4cef9e1a701945fa4043bfb6e610a500e74c42a02881257191af",
+        "sha256_in_prefix": "4dc88a1fb02a4cef9e1a701945fa4043bfb6e610a500e74c42a02881257191af",
+        "size_in_bytes": 12155
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/mujoco/mujoco_rendering.py",
+        "path_type": "hardlink",
+        "sha256": "d6c3f4440c9e83bfd7a9516d4d45ff09e32d963c54c513e309d9615e2ad798b1",
+        "sha256_in_prefix": "d6c3f4440c9e83bfd7a9516d4d45ff09e32d963c54c513e309d9615e2ad798b1",
+        "size_in_bytes": 27071
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/mujoco/pusher.py",
+        "path_type": "hardlink",
+        "sha256": "aa368ddbccac6e8cf610112054c6549c99eb37696299b291a48dee242dc3e7c4",
+        "sha256_in_prefix": "aa368ddbccac6e8cf610112054c6549c99eb37696299b291a48dee242dc3e7c4",
+        "size_in_bytes": 2639
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/mujoco/pusher_v4.py",
+        "path_type": "hardlink",
+        "sha256": "fe9eead7fba95b8bcb2a812edc52239ffaf66aad30b01db779aed8aa57c315ef",
+        "sha256_in_prefix": "fe9eead7fba95b8bcb2a812edc52239ffaf66aad30b01db779aed8aa57c315ef",
+        "size_in_bytes": 2887
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/mujoco/pusher_v5.py",
+        "path_type": "hardlink",
+        "sha256": "70459a346af56b425349c6a6bd8959362a33c10f44c526a436cac72a15d49bff",
+        "sha256_in_prefix": "70459a346af56b425349c6a6bd8959362a33c10f44c526a436cac72a15d49bff",
+        "size_in_bytes": 15447
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/mujoco/reacher.py",
+        "path_type": "hardlink",
+        "sha256": "2a2b70ed20cd71fd724d791806870ca81ead1a1cb78542b0c9d3e17d275cc68a",
+        "sha256_in_prefix": "2a2b70ed20cd71fd724d791806870ca81ead1a1cb78542b0c9d3e17d275cc68a",
+        "size_in_bytes": 2325
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/mujoco/reacher_v4.py",
+        "path_type": "hardlink",
+        "sha256": "1c02796f4738c7452085ec5d3097ff9322b923948b4d4f041a12f9cfe38df111",
+        "sha256_in_prefix": "1c02796f4738c7452085ec5d3097ff9322b923948b4d4f041a12f9cfe38df111",
+        "size_in_bytes": 2336
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/mujoco/reacher_v5.py",
+        "path_type": "hardlink",
+        "sha256": "d95d6c11f8916ae86b42bb062c6f4d71965ebadc3f9e9a2c7bb81b2bd143dca0",
+        "sha256_in_prefix": "d95d6c11f8916ae86b42bb062c6f4d71965ebadc3f9e9a2c7bb81b2bd143dca0",
+        "size_in_bytes": 12814
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/mujoco/swimmer.py",
+        "path_type": "hardlink",
+        "sha256": "e0a0296420c0216ae1f713a451641d784dfd986fd928f52cf7b1ee79f215ec7a",
+        "sha256_in_prefix": "e0a0296420c0216ae1f713a451641d784dfd986fd928f52cf7b1ee79f215ec7a",
+        "size_in_bytes": 1811
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/mujoco/swimmer_v3.py",
+        "path_type": "hardlink",
+        "sha256": "cc1869f6369e6e6de4506015fed548fd6f862c6f0ef87c49edea56bb4b49fd23",
+        "sha256_in_prefix": "cc1869f6369e6e6de4506015fed548fd6f862c6f0ef87c49edea56bb4b49fd23",
+        "size_in_bytes": 4014
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/mujoco/swimmer_v4.py",
+        "path_type": "hardlink",
+        "sha256": "9648fe1d09ff33eb41d0c2a8b390384cefe83b7bb339b99b46b43801c8acc812",
+        "sha256_in_prefix": "9648fe1d09ff33eb41d0c2a8b390384cefe83b7bb339b99b46b43801c8acc812",
+        "size_in_bytes": 3600
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/mujoco/swimmer_v5.py",
+        "path_type": "hardlink",
+        "sha256": "1c1cd01f0f5538df2dc12e7a539f0952bc44626ef2081a2e1d7aa167877a5a07",
+        "sha256_in_prefix": "1c1cd01f0f5538df2dc12e7a539f0952bc44626ef2081a2e1d7aa167877a5a07",
+        "size_in_bytes": 15183
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/mujoco/utils.py",
+        "path_type": "hardlink",
+        "sha256": "2e4ff6b345c2e905159622a575dde80c0caf252e1c7e50d8352e82dbd24b596b",
+        "sha256_in_prefix": "2e4ff6b345c2e905159622a575dde80c0caf252e1c7e50d8352e82dbd24b596b",
+        "size_in_bytes": 2675
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/mujoco/walker2d.py",
+        "path_type": "hardlink",
+        "sha256": "b11e9d2f292e399d901244c0343113725ecd0bb0336489b0155ba22a0ad54de3",
+        "sha256_in_prefix": "b11e9d2f292e399d901244c0343113725ecd0bb0336489b0155ba22a0ad54de3",
+        "size_in_bytes": 2031
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/mujoco/walker2d_v3.py",
+        "path_type": "hardlink",
+        "sha256": "01a5add01f3fc1c248b7b02ac990520227b20c0123d27aae3904900b4be583dc",
+        "sha256_in_prefix": "01a5add01f3fc1c248b7b02ac990520227b20c0123d27aae3904900b4be583dc",
+        "size_in_bytes": 5079
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/mujoco/walker2d_v4.py",
+        "path_type": "hardlink",
+        "sha256": "9cbf988d523be625b1763dc6f989c1da632e4bc6659b1e08414d053fb126cd51",
+        "sha256_in_prefix": "9cbf988d523be625b1763dc6f989c1da632e4bc6659b1e08414d053fb126cd51",
+        "size_in_bytes": 4798
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/mujoco/walker2d_v5.py",
+        "path_type": "hardlink",
+        "sha256": "3ce0a68b6fe787fb1c483e589bf22bdb11cb1a32c945c7124d330e6f809a4950",
+        "sha256_in_prefix": "3ce0a68b6fe787fb1c483e589bf22bdb11cb1a32c945c7124d330e6f809a4950",
+        "size_in_bytes": 20321
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/phys2d/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "7d38f2e5533844b9f1cdff46f430773f4d71d312db89b67acc597fbd727f6e7c",
+        "sha256_in_prefix": "7d38f2e5533844b9f1cdff46f430773f4d71d312db89b67acc597fbd727f6e7c",
+        "size_in_bytes": 247
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/phys2d/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "5e3245214f9867d90bd706b67ba68717eee51ff550efffa6ac1f7a0d759083e1",
+        "sha256_in_prefix": "5e3245214f9867d90bd706b67ba68717eee51ff550efffa6ac1f7a0d759083e1",
+        "size_in_bytes": 451
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/phys2d/__pycache__/cartpole.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "6744a92005b9cc336c1909e32792ddddef67a2d475166d8351c2b256bab3ae43",
+        "sha256_in_prefix": "6744a92005b9cc336c1909e32792ddddef67a2d475166d8351c2b256bab3ae43",
+        "size_in_bytes": 9084
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/phys2d/__pycache__/pendulum.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "521c8b0b0e6574458888252b9e126f01e325b698042b152a1e8638d6b4fcc95b",
+        "sha256_in_prefix": "521c8b0b0e6574458888252b9e126f01e325b698042b152a1e8638d6b4fcc95b",
+        "size_in_bytes": 8456
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/phys2d/assets/clockwise.png",
+        "path_type": "hardlink",
+        "sha256": "97b50edad865fb564c7634cc26fb5712880a16870f9f8b89b52d89f0374ac9a9",
+        "sha256_in_prefix": "97b50edad865fb564c7634cc26fb5712880a16870f9f8b89b52d89f0374ac9a9",
+        "size_in_bytes": 6992
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/phys2d/cartpole.py",
+        "path_type": "hardlink",
+        "sha256": "dd93c205956ce158d62faf57fa3c31d8b5c6be345d0423a0bc219c4fdc15daf2",
+        "sha256_in_prefix": "dd93c205956ce158d62faf57fa3c31d8b5c6be345d0423a0bc219c4fdc15daf2",
+        "size_in_bytes": 9704
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/phys2d/pendulum.py",
+        "path_type": "hardlink",
+        "sha256": "bf806e691a0da77be2cc2638046a1b08132f08ffd5ca9daa2e10de184513bd88",
+        "sha256_in_prefix": "bf806e691a0da77be2cc2638046a1b08132f08ffd5ca9daa2e10de184513bd88",
+        "size_in_bytes": 9112
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/registration.py",
+        "path_type": "hardlink",
+        "sha256": "2eed182e05daa6b780c61f8050239345557980e3a85c7ab4b06d34b09d0d4a7e",
+        "sha256_in_prefix": "2eed182e05daa6b780c61f8050239345557980e3a85c7ab4b06d34b09d0d4a7e",
+        "size_in_bytes": 42063
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/tabular/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "20f6833bab400821a6434a3b9a6a6d92560dfb76ff9358db683ccf6524852a1b",
+        "sha256_in_prefix": "20f6833bab400821a6434a3b9a6a6d92560dfb76ff9358db683ccf6524852a1b",
+        "size_in_bytes": 181
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/tabular/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "f2ae25fd2b3f5d4af131722811634ffd4dd26129f0868744b5605f98def89dfa",
+        "sha256_in_prefix": "f2ae25fd2b3f5d4af131722811634ffd4dd26129f0868744b5605f98def89dfa",
+        "size_in_bytes": 368
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/tabular/__pycache__/blackjack.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "66f0b0d03280d671b8370469c97118b6d463153746200345e00f84678eb30883",
+        "sha256_in_prefix": "66f0b0d03280d671b8370469c97118b6d463153746200345e00f84678eb30883",
+        "size_in_bytes": 14742
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/tabular/__pycache__/cliffwalking.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "71a8428ccf5deaa79ddc2dcdbafe69535be89321c6299c8966d70cf8ec895e4f",
+        "sha256_in_prefix": "71a8428ccf5deaa79ddc2dcdbafe69535be89321c6299c8966d70cf8ec895e4f",
+        "size_in_bytes": 11597
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/tabular/blackjack.py",
+        "path_type": "hardlink",
+        "sha256": "8ec8f80449f6e0a50b62b6cbba68183c2c74a0cd2940143307c12c1cd8bd7cb3",
+        "sha256_in_prefix": "8ec8f80449f6e0a50b62b6cbba68183c2c74a0cd2940143307c12c1cd8bd7cb3",
+        "size_in_bytes": 17596
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/tabular/cliffwalking.py",
+        "path_type": "hardlink",
+        "sha256": "c40f888c0ce3de4fc38850ff59a72d82bacd24403014b8b3fdff211aaca5c166",
+        "sha256_in_prefix": "c40f888c0ce3de4fc38850ff59a72d82bacd24403014b8b3fdff211aaca5c166",
+        "size_in_bytes": 13529
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/toy_text/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "cbb33af955903c26c764c73ed2911884592e49eb6cf25929394f7ae42f41cfd2",
+        "sha256_in_prefix": "cbb33af955903c26c764c73ed2911884592e49eb6cf25929394f7ae42f41cfd2",
+        "size_in_bytes": 235
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/toy_text/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "611ad4fba1dda628f6b8c4c3d50f551889d65ebab95a5d9587cce26aba30c896",
+        "sha256_in_prefix": "611ad4fba1dda628f6b8c4c3d50f551889d65ebab95a5d9587cce26aba30c896",
+        "size_in_bytes": 436
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/toy_text/__pycache__/blackjack.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "cc95bd408306f20d497ddf9a5df0aa5c5e4fe2addec5afbfcc9a2c78867805f3",
+        "sha256_in_prefix": "cc95bd408306f20d497ddf9a5df0aa5c5e4fe2addec5afbfcc9a2c78867805f3",
+        "size_in_bytes": 10011
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/toy_text/__pycache__/cliffwalking.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "cba4a724db707d129e082be8b9fbba4c2c69ce13ed31c12dc29b53127748adf0",
+        "sha256_in_prefix": "cba4a724db707d129e082be8b9fbba4c2c69ce13ed31c12dc29b53127748adf0",
+        "size_in_bytes": 10965
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/toy_text/__pycache__/frozen_lake.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "ff7407fc43d10cc2487859ee9f07fb227edeaf812bf4422c6594ee2223e102d1",
+        "sha256_in_prefix": "ff7407fc43d10cc2487859ee9f07fb227edeaf812bf4422c6594ee2223e102d1",
+        "size_in_bytes": 14223
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/toy_text/__pycache__/taxi.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "94ac9e9f62f89dc55568b6ce7f0e3a8636f6b7570cba0e98afeffb56170c0a5c",
+        "sha256_in_prefix": "94ac9e9f62f89dc55568b6ce7f0e3a8636f6b7570cba0e98afeffb56170c0a5c",
+        "size_in_bytes": 15552
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/toy_text/__pycache__/utils.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "2c823ea03f3def2cd39e417e62f0081601b9e65ff8bf9ab444f87f3a5eac36a3",
+        "sha256_in_prefix": "2c823ea03f3def2cd39e417e62f0081601b9e65ff8bf9ab444f87f3a5eac36a3",
+        "size_in_bytes": 501
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/toy_text/blackjack.py",
+        "path_type": "hardlink",
+        "sha256": "df470973b799a22a71a1c037b7ac8bad043703ff20a2427f4febdd2322bf88f7",
+        "sha256_in_prefix": "df470973b799a22a71a1c037b7ac8bad043703ff20a2427f4febdd2322bf88f7",
+        "size_in_bytes": 12126
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/toy_text/cliffwalking.py",
+        "path_type": "hardlink",
+        "sha256": "0372a6a3769ffb9a2c8c1a91daf0f8e9e8ef52ae44f42d402687769ebadf4d9e",
+        "sha256_in_prefix": "0372a6a3769ffb9a2c8c1a91daf0f8e9e8ef52ae44f42d402687769ebadf4d9e",
+        "size_in_bytes": 13239
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/toy_text/font/Minecraft.ttf",
+        "path_type": "hardlink",
+        "sha256": "bd47314d301e50ff4d109bff28dfcf637cb7eb13945480259878b848875acc65",
+        "sha256_in_prefix": "bd47314d301e50ff4d109bff28dfcf637cb7eb13945480259878b848875acc65",
+        "size_in_bytes": 14488
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/toy_text/frozen_lake.py",
+        "path_type": "hardlink",
+        "sha256": "49693e691c7c4eda7edc96f46fc96093f41676cdbd5d0e4602b6dc15af1a4765",
+        "sha256_in_prefix": "49693e691c7c4eda7edc96f46fc96093f41676cdbd5d0e4602b6dc15af1a4765",
+        "size_in_bytes": 15870
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/toy_text/img/C2.png",
+        "path_type": "hardlink",
+        "sha256": "f70c98244186b48e661140838e3e4d4c15b2e1a36c9eff66cb70d0152f411ff1",
+        "sha256_in_prefix": "f70c98244186b48e661140838e3e4d4c15b2e1a36c9eff66cb70d0152f411ff1",
+        "size_in_bytes": 6275
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/toy_text/img/C3.png",
+        "path_type": "hardlink",
+        "sha256": "d49ff5bc19b8540ca88f7aeb1041a3f5a90a799ba2bdad747b4ef86d7abb278f",
+        "sha256_in_prefix": "d49ff5bc19b8540ca88f7aeb1041a3f5a90a799ba2bdad747b4ef86d7abb278f",
+        "size_in_bytes": 6947
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/toy_text/img/C4.png",
+        "path_type": "hardlink",
+        "sha256": "cc1469555ea50bcdb0d1d83663ab04ef3adbcdbf7ab0c12f6737a73cc0b5c463",
+        "sha256_in_prefix": "cc1469555ea50bcdb0d1d83663ab04ef3adbcdbf7ab0c12f6737a73cc0b5c463",
+        "size_in_bytes": 7115
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/toy_text/img/C5.png",
+        "path_type": "hardlink",
+        "sha256": "47b949d10e4ba6de1294fdbca914cbe8ccb7027897e925252d864b66e047b22a",
+        "sha256_in_prefix": "47b949d10e4ba6de1294fdbca914cbe8ccb7027897e925252d864b66e047b22a",
+        "size_in_bytes": 7948
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/toy_text/img/C6.png",
+        "path_type": "hardlink",
+        "sha256": "0bbd6c2e643abcd6f9e0b0853de4237bfda7a7030b9f307b00f0368587211def",
+        "sha256_in_prefix": "0bbd6c2e643abcd6f9e0b0853de4237bfda7a7030b9f307b00f0368587211def",
+        "size_in_bytes": 8488
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/toy_text/img/C7.png",
+        "path_type": "hardlink",
+        "sha256": "6f7c0a20207c2f3f5257c999f24daca7960940da8bc8c3e36ba6711290de5cfb",
+        "sha256_in_prefix": "6f7c0a20207c2f3f5257c999f24daca7960940da8bc8c3e36ba6711290de5cfb",
+        "size_in_bytes": 8704
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/toy_text/img/C8.png",
+        "path_type": "hardlink",
+        "sha256": "83e95408589a0759db323252643760b1c8e5e94cbd6e2601b4f78e70c8ea7941",
+        "sha256_in_prefix": "83e95408589a0759db323252643760b1c8e5e94cbd6e2601b4f78e70c8ea7941",
+        "size_in_bytes": 9807
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/toy_text/img/C9.png",
+        "path_type": "hardlink",
+        "sha256": "0a631be7a625981b7a41de5c37ca2ad515d344de1d96ad1ad134ca95c46b491c",
+        "sha256_in_prefix": "0a631be7a625981b7a41de5c37ca2ad515d344de1d96ad1ad134ca95c46b491c",
+        "size_in_bytes": 10427
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/toy_text/img/CA.png",
+        "path_type": "hardlink",
+        "sha256": "3753970f956e4245e7815a8f4631c784cd81b828987e7aa5bd478281be8a0ee9",
+        "sha256_in_prefix": "3753970f956e4245e7815a8f4631c784cd81b828987e7aa5bd478281be8a0ee9",
+        "size_in_bytes": 6621
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/toy_text/img/CJ.png",
+        "path_type": "hardlink",
+        "sha256": "b2414d2cf391c8c10f5129f031f3496d283806cc871c42aeb407beb77bed7353",
+        "sha256_in_prefix": "b2414d2cf391c8c10f5129f031f3496d283806cc871c42aeb407beb77bed7353",
+        "size_in_bytes": 18635
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/toy_text/img/CK.png",
+        "path_type": "hardlink",
+        "sha256": "bd2247ee9cc188be00955b8eeaf1a6470b7930f22603e98a4f64243655e5982f",
+        "sha256_in_prefix": "bd2247ee9cc188be00955b8eeaf1a6470b7930f22603e98a4f64243655e5982f",
+        "size_in_bytes": 19498
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/toy_text/img/CQ.png",
+        "path_type": "hardlink",
+        "sha256": "afada28fdcf6383b19dc7bd4a42916d5c396ec29eb66e2b5434800a4eb88dc57",
+        "sha256_in_prefix": "afada28fdcf6383b19dc7bd4a42916d5c396ec29eb66e2b5434800a4eb88dc57",
+        "size_in_bytes": 18772
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/toy_text/img/CT.png",
+        "path_type": "hardlink",
+        "sha256": "45195a08559cd89ea2286569576013543a855592a7606a90d79370584d0bdab1",
+        "sha256_in_prefix": "45195a08559cd89ea2286569576013543a855592a7606a90d79370584d0bdab1",
+        "size_in_bytes": 10454
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/toy_text/img/Card.png",
+        "path_type": "hardlink",
+        "sha256": "d15ce5df35fa5ebf7bf0e888949959d8f69b1c44fe7f486db394e218c87bf301",
+        "sha256_in_prefix": "d15ce5df35fa5ebf7bf0e888949959d8f69b1c44fe7f486db394e218c87bf301",
+        "size_in_bytes": 44172
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/toy_text/img/D2.png",
+        "path_type": "hardlink",
+        "sha256": "75afadf1b2f95a4f17a7526aa35f520db160bec6e3372202936f54b612f5d8cd",
+        "sha256_in_prefix": "75afadf1b2f95a4f17a7526aa35f520db160bec6e3372202936f54b612f5d8cd",
+        "size_in_bytes": 5905
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/toy_text/img/D3.png",
+        "path_type": "hardlink",
+        "sha256": "54ca4729cca9bce67b9b9fb84066d007b1f3415fc3cd1347d3c76ab6e49406ba",
+        "sha256_in_prefix": "54ca4729cca9bce67b9b9fb84066d007b1f3415fc3cd1347d3c76ab6e49406ba",
+        "size_in_bytes": 6501
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/toy_text/img/D4.png",
+        "path_type": "hardlink",
+        "sha256": "1d873e5396f883b030c50bda45a11457a2c9a79e79eeacdab2e6433932a68c92",
+        "sha256_in_prefix": "1d873e5396f883b030c50bda45a11457a2c9a79e79eeacdab2e6433932a68c92",
+        "size_in_bytes": 6660
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/toy_text/img/D5.png",
+        "path_type": "hardlink",
+        "sha256": "abba13c9b8032b338faf706669c13106fd49551727ac8f44bed1a2a69003727b",
+        "sha256_in_prefix": "abba13c9b8032b338faf706669c13106fd49551727ac8f44bed1a2a69003727b",
+        "size_in_bytes": 7451
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/toy_text/img/D6.png",
+        "path_type": "hardlink",
+        "sha256": "ec5dc2170868a9411dd1272f2ccb0de020a79e6a50551d95c8330ba382f64821",
+        "sha256_in_prefix": "ec5dc2170868a9411dd1272f2ccb0de020a79e6a50551d95c8330ba382f64821",
+        "size_in_bytes": 7931
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/toy_text/img/D7.png",
+        "path_type": "hardlink",
+        "sha256": "fb0bf1306d746a163670c40be6db32e4398058f5f7a1464f8362571e8244bf68",
+        "sha256_in_prefix": "fb0bf1306d746a163670c40be6db32e4398058f5f7a1464f8362571e8244bf68",
+        "size_in_bytes": 8138
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/toy_text/img/D8.png",
+        "path_type": "hardlink",
+        "sha256": "15814bf57bb5679e6d93625dcad3befe4ce7c7b2c3564b6c67bbde490f4b2912",
+        "sha256_in_prefix": "15814bf57bb5679e6d93625dcad3befe4ce7c7b2c3564b6c67bbde490f4b2912",
+        "size_in_bytes": 9027
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/toy_text/img/D9.png",
+        "path_type": "hardlink",
+        "sha256": "d8f290166e8a97e78866318ffac231103d15e806717399d7d41c9fdeb88a2271",
+        "sha256_in_prefix": "d8f290166e8a97e78866318ffac231103d15e806717399d7d41c9fdeb88a2271",
+        "size_in_bytes": 9529
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/toy_text/img/DA.png",
+        "path_type": "hardlink",
+        "sha256": "c9ae08bfc2a28a6fb1975bc30cfd9cac66e8f9c9b4d7930d9dec4aa3992bd4d5",
+        "sha256_in_prefix": "c9ae08bfc2a28a6fb1975bc30cfd9cac66e8f9c9b4d7930d9dec4aa3992bd4d5",
+        "size_in_bytes": 6252
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/toy_text/img/DJ.png",
+        "path_type": "hardlink",
+        "sha256": "22935876c4d0be4ba054ebcf87be6fbc65321bcc69f09f64db891e5bb811a1ee",
+        "sha256_in_prefix": "22935876c4d0be4ba054ebcf87be6fbc65321bcc69f09f64db891e5bb811a1ee",
+        "size_in_bytes": 18468
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/toy_text/img/DK.png",
+        "path_type": "hardlink",
+        "sha256": "e3f37ad2956abc4c08b39bdd63a02a135690570225f9b4ebcd04c20c02b7f41a",
+        "sha256_in_prefix": "e3f37ad2956abc4c08b39bdd63a02a135690570225f9b4ebcd04c20c02b7f41a",
+        "size_in_bytes": 19118
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/toy_text/img/DQ.png",
+        "path_type": "hardlink",
+        "sha256": "9c10660027fc1fd68fd75fac479401e09849c232d6468b183aed9f3ae064f4f1",
+        "sha256_in_prefix": "9c10660027fc1fd68fd75fac479401e09849c232d6468b183aed9f3ae064f4f1",
+        "size_in_bytes": 18375
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/toy_text/img/DT.png",
+        "path_type": "hardlink",
+        "sha256": "23122aa125e26dfb78e27bb5314844cb7a3ee43c06e945f6d03be413010c931c",
+        "sha256_in_prefix": "23122aa125e26dfb78e27bb5314844cb7a3ee43c06e945f6d03be413010c931c",
+        "size_in_bytes": 9546
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/toy_text/img/H2.png",
+        "path_type": "hardlink",
+        "sha256": "4c5bd4e7eef48e4c6ca7bf61198bc9bb96f43171ad8ce2085a1019bddfa2b9b6",
+        "sha256_in_prefix": "4c5bd4e7eef48e4c6ca7bf61198bc9bb96f43171ad8ce2085a1019bddfa2b9b6",
+        "size_in_bytes": 5898
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/toy_text/img/H3.png",
+        "path_type": "hardlink",
+        "sha256": "cb1c3889f681ff9b4661646dd346d138223679259c869314c8e9859d8c251d82",
+        "sha256_in_prefix": "cb1c3889f681ff9b4661646dd346d138223679259c869314c8e9859d8c251d82",
+        "size_in_bytes": 6466
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/toy_text/img/H4.png",
+        "path_type": "hardlink",
+        "sha256": "352618a28ae3c2d5d26f731f5a551bf9c35fd40668ef6c3594d68efd3e4792cd",
+        "sha256_in_prefix": "352618a28ae3c2d5d26f731f5a551bf9c35fd40668ef6c3594d68efd3e4792cd",
+        "size_in_bytes": 6623
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/toy_text/img/H5.png",
+        "path_type": "hardlink",
+        "sha256": "7188e34af3f0360d8d65b28a9b68d10b7d23dd083964c4d8b05644bb7b1cd7a2",
+        "sha256_in_prefix": "7188e34af3f0360d8d65b28a9b68d10b7d23dd083964c4d8b05644bb7b1cd7a2",
+        "size_in_bytes": 7384
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/toy_text/img/H6.png",
+        "path_type": "hardlink",
+        "sha256": "7d5558966dd1520ff620c30fda4835006ddeda9bdc7468e521781c5fe628aab2",
+        "sha256_in_prefix": "7d5558966dd1520ff620c30fda4835006ddeda9bdc7468e521781c5fe628aab2",
+        "size_in_bytes": 7884
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/toy_text/img/H7.png",
+        "path_type": "hardlink",
+        "sha256": "bc551e4ee026e1dfabecf47ff2b25263d21e8cf628ad6b68791507ead3e4d2f4",
+        "sha256_in_prefix": "bc551e4ee026e1dfabecf47ff2b25263d21e8cf628ad6b68791507ead3e4d2f4",
+        "size_in_bytes": 8041
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/toy_text/img/H8.png",
+        "path_type": "hardlink",
+        "sha256": "b31f98423fbee5c1350aa7d3a6ec776a34f5f28b6eae54c1a61e6d5bf7bf3362",
+        "sha256_in_prefix": "b31f98423fbee5c1350aa7d3a6ec776a34f5f28b6eae54c1a61e6d5bf7bf3362",
+        "size_in_bytes": 8882
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/toy_text/img/H9.png",
+        "path_type": "hardlink",
+        "sha256": "d4230a62e02ab5e703c90059a454f514a44107e53349816da228ec4aeadfa279",
+        "sha256_in_prefix": "d4230a62e02ab5e703c90059a454f514a44107e53349816da228ec4aeadfa279",
+        "size_in_bytes": 9402
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/toy_text/img/HA.png",
+        "path_type": "hardlink",
+        "sha256": "411b18a3192e42f62435c0b71260edcba96ede277b1d68e7c9f847d19f519a84",
+        "sha256_in_prefix": "411b18a3192e42f62435c0b71260edcba96ede277b1d68e7c9f847d19f519a84",
+        "size_in_bytes": 6870
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/toy_text/img/HJ.png",
+        "path_type": "hardlink",
+        "sha256": "2b7e71f72d2c77ac03b53f6071253b31c4aee730e7d6a32e830874e6c6bebe85",
+        "sha256_in_prefix": "2b7e71f72d2c77ac03b53f6071253b31c4aee730e7d6a32e830874e6c6bebe85",
+        "size_in_bytes": 18394
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/toy_text/img/HK.png",
+        "path_type": "hardlink",
+        "sha256": "df2c4eee7def713420356e6da5da1844c9e7cb93fa1e975901a11410cdd52be0",
+        "sha256_in_prefix": "df2c4eee7def713420356e6da5da1844c9e7cb93fa1e975901a11410cdd52be0",
+        "size_in_bytes": 19561
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/toy_text/img/HQ.png",
+        "path_type": "hardlink",
+        "sha256": "d58090a4df743458070d5435aa323264b13b35c982a4807de3582480fbb8e0d9",
+        "sha256_in_prefix": "d58090a4df743458070d5435aa323264b13b35c982a4807de3582480fbb8e0d9",
+        "size_in_bytes": 20159
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/toy_text/img/HT.png",
+        "path_type": "hardlink",
+        "sha256": "f7907ec40de6740b4e5a7b06f1b70532a0fd308c15de05ffeed9a90ed426c68c",
+        "sha256_in_prefix": "f7907ec40de6740b4e5a7b06f1b70532a0fd308c15de05ffeed9a90ed426c68c",
+        "size_in_bytes": 9366
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/toy_text/img/S2.png",
+        "path_type": "hardlink",
+        "sha256": "ca0f9e5e7beef75ffa6c2f6fe8f6234329343f9a320330165ac3391bfb166807",
+        "sha256_in_prefix": "ca0f9e5e7beef75ffa6c2f6fe8f6234329343f9a320330165ac3391bfb166807",
+        "size_in_bytes": 6205
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/toy_text/img/S3.png",
+        "path_type": "hardlink",
+        "sha256": "e7dd1a609549ed81b6c4cdb13bf4b321295f68017d3e3564051ba1156d6a5542",
+        "sha256_in_prefix": "e7dd1a609549ed81b6c4cdb13bf4b321295f68017d3e3564051ba1156d6a5542",
+        "size_in_bytes": 6812
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/toy_text/img/S4.png",
+        "path_type": "hardlink",
+        "sha256": "5785c34577bf3f7a0e3eefd209a1276e5c51a09388ee7e2d249b357bbe701a71",
+        "sha256_in_prefix": "5785c34577bf3f7a0e3eefd209a1276e5c51a09388ee7e2d249b357bbe701a71",
+        "size_in_bytes": 7012
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/toy_text/img/S5.png",
+        "path_type": "hardlink",
+        "sha256": "5e11570bd229d096993a18875cbbc02410dbbf9e67526779c523ec53785ed316",
+        "sha256_in_prefix": "5e11570bd229d096993a18875cbbc02410dbbf9e67526779c523ec53785ed316",
+        "size_in_bytes": 7809
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/toy_text/img/S6.png",
+        "path_type": "hardlink",
+        "sha256": "baa4c6b8dc1065623c4da5a16cc06f3989e387703d4de9597a353311e0fcc66e",
+        "sha256_in_prefix": "baa4c6b8dc1065623c4da5a16cc06f3989e387703d4de9597a353311e0fcc66e",
+        "size_in_bytes": 8370
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/toy_text/img/S7.png",
+        "path_type": "hardlink",
+        "sha256": "393ab62852584b1c68dbe98629c917d396198b9f0b60a26b85150fcac21b268a",
+        "sha256_in_prefix": "393ab62852584b1c68dbe98629c917d396198b9f0b60a26b85150fcac21b268a",
+        "size_in_bytes": 8585
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/toy_text/img/S8.png",
+        "path_type": "hardlink",
+        "sha256": "307178575646244c5425ce3cb8489a8bf24cc454d8f8017d4ca35f7d6931e797",
+        "sha256_in_prefix": "307178575646244c5425ce3cb8489a8bf24cc454d8f8017d4ca35f7d6931e797",
+        "size_in_bytes": 9527
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/toy_text/img/S9.png",
+        "path_type": "hardlink",
+        "sha256": "dca61acfbd1035495c157413145dd85b329732e3a2ed932775987bcf1f19ff12",
+        "sha256_in_prefix": "dca61acfbd1035495c157413145dd85b329732e3a2ed932775987bcf1f19ff12",
+        "size_in_bytes": 9931
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/toy_text/img/SA.png",
+        "path_type": "hardlink",
+        "sha256": "ba888be8c6d49375f0c12668239748897fc157688f58f872593176c41d323616",
+        "sha256_in_prefix": "ba888be8c6d49375f0c12668239748897fc157688f58f872593176c41d323616",
+        "size_in_bytes": 6630
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/toy_text/img/SJ.png",
+        "path_type": "hardlink",
+        "sha256": "4c31e749346ee3a845742343fc3b0d48a83a754ca362f6dc2e460e4cb972d50a",
+        "sha256_in_prefix": "4c31e749346ee3a845742343fc3b0d48a83a754ca362f6dc2e460e4cb972d50a",
+        "size_in_bytes": 18175
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/toy_text/img/SK.png",
+        "path_type": "hardlink",
+        "sha256": "1f384bf0679bef8cc5f671c207d8e3255a86bb084cd9a52eb9a11c8bf6fb51c4",
+        "sha256_in_prefix": "1f384bf0679bef8cc5f671c207d8e3255a86bb084cd9a52eb9a11c8bf6fb51c4",
+        "size_in_bytes": 19256
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/toy_text/img/SQ.png",
+        "path_type": "hardlink",
+        "sha256": "0b1e0ce2584d92b377dbfeab1b169310e4512505ee9c61eeb7f76b14dbffd7a2",
+        "sha256_in_prefix": "0b1e0ce2584d92b377dbfeab1b169310e4512505ee9c61eeb7f76b14dbffd7a2",
+        "size_in_bytes": 19809
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/toy_text/img/ST.png",
+        "path_type": "hardlink",
+        "sha256": "594c59f8cbe410d31589eae63124997bf20beadcedd77d6ce48acf94aa574fa9",
+        "sha256_in_prefix": "594c59f8cbe410d31589eae63124997bf20beadcedd77d6ce48acf94aa574fa9",
+        "size_in_bytes": 9816
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/toy_text/img/cab_front.png",
+        "path_type": "hardlink",
+        "sha256": "d0daf09facd61eaf4c87b68b01773a922f604d4bcb745c6283c37301243d704e",
+        "sha256_in_prefix": "d0daf09facd61eaf4c87b68b01773a922f604d4bcb745c6283c37301243d704e",
+        "size_in_bytes": 891
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/toy_text/img/cab_left.png",
+        "path_type": "hardlink",
+        "sha256": "618b973237245d85650d48a85bbec7934c60bcc5679335f6e55aa626d5ed4511",
+        "sha256_in_prefix": "618b973237245d85650d48a85bbec7934c60bcc5679335f6e55aa626d5ed4511",
+        "size_in_bytes": 955
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/toy_text/img/cab_rear.png",
+        "path_type": "hardlink",
+        "sha256": "ea9751904c966c823e7fe0402959615519867d8fa29fac409c50779db8f28e35",
+        "sha256_in_prefix": "ea9751904c966c823e7fe0402959615519867d8fa29fac409c50779db8f28e35",
+        "size_in_bytes": 892
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/toy_text/img/cab_right.png",
+        "path_type": "hardlink",
+        "sha256": "62b3e3069b7fb1628e88885283e98891e86fa918dd807bdc37868987979e8584",
+        "sha256_in_prefix": "62b3e3069b7fb1628e88885283e98891e86fa918dd807bdc37868987979e8584",
+        "size_in_bytes": 970
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/toy_text/img/cookie.png",
+        "path_type": "hardlink",
+        "sha256": "88eafd7c2134098605c65fcf1be54389fb27328d91d32ab00eb8bda21770402a",
+        "sha256_in_prefix": "88eafd7c2134098605c65fcf1be54389fb27328d91d32ab00eb8bda21770402a",
+        "size_in_bytes": 3455
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/toy_text/img/cracked_hole.png",
+        "path_type": "hardlink",
+        "sha256": "b3485ed40a21f9491bc9c9890b39d3212855d7a18b4a1b6ebad1406bf887250a",
+        "sha256_in_prefix": "b3485ed40a21f9491bc9c9890b39d3212855d7a18b4a1b6ebad1406bf887250a",
+        "size_in_bytes": 706
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/toy_text/img/elf_down.png",
+        "path_type": "hardlink",
+        "sha256": "525ef7ebc75101f104a0501f8c03b76cea3e285bd7a764ac55d95dfe3e941702",
+        "sha256_in_prefix": "525ef7ebc75101f104a0501f8c03b76cea3e285bd7a764ac55d95dfe3e941702",
+        "size_in_bytes": 935
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/toy_text/img/elf_left.png",
+        "path_type": "hardlink",
+        "sha256": "3b080a70cdd8afcbca7907a05b1f5c52018e65a5f445f5c21902d3ac4fceae3a",
+        "sha256_in_prefix": "3b080a70cdd8afcbca7907a05b1f5c52018e65a5f445f5c21902d3ac4fceae3a",
+        "size_in_bytes": 872
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/toy_text/img/elf_right.png",
+        "path_type": "hardlink",
+        "sha256": "39498b6304b9fb41a8d5876388c83c9caa82f05bb80203eb742baa920db03792",
+        "sha256_in_prefix": "39498b6304b9fb41a8d5876388c83c9caa82f05bb80203eb742baa920db03792",
+        "size_in_bytes": 858
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/toy_text/img/elf_up.png",
+        "path_type": "hardlink",
+        "sha256": "42f31f20af62cc160379a4acddc1119841007a805874a323e1f378ac8973dc0f",
+        "sha256_in_prefix": "42f31f20af62cc160379a4acddc1119841007a805874a323e1f378ac8973dc0f",
+        "size_in_bytes": 842
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/toy_text/img/goal.png",
+        "path_type": "hardlink",
+        "sha256": "38af8e6f3cb5ef78b96343b232d073bdf10fb7c729cc3167ba6c493cf0799b2c",
+        "sha256_in_prefix": "38af8e6f3cb5ef78b96343b232d073bdf10fb7c729cc3167ba6c493cf0799b2c",
+        "size_in_bytes": 526
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/toy_text/img/gridworld_median_bottom.png",
+        "path_type": "hardlink",
+        "sha256": "8f43f91c86968c7dc365e47c1d8f42534a48693b3b7da3722747cca269fcf09f",
+        "sha256_in_prefix": "8f43f91c86968c7dc365e47c1d8f42534a48693b3b7da3722747cca269fcf09f",
+        "size_in_bytes": 2799
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/toy_text/img/gridworld_median_horiz.png",
+        "path_type": "hardlink",
+        "sha256": "850b1374edc9cd0c9dcfe79d6b6bd99aba2abcf74d5a2cd1fb1720ecbed90d9c",
+        "sha256_in_prefix": "850b1374edc9cd0c9dcfe79d6b6bd99aba2abcf74d5a2cd1fb1720ecbed90d9c",
+        "size_in_bytes": 2352
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/toy_text/img/gridworld_median_left.png",
+        "path_type": "hardlink",
+        "sha256": "338e79ca4ae4be2387ee75460bdecd48f455ae0e50df964fca1b67709c9b6723",
+        "sha256_in_prefix": "338e79ca4ae4be2387ee75460bdecd48f455ae0e50df964fca1b67709c9b6723",
+        "size_in_bytes": 2561
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/toy_text/img/gridworld_median_right.png",
+        "path_type": "hardlink",
+        "sha256": "8e2db11b75622b03c8109c8d8410fb69924acd457b67bf1fa56d3f46f801a91f",
+        "sha256_in_prefix": "8e2db11b75622b03c8109c8d8410fb69924acd457b67bf1fa56d3f46f801a91f",
+        "size_in_bytes": 2520
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/toy_text/img/gridworld_median_top.png",
+        "path_type": "hardlink",
+        "sha256": "0b55369f1a730631a8e2959b2e87463d353e973e3b791f14a8ace5e726d68084",
+        "sha256_in_prefix": "0b55369f1a730631a8e2959b2e87463d353e973e3b791f14a8ace5e726d68084",
+        "size_in_bytes": 2844
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/toy_text/img/gridworld_median_vert.png",
+        "path_type": "hardlink",
+        "sha256": "5f1fd58f3a996f728120655efcedf49e4eda69d3639c59b838d1412624e67a8e",
+        "sha256_in_prefix": "5f1fd58f3a996f728120655efcedf49e4eda69d3639c59b838d1412624e67a8e",
+        "size_in_bytes": 2594
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/toy_text/img/hole.png",
+        "path_type": "hardlink",
+        "sha256": "21439be29a447bb31b7d0f659de6670ce10937112e2df4e6402aacbe861384b2",
+        "sha256_in_prefix": "21439be29a447bb31b7d0f659de6670ce10937112e2df4e6402aacbe861384b2",
+        "size_in_bytes": 676
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/toy_text/img/hotel.png",
+        "path_type": "hardlink",
+        "sha256": "f025e5cc7489bedc40b305934fd32da3bf9c56fc7d8e0151a0925b9a84c4922e",
+        "sha256_in_prefix": "f025e5cc7489bedc40b305934fd32da3bf9c56fc7d8e0151a0925b9a84c4922e",
+        "size_in_bytes": 21682
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/toy_text/img/ice.png",
+        "path_type": "hardlink",
+        "sha256": "bfb1f584ffcfadd12360a1999d2fb0c10bac32c9a27dc5a29ed08bac103ebcfb",
+        "sha256_in_prefix": "bfb1f584ffcfadd12360a1999d2fb0c10bac32c9a27dc5a29ed08bac103ebcfb",
+        "size_in_bytes": 494
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/toy_text/img/mountain_bg1.png",
+        "path_type": "hardlink",
+        "sha256": "356e592bd7801f6c3484c758342a1990a740304fedb80f52f9c1aaad69bd12e2",
+        "sha256_in_prefix": "356e592bd7801f6c3484c758342a1990a740304fedb80f52f9c1aaad69bd12e2",
+        "size_in_bytes": 651
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/toy_text/img/mountain_bg2.png",
+        "path_type": "hardlink",
+        "sha256": "f5f232971f0b5f7aba50c115f220f52cdf0f203850877923c849d566b7808312",
+        "sha256_in_prefix": "f5f232971f0b5f7aba50c115f220f52cdf0f203850877923c849d566b7808312",
+        "size_in_bytes": 643
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/toy_text/img/mountain_cliff.png",
+        "path_type": "hardlink",
+        "sha256": "ec0d4052df5d4bba091d17b9a69b81b46ad8170f8e82fa636d8296e3e6901939",
+        "sha256_in_prefix": "ec0d4052df5d4bba091d17b9a69b81b46ad8170f8e82fa636d8296e3e6901939",
+        "size_in_bytes": 442
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/toy_text/img/mountain_near-cliff1.png",
+        "path_type": "hardlink",
+        "sha256": "bf649ae9d781493bfc10ecd9f745373434b5d762dc97eec6e8a50c1dd498a27c",
+        "sha256_in_prefix": "bf649ae9d781493bfc10ecd9f745373434b5d762dc97eec6e8a50c1dd498a27c",
+        "size_in_bytes": 706
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/toy_text/img/mountain_near-cliff2.png",
+        "path_type": "hardlink",
+        "sha256": "773358fab8003e95efd1e4a328352c28e37f70b1c8d05567a3e66766a81bb0e2",
+        "sha256_in_prefix": "773358fab8003e95efd1e4a328352c28e37f70b1c8d05567a3e66766a81bb0e2",
+        "size_in_bytes": 704
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/toy_text/img/passenger.png",
+        "path_type": "hardlink",
+        "sha256": "58164970b0280fbfc6f428a2a58496b5affce4738bbb9bc8f47322f5b6ed2c4a",
+        "sha256_in_prefix": "58164970b0280fbfc6f428a2a58496b5affce4738bbb9bc8f47322f5b6ed2c4a",
+        "size_in_bytes": 817
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/toy_text/img/stool.png",
+        "path_type": "hardlink",
+        "sha256": "1b4d1f4e99198703bcbac812c1a4a2d1c17c5f14726b3c675f84dd881ca9d8f7",
+        "sha256_in_prefix": "1b4d1f4e99198703bcbac812c1a4a2d1c17c5f14726b3c675f84dd881ca9d8f7",
+        "size_in_bytes": 651
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/toy_text/img/taxi_background.png",
+        "path_type": "hardlink",
+        "sha256": "27cf938a699c5b394299de826a55be0bf6cfdba2423d8b20181b4a77de1521fa",
+        "sha256_in_prefix": "27cf938a699c5b394299de826a55be0bf6cfdba2423d8b20181b4a77de1521fa",
+        "size_in_bytes": 2331
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/toy_text/taxi.py",
+        "path_type": "hardlink",
+        "sha256": "005546c879dbcdb66f2b1f3e57f58b0967053071e5f5eec60340103714cbcd26",
+        "sha256_in_prefix": "005546c879dbcdb66f2b1f3e57f58b0967053071e5f5eec60340103714cbcd26",
+        "size_in_bytes": 19945
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/envs/toy_text/utils.py",
+        "path_type": "hardlink",
+        "sha256": "3739667fe0ded69624599a9e6b8d3305de70a8f3675e47c6a5a8b8bc1aafcf22",
+        "sha256_in_prefix": "3739667fe0ded69624599a9e6b8d3305de70a8f3675e47c6a5a8b8bc1aafcf22",
+        "size_in_bytes": 295
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/error.py",
+        "path_type": "hardlink",
+        "sha256": "44f44e8666b5bd41a15d9a58fb88b3fced3fb054be0e197acebf893ed310c53c",
+        "sha256_in_prefix": "44f44e8666b5bd41a15d9a58fb88b3fced3fb054be0e197acebf893ed310c53c",
+        "size_in_bytes": 3147
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/experimental/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "b852b64cecf40b44e9b793a26e12afcb169a55a24d7ddfa1ff9674dd09249ab4",
+        "sha256_in_prefix": "b852b64cecf40b44e9b793a26e12afcb169a55a24d7ddfa1ff9674dd09249ab4",
+        "size_in_bytes": 27
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/experimental/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "0cee75291c786b34b131081e8b69197521c8c910ae9037d161c190aeba315905",
+        "sha256_in_prefix": "0cee75291c786b34b131081e8b69197521c8c910ae9037d161c190aeba315905",
+        "size_in_bytes": 188
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/experimental/__pycache__/functional.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "128c24ffdc4a29b2d17e2aa5260177d8cf4a2df5181520329918373d2e65c68f",
+        "sha256_in_prefix": "128c24ffdc4a29b2d17e2aa5260177d8cf4a2df5181520329918373d2e65c68f",
+        "size_in_bytes": 5460
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/experimental/functional.py",
+        "path_type": "hardlink",
+        "sha256": "f5658270390cb2071223d6c5fa75b6702908c7eea487bfeb0e008912afbd0f86",
+        "sha256_in_prefix": "f5658270390cb2071223d6c5fa75b6702908c7eea487bfeb0e008912afbd0f86",
+        "size_in_bytes": 4901
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/logger.py",
+        "path_type": "hardlink",
+        "sha256": "977f81a609e493b49170ae61c9f0328733b0a4d93565219e2429feb094617167",
+        "sha256_in_prefix": "977f81a609e493b49170ae61c9f0328733b0a4d93565219e2429feb094617167",
+        "size_in_bytes": 1262
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/py.typed",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/spaces/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e1c24f7bb0de4dc0f76be390d0cf7663eadc8aaf99897f6d5bd75b94b90b0337",
+        "sha256_in_prefix": "e1c24f7bb0de4dc0f76be390d0cf7663eadc8aaf99897f6d5bd75b94b90b0337",
+        "size_in_bytes": 1591
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/spaces/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "d8169f94b75ad033ab92f005cebf52c801de7a7fd5215ce0fcfea1877a276381",
+        "sha256_in_prefix": "d8169f94b75ad033ab92f005cebf52c801de7a7fd5215ce0fcfea1877a276381",
+        "size_in_bytes": 1611
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/spaces/__pycache__/box.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "6ad786c5d220c9187fdd43a38bd70eef2b1ea654981ffedef538fe2152c1908b",
+        "sha256_in_prefix": "6ad786c5d220c9187fdd43a38bd70eef2b1ea654981ffedef538fe2152c1908b",
+        "size_in_bytes": 14618
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/spaces/__pycache__/dict.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "edb0fe0aaf2a0e23aa3d08df6ccdbac55e213d92c0b9aa97281f46b5e4a8c4f1",
+        "sha256_in_prefix": "edb0fe0aaf2a0e23aa3d08df6ccdbac55e213d92c0b9aa97281f46b5e4a8c4f1",
+        "size_in_bytes": 11279
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/spaces/__pycache__/discrete.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "1d7e1bb83eb28a005d5533464514f21b2c47deac35c16382a5079a34a16d4799",
+        "sha256_in_prefix": "1d7e1bb83eb28a005d5533464514f21b2c47deac35c16382a5079a34a16d4799",
+        "size_in_bytes": 6010
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/spaces/__pycache__/graph.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "652be880c72e99036725b2dfaa48095c762b306ecdfdee432711cb5a796652d3",
+        "sha256_in_prefix": "652be880c72e99036725b2dfaa48095c762b306ecdfdee432711cb5a796652d3",
+        "size_in_bytes": 11129
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/spaces/__pycache__/multi_binary.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "fc09d3c943b24c0cd8558be98ef6a0a5374ed002b07cb3bf97b1e6e948b31857",
+        "sha256_in_prefix": "fc09d3c943b24c0cd8558be98ef6a0a5374ed002b07cb3bf97b1e6e948b31857",
+        "size_in_bytes": 5606
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/spaces/__pycache__/multi_discrete.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "9b6fc5ee210631bc9d6c2cb19899c8e2a284363306002d0e72d012ff9760a57f",
+        "sha256_in_prefix": "9b6fc5ee210631bc9d6c2cb19899c8e2a284363306002d0e72d012ff9760a57f",
+        "size_in_bytes": 9696
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/spaces/__pycache__/oneof.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "f5455235f77e367ed3301f38de70eab10a55b0b55ca28a7b80dcdcf6c278ddec",
+        "sha256_in_prefix": "f5455235f77e367ed3301f38de70eab10a55b0b55ca28a7b80dcdcf6c278ddec",
+        "size_in_bytes": 8229
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/spaces/__pycache__/sequence.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "ca769bc3b692be120351bf1c9852d2000b3d5a2f3f9fae92870c84debdb17f20",
+        "sha256_in_prefix": "ca769bc3b692be120351bf1c9852d2000b3d5a2f3f9fae92870c84debdb17f20",
+        "size_in_bytes": 8621
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/spaces/__pycache__/space.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "ae16b2203033a95d31950ccffff360dc955c3e88c86cbfac56df867264523a62",
+        "sha256_in_prefix": "ae16b2203033a95d31950ccffff360dc955c3e88c86cbfac56df867264523a62",
+        "size_in_bytes": 6719
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/spaces/__pycache__/text.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "fb7c9791cd572ee8629a599baa8e70a966ef5e8737a01cb08b9a0abfa72cf978",
+        "sha256_in_prefix": "fb7c9791cd572ee8629a599baa8e70a966ef5e8737a01cb08b9a0abfa72cf978",
+        "size_in_bytes": 7562
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/spaces/__pycache__/tuple.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "c36ee55c396b519b1576b4f3082c1d02af5d9821d627a0b06c40610559e562d4",
+        "sha256_in_prefix": "c36ee55c396b519b1576b4f3082c1d02af5d9821d627a0b06c40610559e562d4",
+        "size_in_bytes": 8098
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/spaces/__pycache__/utils.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "b401184ea76f5e4094400ded81fd109343e21bd7bd8be7461523653b2a0aff6a",
+        "sha256_in_prefix": "b401184ea76f5e4094400ded81fd109343e21bd7bd8be7461523653b2a0aff6a",
+        "size_in_bytes": 25755
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/spaces/box.py",
+        "path_type": "hardlink",
+        "sha256": "dd53f3a7efb4a1463e9982937a0ac15739e3a5f71fb37e4b2728fb6bd7f7fd82",
+        "sha256_in_prefix": "dd53f3a7efb4a1463e9982937a0ac15739e3a5f71fb37e4b2728fb6bd7f7fd82",
+        "size_in_bytes": 19553
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/spaces/dict.py",
+        "path_type": "hardlink",
+        "sha256": "1b8118af2c54cbf37ff2c41a745da71ba53e03800cea3e73dc33147e23567e67",
+        "sha256_in_prefix": "1b8118af2c54cbf37ff2c41a745da71ba53e03800cea3e73dc33147e23567e67",
+        "size_in_bytes": 10324
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/spaces/discrete.py",
+        "path_type": "hardlink",
+        "sha256": "93fa7f5143adf2098a21c0a6ee91a822e93b1eefa6998ca2404cd1bfca606410",
+        "sha256_in_prefix": "93fa7f5143adf2098a21c0a6ee91a822e93b1eefa6998ca2404cd1bfca606410",
+        "size_in_bytes": 5418
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/spaces/graph.py",
+        "path_type": "hardlink",
+        "sha256": "cceb07eed64090e317c5ed68f76c952835f7eae0031f7328d3b8c35ba011cc4f",
+        "sha256_in_prefix": "cceb07eed64090e317c5ed68f76c952835f7eae0031f7328d3b8c35ba011cc4f",
+        "size_in_bytes": 13999
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/spaces/multi_binary.py",
+        "path_type": "hardlink",
+        "sha256": "fdcdf11d836009d16b293e6d7574bc3ae0840f2186c88c2078f42a528c58a1b2",
+        "sha256_in_prefix": "fdcdf11d836009d16b293e6d7574bc3ae0840f2186c88c2078f42a528c58a1b2",
+        "size_in_bytes": 4817
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/spaces/multi_discrete.py",
+        "path_type": "hardlink",
+        "sha256": "3fa132d08731fdc981e6da48b346173d5e30dc1f05e09681fb14ec161e56f9e3",
+        "sha256_in_prefix": "3fa132d08731fdc981e6da48b346173d5e30dc1f05e09681fb14ec161e56f9e3",
+        "size_in_bytes": 10224
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/spaces/oneof.py",
+        "path_type": "hardlink",
+        "sha256": "759748d33980bbbf982aadb726434008b38c673d519178d5ec741498e4dd7edc",
+        "sha256_in_prefix": "759748d33980bbbf982aadb726434008b38c673d519178d5ec741498e4dd7edc",
+        "size_in_bytes": 7269
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/spaces/sequence.py",
+        "path_type": "hardlink",
+        "sha256": "7f61d324123520a109e9b4f7e451979de042a857d604ef145d73551ce09f302f",
+        "sha256_in_prefix": "7f61d324123520a109e9b4f7e451979de042a857d604ef145d73551ce09f302f",
+        "size_in_bytes": 8985
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/spaces/space.py",
+        "path_type": "hardlink",
+        "sha256": "c02e374887240b3c7d12c516ba1ed4cb2ad2bfd1986226c8557516ae6615c8bd",
+        "sha256_in_prefix": "c02e374887240b3c7d12c516ba1ed4cb2ad2bfd1986226c8557516ae6615c8bd",
+        "size_in_bytes": 6491
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/spaces/text.py",
+        "path_type": "hardlink",
+        "sha256": "b6f7deeea8bc1f71bc9ecf15d578f26b8913c735ccb62e6c8f88881376eb6298",
+        "sha256_in_prefix": "b6f7deeea8bc1f71bc9ecf15d578f26b8913c735ccb62e6c8f88881376eb6298",
+        "size_in_bytes": 7862
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/spaces/tuple.py",
+        "path_type": "hardlink",
+        "sha256": "8e2632c9988328ae1dbf0d6e5661366b708b4dfb9c57aa1f3e7ed8a5f9dd17c2",
+        "sha256_in_prefix": "8e2632c9988328ae1dbf0d6e5661366b708b4dfb9c57aa1f3e7ed8a5f9dd17c2",
+        "size_in_bytes": 6494
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/spaces/utils.py",
+        "path_type": "hardlink",
+        "sha256": "6ff7325c993001c8b87744f745a4ff109f9f43a16a9dfc678495b588943c635d",
+        "sha256_in_prefix": "6ff7325c993001c8b87744f745a4ff109f9f43a16a9dfc678495b588943c635d",
+        "size_in_bytes": 23737
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/utils/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e52f5e3c886c7489d36a52c7ea9a05006edcdd4fca5ba163e65a9c46aecb6312",
+        "sha256_in_prefix": "e52f5e3c886c7489d36a52c7ea9a05006edcdd4fca5ba163e65a9c46aecb6312",
+        "size_in_bytes": 563
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/utils/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "0467244cbc39ee67d85ca5c8db24530492ff76925643aa27e3be2833bbc0644e",
+        "sha256_in_prefix": "0467244cbc39ee67d85ca5c8db24530492ff76925643aa27e3be2833bbc0644e",
+        "size_in_bytes": 532
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/utils/__pycache__/colorize.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "f5e6d55f1c787614d1198d1313886e67f8c37322c77ab67847099e4dae04962b",
+        "sha256_in_prefix": "f5e6d55f1c787614d1198d1313886e67f8c37322c77ab67847099e4dae04962b",
+        "size_in_bytes": 1218
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/utils/__pycache__/env_checker.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "dc3329bea54172ed84859244461bb89ff591e0755e07077bfb82649c87202c3b",
+        "sha256_in_prefix": "dc3329bea54172ed84859244461bb89ff591e0755e07077bfb82649c87202c3b",
+        "size_in_bytes": 14889
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/utils/__pycache__/env_match.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "e47c64de6e5c4c787dfc328a835ccf5e8b6e9897a24d387128bf9ef133ba6e01",
+        "sha256_in_prefix": "e47c64de6e5c4c787dfc328a835ccf5e8b6e9897a24d387128bf9ef133ba6e01",
+        "size_in_bytes": 5422
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/utils/__pycache__/ezpickle.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "a6e652ad0a1503b38214f002663ecf922604775a6b8bc186dc01819f5ba18cf2",
+        "sha256_in_prefix": "a6e652ad0a1503b38214f002663ecf922604775a6b8bc186dc01819f5ba18cf2",
+        "size_in_bytes": 1821
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/utils/__pycache__/passive_env_checker.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "2b1847e717709b2c7893e0d4db9b3a9864630c76b6e73c1d302e91f1361e5264",
+        "sha256_in_prefix": "2b1847e717709b2c7893e0d4db9b3a9864630c76b6e73c1d302e91f1361e5264",
+        "size_in_bytes": 12227
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/utils/__pycache__/performance.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "6cac87e7554ab18bd85ada73e3fb3493fb463598af1156a3f38b49eeb366238d",
+        "sha256_in_prefix": "6cac87e7554ab18bd85ada73e3fb3493fb463598af1156a3f38b49eeb366238d",
+        "size_in_bytes": 2702
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/utils/__pycache__/play.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "4634cc2a7c9a82c95738a33331b03c51dbc5abec5cb05e9dec0fb4d535e7f258",
+        "sha256_in_prefix": "4634cc2a7c9a82c95738a33331b03c51dbc5abec5cb05e9dec0fb4d535e7f258",
+        "size_in_bytes": 15374
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/utils/__pycache__/record_constructor.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "f5d82c03fc654e182d2f29804c5ac89aa6cbf8a1ba0bf5405b06e0a54cae6eb4",
+        "sha256_in_prefix": "f5d82c03fc654e182d2f29804c5ac89aa6cbf8a1ba0bf5405b06e0a54cae6eb4",
+        "size_in_bytes": 1608
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/utils/__pycache__/save_video.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "ce4d4933d611440cac7a80b25ef9432411a147d087ae282fe39278ea0198c5aa",
+        "sha256_in_prefix": "ce4d4933d611440cac7a80b25ef9432411a147d087ae282fe39278ea0198c5aa",
+        "size_in_bytes": 4390
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/utils/__pycache__/seeding.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "09a876f0b3098d3b620a3bd21124899f5141b3eac35f6255c7937418d5f8244c",
+        "sha256_in_prefix": "09a876f0b3098d3b620a3bd21124899f5141b3eac35f6255c7937418d5f8244c",
+        "size_in_bytes": 1554
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/utils/__pycache__/step_api_compatibility.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "0f09a9481ccb9323f4273b95b07d2216535c50e84900dafbfef3ac779dc0c104",
+        "sha256_in_prefix": "0f09a9481ccb9323f4273b95b07d2216535c50e84900dafbfef3ac779dc0c104",
+        "size_in_bytes": 5348
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/utils/colorize.py",
+        "path_type": "hardlink",
+        "sha256": "5a84ebf93548d49b051799812e50995f11dc243bc85b9b11b07c7dc252031b1c",
+        "sha256_in_prefix": "5a84ebf93548d49b051799812e50995f11dc243bc85b9b11b07c7dc252031b1c",
+        "size_in_bytes": 974
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/utils/env_checker.py",
+        "path_type": "hardlink",
+        "sha256": "2d7fbfc54665e4dff7321ba24305c64ef542f44cb12a92f6f1c8f41253d367f9",
+        "sha256_in_prefix": "2d7fbfc54665e4dff7321ba24305c64ef542f44cb12a92f6f1c8f41253d367f9",
+        "size_in_bytes": 18666
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/utils/env_match.py",
+        "path_type": "hardlink",
+        "sha256": "f5a06e5bba422a2f9f6d5dfb3f54e9f63420faccf9599c851fc7b80671ef69dc",
+        "sha256_in_prefix": "f5a06e5bba422a2f9f6d5dfb3f54e9f63420faccf9599c851fc7b80671ef69dc",
+        "size_in_bytes": 7548
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/utils/ezpickle.py",
+        "path_type": "hardlink",
+        "sha256": "a2a1f863d1bb180b49c66874cb609fb26974e6cd10a8c138de5da8e9a8b9b4e0",
+        "sha256_in_prefix": "a2a1f863d1bb180b49c66874cb609fb26974e6cd10a8c138de5da8e9a8b9b4e0",
+        "size_in_bytes": 1427
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/utils/passive_env_checker.py",
+        "path_type": "hardlink",
+        "sha256": "a360f200b07b7f62e193b7f4989307ce5c5f7de89e95d40b6fe218f8ba5af7da",
+        "sha256_in_prefix": "a360f200b07b7f62e193b7f4989307ce5c5f7de89e95d40b6fe218f8ba5af7da",
+        "size_in_bytes": 16591
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/utils/performance.py",
+        "path_type": "hardlink",
+        "sha256": "f41ef604a3d92701ff52ec0c4c139e49df83cc15dfaf1be57600069ac498d0d3",
+        "sha256_in_prefix": "f41ef604a3d92701ff52ec0c4c139e49df83cc15dfaf1be57600069ac498d0d3",
+        "size_in_bytes": 2766
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/utils/play.py",
+        "path_type": "hardlink",
+        "sha256": "2c60ac699a4f77d420c57adb1195ec4fe69a4dbedb039a360b1c7b7a00cf7030",
+        "sha256_in_prefix": "2c60ac699a4f77d420c57adb1195ec4fe69a4dbedb039a360b1c7b7a00cf7030",
+        "size_in_bytes": 16486
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/utils/record_constructor.py",
+        "path_type": "hardlink",
+        "sha256": "6cc738e70aac81fd18d10c16e72e8a91f11177b369c13ba555e5c8ffb3cf04bf",
+        "sha256_in_prefix": "6cc738e70aac81fd18d10c16e72e8a91f11177b369c13ba555e5c8ffb3cf04bf",
+        "size_in_bytes": 1294
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/utils/save_video.py",
+        "path_type": "hardlink",
+        "sha256": "161ab40d5fcbc141d7fbfa2ecc5d7f3200de8049ea5f38e6b642e0ac7953fa26",
+        "sha256_in_prefix": "161ab40d5fcbc141d7fbfa2ecc5d7f3200de8049ea5f38e6b642e0ac7953fa26",
+        "size_in_bytes": 4629
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/utils/seeding.py",
+        "path_type": "hardlink",
+        "sha256": "eb2a223b92604b7d1df2a859338e4a175c60f3fb11b87f8f316f306f1b97de53",
+        "sha256_in_prefix": "eb2a223b92604b7d1df2a859338e4a175c60f3fb11b87f8f316f306f1b97de53",
+        "size_in_bytes": 1443
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/utils/step_api_compatibility.py",
+        "path_type": "hardlink",
+        "sha256": "96231101c84e42a25eddf54d6c9249210626b92975725bf47d26c3ef8087746c",
+        "sha256_in_prefix": "96231101c84e42a25eddf54d6c9249210626b92975725bf47d26c3ef8087746c",
+        "size_in_bytes": 7164
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/vector/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e6ace0b9575b1c47521d7c6ac4a65561dab335187aaac83bce7a86cb3bb43e4b",
+        "sha256_in_prefix": "e6ace0b9575b1c47521d7c6ac4a65561dab335187aaac83bce7a86cb3bb43e4b",
+        "size_in_bytes": 545
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/vector/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "8689db8f192fde7382f3b27b730d3633e0a7689d0bacd11a364b5e71e5a280f9",
+        "sha256_in_prefix": "8689db8f192fde7382f3b27b730d3633e0a7689d0bacd11a364b5e71e5a280f9",
+        "size_in_bytes": 624
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/vector/__pycache__/async_vector_env.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "9b95f2e6cb0fd772bc84ffb5b86634a69960a599d51134c4e1728d4f570cf9bc",
+        "sha256_in_prefix": "9b95f2e6cb0fd772bc84ffb5b86634a69960a599d51134c4e1728d4f570cf9bc",
+        "size_in_bytes": 25854
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/vector/__pycache__/sync_vector_env.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "ae1c08fb4f1accdae21425c423b696cceb4d87ced5d299402180c7d96cb5adb5",
+        "sha256_in_prefix": "ae1c08fb4f1accdae21425c423b696cceb4d87ced5d299402180c7d96cb5adb5",
+        "size_in_bytes": 11382
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/vector/__pycache__/vector_env.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "83e3d05aa2c8ac0b842e100c6285f058857694e74c1b92593081321a58282c56",
+        "sha256_in_prefix": "83e3d05aa2c8ac0b842e100c6285f058857694e74c1b92593081321a58282c56",
+        "size_in_bytes": 22372
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/vector/async_vector_env.py",
+        "path_type": "hardlink",
+        "sha256": "fccf1e164d70065b6d58e2418e8aaf050eb6fdc934e62fa4e7631cf0c9b8d7ac",
+        "sha256_in_prefix": "fccf1e164d70065b6d58e2418e8aaf050eb6fdc934e62fa4e7631cf0c9b8d7ac",
+        "size_in_bytes": 31633
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/vector/sync_vector_env.py",
+        "path_type": "hardlink",
+        "sha256": "1a12d668a5206cdfdf4f443ded28d03869bbb5502f4c6eff5bd58a698d712255",
+        "sha256_in_prefix": "1a12d668a5206cdfdf4f443ded28d03869bbb5502f4c6eff5bd58a698d712255",
+        "size_in_bytes": 12531
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/vector/utils/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "598f2352721e3655a6077dc9b061ef139d279d9368a790ecfb8f2d21540f8a80",
+        "sha256_in_prefix": "598f2352721e3655a6077dc9b061ef139d279d9368a790ecfb8f2d21540f8a80",
+        "size_in_bytes": 698
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/vector/utils/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "b8b451d6d2bc08c076af328dd6be610d90cea8c9ba1fb17284bf5fbdec46a535",
+        "sha256_in_prefix": "b8b451d6d2bc08c076af328dd6be610d90cea8c9ba1fb17284bf5fbdec46a535",
+        "size_in_bytes": 722
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/vector/utils/__pycache__/misc.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "bf2c40f24438958c0373f534c122d192f8ddf2eb6716b91f4a47561a5a0fd549",
+        "sha256_in_prefix": "bf2c40f24438958c0373f534c122d192f8ddf2eb6716b91f4a47561a5a0fd549",
+        "size_in_bytes": 2318
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/vector/utils/__pycache__/shared_memory.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "3ff2d06a9b03ba2c92924fa55b1083f0dbd35815aac4ab8a125b8db235024bcf",
+        "sha256_in_prefix": "3ff2d06a9b03ba2c92924fa55b1083f0dbd35815aac4ab8a125b8db235024bcf",
+        "size_in_bytes": 10465
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/vector/utils/__pycache__/space_utils.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "60dc04612f673f8e8c55edbd4a3ada989a487772dce774dbcee12423402e1161",
+        "sha256_in_prefix": "60dc04612f673f8e8c55edbd4a3ada989a487772dce774dbcee12423402e1161",
+        "size_in_bytes": 22873
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/vector/utils/misc.py",
+        "path_type": "hardlink",
+        "sha256": "650ea425ff478f2a863a49a6b34cb8e1043d5a86b00fb7e6533c2093feac2700",
+        "sha256_in_prefix": "650ea425ff478f2a863a49a6b34cb8e1043d5a86b00fb7e6533c2093feac2700",
+        "size_in_bytes": 1707
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/vector/utils/shared_memory.py",
+        "path_type": "hardlink",
+        "sha256": "45460c5f6ead57c50075fd61f887bae5c7b1267cbbd7a73b80cf2c19f2a5d8ae",
+        "sha256_in_prefix": "45460c5f6ead57c50075fd61f887bae5c7b1267cbbd7a73b80cf2c19f2a5d8ae",
+        "size_in_bytes": 10012
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/vector/utils/space_utils.py",
+        "path_type": "hardlink",
+        "sha256": "76be2a18c820377785e187af07d79717501f9c6c0aaa245b69d4d42d5bf9ecb2",
+        "sha256_in_prefix": "76be2a18c820377785e187af07d79717501f9c6c0aaa245b69d4d42d5bf9ecb2",
+        "size_in_bytes": 18563
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/vector/vector_env.py",
+        "path_type": "hardlink",
+        "sha256": "636595d62dc0cd6ffc63a26eeb8ce6f2834eb1a3c2776f5d275f1902f551efa6",
+        "sha256_in_prefix": "636595d62dc0cd6ffc63a26eeb8ce6f2834eb1a3c2776f5d275f1902f551efa6",
+        "size_in_bytes": 23039
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/wrappers/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "4c5b9e4ae73a4e72cbfcc87b3bcc59274b1d7402108735c979aa2abc7f5b0f13",
+        "sha256_in_prefix": "4c5b9e4ae73a4e72cbfcc87b3bcc59274b1d7402108735c979aa2abc7f5b0f13",
+        "size_in_bytes": 6389
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/wrappers/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "0a2db572c16c314f406666b3162bb358e2a0ccd038cfee07cf0b12f6fb5db126",
+        "sha256_in_prefix": "0a2db572c16c314f406666b3162bb358e2a0ccd038cfee07cf0b12f6fb5db126",
+        "size_in_bytes": 5449
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/wrappers/__pycache__/atari_preprocessing.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "a2a25e9c89868ba021d3dc2a69d54b7564586fc912a936e56f177244a246dddb",
+        "sha256_in_prefix": "a2a25e9c89868ba021d3dc2a69d54b7564586fc912a936e56f177244a246dddb",
+        "size_in_bytes": 8102
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/wrappers/__pycache__/common.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "16afded25bb3adc362a6e9cd6344ef649e6babfec58adb2ee4050fb38e66edb4",
+        "sha256_in_prefix": "16afded25bb3adc362a6e9cd6344ef649e6babfec58adb2ee4050fb38e66edb4",
+        "size_in_bytes": 19363
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/wrappers/__pycache__/jax_to_numpy.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "9509a83c4b0fae46e0fe0416196c4d3c291b4e98f721e49b022ce97be7ad60f1",
+        "sha256_in_prefix": "9509a83c4b0fae46e0fe0416196c4d3c291b4e98f721e49b022ce97be7ad60f1",
+        "size_in_bytes": 8075
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/wrappers/__pycache__/jax_to_torch.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "bfb70c17496eeb30c00a3415ea306216b2ea8737ba17637613637060243304d8",
+        "sha256_in_prefix": "bfb70c17496eeb30c00a3415ea306216b2ea8737ba17637613637060243304d8",
+        "size_in_bytes": 8532
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/wrappers/__pycache__/numpy_to_torch.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "1e8cbcf09a7aed5ac123dc615c871a21414c7acf4f9382a05b7431ca312e234e",
+        "sha256_in_prefix": "1e8cbcf09a7aed5ac123dc615c871a21414c7acf4f9382a05b7431ca312e234e",
+        "size_in_bytes": 7365
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/wrappers/__pycache__/rendering.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "12d026feb5644541ecb191c2b1fad199b4ada586551cf43e05efc7dc03352853",
+        "sha256_in_prefix": "12d026feb5644541ecb191c2b1fad199b4ada586551cf43e05efc7dc03352853",
+        "size_in_bytes": 20592
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/wrappers/__pycache__/stateful_action.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "9eb65149fb07de526be2751c27fe9a39e0a8c9523da795f3a51f3d8d9593cffa",
+        "sha256_in_prefix": "9eb65149fb07de526be2751c27fe9a39e0a8c9523da795f3a51f3d8d9593cffa",
+        "size_in_bytes": 3158
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/wrappers/__pycache__/stateful_observation.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "bf18695223598f9efb97f9e7f7592a54716dc979966ed85c9f13f8b687d97a4a",
+        "sha256_in_prefix": "bf18695223598f9efb97f9e7f7592a54716dc979966ed85c9f13f8b687d97a4a",
+        "size_in_bytes": 23738
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/wrappers/__pycache__/stateful_reward.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "10aab1e872acafeea6c22c96a65d3cb8f350016a43497263ceff51209ea5842b",
+        "sha256_in_prefix": "10aab1e872acafeea6c22c96a65d3cb8f350016a43497263ceff51209ea5842b",
+        "size_in_bytes": 5865
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/wrappers/__pycache__/transform_action.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "f54eae344ed5d34da55f868240338e38f4110dc2e0f8f061979254483b9307ac",
+        "sha256_in_prefix": "f54eae344ed5d34da55f868240338e38f4110dc2e0f8f061979254483b9307ac",
+        "size_in_bytes": 6533
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/wrappers/__pycache__/transform_observation.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "790b563b8650037072bcd84a20b7076e246974f4a67574578529fece31b483ce",
+        "sha256_in_prefix": "790b563b8650037072bcd84a20b7076e246974f4a67574578529fece31b483ce",
+        "size_in_bytes": 23825
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/wrappers/__pycache__/transform_reward.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "f30cd19ef59ac22c818ed8c7ffc6fad69c5657510ab19b6cc898390a0b162825",
+        "sha256_in_prefix": "f30cd19ef59ac22c818ed8c7ffc6fad69c5657510ab19b6cc898390a0b162825",
+        "size_in_bytes": 3878
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/wrappers/__pycache__/utils.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "87b6cdf4b6860464e92b05599af33aee9e46b8de904dd5fe0aafac3bbf7c5eef",
+        "sha256_in_prefix": "87b6cdf4b6860464e92b05599af33aee9e46b8de904dd5fe0aafac3bbf7c5eef",
+        "size_in_bytes": 8025
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/wrappers/atari_preprocessing.py",
+        "path_type": "hardlink",
+        "sha256": "8ce7b8982ce35a9a88d0ddb6923a0777d9a1ff807fead5e3473186930e296d52",
+        "sha256_in_prefix": "8ce7b8982ce35a9a88d0ddb6923a0777d9a1ff807fead5e3473186930e296d52",
+        "size_in_bytes": 9690
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/wrappers/common.py",
+        "path_type": "hardlink",
+        "sha256": "bc0ebcd8d1cb65286fc2d610c43bd262accfef2f06869460861a9ec0b1d86824",
+        "sha256_in_prefix": "bc0ebcd8d1cb65286fc2d610c43bd262accfef2f06869460861a9ec0b1d86824",
+        "size_in_bytes": 21287
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/wrappers/jax_to_numpy.py",
+        "path_type": "hardlink",
+        "sha256": "4ac0f5d728fbf5eec3e108e95279b1953162f61c478bbe20dedb6b36da7f4c3a",
+        "sha256_in_prefix": "4ac0f5d728fbf5eec3e108e95279b1953162f61c478bbe20dedb6b36da7f4c3a",
+        "size_in_bytes": 7186
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/wrappers/jax_to_torch.py",
+        "path_type": "hardlink",
+        "sha256": "10e45c5181ffac3a92cec3fc46f550db5cbf81dc374e735b643dea79abe1e5e8",
+        "sha256_in_prefix": "10e45c5181ffac3a92cec3fc46f550db5cbf81dc374e735b643dea79abe1e5e8",
+        "size_in_bytes": 8259
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/wrappers/numpy_to_torch.py",
+        "path_type": "hardlink",
+        "sha256": "583a3adc5c0fb2566bb497b8f8c229139a83e7977c5c2f4073b296e67f0edfb8",
+        "sha256_in_prefix": "583a3adc5c0fb2566bb497b8f8c229139a83e7977c5c2f4073b296e67f0edfb8",
+        "size_in_bytes": 6474
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/wrappers/rendering.py",
+        "path_type": "hardlink",
+        "sha256": "07bced4caf5741ae2e249f1c0d7694ba11137bb8ef3dacb8a95249d023190fa6",
+        "sha256_in_prefix": "07bced4caf5741ae2e249f1c0d7694ba11137bb8ef3dacb8a95249d023190fa6",
+        "size_in_bytes": 22325
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/wrappers/stateful_action.py",
+        "path_type": "hardlink",
+        "sha256": "fbe4ea88bd420bc474c64d1dd6b99ee2b00b03bb0f29d3e89ff7b8e48f71321b",
+        "sha256_in_prefix": "fbe4ea88bd420bc474c64d1dd6b99ee2b00b03bb0f29d3e89ff7b8e48f71321b",
+        "size_in_bytes": 2962
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/wrappers/stateful_observation.py",
+        "path_type": "hardlink",
+        "sha256": "83fe21c8b0277da640ec5f30285acbb0830f008837ceccce9eb47adcbfa1dfc8",
+        "sha256_in_prefix": "83fe21c8b0277da640ec5f30285acbb0830f008837ceccce9eb47adcbfa1dfc8",
+        "size_in_bytes": 25550
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/wrappers/stateful_reward.py",
+        "path_type": "hardlink",
+        "sha256": "9db573d9cecf8194fca4fefc256e478719f2a228a06b2226f4fa05b41421cce2",
+        "sha256_in_prefix": "9db573d9cecf8194fca4fefc256e478719f2a228a06b2226f4fa05b41421cce2",
+        "size_in_bytes": 5731
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/wrappers/transform_action.py",
+        "path_type": "hardlink",
+        "sha256": "6ad51749a2345fe0d830d3b6eef4cba0a5c8ccd8bd83b46283dccbf0ebc609df",
+        "sha256_in_prefix": "6ad51749a2345fe0d830d3b6eef4cba0a5c8ccd8bd83b46283dccbf0ebc609df",
+        "size_in_bytes": 6319
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/wrappers/transform_observation.py",
+        "path_type": "hardlink",
+        "sha256": "4fdcd8da7333702fc9095ffd93d0ed71db8383ca1230d7acdc225dca1c37a279",
+        "sha256_in_prefix": "4fdcd8da7333702fc9095ffd93d0ed71db8383ca1230d7acdc225dca1c37a279",
+        "size_in_bytes": 26101
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/wrappers/transform_reward.py",
+        "path_type": "hardlink",
+        "sha256": "8aba150fc83b87819d3a780ca3a3e1b01668d52b69ed5e6355c9e22f75f996fb",
+        "sha256_in_prefix": "8aba150fc83b87819d3a780ca3a3e1b01668d52b69ed5e6355c9e22f75f996fb",
+        "size_in_bytes": 3513
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/wrappers/utils.py",
+        "path_type": "hardlink",
+        "sha256": "3cd0c2876b64b729b81a53cc6446f5e074f6721083515021c6b0adfce6eb3c09",
+        "sha256_in_prefix": "3cd0c2876b64b729b81a53cc6446f5e074f6721083515021c6b0adfce6eb3c09",
+        "size_in_bytes": 7973
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/wrappers/vector/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "f2d4ef6d9b9019d21f06adab4977ffe702cdda4c9b844988a31ccf7e1ef77f3b",
+        "sha256_in_prefix": "f2d4ef6d9b9019d21f06adab4977ffe702cdda4c9b844988a31ccf7e1ef77f3b",
+        "size_in_bytes": 3202
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/wrappers/vector/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "b700fc63cca3652315c46eab04cce898b7db888e91508db5d3601b61349c8782",
+        "sha256_in_prefix": "b700fc63cca3652315c46eab04cce898b7db888e91508db5d3601b61349c8782",
+        "size_in_bytes": 2329
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/wrappers/vector/__pycache__/common.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "e60da85ded1503dcbc2aa8754711abec6a393637549714f044feb0cb7a833b2c",
+        "sha256_in_prefix": "e60da85ded1503dcbc2aa8754711abec6a393637549714f044feb0cb7a833b2c",
+        "size_in_bytes": 5832
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/wrappers/vector/__pycache__/dict_info_to_list.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "82f62fa8edaa5f65b274e8ee344c67b6f69fe161caafd618513fac7fbb5d7f9d",
+        "sha256_in_prefix": "82f62fa8edaa5f65b274e8ee344c67b6f69fe161caafd618513fac7fbb5d7f9d",
+        "size_in_bytes": 5569
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/wrappers/vector/__pycache__/jax_to_numpy.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "0c2d57e8b6e37b4c0e42aecc9dfefc6bd1d4ece5474263150d6a1006da8cedd8",
+        "sha256_in_prefix": "0c2d57e8b6e37b4c0e42aecc9dfefc6bd1d4ece5474263150d6a1006da8cedd8",
+        "size_in_bytes": 3208
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/wrappers/vector/__pycache__/jax_to_torch.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "426ac9dffe19c01abb00d0b5f81e6b8ed0769ab4ec4201723d03c231bd8dd1d9",
+        "sha256_in_prefix": "426ac9dffe19c01abb00d0b5f81e6b8ed0769ab4ec4201723d03c231bd8dd1d9",
+        "size_in_bytes": 3138
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/wrappers/vector/__pycache__/numpy_to_torch.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "bbc1ee29219ecf6d826ac9ef7796c47a825c717a03b986cd65b5aaee9c93167e",
+        "sha256_in_prefix": "bbc1ee29219ecf6d826ac9ef7796c47a825c717a03b986cd65b5aaee9c93167e",
+        "size_in_bytes": 3490
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/wrappers/vector/__pycache__/rendering.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "247c25a149bcee0faf6ad92c04450163afba21243336dfc714f7c0ce84b10e5a",
+        "sha256_in_prefix": "247c25a149bcee0faf6ad92c04450163afba21243336dfc714f7c0ce84b10e5a",
+        "size_in_bytes": 5660
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/wrappers/vector/__pycache__/stateful_observation.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "6f077694aa1a7a023a3b2f02b423e22344fc1df20772bf26c9784635173029d2",
+        "sha256_in_prefix": "6f077694aa1a7a023a3b2f02b423e22344fc1df20772bf26c9784635173029d2",
+        "size_in_bytes": 4171
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/wrappers/vector/__pycache__/stateful_reward.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "9d0a16b9d78a7ac8d84716ac7476f10b88a4d7ce1d8d3a333fa383ac224f7631",
+        "sha256_in_prefix": "9d0a16b9d78a7ac8d84716ac7476f10b88a4d7ce1d8d3a333fa383ac224f7631",
+        "size_in_bytes": 5610
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/wrappers/vector/__pycache__/vectorize_action.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "5ff834f3a0b82e84b8eb2947715aee116347cccde7dc78b5173d79f884efcbd5",
+        "sha256_in_prefix": "5ff834f3a0b82e84b8eb2947715aee116347cccde7dc78b5173d79f884efcbd5",
+        "size_in_bytes": 10429
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/wrappers/vector/__pycache__/vectorize_observation.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "2d24b44ea3bad7bbeffd2434637a8d27a6890e2ed0395316f9a83909adc89956",
+        "sha256_in_prefix": "2d24b44ea3bad7bbeffd2434637a8d27a6890e2ed0395316f9a83909adc89956",
+        "size_in_bytes": 16316
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/wrappers/vector/__pycache__/vectorize_reward.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "787062a49471907b6bb857eed3ff3ee0022e0cf4ad3fcd4eea57eef2a68d5479",
+        "sha256_in_prefix": "787062a49471907b6bb857eed3ff3ee0022e0cf4ad3fcd4eea57eef2a68d5479",
+        "size_in_bytes": 5115
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/wrappers/vector/common.py",
+        "path_type": "hardlink",
+        "sha256": "ab84f6e6ae04e1155213ae51b020f11e890291e14f818a167c75333ce1aee413",
+        "sha256_in_prefix": "ab84f6e6ae04e1155213ae51b020f11e890291e14f818a167c75333ce1aee413",
+        "size_in_bytes": 6397
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/wrappers/vector/dict_info_to_list.py",
+        "path_type": "hardlink",
+        "sha256": "1b7954846e09599329ec0c2c09220db19e0ed5b2294b3193ee459a9854bb49c7",
+        "sha256_in_prefix": "1b7954846e09599329ec0c2c09220db19e0ed5b2294b3193ee459a9854bb49c7",
+        "size_in_bytes": 5200
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/wrappers/vector/jax_to_numpy.py",
+        "path_type": "hardlink",
+        "sha256": "97ba9a184ee2e66db087148a9727a5760f153b586e564d86b5ef438921c931d2",
+        "sha256_in_prefix": "97ba9a184ee2e66db087148a9727a5760f153b586e564d86b5ef438921c931d2",
+        "size_in_bytes": 2816
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/wrappers/vector/jax_to_torch.py",
+        "path_type": "hardlink",
+        "sha256": "aa301d4625d0caa5aa70d0b8158c302619a39a20b25301f3ea4bee175733604a",
+        "sha256_in_prefix": "aa301d4625d0caa5aa70d0b8158c302619a39a20b25301f3ea4bee175733604a",
+        "size_in_bytes": 2759
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/wrappers/vector/numpy_to_torch.py",
+        "path_type": "hardlink",
+        "sha256": "c08a83c06db16bfdb0d0bccc777c6b12f9c4cfdcdab95a395a7747d238e78124",
+        "sha256_in_prefix": "c08a83c06db16bfdb0d0bccc777c6b12f9c4cfdcdab95a395a7747d238e78124",
+        "size_in_bytes": 3119
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/wrappers/vector/rendering.py",
+        "path_type": "hardlink",
+        "sha256": "ede9f27a460dc195fc881f10ba3caf8227048956da5fc386a27681d087f0cd48",
+        "sha256_in_prefix": "ede9f27a460dc195fc881f10ba3caf8227048956da5fc386a27681d087f0cd48",
+        "size_in_bytes": 6898
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/wrappers/vector/stateful_observation.py",
+        "path_type": "hardlink",
+        "sha256": "9d78271908c9a0bedfa55e08c549ee209988e0ab4d11eb63370e4bcfc63f88d3",
+        "sha256_in_prefix": "9d78271908c9a0bedfa55e08c549ee209988e0ab4d11eb63370e4bcfc63f88d3",
+        "size_in_bytes": 3769
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/wrappers/vector/stateful_reward.py",
+        "path_type": "hardlink",
+        "sha256": "6e6040bd5eecc7f8a0f51c4f0c82dcf75c77cf0414380860ef82ba33a92d4636",
+        "sha256_in_prefix": "6e6040bd5eecc7f8a0f51c4f0c82dcf75c77cf0414380860ef82ba33a92d4636",
+        "size_in_bytes": 5134
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/wrappers/vector/vectorize_action.py",
+        "path_type": "hardlink",
+        "sha256": "47f9db023f89dc692eab76842ae725cf090d6586cf98249c06d9d315eb2b208e",
+        "sha256_in_prefix": "47f9db023f89dc692eab76842ae725cf090d6586cf98249c06d9d315eb2b208e",
+        "size_in_bytes": 9600
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/wrappers/vector/vectorize_observation.py",
+        "path_type": "hardlink",
+        "sha256": "6a10e50011f8dc74ba71a6110079165eb37bffc8882a8ef9d278c478d9c0c3e1",
+        "sha256_in_prefix": "6a10e50011f8dc74ba71a6110079165eb37bffc8882a8ef9d278c478d9c0c3e1",
+        "size_in_bytes": 15129
+      },
+      {
+        "_path": "lib/python3.10/site-packages/gymnasium/wrappers/vector/vectorize_reward.py",
+        "path_type": "hardlink",
+        "sha256": "916f40f34d85c21ac24ec3bcb33bb4a141a1c7321376602fbac25e95bcfa2f83",
+        "sha256_in_prefix": "916f40f34d85c21ac24ec3bcb33bb4a141a1c7321376602fbac25e95bcfa2f83",
+        "size_in_bytes": 4277
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "528f3c89b87a771142e4b0691f609bcfdd16901dc1836aabe3d538c70b62f83e",
+  "size": 978539,
+  "subdir": "linux-64",
+  "timestamp": 1732345085000,
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/gymnasium-1.0.0-py310hb7f781d_1.conda",
+  "version": "1.0.0"
+}

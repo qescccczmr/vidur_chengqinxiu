@@ -1,0 +1,14 @@
+# libaom pkg-config.
+prefix=/cpfs01/user/chengqinxiu/vidur/env
+exec_prefix=${prefix}
+includedir=${prefix}/include
+libdir=${exec_prefix}//cpfs01/user/chengqinxiu/vidur/env/lib
+
+Name: aom
+Description: Alliance for Open Media AV1 codec library v3.9.1.
+Version: 3.9.1
+Requires:
+Conflicts:
+Libs: -L${libdir} -laom
+Libs.private: -lm -lpthread
+Cflags: -I${includedir}

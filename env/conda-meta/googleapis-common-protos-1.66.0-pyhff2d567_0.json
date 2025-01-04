@@ -1,0 +1,1467 @@
+{
+  "build": "pyhff2d567_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "protobuf >=3.20.2,<6.0.0.dev0,!=3.20.0,!=3.20.1,!=4.21.1,!=4.21.2,!=4.21.3,!=4.21.4,!=4.21.5",
+    "python >=3.9"
+  ],
+  "extracted_package_dir": "/cpfs01/user/chengqinxiu/anaconda3/pkgs/googleapis-common-protos-1.66.0-pyhff2d567_0",
+  "files": [
+    "lib/python3.10/site-packages/google/api/annotations.proto",
+    "lib/python3.10/site-packages/google/api/annotations_pb2.py",
+    "lib/python3.10/site-packages/google/api/auth.proto",
+    "lib/python3.10/site-packages/google/api/auth_pb2.py",
+    "lib/python3.10/site-packages/google/api/backend.proto",
+    "lib/python3.10/site-packages/google/api/backend_pb2.py",
+    "lib/python3.10/site-packages/google/api/billing.proto",
+    "lib/python3.10/site-packages/google/api/billing_pb2.py",
+    "lib/python3.10/site-packages/google/api/client.proto",
+    "lib/python3.10/site-packages/google/api/client_pb2.py",
+    "lib/python3.10/site-packages/google/api/config_change.proto",
+    "lib/python3.10/site-packages/google/api/config_change_pb2.py",
+    "lib/python3.10/site-packages/google/api/consumer.proto",
+    "lib/python3.10/site-packages/google/api/consumer_pb2.py",
+    "lib/python3.10/site-packages/google/api/context.proto",
+    "lib/python3.10/site-packages/google/api/context_pb2.py",
+    "lib/python3.10/site-packages/google/api/control.proto",
+    "lib/python3.10/site-packages/google/api/control_pb2.py",
+    "lib/python3.10/site-packages/google/api/distribution.proto",
+    "lib/python3.10/site-packages/google/api/distribution_pb2.py",
+    "lib/python3.10/site-packages/google/api/documentation.proto",
+    "lib/python3.10/site-packages/google/api/documentation_pb2.py",
+    "lib/python3.10/site-packages/google/api/endpoint.proto",
+    "lib/python3.10/site-packages/google/api/endpoint_pb2.py",
+    "lib/python3.10/site-packages/google/api/error_reason.proto",
+    "lib/python3.10/site-packages/google/api/error_reason_pb2.py",
+    "lib/python3.10/site-packages/google/api/field_behavior.proto",
+    "lib/python3.10/site-packages/google/api/field_behavior_pb2.py",
+    "lib/python3.10/site-packages/google/api/field_info.proto",
+    "lib/python3.10/site-packages/google/api/field_info_pb2.py",
+    "lib/python3.10/site-packages/google/api/http.proto",
+    "lib/python3.10/site-packages/google/api/http_pb2.py",
+    "lib/python3.10/site-packages/google/api/httpbody.proto",
+    "lib/python3.10/site-packages/google/api/httpbody_pb2.py",
+    "lib/python3.10/site-packages/google/api/label.proto",
+    "lib/python3.10/site-packages/google/api/label_pb2.py",
+    "lib/python3.10/site-packages/google/api/launch_stage.proto",
+    "lib/python3.10/site-packages/google/api/launch_stage_pb2.py",
+    "lib/python3.10/site-packages/google/api/log.proto",
+    "lib/python3.10/site-packages/google/api/log_pb2.py",
+    "lib/python3.10/site-packages/google/api/logging.proto",
+    "lib/python3.10/site-packages/google/api/logging_pb2.py",
+    "lib/python3.10/site-packages/google/api/metric.proto",
+    "lib/python3.10/site-packages/google/api/metric_pb2.py",
+    "lib/python3.10/site-packages/google/api/monitored_resource.proto",
+    "lib/python3.10/site-packages/google/api/monitored_resource_pb2.py",
+    "lib/python3.10/site-packages/google/api/monitoring.proto",
+    "lib/python3.10/site-packages/google/api/monitoring_pb2.py",
+    "lib/python3.10/site-packages/google/api/policy.proto",
+    "lib/python3.10/site-packages/google/api/policy_pb2.py",
+    "lib/python3.10/site-packages/google/api/quota.proto",
+    "lib/python3.10/site-packages/google/api/quota_pb2.py",
+    "lib/python3.10/site-packages/google/api/resource.proto",
+    "lib/python3.10/site-packages/google/api/resource_pb2.py",
+    "lib/python3.10/site-packages/google/api/routing.proto",
+    "lib/python3.10/site-packages/google/api/routing_pb2.py",
+    "lib/python3.10/site-packages/google/api/service.proto",
+    "lib/python3.10/site-packages/google/api/service_pb2.py",
+    "lib/python3.10/site-packages/google/api/source_info.proto",
+    "lib/python3.10/site-packages/google/api/source_info_pb2.py",
+    "lib/python3.10/site-packages/google/api/system_parameter.proto",
+    "lib/python3.10/site-packages/google/api/system_parameter_pb2.py",
+    "lib/python3.10/site-packages/google/api/usage.proto",
+    "lib/python3.10/site-packages/google/api/usage_pb2.py",
+    "lib/python3.10/site-packages/google/api/visibility.proto",
+    "lib/python3.10/site-packages/google/api/visibility_pb2.py",
+    "lib/python3.10/site-packages/google/cloud/extended_operations.proto",
+    "lib/python3.10/site-packages/google/cloud/extended_operations_pb2.py",
+    "lib/python3.10/site-packages/google/cloud/location/locations.proto",
+    "lib/python3.10/site-packages/google/cloud/location/locations_pb2.py",
+    "lib/python3.10/site-packages/google/gapic/metadata/gapic_metadata.proto",
+    "lib/python3.10/site-packages/google/gapic/metadata/gapic_metadata_pb2.py",
+    "lib/python3.10/site-packages/google/logging/type/http_request.proto",
+    "lib/python3.10/site-packages/google/logging/type/http_request_pb2.py",
+    "lib/python3.10/site-packages/google/logging/type/log_severity.proto",
+    "lib/python3.10/site-packages/google/logging/type/log_severity_pb2.py",
+    "lib/python3.10/site-packages/google/longrunning/operations.proto",
+    "lib/python3.10/site-packages/google/longrunning/operations_grpc.py",
+    "lib/python3.10/site-packages/google/longrunning/operations_grpc_pb2.py",
+    "lib/python3.10/site-packages/google/longrunning/operations_pb2.py",
+    "lib/python3.10/site-packages/google/longrunning/operations_pb2_grpc.py",
+    "lib/python3.10/site-packages/google/longrunning/operations_proto.py",
+    "lib/python3.10/site-packages/google/longrunning/operations_proto_pb2.py",
+    "lib/python3.10/site-packages/google/rpc/code.proto",
+    "lib/python3.10/site-packages/google/rpc/code_pb2.py",
+    "lib/python3.10/site-packages/google/rpc/context/attribute_context.proto",
+    "lib/python3.10/site-packages/google/rpc/context/attribute_context_pb2.py",
+    "lib/python3.10/site-packages/google/rpc/context/audit_context.proto",
+    "lib/python3.10/site-packages/google/rpc/context/audit_context_pb2.py",
+    "lib/python3.10/site-packages/google/rpc/error_details.proto",
+    "lib/python3.10/site-packages/google/rpc/error_details_pb2.py",
+    "lib/python3.10/site-packages/google/rpc/http.proto",
+    "lib/python3.10/site-packages/google/rpc/http_pb2.py",
+    "lib/python3.10/site-packages/google/rpc/status.proto",
+    "lib/python3.10/site-packages/google/rpc/status_pb2.py",
+    "lib/python3.10/site-packages/google/type/calendar_period.proto",
+    "lib/python3.10/site-packages/google/type/calendar_period_pb2.py",
+    "lib/python3.10/site-packages/google/type/color.proto",
+    "lib/python3.10/site-packages/google/type/color_pb2.py",
+    "lib/python3.10/site-packages/google/type/date.proto",
+    "lib/python3.10/site-packages/google/type/date_pb2.py",
+    "lib/python3.10/site-packages/google/type/datetime.proto",
+    "lib/python3.10/site-packages/google/type/datetime_pb2.py",
+    "lib/python3.10/site-packages/google/type/dayofweek.proto",
+    "lib/python3.10/site-packages/google/type/dayofweek_pb2.py",
+    "lib/python3.10/site-packages/google/type/decimal.proto",
+    "lib/python3.10/site-packages/google/type/decimal_pb2.py",
+    "lib/python3.10/site-packages/google/type/expr.proto",
+    "lib/python3.10/site-packages/google/type/expr_pb2.py",
+    "lib/python3.10/site-packages/google/type/fraction.proto",
+    "lib/python3.10/site-packages/google/type/fraction_pb2.py",
+    "lib/python3.10/site-packages/google/type/interval.proto",
+    "lib/python3.10/site-packages/google/type/interval_pb2.py",
+    "lib/python3.10/site-packages/google/type/latlng.proto",
+    "lib/python3.10/site-packages/google/type/latlng_pb2.py",
+    "lib/python3.10/site-packages/google/type/localized_text.proto",
+    "lib/python3.10/site-packages/google/type/localized_text_pb2.py",
+    "lib/python3.10/site-packages/google/type/money.proto",
+    "lib/python3.10/site-packages/google/type/money_pb2.py",
+    "lib/python3.10/site-packages/google/type/month.proto",
+    "lib/python3.10/site-packages/google/type/month_pb2.py",
+    "lib/python3.10/site-packages/google/type/phone_number.proto",
+    "lib/python3.10/site-packages/google/type/phone_number_pb2.py",
+    "lib/python3.10/site-packages/google/type/postal_address.proto",
+    "lib/python3.10/site-packages/google/type/postal_address_pb2.py",
+    "lib/python3.10/site-packages/google/type/quaternion.proto",
+    "lib/python3.10/site-packages/google/type/quaternion_pb2.py",
+    "lib/python3.10/site-packages/google/type/timeofday.proto",
+    "lib/python3.10/site-packages/google/type/timeofday_pb2.py",
+    "lib/python3.10/site-packages/googleapis_common_protos-1.66.0.dist-info/INSTALLER",
+    "lib/python3.10/site-packages/googleapis_common_protos-1.66.0.dist-info/LICENSE",
+    "lib/python3.10/site-packages/googleapis_common_protos-1.66.0.dist-info/METADATA",
+    "lib/python3.10/site-packages/googleapis_common_protos-1.66.0.dist-info/RECORD",
+    "lib/python3.10/site-packages/googleapis_common_protos-1.66.0.dist-info/REQUESTED",
+    "lib/python3.10/site-packages/googleapis_common_protos-1.66.0.dist-info/WHEEL",
+    "lib/python3.10/site-packages/googleapis_common_protos-1.66.0.dist-info/direct_url.json",
+    "lib/python3.10/site-packages/googleapis_common_protos-1.66.0.dist-info/top_level.txt",
+    "lib/python3.10/site-packages/google/api/__pycache__/annotations_pb2.cpython-310.pyc",
+    "lib/python3.10/site-packages/google/api/__pycache__/auth_pb2.cpython-310.pyc",
+    "lib/python3.10/site-packages/google/api/__pycache__/backend_pb2.cpython-310.pyc",
+    "lib/python3.10/site-packages/google/api/__pycache__/billing_pb2.cpython-310.pyc",
+    "lib/python3.10/site-packages/google/api/__pycache__/client_pb2.cpython-310.pyc",
+    "lib/python3.10/site-packages/google/api/__pycache__/config_change_pb2.cpython-310.pyc",
+    "lib/python3.10/site-packages/google/api/__pycache__/consumer_pb2.cpython-310.pyc",
+    "lib/python3.10/site-packages/google/api/__pycache__/context_pb2.cpython-310.pyc",
+    "lib/python3.10/site-packages/google/api/__pycache__/control_pb2.cpython-310.pyc",
+    "lib/python3.10/site-packages/google/api/__pycache__/distribution_pb2.cpython-310.pyc",
+    "lib/python3.10/site-packages/google/api/__pycache__/documentation_pb2.cpython-310.pyc",
+    "lib/python3.10/site-packages/google/api/__pycache__/endpoint_pb2.cpython-310.pyc",
+    "lib/python3.10/site-packages/google/api/__pycache__/error_reason_pb2.cpython-310.pyc",
+    "lib/python3.10/site-packages/google/api/__pycache__/field_behavior_pb2.cpython-310.pyc",
+    "lib/python3.10/site-packages/google/api/__pycache__/field_info_pb2.cpython-310.pyc",
+    "lib/python3.10/site-packages/google/api/__pycache__/http_pb2.cpython-310.pyc",
+    "lib/python3.10/site-packages/google/api/__pycache__/httpbody_pb2.cpython-310.pyc",
+    "lib/python3.10/site-packages/google/api/__pycache__/label_pb2.cpython-310.pyc",
+    "lib/python3.10/site-packages/google/api/__pycache__/launch_stage_pb2.cpython-310.pyc",
+    "lib/python3.10/site-packages/google/api/__pycache__/log_pb2.cpython-310.pyc",
+    "lib/python3.10/site-packages/google/api/__pycache__/logging_pb2.cpython-310.pyc",
+    "lib/python3.10/site-packages/google/api/__pycache__/metric_pb2.cpython-310.pyc",
+    "lib/python3.10/site-packages/google/api/__pycache__/monitored_resource_pb2.cpython-310.pyc",
+    "lib/python3.10/site-packages/google/api/__pycache__/monitoring_pb2.cpython-310.pyc",
+    "lib/python3.10/site-packages/google/api/__pycache__/policy_pb2.cpython-310.pyc",
+    "lib/python3.10/site-packages/google/api/__pycache__/quota_pb2.cpython-310.pyc",
+    "lib/python3.10/site-packages/google/api/__pycache__/resource_pb2.cpython-310.pyc",
+    "lib/python3.10/site-packages/google/api/__pycache__/routing_pb2.cpython-310.pyc",
+    "lib/python3.10/site-packages/google/api/__pycache__/service_pb2.cpython-310.pyc",
+    "lib/python3.10/site-packages/google/api/__pycache__/source_info_pb2.cpython-310.pyc",
+    "lib/python3.10/site-packages/google/api/__pycache__/system_parameter_pb2.cpython-310.pyc",
+    "lib/python3.10/site-packages/google/api/__pycache__/usage_pb2.cpython-310.pyc",
+    "lib/python3.10/site-packages/google/api/__pycache__/visibility_pb2.cpython-310.pyc",
+    "lib/python3.10/site-packages/google/cloud/__pycache__/extended_operations_pb2.cpython-310.pyc",
+    "lib/python3.10/site-packages/google/cloud/location/__pycache__/locations_pb2.cpython-310.pyc",
+    "lib/python3.10/site-packages/google/gapic/metadata/__pycache__/gapic_metadata_pb2.cpython-310.pyc",
+    "lib/python3.10/site-packages/google/logging/type/__pycache__/http_request_pb2.cpython-310.pyc",
+    "lib/python3.10/site-packages/google/logging/type/__pycache__/log_severity_pb2.cpython-310.pyc",
+    "lib/python3.10/site-packages/google/longrunning/__pycache__/operations_grpc.cpython-310.pyc",
+    "lib/python3.10/site-packages/google/longrunning/__pycache__/operations_grpc_pb2.cpython-310.pyc",
+    "lib/python3.10/site-packages/google/longrunning/__pycache__/operations_pb2.cpython-310.pyc",
+    "lib/python3.10/site-packages/google/longrunning/__pycache__/operations_pb2_grpc.cpython-310.pyc",
+    "lib/python3.10/site-packages/google/longrunning/__pycache__/operations_proto.cpython-310.pyc",
+    "lib/python3.10/site-packages/google/longrunning/__pycache__/operations_proto_pb2.cpython-310.pyc",
+    "lib/python3.10/site-packages/google/rpc/__pycache__/code_pb2.cpython-310.pyc",
+    "lib/python3.10/site-packages/google/rpc/context/__pycache__/attribute_context_pb2.cpython-310.pyc",
+    "lib/python3.10/site-packages/google/rpc/context/__pycache__/audit_context_pb2.cpython-310.pyc",
+    "lib/python3.10/site-packages/google/rpc/__pycache__/error_details_pb2.cpython-310.pyc",
+    "lib/python3.10/site-packages/google/rpc/__pycache__/http_pb2.cpython-310.pyc",
+    "lib/python3.10/site-packages/google/rpc/__pycache__/status_pb2.cpython-310.pyc",
+    "lib/python3.10/site-packages/google/type/__pycache__/calendar_period_pb2.cpython-310.pyc",
+    "lib/python3.10/site-packages/google/type/__pycache__/color_pb2.cpython-310.pyc",
+    "lib/python3.10/site-packages/google/type/__pycache__/date_pb2.cpython-310.pyc",
+    "lib/python3.10/site-packages/google/type/__pycache__/datetime_pb2.cpython-310.pyc",
+    "lib/python3.10/site-packages/google/type/__pycache__/dayofweek_pb2.cpython-310.pyc",
+    "lib/python3.10/site-packages/google/type/__pycache__/decimal_pb2.cpython-310.pyc",
+    "lib/python3.10/site-packages/google/type/__pycache__/expr_pb2.cpython-310.pyc",
+    "lib/python3.10/site-packages/google/type/__pycache__/fraction_pb2.cpython-310.pyc",
+    "lib/python3.10/site-packages/google/type/__pycache__/interval_pb2.cpython-310.pyc",
+    "lib/python3.10/site-packages/google/type/__pycache__/latlng_pb2.cpython-310.pyc",
+    "lib/python3.10/site-packages/google/type/__pycache__/localized_text_pb2.cpython-310.pyc",
+    "lib/python3.10/site-packages/google/type/__pycache__/money_pb2.cpython-310.pyc",
+    "lib/python3.10/site-packages/google/type/__pycache__/month_pb2.cpython-310.pyc",
+    "lib/python3.10/site-packages/google/type/__pycache__/phone_number_pb2.cpython-310.pyc",
+    "lib/python3.10/site-packages/google/type/__pycache__/postal_address_pb2.cpython-310.pyc",
+    "lib/python3.10/site-packages/google/type/__pycache__/quaternion_pb2.cpython-310.pyc",
+    "lib/python3.10/site-packages/google/type/__pycache__/timeofday_pb2.cpython-310.pyc"
+  ],
+  "fn": "googleapis-common-protos-1.66.0-pyhff2d567_0.conda",
+  "license": "Apache-2.0",
+  "link": {
+    "source": "/cpfs01/user/chengqinxiu/anaconda3/pkgs/googleapis-common-protos-1.66.0-pyhff2d567_0",
+    "type": 1
+  },
+  "md5": "4861e30ff0cd566ea6fb4593e3b7c22a",
+  "name": "googleapis-common-protos",
+  "noarch": "python",
+  "package_tarball_full_path": "/cpfs01/user/chengqinxiu/anaconda3/pkgs/googleapis-common-protos-1.66.0-pyhff2d567_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/google/api/annotations.proto",
+        "path_type": "hardlink",
+        "sha256": "5f7420d450faccf144ade02f7c20445e87b41c8e3136961c9c4ebc6622563f21",
+        "sha256_in_prefix": "5f7420d450faccf144ade02f7c20445e87b41c8e3136961c9c4ebc6622563f21",
+        "size_in_bytes": 1045
+      },
+      {
+        "_path": "site-packages/google/api/annotations_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "20c703a8e6e8a27cb811a0120066c679b6fbc42a9723d07d227b319ff73c42ed",
+        "sha256_in_prefix": "20c703a8e6e8a27cb811a0120066c679b6fbc42a9723d07d227b319ff73c42ed",
+        "size_in_bytes": 2110
+      },
+      {
+        "_path": "site-packages/google/api/auth.proto",
+        "path_type": "hardlink",
+        "sha256": "7235b8ef5908de6aa04ed5fc4c4ecb5fbec318fd3295256f0bb9bc4f89113328",
+        "sha256_in_prefix": "7235b8ef5908de6aa04ed5fc4c4ecb5fbec318fd3295256f0bb9bc4f89113328",
+        "size_in_bytes": 9257
+      },
+      {
+        "_path": "site-packages/google/api/auth_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "ff343d7cf3fe4e22aa41a2f975002da7887435f4fd924318a7efecd7aed45b8a",
+        "sha256_in_prefix": "ff343d7cf3fe4e22aa41a2f975002da7887435f4fd924318a7efecd7aed45b8a",
+        "size_in_bytes": 3529
+      },
+      {
+        "_path": "site-packages/google/api/backend.proto",
+        "path_type": "hardlink",
+        "sha256": "797e240218451f8110550b2197697b86000324df7205f1e413f646af25720e2e",
+        "sha256_in_prefix": "797e240218451f8110550b2197697b86000324df7205f1e413f646af25720e2e",
+        "size_in_bytes": 7014
+      },
+      {
+        "_path": "site-packages/google/api/backend_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "674dfb03851a59a19ee4e021ba1e605d3aafe52f5b9f23308ce51e6340dbbd42",
+        "sha256_in_prefix": "674dfb03851a59a19ee4e021ba1e605d3aafe52f5b9f23308ce51e6340dbbd42",
+        "size_in_bytes": 3626
+      },
+      {
+        "_path": "site-packages/google/api/billing.proto",
+        "path_type": "hardlink",
+        "sha256": "5404eba28fae9cc280eba76a64714ecedf61a0670da3a71a7e1b3b902ba7146c",
+        "sha256_in_prefix": "5404eba28fae9cc280eba76a64714ecedf61a0670da3a71a7e1b3b902ba7146c",
+        "size_in_bytes": 3062
+      },
+      {
+        "_path": "site-packages/google/api/billing_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "ea38f272ce29eba45f34bfedd22ecdceab57731b003acdb23f571e2f37c66734",
+        "sha256_in_prefix": "ea38f272ce29eba45f34bfedd22ecdceab57731b003acdb23f571e2f37c66734",
+        "size_in_bytes": 2242
+      },
+      {
+        "_path": "site-packages/google/api/client.proto",
+        "path_type": "hardlink",
+        "sha256": "bd33960a3b4951f35a2233d5747d70c9ea9af6fbd1bd56927bf24f7ba04e0db9",
+        "sha256_in_prefix": "bd33960a3b4951f35a2233d5747d70c9ea9af6fbd1bd56927bf24f7ba04e0db9",
+        "size_in_bytes": 16202
+      },
+      {
+        "_path": "site-packages/google/api/client_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "2528a6fb479dbbb64b6f3f3511325318a054c0ced936aa95ba7500586b827d5f",
+        "sha256_in_prefix": "2528a6fb479dbbb64b6f3f3511325318a054c0ced936aa95ba7500586b827d5f",
+        "size_in_bytes": 10223
+      },
+      {
+        "_path": "site-packages/google/api/config_change.proto",
+        "path_type": "hardlink",
+        "sha256": "19b7540f3208e8fb9e48130fbcd1a06499c3b64d03a7b0247103c46064c3f5ff",
+        "sha256_in_prefix": "19b7540f3208e8fb9e48130fbcd1a06499c3b64d03a7b0247103c46064c3f5ff",
+        "size_in_bytes": 3166
+      },
+      {
+        "_path": "site-packages/google/api/config_change_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "31afc9eb3319d431ff00430f0958b6dbdaecdf474301abb2045681c8b8605211",
+        "sha256_in_prefix": "31afc9eb3319d431ff00430f0958b6dbdaecdf474301abb2045681c8b8605211",
+        "size_in_bytes": 2621
+      },
+      {
+        "_path": "site-packages/google/api/consumer.proto",
+        "path_type": "hardlink",
+        "sha256": "22c4260fcef324a81af4ed375ea60ba3ec42ef434f2857d4f5e2c340ea900921",
+        "sha256_in_prefix": "22c4260fcef324a81af4ed375ea60ba3ec42ef434f2857d4f5e2c340ea900921",
+        "size_in_bytes": 2717
+      },
+      {
+        "_path": "site-packages/google/api/consumer_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "b460595812a91098d6dc6cafbeca6d0599afc402edfc93cfcc22e126725bf64c",
+        "sha256_in_prefix": "b460595812a91098d6dc6cafbeca6d0599afc402edfc93cfcc22e126725bf64c",
+        "size_in_bytes": 2502
+      },
+      {
+        "_path": "site-packages/google/api/context.proto",
+        "path_type": "hardlink",
+        "sha256": "be5bd6ac4e0f038b3964a599b719d6cc4f94714e569103aa4065d743c36ea837",
+        "sha256_in_prefix": "be5bd6ac4e0f038b3964a599b719d6cc4f94714e569103aa4065d743c36ea837",
+        "size_in_bytes": 3229
+      },
+      {
+        "_path": "site-packages/google/api/context_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "ea53a207d8dee807f8363abf520c9f4b7de0724da63803baf64f7ea52cad7ac6",
+        "sha256_in_prefix": "ea53a207d8dee807f8363abf520c9f4b7de0724da63803baf64f7ea52cad7ac6",
+        "size_in_bytes": 2304
+      },
+      {
+        "_path": "site-packages/google/api/control.proto",
+        "path_type": "hardlink",
+        "sha256": "9087c4e99769aabd413f38255a7800e9c443955886f0129bf7a309d679d1e9df",
+        "sha256_in_prefix": "9087c4e99769aabd413f38255a7800e9c443955886f0129bf7a309d679d1e9df",
+        "size_in_bytes": 1436
+      },
+      {
+        "_path": "site-packages/google/api/control_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "0b1b99be4dca97dfc5198f94dcbceb97caf6f26468bebb5e6026a125e0379f07",
+        "sha256_in_prefix": "0b1b99be4dca97dfc5198f94dcbceb97caf6f26468bebb5e6026a125e0379f07",
+        "size_in_bytes": 2106
+      },
+      {
+        "_path": "site-packages/google/api/distribution.proto",
+        "path_type": "hardlink",
+        "sha256": "653ef242c07b385866b9a548c1c9c8430a471fd6b3d1b806abba741ed17bb770",
+        "sha256_in_prefix": "653ef242c07b385866b9a548c1c9c8430a471fd6b3d1b806abba741ed17bb770",
+        "size_in_bytes": 8660
+      },
+      {
+        "_path": "site-packages/google/api/distribution_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "223a814987f99bf975125d3a6a1509731da2b5504bd3f8d0440856144d455584",
+        "sha256_in_prefix": "223a814987f99bf975125d3a6a1509731da2b5504bd3f8d0440856144d455584",
+        "size_in_bytes": 4413
+      },
+      {
+        "_path": "site-packages/google/api/documentation.proto",
+        "path_type": "hardlink",
+        "sha256": "e32b8734720c11d8452e8218204e7528a6609a14309ce96420be3e14c0f0f00f",
+        "sha256_in_prefix": "e32b8734720c11d8452e8218204e7528a6609a14309ce96420be3e14c0f0f00f",
+        "size_in_bytes": 6940
+      },
+      {
+        "_path": "site-packages/google/api/documentation_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "69c3730cec2cfa1ce955f5d84816cf5670d7a46d90e73ddd2a8f9d2bf34f1889",
+        "sha256_in_prefix": "69c3730cec2cfa1ce955f5d84816cf5670d7a46d90e73ddd2a8f9d2bf34f1889",
+        "size_in_bytes": 2771
+      },
+      {
+        "_path": "site-packages/google/api/endpoint.proto",
+        "path_type": "hardlink",
+        "sha256": "5ef30e2a346bf2f1de2744cf39006f1c34e6e6a162326e97c78b58d4ea784037",
+        "sha256_in_prefix": "5ef30e2a346bf2f1de2744cf39006f1c34e6e6a162326e97c78b58d4ea784037",
+        "size_in_bytes": 2891
+      },
+      {
+        "_path": "site-packages/google/api/endpoint_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "fd769a851215c3c44b70b3f43cd60b89506a7e61dbc6b5ecbf201aca3da7dca7",
+        "sha256_in_prefix": "fd769a851215c3c44b70b3f43cd60b89506a7e61dbc6b5ecbf201aca3da7dca7",
+        "size_in_bytes": 2036
+      },
+      {
+        "_path": "site-packages/google/api/error_reason.proto",
+        "path_type": "hardlink",
+        "sha256": "123c7a7ab755ebcaeef84682534c3ccc5fd86be80618d8fb5e87a0a992e88de6",
+        "sha256_in_prefix": "123c7a7ab755ebcaeef84682534c3ccc5fd86be80618d8fb5e87a0a992e88de6",
+        "size_in_bytes": 23628
+      },
+      {
+        "_path": "site-packages/google/api/error_reason_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "28fc6eb3536cf9786b8ae29c5e348a1206cfc44a5380496a6b025a1b6114659f",
+        "sha256_in_prefix": "28fc6eb3536cf9786b8ae29c5e348a1206cfc44a5380496a6b025a1b6114659f",
+        "size_in_bytes": 3437
+      },
+      {
+        "_path": "site-packages/google/api/field_behavior.proto",
+        "path_type": "hardlink",
+        "sha256": "6df6a3770a3d45d6ddd5d8f1789b0e893d2d1659ebcf8dd56326d514038d69cf",
+        "sha256_in_prefix": "6df6a3770a3d45d6ddd5d8f1789b0e893d2d1659ebcf8dd56326d514038d69cf",
+        "size_in_bytes": 4306
+      },
+      {
+        "_path": "site-packages/google/api/field_behavior_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "251b3202cc8377f47e11ee9739d976bc005578f0c97f245d76edcd2da8eeae5e",
+        "sha256_in_prefix": "251b3202cc8377f47e11ee9739d976bc005578f0c97f245d76edcd2da8eeae5e",
+        "size_in_bytes": 2585
+      },
+      {
+        "_path": "site-packages/google/api/field_info.proto",
+        "path_type": "hardlink",
+        "sha256": "ec8cdd09b8590b909a8187949f49892a4c063c640782d110a7f09094a46a61c3",
+        "sha256_in_prefix": "ec8cdd09b8590b909a8187949f49892a4c063c640782d110a7f09094a46a61c3",
+        "size_in_bytes": 4456
+      },
+      {
+        "_path": "site-packages/google/api/field_info_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "0d0938de0ccd5aac6012e19549322e35288ff6e2fd690dd8c7611d01fc0d5541",
+        "sha256_in_prefix": "0d0938de0ccd5aac6012e19549322e35288ff6e2fd690dd8c7611d01fc0d5541",
+        "size_in_bytes": 2746
+      },
+      {
+        "_path": "site-packages/google/api/http.proto",
+        "path_type": "hardlink",
+        "sha256": "a21450747c38b536614349b30214ea1b86da6afe7278b1254017ede1a1fcf004",
+        "sha256_in_prefix": "a21450747c38b536614349b30214ea1b86da6afe7278b1254017ede1a1fcf004",
+        "size_in_bytes": 15091
+      },
+      {
+        "_path": "site-packages/google/api/http_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "cf795ff1d9c65672863f25cd4717def7c1ce707f8ee0f8b0a4ce2031733fc2eb",
+        "sha256_in_prefix": "cf795ff1d9c65672863f25cd4717def7c1ce707f8ee0f8b0a4ce2031733fc2eb",
+        "size_in_bytes": 2821
+      },
+      {
+        "_path": "site-packages/google/api/httpbody.proto",
+        "path_type": "hardlink",
+        "sha256": "d90f04764b6a9b7fe034583e06dd59445734075aabed59150eea90fda004c0ff",
+        "sha256_in_prefix": "d90f04764b6a9b7fe034583e06dd59445734075aabed59150eea90fda004c0ff",
+        "size_in_bytes": 2661
+      },
+      {
+        "_path": "site-packages/google/api/httpbody_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "2e6af5ec35c6e223ac0697b3b0c9a4e508a7b09b3ea78f83bcbe8e755df65e1a",
+        "sha256_in_prefix": "2e6af5ec35c6e223ac0697b3b0c9a4e508a7b09b3ea78f83bcbe8e755df65e1a",
+        "size_in_bytes": 2119
+      },
+      {
+        "_path": "site-packages/google/api/label.proto",
+        "path_type": "hardlink",
+        "sha256": "6c21a690ad8e6009ca6091fc961f0125c4e608e15003f6d72ce77e120fb7891e",
+        "sha256_in_prefix": "6c21a690ad8e6009ca6091fc961f0125c4e608e15003f6d72ce77e120fb7891e",
+        "size_in_bytes": 1389
+      },
+      {
+        "_path": "site-packages/google/api/label_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "7ca20b2ad63da7f0a8ff2cb0d3f91ff66bfa6526c0fcfbf1132043c442fe854e",
+        "sha256_in_prefix": "7ca20b2ad63da7f0a8ff2cb0d3f91ff66bfa6526c0fcfbf1132043c442fe854e",
+        "size_in_bytes": 2277
+      },
+      {
+        "_path": "site-packages/google/api/launch_stage.proto",
+        "path_type": "hardlink",
+        "sha256": "fa569938da647e0227c287314d74b94924dec618ad2319169e0b7f5c16d24660",
+        "sha256_in_prefix": "fa569938da647e0227c287314d74b94924dec618ad2319169e0b7f5c16d24660",
+        "size_in_bytes": 3083
+      },
+      {
+        "_path": "site-packages/google/api/launch_stage_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "9254cf30378b0a35031ebd4e8199af8941a00b0dd2e1694bb65cea9b86db286e",
+        "sha256_in_prefix": "9254cf30378b0a35031ebd4e8199af8941a00b0dd2e1694bb65cea9b86db286e",
+        "size_in_bytes": 2139
+      },
+      {
+        "_path": "site-packages/google/api/log.proto",
+        "path_type": "hardlink",
+        "sha256": "a1d0b4d4fa42c47779d738198a7dadcf7fe043ce43194ed307edf148f87ccc23",
+        "sha256_in_prefix": "a1d0b4d4fa42c47779d738198a7dadcf7fe043ce43194ed307edf148f87ccc23",
+        "size_in_bytes": 2043
+      },
+      {
+        "_path": "site-packages/google/api/log_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "94bd0e2b095f651f43b3fe5d88867e16bb36205e23d5f16b3e6272ed238e1e7e",
+        "sha256_in_prefix": "94bd0e2b095f651f43b3fe5d88867e16bb36205e23d5f16b3e6272ed238e1e7e",
+        "size_in_bytes": 2166
+      },
+      {
+        "_path": "site-packages/google/api/logging.proto",
+        "path_type": "hardlink",
+        "sha256": "0fbc7b778b921ea245ba1e0b8822beed243f043d32586508e728751d117a9679",
+        "sha256_in_prefix": "0fbc7b778b921ea245ba1e0b8822beed243f043d32586508e728751d117a9679",
+        "size_in_bytes": 3174
+      },
+      {
+        "_path": "site-packages/google/api/logging_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "3c5e95995a49f7941c83602c32a8ecc529f58f4bf183b87d81db4bc657746e0a",
+        "sha256_in_prefix": "3c5e95995a49f7941c83602c32a8ecc529f58f4bf183b87d81db4bc657746e0a",
+        "size_in_bytes": 2323
+      },
+      {
+        "_path": "site-packages/google/api/metric.proto",
+        "path_type": "hardlink",
+        "sha256": "0ee9f048d5bd21b1718df453d3ea47a991f505d9677a0798b321ad5a98098468",
+        "sha256_in_prefix": "0ee9f048d5bd21b1718df453d3ea47a991f505d9677a0798b321ad5a98098468",
+        "size_in_bytes": 11166
+      },
+      {
+        "_path": "site-packages/google/api/metric_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "d5a134e23b2a6a78abfe80cd577c7197c9fbea59e58d40b04a5c56c29b9fd77a",
+        "sha256_in_prefix": "d5a134e23b2a6a78abfe80cd577c7197c9fbea59e58d40b04a5c56c29b9fd77a",
+        "size_in_bytes": 5347
+      },
+      {
+        "_path": "site-packages/google/api/monitored_resource.proto",
+        "path_type": "hardlink",
+        "sha256": "dc81cb02e8b1da43ffa1d2ea81d3c7b0b24424c02fcbb78643dda5bb1f470767",
+        "sha256_in_prefix": "dc81cb02e8b1da43ffa1d2ea81d3c7b0b24424c02fcbb78643dda5bb1f470767",
+        "size_in_bytes": 5920
+      },
+      {
+        "_path": "site-packages/google/api/monitored_resource_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "6ff48d139df6f809d273af0bffa52dea707e2088f82dd42ec55aa4beb0ec98ca",
+        "sha256_in_prefix": "6ff48d139df6f809d273af0bffa52dea707e2088f82dd42ec55aa4beb0ec98ca",
+        "size_in_bytes": 4036
+      },
+      {
+        "_path": "site-packages/google/api/monitoring.proto",
+        "path_type": "hardlink",
+        "sha256": "7c3c689c435c6dc82d0767e1dcebf41c3a074dde1de19ebbaf6d18f472ccf5ea",
+        "sha256_in_prefix": "7c3c689c435c6dc82d0767e1dcebf41c3a074dde1de19ebbaf6d18f472ccf5ea",
+        "size_in_bytes": 4457
+      },
+      {
+        "_path": "site-packages/google/api/monitoring_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "688d8f93e581370119e77024bb028be54cb169be13f5ca942bb52bacffd4e761",
+        "sha256_in_prefix": "688d8f93e581370119e77024bb028be54cb169be13f5ca942bb52bacffd4e761",
+        "size_in_bytes": 2378
+      },
+      {
+        "_path": "site-packages/google/api/policy.proto",
+        "path_type": "hardlink",
+        "sha256": "54e873f11d795da4f2c03f6da46a9ee8bc84ac085ff38d911f5213e9eb5249a7",
+        "sha256_in_prefix": "54e873f11d795da4f2c03f6da46a9ee8bc84ac085ff38d911f5213e9eb5249a7",
+        "size_in_bytes": 3142
+      },
+      {
+        "_path": "site-packages/google/api/policy_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "1355e75664574d785d934d8085d3f383ebf301da37b1ceaf324cb480725d4e9f",
+        "sha256_in_prefix": "1355e75664574d785d934d8085d3f383ebf301da37b1ceaf324cb480725d4e9f",
+        "size_in_bytes": 2638
+      },
+      {
+        "_path": "site-packages/google/api/quota.proto",
+        "path_type": "hardlink",
+        "sha256": "3edcaa923bada4b081689dd1d40fb0cb45458e63426c2042b242f1aadb0d33af",
+        "sha256_in_prefix": "3edcaa923bada4b081689dd1d40fb0cb45458e63426c2042b242f1aadb0d33af",
+        "size_in_bytes": 7180
+      },
+      {
+        "_path": "site-packages/google/api/quota_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "132165ef2d5bd173e99b6ed9389b0011a9ee0d70f94a0be9cbd27f4083a84725",
+        "sha256_in_prefix": "132165ef2d5bd173e99b6ed9389b0011a9ee0d70f94a0be9cbd27f4083a84725",
+        "size_in_bytes": 3492
+      },
+      {
+        "_path": "site-packages/google/api/resource.proto",
+        "path_type": "hardlink",
+        "sha256": "ef2ad7b8bb2b97d0c93a8943104c4bbb24309efebf4480c8f341fb29ffb55b0c",
+        "sha256_in_prefix": "ef2ad7b8bb2b97d0c93a8943104c4bbb24309efebf4480c8f341fb29ffb55b0c",
+        "size_in_bytes": 9026
+      },
+      {
+        "_path": "site-packages/google/api/resource_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "4b85b35840b5f1965ae7c2bd3c0f2baefa32c065819cd593587b53b6a70bfded",
+        "sha256_in_prefix": "4b85b35840b5f1965ae7c2bd3c0f2baefa32c065819cd593587b53b6a70bfded",
+        "size_in_bytes": 3487
+      },
+      {
+        "_path": "site-packages/google/api/routing.proto",
+        "path_type": "hardlink",
+        "sha256": "6a1999d3beb6d4e9f09eef17a9740860c862e3ba708c95d0fb93402fce8cb601",
+        "sha256_in_prefix": "6a1999d3beb6d4e9f09eef17a9740860c862e3ba708c95d0fb93402fce8cb601",
+        "size_in_bytes": 14929
+      },
+      {
+        "_path": "site-packages/google/api/routing_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "989414c82ab41eacc8c8b77bba9489f23f42015ebd68e25df1886ef3e10504bd",
+        "sha256_in_prefix": "989414c82ab41eacc8c8b77bba9489f23f42015ebd68e25df1886ef3e10504bd",
+        "size_in_bytes": 2417
+      },
+      {
+        "_path": "site-packages/google/api/service.proto",
+        "path_type": "hardlink",
+        "sha256": "a2f1cd818f1dd00eb937b56f2968098b25c368b1a3b05a19ad6f1b6fac8ea1be",
+        "sha256_in_prefix": "a2f1cd818f1dd00eb937b56f2968098b25c368b1a3b05a19ad6f1b6fac8ea1be",
+        "size_in_bytes": 6762
+      },
+      {
+        "_path": "site-packages/google/api/service_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "38fb6c9c49abf9ba524a5d294a7fd0ff7fe58d5cfcc91549e3f53fb681d90f6e",
+        "sha256_in_prefix": "38fb6c9c49abf9ba524a5d294a7fd0ff7fe58d5cfcc91549e3f53fb681d90f6e",
+        "size_in_bytes": 5785
+      },
+      {
+        "_path": "site-packages/google/api/source_info.proto",
+        "path_type": "hardlink",
+        "sha256": "98d2c720d58d00e5b163ffe7dfd4e9e34608280a067baa3cd80986b1b6234785",
+        "sha256_in_prefix": "98d2c720d58d00e5b163ffe7dfd4e9e34608280a067baa3cd80986b1b6234785",
+        "size_in_bytes": 1091
+      },
+      {
+        "_path": "site-packages/google/api/source_info_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "266448b239bd8e500bf4ef7d9e2fe5e3c3dabc9dc0c5f6d56c30998908a22f14",
+        "sha256_in_prefix": "266448b239bd8e500bf4ef7d9e2fe5e3c3dabc9dc0c5f6d56c30998908a22f14",
+        "size_in_bytes": 2083
+      },
+      {
+        "_path": "site-packages/google/api/system_parameter.proto",
+        "path_type": "hardlink",
+        "sha256": "66a8dacb567e044ff7b207c62e44840aeb0c1cd885bbebe4a0c9fbc9bcaa4699",
+        "sha256_in_prefix": "66a8dacb567e044ff7b207c62e44840aeb0c1cd885bbebe4a0c9fbc9bcaa4699",
+        "size_in_bytes": 3475
+      },
+      {
+        "_path": "site-packages/google/api/system_parameter_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "1d6c19b350b5585cb1c6aa79274128f84184ecf64791e5dd375373c4d1bd5a46",
+        "sha256_in_prefix": "1d6c19b350b5585cb1c6aa79274128f84184ecf64791e5dd375373c4d1bd5a46",
+        "size_in_bytes": 2538
+      },
+      {
+        "_path": "site-packages/google/api/usage.proto",
+        "path_type": "hardlink",
+        "sha256": "2c8baeb88e2292615ede65026da3312603c28afcaddba7ae557d18bfc62d6107",
+        "sha256_in_prefix": "2c8baeb88e2292615ede65026da3312603c28afcaddba7ae557d18bfc62d6107",
+        "size_in_bytes": 3787
+      },
+      {
+        "_path": "site-packages/google/api/usage_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "fa25ee4f89319d8131257dad4c095886268a20f0d50aee79092a944afe71eafc",
+        "sha256_in_prefix": "fa25ee4f89319d8131257dad4c095886268a20f0d50aee79092a944afe71eafc",
+        "size_in_bytes": 2281
+      },
+      {
+        "_path": "site-packages/google/api/visibility.proto",
+        "path_type": "hardlink",
+        "sha256": "e6ef0c14635bd24e2af06ab1bc9fd4727215729ea1ff592d4e949b7879813daa",
+        "sha256_in_prefix": "e6ef0c14635bd24e2af06ab1bc9fd4727215729ea1ff592d4e949b7879813daa",
+        "size_in_bytes": 3799
+      },
+      {
+        "_path": "site-packages/google/api/visibility_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "2d9450ba1f9092b2292bd76e227215e7b8dfc02baf69bc36f9623a025cd32216",
+        "sha256_in_prefix": "2d9450ba1f9092b2292bd76e227215e7b8dfc02baf69bc36f9623a025cd32216",
+        "size_in_bytes": 3066
+      },
+      {
+        "_path": "site-packages/google/cloud/extended_operations.proto",
+        "path_type": "hardlink",
+        "sha256": "0182eacde93397204edc149e3d5ba97778f1fafe018324bf70713e0672db09b7",
+        "sha256_in_prefix": "0182eacde93397204edc149e3d5ba97778f1fafe018324bf70713e0672db09b7",
+        "size_in_bytes": 6307
+      },
+      {
+        "_path": "site-packages/google/cloud/extended_operations_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "31d0e486330d2632cb82a49a80191bdd8ef9ad3f4efa81ddd9ffe8f8186f3083",
+        "sha256_in_prefix": "31d0e486330d2632cb82a49a80191bdd8ef9ad3f4efa81ddd9ffe8f8186f3083",
+        "size_in_bytes": 2744
+      },
+      {
+        "_path": "site-packages/google/cloud/location/locations.proto",
+        "path_type": "hardlink",
+        "sha256": "bb25155845dc3fa1a288bf73e994527b7e390b7d619326d91698676b31ff16ab",
+        "sha256_in_prefix": "bb25155845dc3fa1a288bf73e994527b7e390b7d619326d91698676b31ff16ab",
+        "size_in_bytes": 3604
+      },
+      {
+        "_path": "site-packages/google/cloud/location/locations_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "f99bade2b51a394dd12c31953c0ad3d6e19abc2e2208cb4ea1473f334ca53849",
+        "sha256_in_prefix": "f99bade2b51a394dd12c31953c0ad3d6e19abc2e2208cb4ea1473f334ca53849",
+        "size_in_bytes": 4894
+      },
+      {
+        "_path": "site-packages/google/gapic/metadata/gapic_metadata.proto",
+        "path_type": "hardlink",
+        "sha256": "a80d12f376990cf16ba12890925cdea9744bd116691fbddc94221f9af882cf93",
+        "sha256_in_prefix": "a80d12f376990cf16ba12890925cdea9744bd116691fbddc94221f9af882cf93",
+        "size_in_bytes": 3393
+      },
+      {
+        "_path": "site-packages/google/gapic/metadata/gapic_metadata_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "0e7f6b4d37d4e29d552c836a9dabceffa312d4ef07ea1e34c7308f2d9817b539",
+        "sha256_in_prefix": "0e7f6b4d37d4e29d552c836a9dabceffa312d4ef07ea1e34c7308f2d9817b539",
+        "size_in_bytes": 4633
+      },
+      {
+        "_path": "site-packages/google/logging/type/http_request.proto",
+        "path_type": "hardlink",
+        "sha256": "0cafd82c21c493ea06a6b3bdd8282fff4045792df9de495ee912c694c09fd4e7",
+        "sha256_in_prefix": "0cafd82c21c493ea06a6b3bdd8282fff4045792df9de495ee912c694c09fd4e7",
+        "size_in_bytes": 3601
+      },
+      {
+        "_path": "site-packages/google/logging/type/http_request_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "850f098d8398d95a9f2da856f667d7bdf1448e3688b1596c228d1c98cc05b617",
+        "sha256_in_prefix": "850f098d8398d95a9f2da856f667d7bdf1448e3688b1596c228d1c98cc05b617",
+        "size_in_bytes": 2951
+      },
+      {
+        "_path": "site-packages/google/logging/type/log_severity.proto",
+        "path_type": "hardlink",
+        "sha256": "7cee46603b280baf10c4c88a6c54a50cd35788bc9ac7ba7d555b39ed31660fb7",
+        "sha256_in_prefix": "7cee46603b280baf10c4c88a6c54a50cd35788bc9ac7ba7d555b39ed31660fb7",
+        "size_in_bytes": 2555
+      },
+      {
+        "_path": "site-packages/google/logging/type/log_severity_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "3f9ed7f6518c4d27361d1cd6f9e3f365fe4cf199d850a36a38725d016ce653ea",
+        "sha256_in_prefix": "3f9ed7f6518c4d27361d1cd6f9e3f365fe4cf199d850a36a38725d016ce653ea",
+        "size_in_bytes": 2495
+      },
+      {
+        "_path": "site-packages/google/longrunning/operations.proto",
+        "path_type": "hardlink",
+        "sha256": "90fec9a8bd4b4f1fc0c94cd5098426ffc85bac3f069bb250b4c1e6c9a30e50ef",
+        "sha256_in_prefix": "90fec9a8bd4b4f1fc0c94cd5098426ffc85bac3f069bb250b4c1e6c9a30e50ef",
+        "size_in_bytes": 10513
+      },
+      {
+        "_path": "site-packages/google/longrunning/operations_grpc.py",
+        "path_type": "hardlink",
+        "sha256": "9ee963d99d74585da08079f72cc27822151bb409936c84a4eb36fb4432897377",
+        "sha256_in_prefix": "9ee963d99d74585da08079f72cc27822151bb409936c84a4eb36fb4432897377",
+        "size_in_bytes": 797
+      },
+      {
+        "_path": "site-packages/google/longrunning/operations_grpc_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "79408a6c081c1c944a4f50ead62b9def2f5269c197d41f7a838b17f9426231f9",
+        "sha256_in_prefix": "79408a6c081c1c944a4f50ead62b9def2f5269c197d41f7a838b17f9426231f9",
+        "size_in_bytes": 914
+      },
+      {
+        "_path": "site-packages/google/longrunning/operations_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "1847b34012d5c392ef119630abf57bce9b5024b2fd816b3775436a1c3a2d1caf",
+        "sha256_in_prefix": "1847b34012d5c392ef119630abf57bce9b5024b2fd816b3775436a1c3a2d1caf",
+        "size_in_bytes": 2253
+      },
+      {
+        "_path": "site-packages/google/longrunning/operations_pb2_grpc.py",
+        "path_type": "hardlink",
+        "sha256": "5c29a15ad9da86e5ba4c87de92a8204c00a1178f5917b4d4ea46378fb5a0aa4f",
+        "sha256_in_prefix": "5c29a15ad9da86e5ba4c87de92a8204c00a1178f5917b4d4ea46378fb5a0aa4f",
+        "size_in_bytes": 14464
+      },
+      {
+        "_path": "site-packages/google/longrunning/operations_proto.py",
+        "path_type": "hardlink",
+        "sha256": "6573c8069ed6599a19f709ff0ebe54062ed70d876ea1d06a3258a19b7d1fe8d3",
+        "sha256_in_prefix": "6573c8069ed6599a19f709ff0ebe54062ed70d876ea1d06a3258a19b7d1fe8d3",
+        "size_in_bytes": 222
+      },
+      {
+        "_path": "site-packages/google/longrunning/operations_proto_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "7ea528e329871b46af6bceaa4b588bef3661282c4289d7188470ad32383659b5",
+        "sha256_in_prefix": "7ea528e329871b46af6bceaa4b588bef3661282c4289d7188470ad32383659b5",
+        "size_in_bytes": 7005
+      },
+      {
+        "_path": "site-packages/google/rpc/code.proto",
+        "path_type": "hardlink",
+        "sha256": "30cba092fd5286970bf0118f9918d0a8a930cda1d6e21943a9077a71af26be53",
+        "sha256_in_prefix": "30cba092fd5286970bf0118f9918d0a8a930cda1d6e21943a9077a71af26be53",
+        "size_in_bytes": 7138
+      },
+      {
+        "_path": "site-packages/google/rpc/code_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "baf6e37efb280206b960eaa4b3f3e672b9de6c9f4ca7fbddba22ba01c97194f2",
+        "sha256_in_prefix": "baf6e37efb280206b960eaa4b3f3e672b9de6c9f4ca7fbddba22ba01c97194f2",
+        "size_in_bytes": 2407
+      },
+      {
+        "_path": "site-packages/google/rpc/context/attribute_context.proto",
+        "path_type": "hardlink",
+        "sha256": "fefa03a7afdd1b9c05599dd86c4a16eecad7c3b44b3b999f69ad7c17ac862ad4",
+        "sha256_in_prefix": "fefa03a7afdd1b9c05599dd86c4a16eecad7c3b44b3b999f69ad7c17ac862ad4",
+        "size_in_bytes": 14852
+      },
+      {
+        "_path": "site-packages/google/rpc/context/attribute_context_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "e989a62d5f58f3b14b239c557c6ffd6bf33f5293563ae792e82d96ca8231e5f6",
+        "sha256_in_prefix": "e989a62d5f58f3b14b239c557c6ffd6bf33f5293563ae792e82d96ca8231e5f6",
+        "size_in_bytes": 8271
+      },
+      {
+        "_path": "site-packages/google/rpc/context/audit_context.proto",
+        "path_type": "hardlink",
+        "sha256": "a3a853d132944255938776d33529cbb97736bd6720e772116a34a1ea2bf92d79",
+        "sha256_in_prefix": "a3a853d132944255938776d33529cbb97736bd6720e772116a34a1ea2bf92d79",
+        "size_in_bytes": 1861
+      },
+      {
+        "_path": "site-packages/google/rpc/context/audit_context_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "6fec1bb5509326094e36bd2127a347185d06e8f5297084bcc52071a98dfa5439",
+        "sha256_in_prefix": "6fec1bb5509326094e36bd2127a347185d06e8f5297084bcc52071a98dfa5439",
+        "size_in_bytes": 2372
+      },
+      {
+        "_path": "site-packages/google/rpc/error_details.proto",
+        "path_type": "hardlink",
+        "sha256": "dfc1c3692b180aa26a9f16fbe8b63b11c746ce60175b2e0f7fc8c8bf45fafaf7",
+        "sha256_in_prefix": "dfc1c3692b180aa26a9f16fbe8b63b11c746ce60175b2e0f7fc8c8bf45fafaf7",
+        "size_in_bytes": 10869
+      },
+      {
+        "_path": "site-packages/google/rpc/error_details_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "abe850b31fc146e56481ba5881af45772639ad74c830bcb6e1a3ffaeae9806d8",
+        "sha256_in_prefix": "abe850b31fc146e56481ba5881af45772639ad74c830bcb6e1a3ffaeae9806d8",
+        "size_in_bytes": 5380
+      },
+      {
+        "_path": "site-packages/google/rpc/http.proto",
+        "path_type": "hardlink",
+        "sha256": "a99e155d79f85fcfba6de94372f9b07ba146435b03747d79dff9a37ffb60a8f6",
+        "sha256_in_prefix": "a99e155d79f85fcfba6de94372f9b07ba146435b03747d79dff9a37ffb60a8f6",
+        "size_in_bytes": 1940
+      },
+      {
+        "_path": "site-packages/google/rpc/http_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "da3f74dd94c0de6980a6803a1176f8216a1b86cdea2c671b9add40adaab7ccab",
+        "sha256_in_prefix": "da3f74dd94c0de6980a6803a1176f8216a1b86cdea2c671b9add40adaab7ccab",
+        "size_in_bytes": 2496
+      },
+      {
+        "_path": "site-packages/google/rpc/status.proto",
+        "path_type": "hardlink",
+        "sha256": "b35706fa0e4b2354f67f8d7b8e6b55584d0c4dae920d5f6d2bc2e7ba22f9d6c1",
+        "sha256_in_prefix": "b35706fa0e4b2354f67f8d7b8e6b55584d0c4dae920d5f6d2bc2e7ba22f9d6c1",
+        "size_in_bytes": 1934
+      },
+      {
+        "_path": "site-packages/google/rpc/status_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "7039eb4c3a5a0e2ea4db683fe8897413cee47c2dd610a0a02ac2d3860e1875fb",
+        "sha256_in_prefix": "7039eb4c3a5a0e2ea4db683fe8897413cee47c2dd610a0a02ac2d3860e1875fb",
+        "size_in_bytes": 2115
+      },
+      {
+        "_path": "site-packages/google/type/calendar_period.proto",
+        "path_type": "hardlink",
+        "sha256": "d685f49e227cac505e998f8d21cb313008a4e4e9a7f7a2835e5908477d91d633",
+        "sha256_in_prefix": "d685f49e227cac505e998f8d21cb313008a4e4e9a7f7a2835e5908477d91d633",
+        "size_in_bytes": 1762
+      },
+      {
+        "_path": "site-packages/google/type/calendar_period_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "80e4435064fd4d3a68c815d8210edee998212ce1042c50fff882fa0aae50fb01",
+        "sha256_in_prefix": "80e4435064fd4d3a68c815d8210edee998212ce1042c50fff882fa0aae50fb01",
+        "size_in_bytes": 2213
+      },
+      {
+        "_path": "site-packages/google/type/color.proto",
+        "path_type": "hardlink",
+        "sha256": "b49088dc1ca30df840a149afb95c52771e45802e8f497cdd8aa5d85aaa054267",
+        "sha256_in_prefix": "b49088dc1ca30df840a149afb95c52771e45802e8f497cdd8aa5d85aaa054267",
+        "size_in_bytes": 6376
+      },
+      {
+        "_path": "site-packages/google/type/color_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "c8fb7f95a16b7888e1cd461ded8a16e56d87a28a0ad0c93610dbdefbe0b2c6e6",
+        "sha256_in_prefix": "c8fb7f95a16b7888e1cd461ded8a16e56d87a28a0ad0c93610dbdefbe0b2c6e6",
+        "size_in_bytes": 2162
+      },
+      {
+        "_path": "site-packages/google/type/date.proto",
+        "path_type": "hardlink",
+        "sha256": "a204da87d83dc79307993abd8e521fc746212de3ad970e002fbc5ab2abc7ecde",
+        "sha256_in_prefix": "a204da87d83dc79307993abd8e521fc746212de3ad970e002fbc5ab2abc7ecde",
+        "size_in_bytes": 1955
+      },
+      {
+        "_path": "site-packages/google/type/date_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "aa19d3dc0455c60d8c2da64f05baa9dc2ae9508a118e01d62df1f03f4be190aa",
+        "sha256_in_prefix": "aa19d3dc0455c60d8c2da64f05baa9dc2ae9508a118e01d62df1f03f4be190aa",
+        "size_in_bytes": 1964
+      },
+      {
+        "_path": "site-packages/google/type/datetime.proto",
+        "path_type": "hardlink",
+        "sha256": "f2acd2b3005e3a08deea65126ee20364423b3d65b3e9a653b7f68d80795c6dd8",
+        "sha256_in_prefix": "f2acd2b3005e3a08deea65126ee20364423b3d65b3e9a653b7f68d80795c6dd8",
+        "size_in_bytes": 3905
+      },
+      {
+        "_path": "site-packages/google/type/datetime_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "b6fcbb8feb74176903a45ada55265856b9d288e99915fd2b8588c2be891e4805",
+        "sha256_in_prefix": "b6fcbb8feb74176903a45ada55265856b9d288e99915fd2b8588c2be891e4805",
+        "size_in_bytes": 2641
+      },
+      {
+        "_path": "site-packages/google/type/dayofweek.proto",
+        "path_type": "hardlink",
+        "sha256": "fb5d167dac34f27151db3aa9996cf7ddc08e8e38db31203edc3b27982d54efc8",
+        "sha256_in_prefix": "fb5d167dac34f27151db3aa9996cf7ddc08e8e38db31203edc3b27982d54efc8",
+        "size_in_bytes": 1204
+      },
+      {
+        "_path": "site-packages/google/type/dayofweek_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "43a246e4ab082e37d911830c9704f94ee818ced1f57bc4f280c60426fa65c1b6",
+        "sha256_in_prefix": "43a246e4ab082e37d911830c9704f94ee818ced1f57bc4f280c60426fa65c1b6",
+        "size_in_bytes": 2152
+      },
+      {
+        "_path": "site-packages/google/type/decimal.proto",
+        "path_type": "hardlink",
+        "sha256": "934e38f9a74a8627244df7345971c39b77c219cd23442eca22aa2f717b1b164c",
+        "sha256_in_prefix": "934e38f9a74a8627244df7345971c39b77c219cd23442eca22aa2f717b1b164c",
+        "size_in_bytes": 4213
+      },
+      {
+        "_path": "site-packages/google/type/decimal_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "ea1b9d6a6b83cbd53330576b7b33cb617ea19219f911c00d6120d0926958d78a",
+        "sha256_in_prefix": "ea1b9d6a6b83cbd53330576b7b33cb617ea19219f911c00d6120d0926958d78a",
+        "size_in_bytes": 1937
+      },
+      {
+        "_path": "site-packages/google/type/expr.proto",
+        "path_type": "hardlink",
+        "sha256": "ec03a7049b1cd9bc0490d7955da8664d1b27d96e786e9a568d7a7a2dc489bd28",
+        "sha256_in_prefix": "ec03a7049b1cd9bc0490d7955da8664d1b27d96e786e9a568d7a7a2dc489bd28",
+        "size_in_bytes": 2730
+      },
+      {
+        "_path": "site-packages/google/type/expr_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "0d22666aabf50b9817aa47ff6543b59a9c53d9cbd49705d8b8fa4800a966e9cb",
+        "sha256_in_prefix": "0d22666aabf50b9817aa47ff6543b59a9c53d9cbd49705d8b8fa4800a966e9cb",
+        "size_in_bytes": 1979
+      },
+      {
+        "_path": "site-packages/google/type/fraction.proto",
+        "path_type": "hardlink",
+        "sha256": "5e6551e74867308fad0829066b31bbbd704cb72d094c0bb4974a20ea77f77d75",
+        "sha256_in_prefix": "5e6551e74867308fad0829066b31bbbd704cb72d094c0bb4974a20ea77f77d75",
+        "size_in_bytes": 1156
+      },
+      {
+        "_path": "site-packages/google/type/fraction_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "06c414df08218069db0e733863acc06d0667a2726076820761d07a4a0af92b22",
+        "sha256_in_prefix": "06c414df08218069db0e733863acc06d0667a2726076820761d07a4a0af92b22",
+        "size_in_bytes": 1970
+      },
+      {
+        "_path": "site-packages/google/type/interval.proto",
+        "path_type": "hardlink",
+        "sha256": "5a01aac44147199b75efe1d5b9b5af4fe9dabba2e5ee37ac3d8c5b1d7f0179da",
+        "sha256_in_prefix": "5a01aac44147199b75efe1d5b9b5af4fe9dabba2e5ee37ac3d8c5b1d7f0179da",
+        "size_in_bytes": 1667
+      },
+      {
+        "_path": "site-packages/google/type/interval_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "6c028dad1682179e9303e3179adbdf764b92a9e3df4e432bb7a7d4222c2c0a9c",
+        "sha256_in_prefix": "6c028dad1682179e9303e3179adbdf764b92a9e3df4e432bb7a7d4222c2c0a9c",
+        "size_in_bytes": 2168
+      },
+      {
+        "_path": "site-packages/google/type/latlng.proto",
+        "path_type": "hardlink",
+        "sha256": "7ca7bdb759f5f5729ae0a8ef9125411e33554063f9c41d12861c11c3c0b64114",
+        "sha256_in_prefix": "7ca7bdb759f5f5729ae0a8ef9125411e33554063f9c41d12861c11c3c0b64114",
+        "size_in_bytes": 1447
+      },
+      {
+        "_path": "site-packages/google/type/latlng_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "defa20480756ac399a171f70e7bdbc14b0f3011d0a961731f453b7c0a25ebc83",
+        "sha256_in_prefix": "defa20480756ac399a171f70e7bdbc14b0f3011d0a961731f453b7c0a25ebc83",
+        "size_in_bytes": 1956
+      },
+      {
+        "_path": "site-packages/google/type/localized_text.proto",
+        "path_type": "hardlink",
+        "sha256": "65feaf44d0ae99bf568e3aeb6946b65c21b4b7e8bda52c19e7aa5b959f30d15f",
+        "sha256_in_prefix": "65feaf44d0ae99bf568e3aeb6946b65c21b4b7e8bda52c19e7aa5b959f30d15f",
+        "size_in_bytes": 1303
+      },
+      {
+        "_path": "site-packages/google/type/localized_text_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "82ffe18b09a282f5d1466b8df502a84fd0022803636bd33ad303dd98c840c032",
+        "sha256_in_prefix": "82ffe18b09a282f5d1466b8df502a84fd0022803636bd33ad303dd98c840c032",
+        "size_in_bytes": 2039
+      },
+      {
+        "_path": "site-packages/google/type/money.proto",
+        "path_type": "hardlink",
+        "sha256": "34ce65d0c3461d06ebd739ce4c3f9de5eb172102fe175bccc37d94d39a8253e5",
+        "sha256_in_prefix": "34ce65d0c3461d06ebd739ce4c3f9de5eb172102fe175bccc37d94d39a8253e5",
+        "size_in_bytes": 1603
+      },
+      {
+        "_path": "site-packages/google/type/money_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "1300f86d2333a34986ad4a5d9a90ce2288c1d6001431b95d686f6ede64bf35d2",
+        "sha256_in_prefix": "1300f86d2333a34986ad4a5d9a90ce2288c1d6001431b95d686f6ede64bf35d2",
+        "size_in_bytes": 1970
+      },
+      {
+        "_path": "site-packages/google/type/month.proto",
+        "path_type": "hardlink",
+        "sha256": "ad70794fffb9351d2cfbde07c3d8aece9ab10a941c8a0d72b0d5da62dcd2a3e5",
+        "sha256_in_prefix": "ad70794fffb9351d2cfbde07c3d8aece9ab10a941c8a0d72b0d5da62dcd2a3e5",
+        "size_in_bytes": 1479
+      },
+      {
+        "_path": "site-packages/google/type/month_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "a39bdeccc7f7f790c83c1416342f5be4fb66e6fcd9fd5d7a01cd5d519feeaf1e",
+        "sha256_in_prefix": "a39bdeccc7f7f790c83c1416342f5be4fb66e6fcd9fd5d7a01cd5d519feeaf1e",
+        "size_in_bytes": 2232
+      },
+      {
+        "_path": "site-packages/google/type/phone_number.proto",
+        "path_type": "hardlink",
+        "sha256": "fa0a2ad64bc1945c992b1e800ee0ba58739acac5853d8a56ff7daf9efef3cf20",
+        "sha256_in_prefix": "fa0a2ad64bc1945c992b1e800ee0ba58739acac5853d8a56ff7daf9efef3cf20",
+        "size_in_bytes": 4744
+      },
+      {
+        "_path": "site-packages/google/type/phone_number_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "dc2b4cb0db4dd55fab86d5760e4235e6e36ed33ffe31ee6f2916d3d4acc484d0",
+        "sha256_in_prefix": "dc2b4cb0db4dd55fab86d5760e4235e6e36ed33ffe31ee6f2916d3d4acc484d0",
+        "size_in_bytes": 2368
+      },
+      {
+        "_path": "site-packages/google/type/postal_address.proto",
+        "path_type": "hardlink",
+        "sha256": "c226b0e9f1bb8d80909b622603618d1a3a7883f0344b70af7a3d3b61f943275a",
+        "sha256_in_prefix": "c226b0e9f1bb8d80909b622603618d1a3a7883f0344b70af7a3d3b61f943275a",
+        "size_in_bytes": 6235
+      },
+      {
+        "_path": "site-packages/google/type/postal_address_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "566bef838e262ff287966803599075a5e20743a924d168b8e1e757226e5f3990",
+        "sha256_in_prefix": "566bef838e262ff287966803599075a5e20743a924d168b8e1e757226e5f3990",
+        "size_in_bytes": 2423
+      },
+      {
+        "_path": "site-packages/google/type/quaternion.proto",
+        "path_type": "hardlink",
+        "sha256": "9eb949284dcf165b48db74a551d09e51c2782b5bad6721231a1d75dd431d0b82",
+        "sha256_in_prefix": "9eb949284dcf165b48db74a551d09e51c2782b5bad6721231a1d75dd431d0b82",
+        "size_in_bytes": 3791
+      },
+      {
+        "_path": "site-packages/google/type/quaternion_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "09a374ea7a29ff90412353ad784b5d7eeedf56dfacbd26b751def757e1cc7989",
+        "sha256_in_prefix": "09a374ea7a29ff90412353ad784b5d7eeedf56dfacbd26b751def757e1cc7989",
+        "size_in_bytes": 2051
+      },
+      {
+        "_path": "site-packages/google/type/timeofday.proto",
+        "path_type": "hardlink",
+        "sha256": "e6706e433b7f0f8af9a6446789fbff0692ca9ab35afb1ce5f4094b47c57be4ed",
+        "sha256_in_prefix": "e6706e433b7f0f8af9a6446789fbff0692ca9ab35afb1ce5f4094b47c57be4ed",
+        "size_in_bytes": 1667
+      },
+      {
+        "_path": "site-packages/google/type/timeofday_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "30425e3ac682310bb9cf5afe55afb276b811e11622d4eece0d1421b0791ea251",
+        "sha256_in_prefix": "30425e3ac682310bb9cf5afe55afb276b811e11622d4eece0d1421b0791ea251",
+        "size_in_bytes": 2063
+      },
+      {
+        "_path": "site-packages/googleapis_common_protos-1.66.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/googleapis_common_protos-1.66.0.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+        "sha256_in_prefix": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+        "size_in_bytes": 11358
+      },
+      {
+        "_path": "site-packages/googleapis_common_protos-1.66.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "d8892ec68367e9456dc517f02c814e42bd4cf674da8160e03ff4c0d32dea5d25",
+        "sha256_in_prefix": "d8892ec68367e9456dc517f02c814e42bd4cf674da8160e03ff4c0d32dea5d25",
+        "size_in_bytes": 1529
+      },
+      {
+        "_path": "site-packages/googleapis_common_protos-1.66.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "997438aa6009f1113b76c71e4dfb99bc533baf191226fa58cf7d187d5aa5ccf4",
+        "sha256_in_prefix": "997438aa6009f1113b76c71e4dfb99bc533baf191226fa58cf7d187d5aa5ccf4",
+        "size_in_bytes": 15795
+      },
+      {
+        "_path": "site-packages/googleapis_common_protos-1.66.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/googleapis_common_protos-1.66.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "3a95d6111976c4b3d11d3bddd995e8fe296e3c441df2e49b624279dcd00447f6",
+        "sha256_in_prefix": "3a95d6111976c4b3d11d3bddd995e8fe296e3c441df2e49b624279dcd00447f6",
+        "size_in_bytes": 109
+      },
+      {
+        "_path": "site-packages/googleapis_common_protos-1.66.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "564268b958f1dafb38ab514c5bbff6ea03f5668d5a6a2467270b0da0fde618e5",
+        "sha256_in_prefix": "564268b958f1dafb38ab514c5bbff6ea03f5668d5a6a2467270b0da0fde618e5",
+        "size_in_bytes": 130
+      },
+      {
+        "_path": "site-packages/googleapis_common_protos-1.66.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "ff542f48922114019fc5befd0fa0e107b494c365fa4f8af09f3fcb2eb6dc0f77",
+        "sha256_in_prefix": "ff542f48922114019fc5befd0fa0e107b494c365fa4f8af09f3fcb2eb6dc0f77",
+        "size_in_bytes": 7
+      },
+      {
+        "_path": "lib/python3.10/site-packages/google/api/__pycache__/annotations_pb2.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/google/api/__pycache__/auth_pb2.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/google/api/__pycache__/backend_pb2.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/google/api/__pycache__/billing_pb2.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/google/api/__pycache__/client_pb2.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/google/api/__pycache__/config_change_pb2.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/google/api/__pycache__/consumer_pb2.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/google/api/__pycache__/context_pb2.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/google/api/__pycache__/control_pb2.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/google/api/__pycache__/distribution_pb2.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/google/api/__pycache__/documentation_pb2.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/google/api/__pycache__/endpoint_pb2.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/google/api/__pycache__/error_reason_pb2.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/google/api/__pycache__/field_behavior_pb2.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/google/api/__pycache__/field_info_pb2.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/google/api/__pycache__/http_pb2.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/google/api/__pycache__/httpbody_pb2.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/google/api/__pycache__/label_pb2.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/google/api/__pycache__/launch_stage_pb2.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/google/api/__pycache__/log_pb2.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/google/api/__pycache__/logging_pb2.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/google/api/__pycache__/metric_pb2.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/google/api/__pycache__/monitored_resource_pb2.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/google/api/__pycache__/monitoring_pb2.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/google/api/__pycache__/policy_pb2.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/google/api/__pycache__/quota_pb2.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/google/api/__pycache__/resource_pb2.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/google/api/__pycache__/routing_pb2.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/google/api/__pycache__/service_pb2.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/google/api/__pycache__/source_info_pb2.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/google/api/__pycache__/system_parameter_pb2.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/google/api/__pycache__/usage_pb2.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/google/api/__pycache__/visibility_pb2.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/google/cloud/__pycache__/extended_operations_pb2.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/google/cloud/location/__pycache__/locations_pb2.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/google/gapic/metadata/__pycache__/gapic_metadata_pb2.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/google/logging/type/__pycache__/http_request_pb2.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/google/logging/type/__pycache__/log_severity_pb2.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/google/longrunning/__pycache__/operations_grpc.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/google/longrunning/__pycache__/operations_grpc_pb2.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/google/longrunning/__pycache__/operations_pb2.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/google/longrunning/__pycache__/operations_pb2_grpc.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/google/longrunning/__pycache__/operations_proto.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/google/longrunning/__pycache__/operations_proto_pb2.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/google/rpc/__pycache__/code_pb2.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/google/rpc/context/__pycache__/attribute_context_pb2.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/google/rpc/context/__pycache__/audit_context_pb2.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/google/rpc/__pycache__/error_details_pb2.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/google/rpc/__pycache__/http_pb2.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/google/rpc/__pycache__/status_pb2.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/google/type/__pycache__/calendar_period_pb2.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/google/type/__pycache__/color_pb2.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/google/type/__pycache__/date_pb2.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/google/type/__pycache__/datetime_pb2.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/google/type/__pycache__/dayofweek_pb2.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/google/type/__pycache__/decimal_pb2.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/google/type/__pycache__/expr_pb2.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/google/type/__pycache__/fraction_pb2.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/google/type/__pycache__/interval_pb2.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/google/type/__pycache__/latlng_pb2.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/google/type/__pycache__/localized_text_pb2.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/google/type/__pycache__/money_pb2.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/google/type/__pycache__/month_pb2.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/google/type/__pycache__/phone_number_pb2.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/google/type/__pycache__/postal_address_pb2.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/google/type/__pycache__/quaternion_pb2.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/google/type/__pycache__/timeofday_pb2.cpython-310.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "d8d19575a827f2c62500949b9536efdd6b5406c9f546a73b6a87ac90b03a5875",
+  "size": 116522,
+  "subdir": "noarch",
+  "timestamp": 1731459019000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/googleapis-common-protos-1.66.0-pyhff2d567_0.conda",
+  "version": "1.66.0"
+}

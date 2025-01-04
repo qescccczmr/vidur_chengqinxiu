@@ -1,0 +1,63 @@
+{
+  "build": "he0572af_3",
+  "build_number": 3,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "__glibc >=2.17,<3.0.a0",
+    "libgcc >=13",
+    "libstdcxx >=13",
+    "libzlib >=1.3.1,<2.0a0",
+    "mysql-common 9.0.1 h266115a_3",
+    "openssl >=3.4.0,<4.0a0",
+    "zstd >=1.5.6,<1.6.0a0"
+  ],
+  "extracted_package_dir": "/cpfs01/user/chengqinxiu/anaconda3/pkgs/mysql-libs-9.0.1-he0572af_3",
+  "files": [
+    "lib/libmysqlclient.so",
+    "lib/libmysqlclient.so.24",
+    "lib/libmysqlclient.so.24.1.1"
+  ],
+  "fn": "mysql-libs-9.0.1-he0572af_3.conda",
+  "license": "GPL-2.0-or-later",
+  "link": {
+    "source": "/cpfs01/user/chengqinxiu/anaconda3/pkgs/mysql-libs-9.0.1-he0572af_3",
+    "type": 1
+  },
+  "md5": "dd9da69dd4c2bf798c0b8bd4786cafb5",
+  "name": "mysql-libs",
+  "package_tarball_full_path": "/cpfs01/user/chengqinxiu/anaconda3/pkgs/mysql-libs-9.0.1-he0572af_3.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/libmysqlclient.so",
+        "path_type": "softlink",
+        "sha256": "5f26f96033d99faa3322d4fac37d9fbeeee7e40e8ca5c0bec0495244b4833130",
+        "size_in_bytes": 7011680
+      },
+      {
+        "_path": "lib/libmysqlclient.so.24",
+        "path_type": "softlink",
+        "sha256": "5f26f96033d99faa3322d4fac37d9fbeeee7e40e8ca5c0bec0495244b4833130",
+        "size_in_bytes": 7011680
+      },
+      {
+        "_path": "lib/libmysqlclient.so.24.1.1",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/mysql-suite_1733486719430/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold",
+        "sha256": "5f26f96033d99faa3322d4fac37d9fbeeee7e40e8ca5c0bec0495244b4833130",
+        "sha256_in_prefix": "cc3e9b406816a50a619c627f6b59b685617575af9d18b8f0158c0a64909d097b",
+        "size_in_bytes": 7011680
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "69527c08c444cae605545b42f67ea4e3f90cd7128fad8ad77d17a1cdc06ad767",
+  "size": 1368301,
+  "subdir": "linux-64",
+  "timestamp": 1733494547000,
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/mysql-libs-9.0.1-he0572af_3.conda",
+  "version": "9.0.1"
+}

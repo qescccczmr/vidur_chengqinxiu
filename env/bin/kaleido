@@ -1,0 +1,3 @@
+#!/bin/bash
+export FONTCONFIG_PATH=/cpfs01/user/chengqinxiu/vidur/env/etc/fonts
+/cpfs01/user/chengqinxiu/vidur/env/bin/KaleidoApp/kaleido "$@"

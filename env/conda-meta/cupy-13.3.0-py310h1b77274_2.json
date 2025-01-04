@@ -1,0 +1,41 @@
+{
+  "build": "py310h1b77274_2",
+  "build_number": 2,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "cuda-cudart-dev_linux-64",
+    "cuda-nvrtc",
+    "cuda-version >=12.0,<13.0a0",
+    "cupy-core 13.3.0 py310h8de46e0_2",
+    "libcublas",
+    "libcufft",
+    "libcurand",
+    "libcusolver",
+    "libcusparse",
+    "python >=3.10,<3.11.0a0",
+    "python_abi 3.10.* *_cp310"
+  ],
+  "extracted_package_dir": "/cpfs01/user/chengqinxiu/anaconda3/pkgs/cupy-13.3.0-py310h1b77274_2",
+  "files": [],
+  "fn": "cupy-13.3.0-py310h1b77274_2.conda",
+  "license": "MIT",
+  "link": {
+    "source": "/cpfs01/user/chengqinxiu/anaconda3/pkgs/cupy-13.3.0-py310h1b77274_2",
+    "type": 1
+  },
+  "md5": "39e67291f815da99637a734876dfc77e",
+  "name": "cupy",
+  "package_tarball_full_path": "/cpfs01/user/chengqinxiu/anaconda3/pkgs/cupy-13.3.0-py310h1b77274_2.conda",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "70e709d551f6e361f30db07095ee1ad100a88856576f1c756fe5b70db85ff2b6",
+  "size": 354997,
+  "subdir": "linux-64",
+  "timestamp": 1729280132000,
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/cupy-13.3.0-py310h1b77274_2.conda",
+  "version": "13.3.0"
+}

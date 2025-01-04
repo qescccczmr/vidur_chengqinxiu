@@ -1,0 +1,13 @@
+prefix=/cpfs01/user/chengqinxiu/vidur/env
+exec_prefix=${prefix}
+bindir=${prefix}/lib/qt6/bin
+libexecdir=${prefix}/lib/qt6
+libdir=${prefix}/lib
+includedir=${prefix}/include/qt6
+
+Name: Qt6 QmlNetwork
+Description: Qt QmlNetwork module
+Version: 6.8.0
+Libs: -L${libdir} -lQt6QmlNetwork
+Cflags: -I${includedir}/QtQmlNetwork -I${includedir} -DQT_QMLNETWORK_LIB
+Requires: Qt6Core Qt6Network Qt6Qml

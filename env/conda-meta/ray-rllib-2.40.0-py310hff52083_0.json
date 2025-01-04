@@ -1,0 +1,53 @@
+{
+  "build": "py310hff52083_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "dm-tree",
+    "gymnasium 1.0.0",
+    "lz4",
+    "python >=3.10,<3.11.0a0",
+    "python_abi 3.10.* *_cp310",
+    "pyyaml",
+    "ray-tune 2.40.0 py310hff52083_0",
+    "rich",
+    "scikit-image",
+    "scipy",
+    "typer"
+  ],
+  "extracted_package_dir": "/cpfs01/user/chengqinxiu/anaconda3/pkgs/ray-rllib-2.40.0-py310hff52083_0",
+  "files": [
+    "bin/rllib"
+  ],
+  "fn": "ray-rllib-2.40.0-py310hff52083_0.conda",
+  "license": "Apache-2.0",
+  "link": {
+    "source": "/cpfs01/user/chengqinxiu/anaconda3/pkgs/ray-rllib-2.40.0-py310hff52083_0",
+    "type": 1
+  },
+  "md5": "7fe51feb2d69bcff85bfef1c8edc6c53",
+  "name": "ray-rllib",
+  "package_tarball_full_path": "/cpfs01/user/chengqinxiu/anaconda3/pkgs/ray-rllib-2.40.0-py310hff52083_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/rllib",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/ray-packages_1733424429012/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol",
+        "sha256": "96697f7f85146974dfa843e3335a1fe4509e8782104c9be6bc587bc955791dc8",
+        "sha256_in_prefix": "bca510df7aa3cba14bcb532053018a598ad891a31386c0fb697aae3b954ef0c3",
+        "size_in_bytes": 468
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "33016dd204f3abd06f04c01e9d55b7a30a7e673c9e3d41ee232494435ca9bdff",
+  "size": 52777,
+  "subdir": "linux-64",
+  "timestamp": 1733432678000,
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/ray-rllib-2.40.0-py310hff52083_0.conda",
+  "version": "2.40.0"
+}

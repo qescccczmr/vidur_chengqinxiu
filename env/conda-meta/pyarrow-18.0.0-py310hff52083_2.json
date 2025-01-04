@@ -1,0 +1,37 @@
+{
+  "build": "py310hff52083_2",
+  "build_number": 2,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "libarrow-acero 18.0.0.*",
+    "libarrow-dataset 18.0.0.*",
+    "libarrow-substrait 18.0.0.*",
+    "libparquet 18.0.0.*",
+    "pyarrow-core 18.0.0 *_2_*",
+    "python >=3.10,<3.11.0a0",
+    "python_abi 3.10.* *_cp310"
+  ],
+  "extracted_package_dir": "/cpfs01/user/chengqinxiu/anaconda3/pkgs/pyarrow-18.0.0-py310hff52083_2",
+  "files": [],
+  "fn": "pyarrow-18.0.0-py310hff52083_2.conda",
+  "license": "Apache-2.0",
+  "link": {
+    "source": "/cpfs01/user/chengqinxiu/anaconda3/pkgs/pyarrow-18.0.0-py310hff52083_2",
+    "type": 1
+  },
+  "md5": "0a653e427dc33fd8f0108f87330f6e21",
+  "name": "pyarrow",
+  "package_tarball_full_path": "/cpfs01/user/chengqinxiu/anaconda3/pkgs/pyarrow-18.0.0-py310hff52083_2.conda",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "f869fea98b7a635c8ad28dd4a060c24a9d65c92054e181d60ac13155fa8c55a5",
+  "size": 25208,
+  "subdir": "linux-64",
+  "timestamp": 1732456989000,
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/pyarrow-18.0.0-py310hff52083_2.conda",
+  "version": "18.0.0"
+}

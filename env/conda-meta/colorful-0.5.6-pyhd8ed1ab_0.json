@@ -1,0 +1,207 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "colorama",
+    "python >=3.4"
+  ],
+  "extracted_package_dir": "/cpfs01/user/chengqinxiu/anaconda3/pkgs/colorful-0.5.6-pyhd8ed1ab_0",
+  "files": [
+    "lib/python3.10/site-packages/colorful-0.5.6.dist-info/INSTALLER",
+    "lib/python3.10/site-packages/colorful-0.5.6.dist-info/LICENSE",
+    "lib/python3.10/site-packages/colorful-0.5.6.dist-info/METADATA",
+    "lib/python3.10/site-packages/colorful-0.5.6.dist-info/RECORD",
+    "lib/python3.10/site-packages/colorful-0.5.6.dist-info/REQUESTED",
+    "lib/python3.10/site-packages/colorful-0.5.6.dist-info/WHEEL",
+    "lib/python3.10/site-packages/colorful-0.5.6.dist-info/direct_url.json",
+    "lib/python3.10/site-packages/colorful-0.5.6.dist-info/top_level.txt",
+    "lib/python3.10/site-packages/colorful/__init__.py",
+    "lib/python3.10/site-packages/colorful/ansi.py",
+    "lib/python3.10/site-packages/colorful/colors.py",
+    "lib/python3.10/site-packages/colorful/core.py",
+    "lib/python3.10/site-packages/colorful/data/colornames.json",
+    "lib/python3.10/site-packages/colorful/data/rgb.txt",
+    "lib/python3.10/site-packages/colorful/styles.py",
+    "lib/python3.10/site-packages/colorful/terminal.py",
+    "lib/python3.10/site-packages/colorful/utils.py",
+    "lib/python3.10/site-packages/colorful/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/colorful/__pycache__/ansi.cpython-310.pyc",
+    "lib/python3.10/site-packages/colorful/__pycache__/colors.cpython-310.pyc",
+    "lib/python3.10/site-packages/colorful/__pycache__/core.cpython-310.pyc",
+    "lib/python3.10/site-packages/colorful/__pycache__/styles.cpython-310.pyc",
+    "lib/python3.10/site-packages/colorful/__pycache__/terminal.cpython-310.pyc",
+    "lib/python3.10/site-packages/colorful/__pycache__/utils.cpython-310.pyc"
+  ],
+  "fn": "colorful-0.5.6-pyhd8ed1ab_0.conda",
+  "license": "MIT",
+  "link": {
+    "source": "/cpfs01/user/chengqinxiu/anaconda3/pkgs/colorful-0.5.6-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "a75276da977eecc9224dea358576e2ec",
+  "name": "colorful",
+  "noarch": "python",
+  "package_tarball_full_path": "/cpfs01/user/chengqinxiu/anaconda3/pkgs/colorful-0.5.6-pyhd8ed1ab_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/colorful-0.5.6.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/colorful-0.5.6.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "ef1466815912e0efd9bb6ff8270a08ef87c25039961733d16156e1f54dcc7eea",
+        "sha256_in_prefix": "ef1466815912e0efd9bb6ff8270a08ef87c25039961733d16156e1f54dcc7eea",
+        "size_in_bytes": 1078
+      },
+      {
+        "_path": "site-packages/colorful-0.5.6.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "aaca84ba4b2d992ca0af3dddc6b4efb891be858991069b03e8067d07ca0fbe30",
+        "sha256_in_prefix": "aaca84ba4b2d992ca0af3dddc6b4efb891be858991069b03e8067d07ca0fbe30",
+        "size_in_bytes": 16697
+      },
+      {
+        "_path": "site-packages/colorful-0.5.6.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "e622ab533dbc526ed306332a84f83c3893d64a5ed0ab78320499aba6155f4e31",
+        "sha256_in_prefix": "e622ab533dbc526ed306332a84f83c3893d64a5ed0ab78320499aba6155f4e31",
+        "size_in_bytes": 1700
+      },
+      {
+        "_path": "site-packages/colorful-0.5.6.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/colorful-0.5.6.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "f86fedd281ae13b503d03ad2a55667ab584730157d0c3d97912e6fed7a664e79",
+        "sha256_in_prefix": "f86fedd281ae13b503d03ad2a55667ab584730157d0c3d97912e6fed7a664e79",
+        "size_in_bytes": 110
+      },
+      {
+        "_path": "site-packages/colorful-0.5.6.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "3ceda8fa8156fe1ca8e7e906c18575d5c557f21eec1aedf8538be9dda00ec76b",
+        "sha256_in_prefix": "3ceda8fa8156fe1ca8e7e906c18575d5c557f21eec1aedf8538be9dda00ec76b",
+        "size_in_bytes": 104
+      },
+      {
+        "_path": "site-packages/colorful-0.5.6.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "6451fb5b259e4f66783d1b529038d2b5d70fc3168b14766a4fe178f57ed3e3c6",
+        "sha256_in_prefix": "6451fb5b259e4f66783d1b529038d2b5d70fc3168b14766a4fe178f57ed3e3c6",
+        "size_in_bytes": 9
+      },
+      {
+        "_path": "site-packages/colorful/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "1113220db7613a13bfa04c64d24cc7e248a3b02b3501797d3caabe1bfd6c30e4",
+        "sha256_in_prefix": "1113220db7613a13bfa04c64d24cc7e248a3b02b3501797d3caabe1bfd6c30e4",
+        "size_in_bytes": 3825
+      },
+      {
+        "_path": "site-packages/colorful/ansi.py",
+        "path_type": "hardlink",
+        "sha256": "ad24115c4beb5d4db04834e94ddba615a63690f76a42771db334d8eead62d416",
+        "sha256_in_prefix": "ad24115c4beb5d4db04834e94ddba615a63690f76a42771db334d8eead62d416",
+        "size_in_bytes": 2135
+      },
+      {
+        "_path": "site-packages/colorful/colors.py",
+        "path_type": "hardlink",
+        "sha256": "55fca5b99c874bbc264cdef53d4e4f26651e36123e2894a0a7942d01cda232a4",
+        "sha256_in_prefix": "55fca5b99c874bbc264cdef53d4e4f26651e36123e2894a0a7942d01cda232a4",
+        "size_in_bytes": 2521
+      },
+      {
+        "_path": "site-packages/colorful/core.py",
+        "path_type": "hardlink",
+        "sha256": "02be992501ab61d9854c246a84591863103ed1d163a28e6756d654896ae092a5",
+        "sha256_in_prefix": "02be992501ab61d9854c246a84591863103ed1d163a28e6756d654896ae092a5",
+        "size_in_bytes": 19649
+      },
+      {
+        "_path": "site-packages/colorful/data/colornames.json",
+        "path_type": "hardlink",
+        "sha256": "e8d39810af7c4e7dfd4bbe436ef69097816719f64426d556866554c7d2ba1e33",
+        "sha256_in_prefix": "e8d39810af7c4e7dfd4bbe436ef69097816719f64426d556866554c7d2ba1e33",
+        "size_in_bytes": 694864
+      },
+      {
+        "_path": "site-packages/colorful/data/rgb.txt",
+        "path_type": "hardlink",
+        "sha256": "2c8ab5acc9eb072f4cc88696834188100d05e50af5d1425501d993700aaa3164",
+        "sha256_in_prefix": "2c8ab5acc9eb072f4cc88696834188100d05e50af5d1425501d993700aaa3164",
+        "size_in_bytes": 17394
+      },
+      {
+        "_path": "site-packages/colorful/styles.py",
+        "path_type": "hardlink",
+        "sha256": "e45d1d2950a847cc317b6ce331901bd25066bc0d33c97d516524d952c0d18843",
+        "sha256_in_prefix": "e45d1d2950a847cc317b6ce331901bd25066bc0d33c97d516524d952c0d18843",
+        "size_in_bytes": 1095
+      },
+      {
+        "_path": "site-packages/colorful/terminal.py",
+        "path_type": "hardlink",
+        "sha256": "f33c7021bb3063471e026acb403601c87bde8fa9aa59f9df9850c542d6d65f2e",
+        "sha256_in_prefix": "f33c7021bb3063471e026acb403601c87bde8fa9aa59f9df9850c542d6d65f2e",
+        "size_in_bytes": 2038
+      },
+      {
+        "_path": "site-packages/colorful/utils.py",
+        "path_type": "hardlink",
+        "sha256": "9b6207ca8c89eb26e09258c86cf0ff9c5ee1456f9025c0f77530ba2c7e9a9454",
+        "sha256_in_prefix": "9b6207ca8c89eb26e09258c86cf0ff9c5ee1456f9025c0f77530ba2c7e9a9454",
+        "size_in_bytes": 976
+      },
+      {
+        "_path": "lib/python3.10/site-packages/colorful/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/colorful/__pycache__/ansi.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/colorful/__pycache__/colors.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/colorful/__pycache__/core.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/colorful/__pycache__/styles.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/colorful/__pycache__/terminal.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/colorful/__pycache__/utils.cpython-310.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "d6d74e30469ef863174913348e271dc06a86fbadee217c167c7eca80dc6d4a5e",
+  "size": 174766,
+  "subdir": "noarch",
+  "timestamp": 1709973167000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/colorful-0.5.6-pyhd8ed1ab_0.conda",
+  "version": "0.5.6"
+}

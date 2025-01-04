@@ -1,0 +1,112 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python >=3.6"
+  ],
+  "extracted_package_dir": "/cpfs01/user/chengqinxiu/anaconda3/pkgs/farama-notifications-0.0.4-pyhd8ed1ab_0",
+  "files": [
+    "lib/python3.10/site-packages/Farama_Notifications-0.0.4.dist-info/INSTALLER",
+    "lib/python3.10/site-packages/Farama_Notifications-0.0.4.dist-info/LICENSE",
+    "lib/python3.10/site-packages/Farama_Notifications-0.0.4.dist-info/METADATA",
+    "lib/python3.10/site-packages/Farama_Notifications-0.0.4.dist-info/RECORD",
+    "lib/python3.10/site-packages/Farama_Notifications-0.0.4.dist-info/REQUESTED",
+    "lib/python3.10/site-packages/Farama_Notifications-0.0.4.dist-info/WHEEL",
+    "lib/python3.10/site-packages/Farama_Notifications-0.0.4.dist-info/direct_url.json",
+    "lib/python3.10/site-packages/Farama_Notifications-0.0.4.dist-info/top_level.txt",
+    "lib/python3.10/site-packages/farama_notifications/__init__.py",
+    "lib/python3.10/site-packages/farama_notifications/__pycache__/__init__.cpython-310.pyc"
+  ],
+  "fn": "farama-notifications-0.0.4-pyhd8ed1ab_0.conda",
+  "license": "MIT",
+  "link": {
+    "source": "/cpfs01/user/chengqinxiu/anaconda3/pkgs/farama-notifications-0.0.4-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "61f63fcf1c2deddeae7a85a516d46c94",
+  "name": "farama-notifications",
+  "noarch": "python",
+  "package_tarball_full_path": "/cpfs01/user/chengqinxiu/anaconda3/pkgs/farama-notifications-0.0.4-pyhd8ed1ab_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/Farama_Notifications-0.0.4.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/Farama_Notifications-0.0.4.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "7ff6336b33ae4c168086e899a11b7c91d369b6758cee20f9469d563f004f89eb",
+        "sha256_in_prefix": "7ff6336b33ae4c168086e899a11b7c91d369b6758cee20f9469d563f004f89eb",
+        "size_in_bytes": 1074
+      },
+      {
+        "_path": "site-packages/Farama_Notifications-0.0.4.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "bb07fdce31f3c0ebb716a97cec663d2d7b1c3918a415ff5120299b354a5babe9",
+        "sha256_in_prefix": "bb07fdce31f3c0ebb716a97cec663d2d7b1c3918a415ff5120299b354a5babe9",
+        "size_in_bytes": 558
+      },
+      {
+        "_path": "site-packages/Farama_Notifications-0.0.4.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "8029fd2efac71485825d42193100694cbe1fcfeba09106e6b32c58fd9d7ef09d",
+        "sha256_in_prefix": "8029fd2efac71485825d42193100694cbe1fcfeba09106e6b32c58fd9d7ef09d",
+        "size_in_bytes": 916
+      },
+      {
+        "_path": "site-packages/Farama_Notifications-0.0.4.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/Farama_Notifications-0.0.4.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "a6472d658cd44b8018567e9d27eef7ebb389662bc5d9ef1103d6ff6418e27f5f",
+        "sha256_in_prefix": "a6472d658cd44b8018567e9d27eef7ebb389662bc5d9ef1103d6ff6418e27f5f",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/Farama_Notifications-0.0.4.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "67866e217c233d480462cb3b082c3f4cf45472d2ef14dacc49c5b44a3e11670b",
+        "sha256_in_prefix": "67866e217c233d480462cb3b082c3f4cf45472d2ef14dacc49c5b44a3e11670b",
+        "size_in_bytes": 116
+      },
+      {
+        "_path": "site-packages/Farama_Notifications-0.0.4.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "8ac763954b5200425b747e358f0fda3fd303d6184e450553b469570b4593ef81",
+        "sha256_in_prefix": "8ac763954b5200425b747e358f0fda3fd303d6184e450553b469570b4593ef81",
+        "size_in_bytes": 21
+      },
+      {
+        "_path": "site-packages/farama_notifications/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "0a8f9364fee3dccede9b522ba12cf7623ee5fa17d70f2453ca9f2ab04bcc0d7b",
+        "sha256_in_prefix": "0a8f9364fee3dccede9b522ba12cf7623ee5fa17d70f2453ca9f2ab04bcc0d7b",
+        "size_in_bytes": 368
+      },
+      {
+        "_path": "lib/python3.10/site-packages/farama_notifications/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "8df190d75bac104c6c2317b13397eed9adfa6889b12405b0288ca2ca86855c06",
+  "size": 8406,
+  "subdir": "noarch",
+  "timestamp": 1684258265000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/farama-notifications-0.0.4-pyhd8ed1ab_0.conda",
+  "version": "0.0.4"
+}

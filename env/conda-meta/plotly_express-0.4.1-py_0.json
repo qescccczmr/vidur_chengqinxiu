@@ -1,0 +1,102 @@
+{
+  "build": "py_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "numpy >=1.11",
+    "pandas >=0.20.0",
+    "patsy >=0.5",
+    "plotly >=4.1.0",
+    "python",
+    "scipy >=0.18",
+    "statsmodels >=0.9.0"
+  ],
+  "extracted_package_dir": "/cpfs01/user/chengqinxiu/anaconda3/pkgs/plotly_express-0.4.1-py_0",
+  "files": [
+    "lib/python3.10/site-packages/plotly_express-0.4.1.dist-info/INSTALLER",
+    "lib/python3.10/site-packages/plotly_express-0.4.1.dist-info/LICENSE.txt",
+    "lib/python3.10/site-packages/plotly_express-0.4.1.dist-info/METADATA",
+    "lib/python3.10/site-packages/plotly_express-0.4.1.dist-info/RECORD",
+    "lib/python3.10/site-packages/plotly_express-0.4.1.dist-info/WHEEL",
+    "lib/python3.10/site-packages/plotly_express-0.4.1.dist-info/top_level.txt",
+    "lib/python3.10/site-packages/plotly_express/__init__.py",
+    "lib/python3.10/site-packages/plotly_express/__pycache__/__init__.cpython-310.pyc"
+  ],
+  "fn": "plotly_express-0.4.1-py_0.tar.bz2",
+  "license": "MIT",
+  "link": {
+    "source": "/cpfs01/user/chengqinxiu/anaconda3/pkgs/plotly_express-0.4.1-py_0",
+    "type": 1
+  },
+  "md5": "108914af46a7706d63deeafad0b3a035",
+  "name": "plotly_express",
+  "noarch": "python",
+  "package_tarball_full_path": "/cpfs01/user/chengqinxiu/anaconda3/pkgs/plotly_express-0.4.1-py_0.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/plotly_express-0.4.1.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/plotly_express-0.4.1.dist-info/LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "8064d9b0ebe128f4fc5318b34f1a829b5630f25620cb91b0e8cc2a7d5a1f4b59",
+        "sha256_in_prefix": "8064d9b0ebe128f4fc5318b34f1a829b5630f25620cb91b0e8cc2a7d5a1f4b59",
+        "size_in_bytes": 1063
+      },
+      {
+        "_path": "site-packages/plotly_express-0.4.1.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "7c24343d14d8ed38298a965f9574b8968c1db22aff120ef36d6ae9be505128c3",
+        "sha256_in_prefix": "7c24343d14d8ed38298a965f9574b8968c1db22aff120ef36d6ae9be505128c3",
+        "size_in_bytes": 1672
+      },
+      {
+        "_path": "site-packages/plotly_express-0.4.1.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "523af4df8f151c2ab473ca9acfedebcc6e19fe962f96df90b8556ae26bb34f58",
+        "sha256_in_prefix": "523af4df8f151c2ab473ca9acfedebcc6e19fe962f96df90b8556ae26bb34f58",
+        "size_in_bytes": 640
+      },
+      {
+        "_path": "site-packages/plotly_express-0.4.1.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "f3335865bc10497a01f487d73a33df78dc2f02c00b0237df824dbb16abc259ba",
+        "sha256_in_prefix": "f3335865bc10497a01f487d73a33df78dc2f02c00b0237df824dbb16abc259ba",
+        "size_in_bytes": 110
+      },
+      {
+        "_path": "site-packages/plotly_express-0.4.1.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "83d7cf8e818cb19c76e5360c50e9a0358787c9359c4cfd473e80db0ddaa591c5",
+        "sha256_in_prefix": "83d7cf8e818cb19c76e5360c50e9a0358787c9359c4cfd473e80db0ddaa591c5",
+        "size_in_bytes": 15
+      },
+      {
+        "_path": "site-packages/plotly_express/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "986e81c6ed4c08b7540a37fbb55ed13f40fff1cfdebb058e78ed924754549f52",
+        "sha256_in_prefix": "986e81c6ed4c08b7540a37fbb55ed13f40fff1cfdebb058e78ed924754549f52",
+        "size_in_bytes": 138
+      },
+      {
+        "_path": "lib/python3.10/site-packages/plotly_express/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "plotly_express",
+  "sha256": "31205f39823bd44a07aed525c99b417cf498a1d079ea2d223ebcf6f937264394",
+  "size": 5740,
+  "subdir": "noarch",
+  "timestamp": 1568666936000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/plotly_express-0.4.1-py_0.tar.bz2",
+  "version": "0.4.1"
+}

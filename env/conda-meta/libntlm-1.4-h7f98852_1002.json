@@ -1,0 +1,81 @@
+{
+  "build": "h7f98852_1002",
+  "build_number": 1002,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=9.3.0"
+  ],
+  "extracted_package_dir": "/cpfs01/user/chengqinxiu/anaconda3/pkgs/libntlm-1.4-h7f98852_1002",
+  "files": [
+    "include/ntlm.h",
+    "lib/libntlm.a",
+    "lib/libntlm.so",
+    "lib/libntlm.so.0",
+    "lib/libntlm.so.0.0.19",
+    "lib/pkgconfig/libntlm.pc"
+  ],
+  "fn": "libntlm-1.4-h7f98852_1002.tar.bz2",
+  "license": "LGPL-2.1-or-later",
+  "link": {
+    "source": "/cpfs01/user/chengqinxiu/anaconda3/pkgs/libntlm-1.4-h7f98852_1002",
+    "type": 1
+  },
+  "md5": "e728e874159b042d92b90238a3cb0dc2",
+  "name": "libntlm",
+  "package_tarball_full_path": "/cpfs01/user/chengqinxiu/anaconda3/pkgs/libntlm-1.4-h7f98852_1002.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "include/ntlm.h",
+        "path_type": "hardlink",
+        "sha256": "e8d299583c925dbf78a21bcb5b5ccf47fb32468f96c2b0641d31d0e4a33b16a4",
+        "sha256_in_prefix": "e8d299583c925dbf78a21bcb5b5ccf47fb32468f96c2b0641d31d0e4a33b16a4",
+        "size_in_bytes": 3592
+      },
+      {
+        "_path": "lib/libntlm.a",
+        "path_type": "hardlink",
+        "sha256": "8720a008ba35dc35d6315a5f9ed23c747c24ae36ad101e7499176b54a7a6c2b3",
+        "sha256_in_prefix": "8720a008ba35dc35d6315a5f9ed23c747c24ae36ad101e7499176b54a7a6c2b3",
+        "size_in_bytes": 44260
+      },
+      {
+        "_path": "lib/libntlm.so",
+        "path_type": "softlink",
+        "sha256": "287fb997e482dc53d1b9dd8302084c6e150406e301ec3dded3390734705c3735",
+        "size_in_bytes": 30464
+      },
+      {
+        "_path": "lib/libntlm.so.0",
+        "path_type": "softlink",
+        "sha256": "287fb997e482dc53d1b9dd8302084c6e150406e301ec3dded3390734705c3735",
+        "size_in_bytes": 30464
+      },
+      {
+        "_path": "lib/libntlm.so.0.0.19",
+        "path_type": "hardlink",
+        "sha256": "287fb997e482dc53d1b9dd8302084c6e150406e301ec3dded3390734705c3735",
+        "sha256_in_prefix": "287fb997e482dc53d1b9dd8302084c6e150406e301ec3dded3390734705c3735",
+        "size_in_bytes": 30464
+      },
+      {
+        "_path": "lib/pkgconfig/libntlm.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/libntlm_1609781792478/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla",
+        "sha256": "8ff9d9f130948e6c73703f2304c5a72844bdc1faa8f0ad40e8ff49c091a1a293",
+        "sha256_in_prefix": "5f69cad0c7e92643efcda2d3cee890b8644ab861d7f18093b15704cbe68f6d99",
+        "size_in_bytes": 759
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "63244b73156033ea3b7c2a1581526e79b4670349d64b15f645dcdb12de441d1a",
+  "size": 33201,
+  "subdir": "linux-64",
+  "timestamp": 1609781914000,
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/libntlm-1.4-h7f98852_1002.tar.bz2",
+  "version": "1.4"
+}

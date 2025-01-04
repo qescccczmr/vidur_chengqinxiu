@@ -1,0 +1,12 @@
+prefix=/cpfs01/user/chengqinxiu/vidur/env
+exec_prefix=${prefix}
+bindir=${prefix}/lib/qt6/bin
+libexecdir=${prefix}/lib/qt6
+libdir=${prefix}/lib
+includedir=${prefix}/include/qt6
+
+Name: Qt6 QuickControls2UniversalStyleImpl
+Description: Qt QuickControls2UniversalStyleImpl module
+Version: 6.8.0
+Libs: -L${libdir} -lQt6QuickControls2UniversalStyleImpl
+Cflags: -I${includedir}/QtQuickControls2UniversalStyleImpl -I${includedir} -DQT_QUICKCONTROLS2UNIVERSALSTYLEIMPL_LIB

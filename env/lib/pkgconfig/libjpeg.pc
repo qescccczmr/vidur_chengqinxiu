@@ -1,0 +1,10 @@
+prefix=/cpfs01/user/chengqinxiu/vidur/env
+exec_prefix=/cpfs01/user/chengqinxiu/vidur/env
+libdir=/cpfs01/user/chengqinxiu/vidur/env/lib
+includedir=/cpfs01/user/chengqinxiu/vidur/env/include
+
+Name: libjpeg
+Description: A SIMD-accelerated JPEG codec that provides the libjpeg API
+Version: 3.0.0
+Libs: -L${libdir} -ljpeg
+Cflags: -I${includedir}

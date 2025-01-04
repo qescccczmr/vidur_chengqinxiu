@@ -1,0 +1,3253 @@
+{
+  "build": "pyhd8ed1ab_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [
+    "tree_sitter_languages 1.10.2*",
+    "tree_sitter >=0.23.0"
+  ],
+  "depends": [
+    "linkify-it-py >=1,<3",
+    "markdown-it-py >=2.1.0",
+    "mdit-py-plugins",
+    "platformdirs >=3.6.0,<5",
+    "python >=3.9,<4.0.0",
+    "rich >=13.3.3",
+    "typing-extensions >=4.4.0,<5.0.0",
+    "typing_extensions >=4.4.0,<5.0.0"
+  ],
+  "extracted_package_dir": "/cpfs01/user/chengqinxiu/anaconda3/pkgs/textual-0.89.1-pyhd8ed1ab_1",
+  "files": [
+    "lib/python3.10/site-packages/textual-0.89.1.dist-info/INSTALLER",
+    "lib/python3.10/site-packages/textual-0.89.1.dist-info/LICENSE",
+    "lib/python3.10/site-packages/textual-0.89.1.dist-info/METADATA",
+    "lib/python3.10/site-packages/textual-0.89.1.dist-info/RECORD",
+    "lib/python3.10/site-packages/textual-0.89.1.dist-info/REQUESTED",
+    "lib/python3.10/site-packages/textual-0.89.1.dist-info/WHEEL",
+    "lib/python3.10/site-packages/textual-0.89.1.dist-info/direct_url.json",
+    "lib/python3.10/site-packages/textual/__init__.py",
+    "lib/python3.10/site-packages/textual/__main__.py",
+    "lib/python3.10/site-packages/textual/_animator.py",
+    "lib/python3.10/site-packages/textual/_ansi_sequences.py",
+    "lib/python3.10/site-packages/textual/_ansi_theme.py",
+    "lib/python3.10/site-packages/textual/_arrange.py",
+    "lib/python3.10/site-packages/textual/_binary_encode.py",
+    "lib/python3.10/site-packages/textual/_border.py",
+    "lib/python3.10/site-packages/textual/_box_drawing.py",
+    "lib/python3.10/site-packages/textual/_callback.py",
+    "lib/python3.10/site-packages/textual/_cells.py",
+    "lib/python3.10/site-packages/textual/_color_constants.py",
+    "lib/python3.10/site-packages/textual/_compose.py",
+    "lib/python3.10/site-packages/textual/_compositor.py",
+    "lib/python3.10/site-packages/textual/_context.py",
+    "lib/python3.10/site-packages/textual/_debug.py",
+    "lib/python3.10/site-packages/textual/_dispatch_key.py",
+    "lib/python3.10/site-packages/textual/_doc.py",
+    "lib/python3.10/site-packages/textual/_duration.py",
+    "lib/python3.10/site-packages/textual/_easing.py",
+    "lib/python3.10/site-packages/textual/_event_broker.py",
+    "lib/python3.10/site-packages/textual/_files.py",
+    "lib/python3.10/site-packages/textual/_immutable_sequence_view.py",
+    "lib/python3.10/site-packages/textual/_import_app.py",
+    "lib/python3.10/site-packages/textual/_keyboard_protocol.py",
+    "lib/python3.10/site-packages/textual/_layout_resolve.py",
+    "lib/python3.10/site-packages/textual/_line_split.py",
+    "lib/python3.10/site-packages/textual/_log.py",
+    "lib/python3.10/site-packages/textual/_loop.py",
+    "lib/python3.10/site-packages/textual/_node_list.py",
+    "lib/python3.10/site-packages/textual/_on.py",
+    "lib/python3.10/site-packages/textual/_opacity.py",
+    "lib/python3.10/site-packages/textual/_parser.py",
+    "lib/python3.10/site-packages/textual/_partition.py",
+    "lib/python3.10/site-packages/textual/_path.py",
+    "lib/python3.10/site-packages/textual/_profile.py",
+    "lib/python3.10/site-packages/textual/_resolve.py",
+    "lib/python3.10/site-packages/textual/_segment_tools.py",
+    "lib/python3.10/site-packages/textual/_sleep.py",
+    "lib/python3.10/site-packages/textual/_slug.py",
+    "lib/python3.10/site-packages/textual/_spatial_map.py",
+    "lib/python3.10/site-packages/textual/_styles_cache.py",
+    "lib/python3.10/site-packages/textual/_text_area_theme.py",
+    "lib/python3.10/site-packages/textual/_time.py",
+    "lib/python3.10/site-packages/textual/_tree_sitter.py",
+    "lib/python3.10/site-packages/textual/_two_way_dict.py",
+    "lib/python3.10/site-packages/textual/_types.py",
+    "lib/python3.10/site-packages/textual/_wait.py",
+    "lib/python3.10/site-packages/textual/_widget_navigation.py",
+    "lib/python3.10/site-packages/textual/_win_sleep.py",
+    "lib/python3.10/site-packages/textual/_work_decorator.py",
+    "lib/python3.10/site-packages/textual/_wrap.py",
+    "lib/python3.10/site-packages/textual/_xterm_parser.py",
+    "lib/python3.10/site-packages/textual/actions.py",
+    "lib/python3.10/site-packages/textual/app.py",
+    "lib/python3.10/site-packages/textual/await_complete.py",
+    "lib/python3.10/site-packages/textual/await_remove.py",
+    "lib/python3.10/site-packages/textual/binding.py",
+    "lib/python3.10/site-packages/textual/box_model.py",
+    "lib/python3.10/site-packages/textual/cache.py",
+    "lib/python3.10/site-packages/textual/canvas.py",
+    "lib/python3.10/site-packages/textual/case.py",
+    "lib/python3.10/site-packages/textual/clock.py",
+    "lib/python3.10/site-packages/textual/color.py",
+    "lib/python3.10/site-packages/textual/command.py",
+    "lib/python3.10/site-packages/textual/constants.py",
+    "lib/python3.10/site-packages/textual/containers.py",
+    "lib/python3.10/site-packages/textual/content.py",
+    "lib/python3.10/site-packages/textual/coordinate.py",
+    "lib/python3.10/site-packages/textual/css/__init__.py",
+    "lib/python3.10/site-packages/textual/css/_error_tools.py",
+    "lib/python3.10/site-packages/textual/css/_help_renderables.py",
+    "lib/python3.10/site-packages/textual/css/_help_text.py",
+    "lib/python3.10/site-packages/textual/css/_style_properties.py",
+    "lib/python3.10/site-packages/textual/css/_styles_builder.py",
+    "lib/python3.10/site-packages/textual/css/constants.py",
+    "lib/python3.10/site-packages/textual/css/errors.py",
+    "lib/python3.10/site-packages/textual/css/match.py",
+    "lib/python3.10/site-packages/textual/css/model.py",
+    "lib/python3.10/site-packages/textual/css/parse.py",
+    "lib/python3.10/site-packages/textual/css/query.py",
+    "lib/python3.10/site-packages/textual/css/scalar.py",
+    "lib/python3.10/site-packages/textual/css/scalar_animation.py",
+    "lib/python3.10/site-packages/textual/css/styles.py",
+    "lib/python3.10/site-packages/textual/css/stylesheet.py",
+    "lib/python3.10/site-packages/textual/css/tokenize.py",
+    "lib/python3.10/site-packages/textual/css/tokenizer.py",
+    "lib/python3.10/site-packages/textual/css/transition.py",
+    "lib/python3.10/site-packages/textual/css/types.py",
+    "lib/python3.10/site-packages/textual/demo/__main__.py",
+    "lib/python3.10/site-packages/textual/demo/data.py",
+    "lib/python3.10/site-packages/textual/demo/demo_app.py",
+    "lib/python3.10/site-packages/textual/demo/game.py",
+    "lib/python3.10/site-packages/textual/demo/home.py",
+    "lib/python3.10/site-packages/textual/demo/page.py",
+    "lib/python3.10/site-packages/textual/demo/projects.py",
+    "lib/python3.10/site-packages/textual/demo/widgets.py",
+    "lib/python3.10/site-packages/textual/design.py",
+    "lib/python3.10/site-packages/textual/document/__init__.py",
+    "lib/python3.10/site-packages/textual/document/_document.py",
+    "lib/python3.10/site-packages/textual/document/_document_navigator.py",
+    "lib/python3.10/site-packages/textual/document/_edit.py",
+    "lib/python3.10/site-packages/textual/document/_history.py",
+    "lib/python3.10/site-packages/textual/document/_syntax_aware_document.py",
+    "lib/python3.10/site-packages/textual/document/_wrapped_document.py",
+    "lib/python3.10/site-packages/textual/dom.py",
+    "lib/python3.10/site-packages/textual/driver.py",
+    "lib/python3.10/site-packages/textual/drivers/__init__.py",
+    "lib/python3.10/site-packages/textual/drivers/_byte_stream.py",
+    "lib/python3.10/site-packages/textual/drivers/_input_reader.py",
+    "lib/python3.10/site-packages/textual/drivers/_input_reader_linux.py",
+    "lib/python3.10/site-packages/textual/drivers/_input_reader_windows.py",
+    "lib/python3.10/site-packages/textual/drivers/_writer_thread.py",
+    "lib/python3.10/site-packages/textual/drivers/headless_driver.py",
+    "lib/python3.10/site-packages/textual/drivers/linux_driver.py",
+    "lib/python3.10/site-packages/textual/drivers/linux_inline_driver.py",
+    "lib/python3.10/site-packages/textual/drivers/web_driver.py",
+    "lib/python3.10/site-packages/textual/drivers/win32.py",
+    "lib/python3.10/site-packages/textual/drivers/windows_driver.py",
+    "lib/python3.10/site-packages/textual/errors.py",
+    "lib/python3.10/site-packages/textual/eta.py",
+    "lib/python3.10/site-packages/textual/events.py",
+    "lib/python3.10/site-packages/textual/expand_tabs.py",
+    "lib/python3.10/site-packages/textual/features.py",
+    "lib/python3.10/site-packages/textual/file_monitor.py",
+    "lib/python3.10/site-packages/textual/filter.py",
+    "lib/python3.10/site-packages/textual/fuzzy.py",
+    "lib/python3.10/site-packages/textual/geometry.py",
+    "lib/python3.10/site-packages/textual/keys.py",
+    "lib/python3.10/site-packages/textual/layout.py",
+    "lib/python3.10/site-packages/textual/layouts/__init__.py",
+    "lib/python3.10/site-packages/textual/layouts/factory.py",
+    "lib/python3.10/site-packages/textual/layouts/grid.py",
+    "lib/python3.10/site-packages/textual/layouts/horizontal.py",
+    "lib/python3.10/site-packages/textual/layouts/vertical.py",
+    "lib/python3.10/site-packages/textual/lazy.py",
+    "lib/python3.10/site-packages/textual/logging.py",
+    "lib/python3.10/site-packages/textual/map_geometry.py",
+    "lib/python3.10/site-packages/textual/message.py",
+    "lib/python3.10/site-packages/textual/message_pump.py",
+    "lib/python3.10/site-packages/textual/messages.py",
+    "lib/python3.10/site-packages/textual/notifications.py",
+    "lib/python3.10/site-packages/textual/pad.py",
+    "lib/python3.10/site-packages/textual/pilot.py",
+    "lib/python3.10/site-packages/textual/py.typed",
+    "lib/python3.10/site-packages/textual/reactive.py",
+    "lib/python3.10/site-packages/textual/render.py",
+    "lib/python3.10/site-packages/textual/renderables/__init__.py",
+    "lib/python3.10/site-packages/textual/renderables/_blend_colors.py",
+    "lib/python3.10/site-packages/textual/renderables/background_screen.py",
+    "lib/python3.10/site-packages/textual/renderables/bar.py",
+    "lib/python3.10/site-packages/textual/renderables/blank.py",
+    "lib/python3.10/site-packages/textual/renderables/digits.py",
+    "lib/python3.10/site-packages/textual/renderables/gradient.py",
+    "lib/python3.10/site-packages/textual/renderables/sparkline.py",
+    "lib/python3.10/site-packages/textual/renderables/styled.py",
+    "lib/python3.10/site-packages/textual/renderables/text_opacity.py",
+    "lib/python3.10/site-packages/textual/renderables/tint.py",
+    "lib/python3.10/site-packages/textual/rlock.py",
+    "lib/python3.10/site-packages/textual/screen.py",
+    "lib/python3.10/site-packages/textual/scroll_view.py",
+    "lib/python3.10/site-packages/textual/scrollbar.py",
+    "lib/python3.10/site-packages/textual/signal.py",
+    "lib/python3.10/site-packages/textual/strip.py",
+    "lib/python3.10/site-packages/textual/suggester.py",
+    "lib/python3.10/site-packages/textual/suggestions.py",
+    "lib/python3.10/site-packages/textual/system_commands.py",
+    "lib/python3.10/site-packages/textual/theme.py",
+    "lib/python3.10/site-packages/textual/timer.py",
+    "lib/python3.10/site-packages/textual/tree-sitter/highlights/bash.scm",
+    "lib/python3.10/site-packages/textual/tree-sitter/highlights/css.scm",
+    "lib/python3.10/site-packages/textual/tree-sitter/highlights/go.scm",
+    "lib/python3.10/site-packages/textual/tree-sitter/highlights/html.scm",
+    "lib/python3.10/site-packages/textual/tree-sitter/highlights/java.scm",
+    "lib/python3.10/site-packages/textual/tree-sitter/highlights/javascript.scm",
+    "lib/python3.10/site-packages/textual/tree-sitter/highlights/json.scm",
+    "lib/python3.10/site-packages/textual/tree-sitter/highlights/markdown.scm",
+    "lib/python3.10/site-packages/textual/tree-sitter/highlights/python.scm",
+    "lib/python3.10/site-packages/textual/tree-sitter/highlights/regex.scm",
+    "lib/python3.10/site-packages/textual/tree-sitter/highlights/rust.scm",
+    "lib/python3.10/site-packages/textual/tree-sitter/highlights/sql.scm",
+    "lib/python3.10/site-packages/textual/tree-sitter/highlights/toml.scm",
+    "lib/python3.10/site-packages/textual/tree-sitter/highlights/xml.scm",
+    "lib/python3.10/site-packages/textual/tree-sitter/highlights/yaml.scm",
+    "lib/python3.10/site-packages/textual/types.py",
+    "lib/python3.10/site-packages/textual/validation.py",
+    "lib/python3.10/site-packages/textual/visual.py",
+    "lib/python3.10/site-packages/textual/walk.py",
+    "lib/python3.10/site-packages/textual/widget.py",
+    "lib/python3.10/site-packages/textual/widgets/__init__.py",
+    "lib/python3.10/site-packages/textual/widgets/__init__.pyi",
+    "lib/python3.10/site-packages/textual/widgets/_button.py",
+    "lib/python3.10/site-packages/textual/widgets/_checkbox.py",
+    "lib/python3.10/site-packages/textual/widgets/_collapsible.py",
+    "lib/python3.10/site-packages/textual/widgets/_content_switcher.py",
+    "lib/python3.10/site-packages/textual/widgets/_data_table.py",
+    "lib/python3.10/site-packages/textual/widgets/_digits.py",
+    "lib/python3.10/site-packages/textual/widgets/_directory_tree.py",
+    "lib/python3.10/site-packages/textual/widgets/_footer.py",
+    "lib/python3.10/site-packages/textual/widgets/_header.py",
+    "lib/python3.10/site-packages/textual/widgets/_help_panel.py",
+    "lib/python3.10/site-packages/textual/widgets/_input.py",
+    "lib/python3.10/site-packages/textual/widgets/_key_panel.py",
+    "lib/python3.10/site-packages/textual/widgets/_label.py",
+    "lib/python3.10/site-packages/textual/widgets/_link.py",
+    "lib/python3.10/site-packages/textual/widgets/_list_item.py",
+    "lib/python3.10/site-packages/textual/widgets/_list_view.py",
+    "lib/python3.10/site-packages/textual/widgets/_loading_indicator.py",
+    "lib/python3.10/site-packages/textual/widgets/_log.py",
+    "lib/python3.10/site-packages/textual/widgets/_markdown.py",
+    "lib/python3.10/site-packages/textual/widgets/_markdown_viewer.py",
+    "lib/python3.10/site-packages/textual/widgets/_masked_input.py",
+    "lib/python3.10/site-packages/textual/widgets/_option_list.py",
+    "lib/python3.10/site-packages/textual/widgets/_placeholder.py",
+    "lib/python3.10/site-packages/textual/widgets/_pretty.py",
+    "lib/python3.10/site-packages/textual/widgets/_progress_bar.py",
+    "lib/python3.10/site-packages/textual/widgets/_radio_button.py",
+    "lib/python3.10/site-packages/textual/widgets/_radio_set.py",
+    "lib/python3.10/site-packages/textual/widgets/_rich_log.py",
+    "lib/python3.10/site-packages/textual/widgets/_rule.py",
+    "lib/python3.10/site-packages/textual/widgets/_select.py",
+    "lib/python3.10/site-packages/textual/widgets/_selection_list.py",
+    "lib/python3.10/site-packages/textual/widgets/_sparkline.py",
+    "lib/python3.10/site-packages/textual/widgets/_static.py",
+    "lib/python3.10/site-packages/textual/widgets/_switch.py",
+    "lib/python3.10/site-packages/textual/widgets/_tab.py",
+    "lib/python3.10/site-packages/textual/widgets/_tab_pane.py",
+    "lib/python3.10/site-packages/textual/widgets/_tabbed_content.py",
+    "lib/python3.10/site-packages/textual/widgets/_tabs.py",
+    "lib/python3.10/site-packages/textual/widgets/_text_area.py",
+    "lib/python3.10/site-packages/textual/widgets/_toast.py",
+    "lib/python3.10/site-packages/textual/widgets/_toggle_button.py",
+    "lib/python3.10/site-packages/textual/widgets/_tooltip.py",
+    "lib/python3.10/site-packages/textual/widgets/_tree.py",
+    "lib/python3.10/site-packages/textual/widgets/_welcome.py",
+    "lib/python3.10/site-packages/textual/widgets/button.py",
+    "lib/python3.10/site-packages/textual/widgets/data_table.py",
+    "lib/python3.10/site-packages/textual/widgets/directory_tree.py",
+    "lib/python3.10/site-packages/textual/widgets/input.py",
+    "lib/python3.10/site-packages/textual/widgets/markdown.py",
+    "lib/python3.10/site-packages/textual/widgets/option_list.py",
+    "lib/python3.10/site-packages/textual/widgets/rule.py",
+    "lib/python3.10/site-packages/textual/widgets/select.py",
+    "lib/python3.10/site-packages/textual/widgets/selection_list.py",
+    "lib/python3.10/site-packages/textual/widgets/tabbed_content.py",
+    "lib/python3.10/site-packages/textual/widgets/text_area.py",
+    "lib/python3.10/site-packages/textual/widgets/tree.py",
+    "lib/python3.10/site-packages/textual/worker.py",
+    "lib/python3.10/site-packages/textual/worker_manager.py",
+    "lib/python3.10/site-packages/textual/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/__pycache__/__main__.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/__pycache__/_animator.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/__pycache__/_ansi_sequences.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/__pycache__/_ansi_theme.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/__pycache__/_arrange.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/__pycache__/_binary_encode.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/__pycache__/_border.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/__pycache__/_box_drawing.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/__pycache__/_callback.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/__pycache__/_cells.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/__pycache__/_color_constants.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/__pycache__/_compose.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/__pycache__/_compositor.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/__pycache__/_context.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/__pycache__/_debug.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/__pycache__/_dispatch_key.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/__pycache__/_doc.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/__pycache__/_duration.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/__pycache__/_easing.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/__pycache__/_event_broker.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/__pycache__/_files.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/__pycache__/_immutable_sequence_view.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/__pycache__/_import_app.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/__pycache__/_keyboard_protocol.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/__pycache__/_layout_resolve.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/__pycache__/_line_split.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/__pycache__/_log.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/__pycache__/_loop.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/__pycache__/_node_list.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/__pycache__/_on.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/__pycache__/_opacity.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/__pycache__/_parser.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/__pycache__/_partition.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/__pycache__/_path.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/__pycache__/_profile.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/__pycache__/_resolve.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/__pycache__/_segment_tools.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/__pycache__/_sleep.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/__pycache__/_slug.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/__pycache__/_spatial_map.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/__pycache__/_styles_cache.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/__pycache__/_text_area_theme.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/__pycache__/_time.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/__pycache__/_tree_sitter.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/__pycache__/_two_way_dict.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/__pycache__/_types.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/__pycache__/_wait.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/__pycache__/_widget_navigation.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/__pycache__/_win_sleep.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/__pycache__/_work_decorator.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/__pycache__/_wrap.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/__pycache__/_xterm_parser.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/__pycache__/actions.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/__pycache__/app.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/__pycache__/await_complete.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/__pycache__/await_remove.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/__pycache__/binding.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/__pycache__/box_model.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/__pycache__/cache.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/__pycache__/canvas.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/__pycache__/case.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/__pycache__/clock.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/__pycache__/color.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/__pycache__/command.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/__pycache__/constants.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/__pycache__/containers.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/__pycache__/content.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/__pycache__/coordinate.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/css/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/css/__pycache__/_error_tools.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/css/__pycache__/_help_renderables.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/css/__pycache__/_help_text.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/css/__pycache__/_style_properties.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/css/__pycache__/_styles_builder.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/css/__pycache__/constants.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/css/__pycache__/errors.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/css/__pycache__/match.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/css/__pycache__/model.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/css/__pycache__/parse.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/css/__pycache__/query.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/css/__pycache__/scalar.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/css/__pycache__/scalar_animation.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/css/__pycache__/styles.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/css/__pycache__/stylesheet.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/css/__pycache__/tokenize.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/css/__pycache__/tokenizer.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/css/__pycache__/transition.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/css/__pycache__/types.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/demo/__pycache__/__main__.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/demo/__pycache__/data.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/demo/__pycache__/demo_app.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/demo/__pycache__/game.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/demo/__pycache__/home.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/demo/__pycache__/page.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/demo/__pycache__/projects.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/demo/__pycache__/widgets.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/__pycache__/design.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/document/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/document/__pycache__/_document.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/document/__pycache__/_document_navigator.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/document/__pycache__/_edit.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/document/__pycache__/_history.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/document/__pycache__/_syntax_aware_document.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/document/__pycache__/_wrapped_document.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/__pycache__/dom.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/__pycache__/driver.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/drivers/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/drivers/__pycache__/_byte_stream.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/drivers/__pycache__/_input_reader.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/drivers/__pycache__/_input_reader_linux.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/drivers/__pycache__/_input_reader_windows.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/drivers/__pycache__/_writer_thread.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/drivers/__pycache__/headless_driver.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/drivers/__pycache__/linux_driver.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/drivers/__pycache__/linux_inline_driver.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/drivers/__pycache__/web_driver.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/drivers/__pycache__/win32.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/drivers/__pycache__/windows_driver.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/__pycache__/errors.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/__pycache__/eta.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/__pycache__/events.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/__pycache__/expand_tabs.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/__pycache__/features.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/__pycache__/file_monitor.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/__pycache__/filter.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/__pycache__/fuzzy.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/__pycache__/geometry.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/__pycache__/keys.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/__pycache__/layout.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/layouts/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/layouts/__pycache__/factory.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/layouts/__pycache__/grid.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/layouts/__pycache__/horizontal.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/layouts/__pycache__/vertical.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/__pycache__/lazy.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/__pycache__/logging.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/__pycache__/map_geometry.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/__pycache__/message.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/__pycache__/message_pump.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/__pycache__/messages.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/__pycache__/notifications.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/__pycache__/pad.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/__pycache__/pilot.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/__pycache__/reactive.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/__pycache__/render.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/renderables/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/renderables/__pycache__/_blend_colors.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/renderables/__pycache__/background_screen.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/renderables/__pycache__/bar.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/renderables/__pycache__/blank.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/renderables/__pycache__/digits.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/renderables/__pycache__/gradient.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/renderables/__pycache__/sparkline.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/renderables/__pycache__/styled.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/renderables/__pycache__/text_opacity.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/renderables/__pycache__/tint.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/__pycache__/rlock.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/__pycache__/screen.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/__pycache__/scroll_view.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/__pycache__/scrollbar.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/__pycache__/signal.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/__pycache__/strip.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/__pycache__/suggester.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/__pycache__/suggestions.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/__pycache__/system_commands.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/__pycache__/theme.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/__pycache__/timer.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/__pycache__/types.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/__pycache__/validation.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/__pycache__/visual.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/__pycache__/walk.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/__pycache__/widget.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/widgets/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/widgets/__pycache__/_button.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/widgets/__pycache__/_checkbox.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/widgets/__pycache__/_collapsible.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/widgets/__pycache__/_content_switcher.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/widgets/__pycache__/_data_table.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/widgets/__pycache__/_digits.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/widgets/__pycache__/_directory_tree.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/widgets/__pycache__/_footer.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/widgets/__pycache__/_header.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/widgets/__pycache__/_help_panel.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/widgets/__pycache__/_input.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/widgets/__pycache__/_key_panel.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/widgets/__pycache__/_label.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/widgets/__pycache__/_link.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/widgets/__pycache__/_list_item.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/widgets/__pycache__/_list_view.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/widgets/__pycache__/_loading_indicator.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/widgets/__pycache__/_log.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/widgets/__pycache__/_markdown.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/widgets/__pycache__/_markdown_viewer.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/widgets/__pycache__/_masked_input.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/widgets/__pycache__/_option_list.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/widgets/__pycache__/_placeholder.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/widgets/__pycache__/_pretty.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/widgets/__pycache__/_progress_bar.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/widgets/__pycache__/_radio_button.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/widgets/__pycache__/_radio_set.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/widgets/__pycache__/_rich_log.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/widgets/__pycache__/_rule.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/widgets/__pycache__/_select.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/widgets/__pycache__/_selection_list.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/widgets/__pycache__/_sparkline.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/widgets/__pycache__/_static.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/widgets/__pycache__/_switch.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/widgets/__pycache__/_tab.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/widgets/__pycache__/_tab_pane.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/widgets/__pycache__/_tabbed_content.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/widgets/__pycache__/_tabs.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/widgets/__pycache__/_text_area.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/widgets/__pycache__/_toast.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/widgets/__pycache__/_toggle_button.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/widgets/__pycache__/_tooltip.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/widgets/__pycache__/_tree.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/widgets/__pycache__/_welcome.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/widgets/__pycache__/button.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/widgets/__pycache__/data_table.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/widgets/__pycache__/directory_tree.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/widgets/__pycache__/input.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/widgets/__pycache__/markdown.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/widgets/__pycache__/option_list.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/widgets/__pycache__/rule.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/widgets/__pycache__/select.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/widgets/__pycache__/selection_list.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/widgets/__pycache__/tabbed_content.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/widgets/__pycache__/text_area.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/widgets/__pycache__/tree.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/__pycache__/worker.cpython-310.pyc",
+    "lib/python3.10/site-packages/textual/__pycache__/worker_manager.cpython-310.pyc"
+  ],
+  "fn": "textual-0.89.1-pyhd8ed1ab_1.conda",
+  "license": "MIT",
+  "link": {
+    "source": "/cpfs01/user/chengqinxiu/anaconda3/pkgs/textual-0.89.1-pyhd8ed1ab_1",
+    "type": 1
+  },
+  "md5": "ffaff007dff34ab86c418a59a7c27abd",
+  "name": "textual",
+  "noarch": "python",
+  "package_tarball_full_path": "/cpfs01/user/chengqinxiu/anaconda3/pkgs/textual-0.89.1-pyhd8ed1ab_1.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/textual-0.89.1.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/textual-0.89.1.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "94f290a762376dfdb7768e42070618b0abfd2a2799eab1b1c097816c3a39eb57",
+        "sha256_in_prefix": "94f290a762376dfdb7768e42070618b0abfd2a2799eab1b1c097816c3a39eb57",
+        "size_in_bytes": 1069
+      },
+      {
+        "_path": "site-packages/textual-0.89.1.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "287f7f6151feaefb218b9887773946c05262aabc446ebcd016b57dfc91ae7e07",
+        "sha256_in_prefix": "287f7f6151feaefb218b9887773946c05262aabc446ebcd016b57dfc91ae7e07",
+        "size_in_bytes": 6235
+      },
+      {
+        "_path": "site-packages/textual-0.89.1.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "86d1e012a4fbc17bcd12b707d84165eb4451523338345df16ae43899134d52f5",
+        "sha256_in_prefix": "86d1e012a4fbc17bcd12b707d84165eb4451523338345df16ae43899134d52f5",
+        "size_in_bytes": 33269
+      },
+      {
+        "_path": "site-packages/textual-0.89.1.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/textual-0.89.1.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "36af367bdad4027123b7df09e8c95598c0996feb7d71813622bd64a419a759fb",
+        "sha256_in_prefix": "36af367bdad4027123b7df09e8c95598c0996feb7d71813622bd64a419a759fb",
+        "size_in_bytes": 88
+      },
+      {
+        "_path": "site-packages/textual-0.89.1.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "8ac0b8766aac729bfa0a7e82e592b5cee41cd75763963c504d20fd35bdd24dcc",
+        "sha256_in_prefix": "8ac0b8766aac729bfa0a7e82e592b5cee41cd75763963c504d20fd35bdd24dcc",
+        "size_in_bytes": 103
+      },
+      {
+        "_path": "site-packages/textual/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "d6387f4814b92c3878878f3508ab0d07a96755d3a4c1e84ba821133b7204de3c",
+        "sha256_in_prefix": "d6387f4814b92c3878878f3508ab0d07a96755d3a4c1e84ba821133b7204de3c",
+        "size_in_bytes": 4782
+      },
+      {
+        "_path": "site-packages/textual/__main__.py",
+        "path_type": "hardlink",
+        "sha256": "8a6e0380c73e3421f266c83dcd0fde1cbfdc403df4be7a6ff3f7da8acb6397e5",
+        "sha256_in_prefix": "8a6e0380c73e3421f266c83dcd0fde1cbfdc403df4be7a6ff3f7da8acb6397e5",
+        "size_in_bytes": 104
+      },
+      {
+        "_path": "site-packages/textual/_animator.py",
+        "path_type": "hardlink",
+        "sha256": "087837a5f6ee786c8909929e3964bfd9307f7567276dd4076abbb6f023956523",
+        "sha256_in_prefix": "087837a5f6ee786c8909929e3964bfd9307f7567276dd4076abbb6f023956523",
+        "size_in_bytes": 20465
+      },
+      {
+        "_path": "site-packages/textual/_ansi_sequences.py",
+        "path_type": "hardlink",
+        "sha256": "916159fa88fec8661731d64408d13bad581c700aed5f3cdced079e9bc308e799",
+        "sha256_in_prefix": "916159fa88fec8661731d64408d13bad581c700aed5f3cdced079e9bc308e799",
+        "size_in_bytes": 18013
+      },
+      {
+        "_path": "site-packages/textual/_ansi_theme.py",
+        "path_type": "hardlink",
+        "sha256": "329803cd54f14287f9664395679ae5052cce3f7658a37fb4b8ae8712f3b45861",
+        "sha256_in_prefix": "329803cd54f14287f9664395679ae5052cce3f7658a37fb4b8ae8712f3b45861",
+        "size_in_bytes": 1013
+      },
+      {
+        "_path": "site-packages/textual/_arrange.py",
+        "path_type": "hardlink",
+        "sha256": "2a68e3736d40d713769e1469862fad58d2fbac251174ca03ed708bce2df54345",
+        "sha256_in_prefix": "2a68e3736d40d713769e1469862fad58d2fbac251174ca03ed708bce2df54345",
+        "size_in_bytes": 8633
+      },
+      {
+        "_path": "site-packages/textual/_binary_encode.py",
+        "path_type": "hardlink",
+        "sha256": "e794a16f01a3174ba1867dc12cd12eed84f0336ea78185ee7841d0d515b28eed",
+        "sha256_in_prefix": "e794a16f01a3174ba1867dc12cd12eed84f0336ea78185ee7841d0d515b28eed",
+        "size_in_bytes": 7654
+      },
+      {
+        "_path": "site-packages/textual/_border.py",
+        "path_type": "hardlink",
+        "sha256": "391badd291e4165180dd89338500a3af699e7842856aae0add26c2b3e39a92be",
+        "sha256_in_prefix": "391badd291e4165180dd89338500a3af699e7842856aae0add26c2b3e39a92be",
+        "size_in_bytes": 12835
+      },
+      {
+        "_path": "site-packages/textual/_box_drawing.py",
+        "path_type": "hardlink",
+        "sha256": "06edac2595de45be3378662b6b1850711b4318179dbb84c63dd3ea50779f8750",
+        "sha256_in_prefix": "06edac2595de45be3378662b6b1850711b4318179dbb84c63dd3ea50779f8750",
+        "size_in_bytes": 8159
+      },
+      {
+        "_path": "site-packages/textual/_callback.py",
+        "path_type": "hardlink",
+        "sha256": "9c3657b5604be09c7d1c9b6f8ee4fb89c50532e0272578fa0636eb3f29d0e0b1",
+        "sha256_in_prefix": "9c3657b5604be09c7d1c9b6f8ee4fb89c50532e0272578fa0636eb3f29d0e0b1",
+        "size_in_bytes": 2705
+      },
+      {
+        "_path": "site-packages/textual/_cells.py",
+        "path_type": "hardlink",
+        "sha256": "ce82f4606f990ba38c275276246c6b788954da7ef57e0184b101f86138d7e08d",
+        "sha256_in_prefix": "ce82f4606f990ba38c275276246c6b788954da7ef57e0184b101f86138d7e08d",
+        "size_in_bytes": 1416
+      },
+      {
+        "_path": "site-packages/textual/_color_constants.py",
+        "path_type": "hardlink",
+        "sha256": "43d650c2da192a446adb773058bf79ae3b60edf1d4342debc089aa7992e07306",
+        "sha256_in_prefix": "43d650c2da192a446adb773058bf79ae3b60edf1d4342debc089aa7992e07306",
+        "size_in_bytes": 6099
+      },
+      {
+        "_path": "site-packages/textual/_compose.py",
+        "path_type": "hardlink",
+        "sha256": "3f577c7cafc7e4903d78b1020697d07a2e7348403862140a23f66d0ee86df59e",
+        "sha256_in_prefix": "3f577c7cafc7e4903d78b1020697d07a2e7348403862140a23f66d0ee86df59e",
+        "size_in_bytes": 2411
+      },
+      {
+        "_path": "site-packages/textual/_compositor.py",
+        "path_type": "hardlink",
+        "sha256": "cc9898431a79dfc9f5977f72ad0ee0cd30948c8c21e2e880fe65ba959221d54e",
+        "sha256_in_prefix": "cc9898431a79dfc9f5977f72ad0ee0cd30948c8c21e2e880fe65ba959221d54e",
+        "size_in_bytes": 40347
+      },
+      {
+        "_path": "site-packages/textual/_context.py",
+        "path_type": "hardlink",
+        "sha256": "523b25f71607193b69f260aab70c698eb4ff59c87594ad44a3acb59c59e389c0",
+        "sha256_in_prefix": "523b25f71607193b69f260aab70c698eb4ff59c87594ad44a3acb59c59e389c0",
+        "size_in_bytes": 1028
+      },
+      {
+        "_path": "site-packages/textual/_debug.py",
+        "path_type": "hardlink",
+        "sha256": "a59e58b6b01a5a4783628088f7054caf0c19ef597822e72d1f26d5f8c2927450",
+        "sha256_in_prefix": "a59e58b6b01a5a4783628088f7054caf0c19ef597822e72d1f26d5f8c2927450",
+        "size_in_bytes": 614
+      },
+      {
+        "_path": "site-packages/textual/_dispatch_key.py",
+        "path_type": "hardlink",
+        "sha256": "a9eb091c9301e9d3546cc4eda4f05fb4b128f9efd2ca66e11333b753a86724f4",
+        "sha256_in_prefix": "a9eb091c9301e9d3546cc4eda4f05fb4b128f9efd2ca66e11333b753a86724f4",
+        "size_in_bytes": 2462
+      },
+      {
+        "_path": "site-packages/textual/_doc.py",
+        "path_type": "hardlink",
+        "sha256": "4c687cbb7488689ab17dde518c2426226d917a5ce86615246981ab2e4f92b4ca",
+        "sha256_in_prefix": "4c687cbb7488689ab17dde518c2426226d917a5ce86615246981ab2e4f92b4ca",
+        "size_in_bytes": 5585
+      },
+      {
+        "_path": "site-packages/textual/_duration.py",
+        "path_type": "hardlink",
+        "sha256": "26b172a95794afa831c5aa32a3d4b71a5a0a0472de3739010f47b2ba5b53cd09",
+        "sha256_in_prefix": "26b172a95794afa831c5aa32a3d4b71a5a0a0472de3739010f47b2ba5b53cd09",
+        "size_in_bytes": 1211
+      },
+      {
+        "_path": "site-packages/textual/_easing.py",
+        "path_type": "hardlink",
+        "sha256": "af725bef58a39df8ed94be869e6854c66742bd31262c2ee3fb62aba7162896e5",
+        "sha256_in_prefix": "af725bef58a39df8ed94be869e6854c66742bd31262c2ee3fb62aba7162896e5",
+        "size_in_bytes": 4101
+      },
+      {
+        "_path": "site-packages/textual/_event_broker.py",
+        "path_type": "hardlink",
+        "sha256": "065e51dfc401a3cf4e0fcc639b5b21740a3dd2fe13dc778831dd7e8ef2de1a00",
+        "sha256_in_prefix": "065e51dfc401a3cf4e0fcc639b5b21740a3dd2fe13dc778831dd7e8ef2de1a00",
+        "size_in_bytes": 999
+      },
+      {
+        "_path": "site-packages/textual/_files.py",
+        "path_type": "hardlink",
+        "sha256": "93a9e4cf69d1561cf19fc1d22c298242820cf0c5fc7d4abf8c271f01f0b263a5",
+        "sha256_in_prefix": "93a9e4cf69d1561cf19fc1d22c298242820cf0c5fc7d4abf8c271f01f0b263a5",
+        "size_in_bytes": 1002
+      },
+      {
+        "_path": "site-packages/textual/_immutable_sequence_view.py",
+        "path_type": "hardlink",
+        "sha256": "85d2b6979f82564af035bdf92e70c0d0a58bcba76bad0b398b2bebcd95d25fb1",
+        "sha256_in_prefix": "85d2b6979f82564af035bdf92e70c0d0a58bcba76bad0b398b2bebcd95d25fb1",
+        "size_in_bytes": 1859
+      },
+      {
+        "_path": "site-packages/textual/_import_app.py",
+        "path_type": "hardlink",
+        "sha256": "4a32750acc351b59e5998e53254639733faeb74a9bcaec0f225d09441cc72472",
+        "sha256_in_prefix": "4a32750acc351b59e5998e53254639733faeb74a9bcaec0f225d09441cc72472",
+        "size_in_bytes": 3609
+      },
+      {
+        "_path": "site-packages/textual/_keyboard_protocol.py",
+        "path_type": "hardlink",
+        "sha256": "ff67c84f38c56038324b50ec247d51871998cf6424b7d86528c78c0d22156843",
+        "sha256_in_prefix": "ff67c84f38c56038324b50ec247d51871998cf6424b7d86528c78c0d22156843",
+        "size_in_bytes": 2881
+      },
+      {
+        "_path": "site-packages/textual/_layout_resolve.py",
+        "path_type": "hardlink",
+        "sha256": "49a80d2610950c819c46eb4571fd27439d53365df5745bdbfda4da54f3bbd276",
+        "sha256_in_prefix": "49a80d2610950c819c46eb4571fd27439d53365df5745bdbfda4da54f3bbd276",
+        "size_in_bytes": 3412
+      },
+      {
+        "_path": "site-packages/textual/_line_split.py",
+        "path_type": "hardlink",
+        "sha256": "be56d8b67535b0d3bc9f8080a4c0db53d3ead70999f7a016c6b5b849b70acd26",
+        "sha256_in_prefix": "be56d8b67535b0d3bc9f8080a4c0db53d3ead70999f7a016c6b5b849b70acd26",
+        "size_in_bytes": 846
+      },
+      {
+        "_path": "site-packages/textual/_log.py",
+        "path_type": "hardlink",
+        "sha256": "25c5aaa68f7c9ed8e8f3749e220984baeef262310bf125216fdfb6e1e5849b34",
+        "sha256_in_prefix": "25c5aaa68f7c9ed8e8f3749e220984baeef262310bf125216fdfb6e1e5849b34",
+        "size_in_bytes": 436
+      },
+      {
+        "_path": "site-packages/textual/_loop.py",
+        "path_type": "hardlink",
+        "sha256": "d8dd862cc7691bd06cef655c033ab97133bc6b693315ba3592251b0fad8020ab",
+        "sha256_in_prefix": "d8dd862cc7691bd06cef655c033ab97133bc6b693315ba3592251b0fad8020ab",
+        "size_in_bytes": 2602
+      },
+      {
+        "_path": "site-packages/textual/_node_list.py",
+        "path_type": "hardlink",
+        "sha256": "43fe2e8573c233702753a981c57947a08e26667df147d5c83c6da8b77558c2ee",
+        "sha256_in_prefix": "43fe2e8573c233702753a981c57947a08e26667df147d5c83c6da8b77558c2ee",
+        "size_in_bytes": 5752
+      },
+      {
+        "_path": "site-packages/textual/_on.py",
+        "path_type": "hardlink",
+        "sha256": "18242aadab09687e704eeb67744cde8b823fc19561367681148f9537b4c0870d",
+        "sha256_in_prefix": "18242aadab09687e704eeb67744cde8b823fc19561367681148f9537b4c0870d",
+        "size_in_bytes": 3336
+      },
+      {
+        "_path": "site-packages/textual/_opacity.py",
+        "path_type": "hardlink",
+        "sha256": "ea4b17b40bbafc0622afccb7be4a73f4ea7ead85c1f6c2603eb9dbc3a3a27a7a",
+        "sha256_in_prefix": "ea4b17b40bbafc0622afccb7be4a73f4ea7ead85c1f6c2603eb9dbc3a3a27a7a",
+        "size_in_bytes": 1527
+      },
+      {
+        "_path": "site-packages/textual/_parser.py",
+        "path_type": "hardlink",
+        "sha256": "9488490044a1e369ad4d53d1baa1dc0a8af52842dfa664dcca826c1b9072dfa1",
+        "sha256_in_prefix": "9488490044a1e369ad4d53d1baa1dc0a8af52842dfa664dcca826c1b9072dfa1",
+        "size_in_bytes": 3307
+      },
+      {
+        "_path": "site-packages/textual/_partition.py",
+        "path_type": "hardlink",
+        "sha256": "3df9f3ed19a7064bdacf8fb199a2ba4fa7f0b6b56380d1e413c1bcdd94ac937d",
+        "sha256_in_prefix": "3df9f3ed19a7064bdacf8fb199a2ba4fa7f0b6b56380d1e413c1bcdd94ac937d",
+        "size_in_bytes": 845
+      },
+      {
+        "_path": "site-packages/textual/_path.py",
+        "path_type": "hardlink",
+        "sha256": "9c553d99a50578c80ab11656cd022bb35c4f024092be1d317afa02b437868713",
+        "sha256_in_prefix": "9c553d99a50578c80ab11656cd022bb35c4f024092be1d317afa02b437868713",
+        "size_in_bytes": 2062
+      },
+      {
+        "_path": "site-packages/textual/_profile.py",
+        "path_type": "hardlink",
+        "sha256": "5d80b48fb899850ae7a147b7d4dc030185ae38ad6a34c1d1244ee1a02dded177",
+        "sha256_in_prefix": "5d80b48fb899850ae7a147b7d4dc030185ae38ad6a34c1d1244ee1a02dded177",
+        "size_in_bytes": 462
+      },
+      {
+        "_path": "site-packages/textual/_resolve.py",
+        "path_type": "hardlink",
+        "sha256": "2c914b2255f1c84cb62cb0e7cae13f3427ee08df2262d0dcce491334a8c3970e",
+        "sha256_in_prefix": "2c914b2255f1c84cb62cb0e7cae13f3427ee08df2262d0dcce491334a8c3970e",
+        "size_in_bytes": 9588
+      },
+      {
+        "_path": "site-packages/textual/_segment_tools.py",
+        "path_type": "hardlink",
+        "sha256": "e8f4420e4866c1f934b8d8c0e3e81e6973af32519590a0e2920f069170b6f4ad",
+        "sha256_in_prefix": "e8f4420e4866c1f934b8d8c0e3e81e6973af32519590a0e2920f069170b6f4ad",
+        "size_in_bytes": 8432
+      },
+      {
+        "_path": "site-packages/textual/_sleep.py",
+        "path_type": "hardlink",
+        "sha256": "fb823eaed2d61cbd2c23b6f489101672339cc18a111d1992ab3e5dc1a050f27c",
+        "sha256_in_prefix": "fb823eaed2d61cbd2c23b6f489101672339cc18a111d1992ab3e5dc1a050f27c",
+        "size_in_bytes": 1620
+      },
+      {
+        "_path": "site-packages/textual/_slug.py",
+        "path_type": "hardlink",
+        "sha256": "92405a971c8ecce6d5a793dfe531978a73225f27057ea81ef03f630488ef48b9",
+        "sha256_in_prefix": "92405a971c8ecce6d5a793dfe531978a73225f27057ea81ef03f630488ef48b9",
+        "size_in_bytes": 3652
+      },
+      {
+        "_path": "site-packages/textual/_spatial_map.py",
+        "path_type": "hardlink",
+        "sha256": "26de0d118b9be883247a265786e54ceb01e37bfe0f9e3b8dba5f5d0ddbea7bef",
+        "sha256_in_prefix": "26de0d118b9be883247a265786e54ceb01e37bfe0f9e3b8dba5f5d0ddbea7bef",
+        "size_in_bytes": 3764
+      },
+      {
+        "_path": "site-packages/textual/_styles_cache.py",
+        "path_type": "hardlink",
+        "sha256": "d4a111983aa3d0a0da538b5253763602f9ef06305174c9e6226fcd1e4b832da1",
+        "sha256_in_prefix": "d4a111983aa3d0a0da538b5253763602f9ef06305174c9e6226fcd1e4b832da1",
+        "size_in_bytes": 18307
+      },
+      {
+        "_path": "site-packages/textual/_text_area_theme.py",
+        "path_type": "hardlink",
+        "sha256": "7726574f559412d7011a35eef4f28e23fcbcfaabe5e095299c7f2f0077635c4d",
+        "sha256_in_prefix": "7726574f559412d7011a35eef4f28e23fcbcfaabe5e095299c7f2f0077635c4d",
+        "size_in_bytes": 18067
+      },
+      {
+        "_path": "site-packages/textual/_time.py",
+        "path_type": "hardlink",
+        "sha256": "eaec17624b89a8db1a51b7433c82d8155206dcc02dc983b13a0c497e22642225",
+        "sha256_in_prefix": "eaec17624b89a8db1a51b7433c82d8155206dcc02dc983b13a0c497e22642225",
+        "size_in_bytes": 1410
+      },
+      {
+        "_path": "site-packages/textual/_tree_sitter.py",
+        "path_type": "hardlink",
+        "sha256": "b5f077e070fbae2dfddeba98d0b33cc3686a17c8526f91fdecb30bb4adcab3d1",
+        "sha256_in_prefix": "b5f077e070fbae2dfddeba98d0b33cc3686a17c8526f91fdecb30bb4adcab3d1",
+        "size_in_bytes": 1657
+      },
+      {
+        "_path": "site-packages/textual/_two_way_dict.py",
+        "path_type": "hardlink",
+        "sha256": "8e08e7649aae3d35c95c0547d136e6c45605153ffac031ac4c06d9bbc891f8f4",
+        "sha256_in_prefix": "8e08e7649aae3d35c95c0547d136e6c45605153ffac031ac4c06d9bbc891f8f4",
+        "size_in_bytes": 2009
+      },
+      {
+        "_path": "site-packages/textual/_types.py",
+        "path_type": "hardlink",
+        "sha256": "d62be14e4056c67de0b31cf0cc96802090cb1d3bf221322d8ada202994dbbf30",
+        "sha256_in_prefix": "d62be14e4056c67de0b31cf0cc96802090cb1d3bf221322d8ada202994dbbf30",
+        "size_in_bytes": 1935
+      },
+      {
+        "_path": "site-packages/textual/_wait.py",
+        "path_type": "hardlink",
+        "sha256": "d365853a72a07e37a764919d1bb80c90007afd2eb6f0177a730a92523ba1578f",
+        "sha256_in_prefix": "d365853a72a07e37a764919d1bb80c90007afd2eb6f0177a730a92523ba1578f",
+        "size_in_bytes": 1446
+      },
+      {
+        "_path": "site-packages/textual/_widget_navigation.py",
+        "path_type": "hardlink",
+        "sha256": "95768394a39832cf0defbf1cf30d4fdfa138abf291445c5ee6effe078e9287d5",
+        "sha256_in_prefix": "95768394a39832cf0defbf1cf30d4fdfa138abf291445c5ee6effe078e9287d5",
+        "size_in_bytes": 5702
+      },
+      {
+        "_path": "site-packages/textual/_win_sleep.py",
+        "path_type": "hardlink",
+        "sha256": "8503abeba55941187f74b7e5cadabe16252e027c5428fb719379dfa84689c2ca",
+        "sha256_in_prefix": "8503abeba55941187f74b7e5cadabe16252e027c5428fb719379dfa84689c2ca",
+        "size_in_bytes": 3773
+      },
+      {
+        "_path": "site-packages/textual/_work_decorator.py",
+        "path_type": "hardlink",
+        "sha256": "9c556f28590ae56634c89a8f065603c5daa9aa8fa016149cf9625894ee04759d",
+        "sha256_in_prefix": "9c556f28590ae56634c89a8f065603c5daa9aa8fa016149cf9625894ee04759d",
+        "size_in_bytes": 5109
+      },
+      {
+        "_path": "site-packages/textual/_wrap.py",
+        "path_type": "hardlink",
+        "sha256": "5ae6feea1af93f8258c9bfa9ad6f71d1828f9784381f998d68dfec4d4a9bca12",
+        "sha256_in_prefix": "5ae6feea1af93f8258c9bfa9ad6f71d1828f9784381f998d68dfec4d4a9bca12",
+        "size_in_bytes": 5986
+      },
+      {
+        "_path": "site-packages/textual/_xterm_parser.py",
+        "path_type": "hardlink",
+        "sha256": "3bc66225aac4b75f4a6d5b9e8cdf9332ae8b4f2442428edf6473545c96f7b7a3",
+        "sha256_in_prefix": "3bc66225aac4b75f4a6d5b9e8cdf9332ae8b4f2442428edf6473545c96f7b7a3",
+        "size_in_bytes": 14361
+      },
+      {
+        "_path": "site-packages/textual/actions.py",
+        "path_type": "hardlink",
+        "sha256": "e145621f54dd4d6f0168fc62af1039c7bb6b353a464d808722a9e2bc1c6ad03a",
+        "sha256_in_prefix": "e145621f54dd4d6f0168fc62af1039c7bb6b353a464d808722a9e2bc1c6ad03a",
+        "size_in_bytes": 1669
+      },
+      {
+        "_path": "site-packages/textual/app.py",
+        "path_type": "hardlink",
+        "sha256": "c05f4572fb4566ed35f8f92913efe4f85444cf1f5002e6dbd04dd103ae5bc11b",
+        "sha256_in_prefix": "c05f4572fb4566ed35f8f92913efe4f85444cf1f5002e6dbd04dd103ae5bc11b",
+        "size_in_bytes": 165899
+      },
+      {
+        "_path": "site-packages/textual/await_complete.py",
+        "path_type": "hardlink",
+        "sha256": "615b00ffb020ec4ea13225a85ede21013cc9222d2d801ba498330c6fb0bcb17a",
+        "sha256_in_prefix": "615b00ffb020ec4ea13225a85ede21013cc9222d2d801ba498330c6fb0bcb17a",
+        "size_in_bytes": 2598
+      },
+      {
+        "_path": "site-packages/textual/await_remove.py",
+        "path_type": "hardlink",
+        "sha256": "ede625588815f1eccc474f765717fc7ef4d8d758685822aa2f4a5d3d1705a0d6",
+        "sha256_in_prefix": "ede625588815f1eccc474f765717fc7ef4d8d758685822aa2f4a5d3d1705a0d6",
+        "size_in_bytes": 1345
+      },
+      {
+        "_path": "site-packages/textual/binding.py",
+        "path_type": "hardlink",
+        "sha256": "92c039996b9a9e7d35470a96efbc6fa6d887d35075fda5135d4abbf83d5f50ba",
+        "sha256_in_prefix": "92c039996b9a9e7d35470a96efbc6fa6d887d35075fda5135d4abbf83d5f50ba",
+        "size_in_bytes": 13151
+      },
+      {
+        "_path": "site-packages/textual/box_model.py",
+        "path_type": "hardlink",
+        "sha256": "619c15050f9c5b0d0b6eebc9d18ecccc107ab220c8832c4e4a7856eca13e9ab6",
+        "sha256_in_prefix": "619c15050f9c5b0d0b6eebc9d18ecccc107ab220c8832c4e4a7856eca13e9ab6",
+        "size_in_bytes": 322
+      },
+      {
+        "_path": "site-packages/textual/cache.py",
+        "path_type": "hardlink",
+        "sha256": "5e25bf5663151c1fea2748dca624c69b75725257a4aa4c6b14d779753065a38d",
+        "sha256_in_prefix": "5e25bf5663151c1fea2748dca624c69b75725257a4aa4c6b14d779753065a38d",
+        "size_in_bytes": 9357
+      },
+      {
+        "_path": "site-packages/textual/canvas.py",
+        "path_type": "hardlink",
+        "sha256": "990d3ec5a8e8b100bc5a434987367d1eebd82a9b328e5d13e3c6e1215b9f76eb",
+        "sha256_in_prefix": "990d3ec5a8e8b100bc5a434987367d1eebd82a9b328e5d13e3c6e1215b9f76eb",
+        "size_in_bytes": 8203
+      },
+      {
+        "_path": "site-packages/textual/case.py",
+        "path_type": "hardlink",
+        "sha256": "7c72f4f877167dcca2e70342205b9038bb3ff6d778f2902938ae8a9e3b055537",
+        "sha256_in_prefix": "7c72f4f877167dcca2e70342205b9038bb3ff6d778f2902938ae8a9e3b055537",
+        "size_in_bytes": 524
+      },
+      {
+        "_path": "site-packages/textual/clock.py",
+        "path_type": "hardlink",
+        "sha256": "731759ff72e2f5dfaecca4485987bd66ed178b5a37795d2dad38450c40bd0348",
+        "sha256_in_prefix": "731759ff72e2f5dfaecca4485987bd66ed178b5a37795d2dad38450c40bd0348",
+        "size_in_bytes": 2022
+      },
+      {
+        "_path": "site-packages/textual/color.py",
+        "path_type": "hardlink",
+        "sha256": "1e907299ca5df1ab7b0ee03bc0cbc5783b5accddab157912cdb203ecc86e5d3c",
+        "sha256_in_prefix": "1e907299ca5df1ab7b0ee03bc0cbc5783b5accddab157912cdb203ecc86e5d3c",
+        "size_in_bytes": 26130
+      },
+      {
+        "_path": "site-packages/textual/command.py",
+        "path_type": "hardlink",
+        "sha256": "715291d4f1fc065a04ae3aee26d2463f353f7f64eaa22062e755ea33f8795542",
+        "sha256_in_prefix": "715291d4f1fc065a04ae3aee26d2463f353f7f64eaa22062e755ea33f8795542",
+        "size_in_bytes": 43192
+      },
+      {
+        "_path": "site-packages/textual/constants.py",
+        "path_type": "hardlink",
+        "sha256": "962ec781858311b3f1dfeed6608f385096448cad5b7c3e80c73a0ebf8b6094c6",
+        "sha256_in_prefix": "962ec781858311b3f1dfeed6608f385096448cad5b7c3e80c73a0ebf8b6094c6",
+        "size_in_bytes": 5083
+      },
+      {
+        "_path": "site-packages/textual/containers.py",
+        "path_type": "hardlink",
+        "sha256": "4aea74342a84cc442a7c1625d2981ba30a832996ae5265723795e2ba7216b94e",
+        "sha256_in_prefix": "4aea74342a84cc442a7c1625d2981ba30a832996ae5265723795e2ba7216b94e",
+        "size_in_bytes": 8389
+      },
+      {
+        "_path": "site-packages/textual/content.py",
+        "path_type": "hardlink",
+        "sha256": "4e4ced5242d98ab48449431afcf3ba205502db2602d281fa79165a0583ee4e16",
+        "sha256_in_prefix": "4e4ced5242d98ab48449431afcf3ba205502db2602d281fa79165a0583ee4e16",
+        "size_in_bytes": 33048
+      },
+      {
+        "_path": "site-packages/textual/coordinate.py",
+        "path_type": "hardlink",
+        "sha256": "3932a81410a0bb4505dd00316646db1555f691c5f38bb045bd1810e7d2e11c82",
+        "sha256_in_prefix": "3932a81410a0bb4505dd00316646db1555f691c5f38bb045bd1810e7d2e11c82",
+        "size_in_bytes": 1247
+      },
+      {
+        "_path": "site-packages/textual/css/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/textual/css/_error_tools.py",
+        "path_type": "hardlink",
+        "sha256": "6ab1ffa6ae67e214bdd38473535dd6d4adf685b526df13a8e35fb3851dd530d0",
+        "sha256_in_prefix": "6ab1ffa6ae67e214bdd38473535dd6d4adf685b526df13a8e35fb3851dd530d0",
+        "size_in_bytes": 743
+      },
+      {
+        "_path": "site-packages/textual/css/_help_renderables.py",
+        "path_type": "hardlink",
+        "sha256": "78378d902fdd51727e88c917f8d2d527141555cdeba956c7f7e9cb54d8f6a36f",
+        "sha256_in_prefix": "78378d902fdd51727e88c917f8d2d527141555cdeba956c7f7e9cb54d8f6a36f",
+        "size_in_bytes": 2833
+      },
+      {
+        "_path": "site-packages/textual/css/_help_text.py",
+        "path_type": "hardlink",
+        "sha256": "3e0d34a7c3012f5619c664522f370565b175c09f37eda4103cbd0959f8ef796d",
+        "sha256_in_prefix": "3e0d34a7c3012f5619c664522f370565b175c09f37eda4103cbd0959f8ef796d",
+        "size_in_bytes": 29546
+      },
+      {
+        "_path": "site-packages/textual/css/_style_properties.py",
+        "path_type": "hardlink",
+        "sha256": "a696a3a5fcd04c16cbdb50d542442fe26b6185882591174b1a9ae78ae324e536",
+        "sha256_in_prefix": "a696a3a5fcd04c16cbdb50d542442fe26b6185882591174b1a9ae78ae324e536",
+        "size_in_bytes": 42476
+      },
+      {
+        "_path": "site-packages/textual/css/_styles_builder.py",
+        "path_type": "hardlink",
+        "sha256": "8d4cf3627a2e395766f916c7bb125c4c81b0eedacc98c74687a9f7ae106ede3b",
+        "sha256_in_prefix": "8d4cf3627a2e395766f916c7bb125c4c81b0eedacc98c74687a9f7ae106ede3b",
+        "size_in_bytes": 46025
+      },
+      {
+        "_path": "site-packages/textual/css/constants.py",
+        "path_type": "hardlink",
+        "sha256": "d71799cd181026cdb8b7a1e2d86622a775ffe8577810e334cb29cc4331636fdf",
+        "sha256_in_prefix": "d71799cd181026cdb8b7a1e2d86622a775ffe8577810e334cb29cc4331636fdf",
+        "size_in_bytes": 1858
+      },
+      {
+        "_path": "site-packages/textual/css/errors.py",
+        "path_type": "hardlink",
+        "sha256": "ee72e37dc002dfa64639976cd73a9b1c0c6173481f12f8440f6d136adf20a164",
+        "sha256_in_prefix": "ee72e37dc002dfa64639976cd73a9b1c0c6173481f12f8440f6d136adf20a164",
+        "size_in_bytes": 1304
+      },
+      {
+        "_path": "site-packages/textual/css/match.py",
+        "path_type": "hardlink",
+        "sha256": "34247ea90eaaa40618778801534c3238140e5811f08e16e2d1906cbd26722456",
+        "sha256_in_prefix": "34247ea90eaaa40618778801534c3238140e5811f08e16e2d1906cbd26722456",
+        "size_in_bytes": 2390
+      },
+      {
+        "_path": "site-packages/textual/css/model.py",
+        "path_type": "hardlink",
+        "sha256": "a2076b0ea531bce027e10e5981456bd701c54e5e4adda39800e2e4878ad5cb11",
+        "sha256_in_prefix": "a2076b0ea531bce027e10e5981456bd701c54e5e4adda39800e2e4878ad5cb11",
+        "size_in_bytes": 8750
+      },
+      {
+        "_path": "site-packages/textual/css/parse.py",
+        "path_type": "hardlink",
+        "sha256": "99bca81499821b3cbec19727244b11dc3433d993faada9c44405fb26027fef25",
+        "sha256_in_prefix": "99bca81499821b3cbec19727244b11dc3433d993faada9c44405fb26027fef25",
+        "size_in_bytes": 16569
+      },
+      {
+        "_path": "site-packages/textual/css/query.py",
+        "path_type": "hardlink",
+        "sha256": "1beab0da017f197d658a4329e9fe683227bac805765240f1f3244c3b8e3e8c61",
+        "sha256_in_prefix": "1beab0da017f197d658a4329e9fe683227bac805765240f1f3244c3b8e3e8c61",
+        "size_in_bytes": 15700
+      },
+      {
+        "_path": "site-packages/textual/css/scalar.py",
+        "path_type": "hardlink",
+        "sha256": "659698a03a5d00ee8d79fb0fe82100a75d21f5e2bf3037910cd1f84bcca6547f",
+        "sha256_in_prefix": "659698a03a5d00ee8d79fb0fe82100a75d21f5e2bf3037910cd1f84bcca6547f",
+        "size_in_bytes": 9951
+      },
+      {
+        "_path": "site-packages/textual/css/scalar_animation.py",
+        "path_type": "hardlink",
+        "sha256": "491700da7732b3c04cdfb4c96fb61092b3a7fc646b36d9ad3ae398cb29d3aee9",
+        "sha256_in_prefix": "491700da7732b3c04cdfb4c96fb61092b3a7fc646b36d9ad3ae398cb29d3aee9",
+        "size_in_bytes": 3159
+      },
+      {
+        "_path": "site-packages/textual/css/styles.py",
+        "path_type": "hardlink",
+        "sha256": "f5dcd611f9779289fc8d97f2e4e8743e18195bf9f3ad872aeb5e029296d2b48d",
+        "sha256_in_prefix": "f5dcd611f9779289fc8d97f2e4e8743e18195bf9f3ad872aeb5e029296d2b48d",
+        "size_in_bytes": 48473
+      },
+      {
+        "_path": "site-packages/textual/css/stylesheet.py",
+        "path_type": "hardlink",
+        "sha256": "9e83a719785ff1280efa3538f03dc59f7e9536bf863ff2dc451ae72593b5d68d",
+        "sha256_in_prefix": "9e83a719785ff1280efa3538f03dc59f7e9536bf863ff2dc451ae72593b5d68d",
+        "size_in_bytes": 26050
+      },
+      {
+        "_path": "site-packages/textual/css/tokenize.py",
+        "path_type": "hardlink",
+        "sha256": "2f52385f4c86c35024d240de811bb47601e0c3c64e63bafaae2e14b9e4e4feca",
+        "sha256_in_prefix": "2f52385f4c86c35024d240de811bb47601e0c3c64e63bafaae2e14b9e4e4feca",
+        "size_in_bytes": 8761
+      },
+      {
+        "_path": "site-packages/textual/css/tokenizer.py",
+        "path_type": "hardlink",
+        "sha256": "50e57af49c373e2d6ab5af29099a7df847a2323e6351477e9932d4cb20907fdc",
+        "sha256_in_prefix": "50e57af49c373e2d6ab5af29099a7df847a2323e6351477e9932d4cb20907fdc",
+        "size_in_bytes": 10316
+      },
+      {
+        "_path": "site-packages/textual/css/transition.py",
+        "path_type": "hardlink",
+        "sha256": "22e7ef30e9423a77d3b7726dcc5569df4fcd9a2e8f42cba56803578055b63763",
+        "sha256_in_prefix": "22e7ef30e9423a77d3b7726dcc5569df4fcd9a2e8f42cba56803578055b63763",
+        "size_in_bytes": 417
+      },
+      {
+        "_path": "site-packages/textual/css/types.py",
+        "path_type": "hardlink",
+        "sha256": "c671c278800ca2e1871e7429abd00abbaeb032b1b1bb4eb1ff14ff7e52ebf1cc",
+        "sha256_in_prefix": "c671c278800ca2e1871e7429abd00abbaeb032b1b1bb4eb1ff14ff7e52ebf1cc",
+        "size_in_bytes": 1482
+      },
+      {
+        "_path": "site-packages/textual/demo/__main__.py",
+        "path_type": "hardlink",
+        "sha256": "8a6e0380c73e3421f266c83dcd0fde1cbfdc403df4be7a6ff3f7da8acb6397e5",
+        "sha256_in_prefix": "8a6e0380c73e3421f266c83dcd0fde1cbfdc403df4be7a6ff3f7da8acb6397e5",
+        "size_in_bytes": 104
+      },
+      {
+        "_path": "site-packages/textual/demo/data.py",
+        "path_type": "hardlink",
+        "sha256": "2023bd93ee15242d7fcb246766e303062e9841fc8637db10ac07af7ca491dd4f",
+        "sha256_in_prefix": "2023bd93ee15242d7fcb246766e303062e9841fc8637db10ac07af7ca491dd4f",
+        "size_in_bytes": 15435
+      },
+      {
+        "_path": "site-packages/textual/demo/demo_app.py",
+        "path_type": "hardlink",
+        "sha256": "5f2b4b16bd0a9460dd45fe14c199b3e9a57d50cfd99399c5239b291d088b5cfc",
+        "sha256_in_prefix": "5f2b4b16bd0a9460dd45fe14c199b3e9a57d50cfd99399c5239b291d088b5cfc",
+        "size_in_bytes": 2965
+      },
+      {
+        "_path": "site-packages/textual/demo/game.py",
+        "path_type": "hardlink",
+        "sha256": "6d1b52a072840deab7d5ad48513809eaf18b2d30a976d10d6f10931f83d0534d",
+        "sha256_in_prefix": "6d1b52a072840deab7d5ad48513809eaf18b2d30a976d10d6f10931f83d0534d",
+        "size_in_bytes": 19337
+      },
+      {
+        "_path": "site-packages/textual/demo/home.py",
+        "path_type": "hardlink",
+        "sha256": "38ae241ef7991715771ed30e92623ba74f9048a4b37c0b70e50ac067353cf076",
+        "sha256_in_prefix": "38ae241ef7991715771ed30e92623ba74f9048a4b37c0b70e50ac067353cf076",
+        "size_in_bytes": 8422
+      },
+      {
+        "_path": "site-packages/textual/demo/page.py",
+        "path_type": "hardlink",
+        "sha256": "4a90b50e26445f59d9fd7bcc83d84d42197dad2a6915dc02d657a921104bd57f",
+        "sha256_in_prefix": "4a90b50e26445f59d9fd7bcc83d84d42197dad2a6915dc02d657a921104bd57f",
+        "size_in_bytes": 2527
+      },
+      {
+        "_path": "site-packages/textual/demo/projects.py",
+        "path_type": "hardlink",
+        "sha256": "3c6ddc7b422092c599bf1a699bd3ea7f6022f0aa63a507e9accf1df88bfe29e5",
+        "sha256_in_prefix": "3c6ddc7b422092c599bf1a699bd3ea7f6022f0aa63a507e9accf1df88bfe29e5",
+        "size_in_bytes": 6963
+      },
+      {
+        "_path": "site-packages/textual/demo/widgets.py",
+        "path_type": "hardlink",
+        "sha256": "7861ae2ae11a0a5870591114ab8da1b6b645ce024d970796287d9ea72f9a651d",
+        "sha256_in_prefix": "7861ae2ae11a0a5870591114ab8da1b6b645ce024d970796287d9ea72f9a651d",
+        "size_in_bytes": 23796
+      },
+      {
+        "_path": "site-packages/textual/design.py",
+        "path_type": "hardlink",
+        "sha256": "d3beceb306babcab280e6bb8f8face299d2ff515e542cb6f33a572498f4db190",
+        "sha256_in_prefix": "d3beceb306babcab280e6bb8f8face299d2ff515e542cb6f33a572498f4db190",
+        "size_in_bytes": 15116
+      },
+      {
+        "_path": "site-packages/textual/document/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/textual/document/_document.py",
+        "path_type": "hardlink",
+        "sha256": "dccea81994fbacd6677c3275cf9503e620ef13c21aae1317b16b348d59af0b05",
+        "sha256_in_prefix": "dccea81994fbacd6677c3275cf9503e620ef13c21aae1317b16b348d59af0b05",
+        "size_in_bytes": 14859
+      },
+      {
+        "_path": "site-packages/textual/document/_document_navigator.py",
+        "path_type": "hardlink",
+        "sha256": "77a34f623396a073f6d397673d0f548baa43e060f4c91390c1b9fd2993d99f50",
+        "sha256_in_prefix": "77a34f623396a073f6d397673d0f548baa43e060f4c91390c1b9fd2993d99f50",
+        "size_in_bytes": 18340
+      },
+      {
+        "_path": "site-packages/textual/document/_edit.py",
+        "path_type": "hardlink",
+        "sha256": "7163606a002cc374473f4ac1b04d2423f2049fd4e94628b79684924b429938d5",
+        "sha256_in_prefix": "7163606a002cc374473f4ac1b04d2423f2049fd4e94628b79684924b429938d5",
+        "size_in_bytes": 5707
+      },
+      {
+        "_path": "site-packages/textual/document/_history.py",
+        "path_type": "hardlink",
+        "sha256": "71b8ccf2053ed1be7c18ce92d2cf147f15ce856a0876388a325b3c42895659a5",
+        "sha256_in_prefix": "71b8ccf2053ed1be7c18ce92d2cf147f15ce856a0876388a325b3c42895659a5",
+        "size_in_bytes": 7061
+      },
+      {
+        "_path": "site-packages/textual/document/_syntax_aware_document.py",
+        "path_type": "hardlink",
+        "sha256": "5aec3b8bb7d437a8d7646f241f7adebcc04f83630b11f0e6432ab8f52ad27c95",
+        "sha256_in_prefix": "5aec3b8bb7d437a8d7646f241f7adebcc04f83630b11f0e6432ab8f52ad27c95",
+        "size_in_bytes": 9782
+      },
+      {
+        "_path": "site-packages/textual/document/_wrapped_document.py",
+        "path_type": "hardlink",
+        "sha256": "66fbc6667e7bc73c2bf63dcebdfcff25eae2c185090644c264d74c8482f5fb27",
+        "sha256_in_prefix": "66fbc6667e7bc73c2bf63dcebdfcff25eae2c185090644c264d74c8482f5fb27",
+        "size_in_bytes": 17779
+      },
+      {
+        "_path": "site-packages/textual/dom.py",
+        "path_type": "hardlink",
+        "sha256": "a60c2ba579c24195c6c4b81c36ecd184a942fd6becd9d78d383cc35f19e6ef41",
+        "sha256_in_prefix": "a60c2ba579c24195c6c4b81c36ecd184a942fd6becd9d78d383cc35f19e6ef41",
+        "size_in_bytes": 58242
+      },
+      {
+        "_path": "site-packages/textual/driver.py",
+        "path_type": "hardlink",
+        "sha256": "aa78237df3e42c36b190da16ea9fd28bcfa2c111681ec343a8b0dd4a03cabe9a",
+        "sha256_in_prefix": "aa78237df3e42c36b190da16ea9fd28bcfa2c111681ec343a8b0dd4a03cabe9a",
+        "size_in_bytes": 10326
+      },
+      {
+        "_path": "site-packages/textual/drivers/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/textual/drivers/_byte_stream.py",
+        "path_type": "hardlink",
+        "sha256": "0007c75be79580f4a42fba50db053ceb61d6c9e782d75f09a2bc890d9f887ea9",
+        "sha256_in_prefix": "0007c75be79580f4a42fba50db053ceb61d6c9e782d75f09a2bc890d9f887ea9",
+        "size_in_bytes": 4052
+      },
+      {
+        "_path": "site-packages/textual/drivers/_input_reader.py",
+        "path_type": "hardlink",
+        "sha256": "8e457772f8da89233e9f0c34356d3b36e0f2371e1a3f7a2287e8f62478559eda",
+        "sha256_in_prefix": "8e457772f8da89233e9f0c34356d3b36e0f2371e1a3f7a2287e8f62478559eda",
+        "size_in_bytes": 222
+      },
+      {
+        "_path": "site-packages/textual/drivers/_input_reader_linux.py",
+        "path_type": "hardlink",
+        "sha256": "5e493e68579e55345b37a2368de57514556cfdc74f632ef21ce1bfb394cd518c",
+        "sha256_in_prefix": "5e493e68579e55345b37a2368de57514556cfdc74f632ef21ce1bfb394cd518c",
+        "size_in_bytes": 1165
+      },
+      {
+        "_path": "site-packages/textual/drivers/_input_reader_windows.py",
+        "path_type": "hardlink",
+        "sha256": "bb7219fdd1b8366d51f34cc6fa77cff3233472cf1eb0d5816c155ce0fe88278c",
+        "sha256_in_prefix": "bb7219fdd1b8366d51f34cc6fa77cff3233472cf1eb0d5816c155ce0fe88278c",
+        "size_in_bytes": 830
+      },
+      {
+        "_path": "site-packages/textual/drivers/_writer_thread.py",
+        "path_type": "hardlink",
+        "sha256": "67f44408537598f886672ffe9d0a04e2669a3b15a6ed2f064eb210521b120a11",
+        "sha256_in_prefix": "67f44408537598f886672ffe9d0a04e2669a3b15a6ed2f064eb210521b120a11",
+        "size_in_bytes": 1710
+      },
+      {
+        "_path": "site-packages/textual/drivers/headless_driver.py",
+        "path_type": "hardlink",
+        "sha256": "7fb895d55906011d3e12588f7c27297a00dfb80eaa5a3b88ccc52222492fa332",
+        "sha256_in_prefix": "7fb895d55906011d3e12588f7c27297a00dfb80eaa5a3b88ccc52222492fa332",
+        "size_in_bytes": 1888
+      },
+      {
+        "_path": "site-packages/textual/drivers/linux_driver.py",
+        "path_type": "hardlink",
+        "sha256": "45202a4cb5ccf0fc43df2284ffaa2086cfde32626bb9993e8360c9e237b9333e",
+        "sha256_in_prefix": "45202a4cb5ccf0fc43df2284ffaa2086cfde32626bb9993e8360c9e237b9333e",
+        "size_in_bytes": 16178
+      },
+      {
+        "_path": "site-packages/textual/drivers/linux_inline_driver.py",
+        "path_type": "hardlink",
+        "sha256": "b0e0ad88207c3569d58c4bf2a445c3b740131a70aa55821a0b9300ae13232327",
+        "sha256_in_prefix": "b0e0ad88207c3569d58c4bf2a445c3b740131a70aa55821a0b9300ae13232327",
+        "size_in_bytes": 10579
+      },
+      {
+        "_path": "site-packages/textual/drivers/web_driver.py",
+        "path_type": "hardlink",
+        "sha256": "fb02f573a3f37d93ee66e545e939d93e380b61e16d39323e82c492457157eb80",
+        "sha256_in_prefix": "fb02f573a3f37d93ee66e545e939d93e380b61e16d39323e82c492457157eb80",
+        "size_in_bytes": 12280
+      },
+      {
+        "_path": "site-packages/textual/drivers/win32.py",
+        "path_type": "hardlink",
+        "sha256": "35db1baff9c0967ff3025fc0365a60e6258ca9d671361f44e95fa8867169dd55",
+        "sha256_in_prefix": "35db1baff9c0967ff3025fc0365a60e6258ca9d671361f44e95fa8867169dd55",
+        "size_in_bytes": 9677
+      },
+      {
+        "_path": "site-packages/textual/drivers/windows_driver.py",
+        "path_type": "hardlink",
+        "sha256": "a4915e9edf59913ba6f8030725bdcc7841eb91cce1ecefc6c9a3fca9d1d4ef71",
+        "sha256_in_prefix": "a4915e9edf59913ba6f8030725bdcc7841eb91cce1ecefc6c9a3fca9d1d4ef71",
+        "size_in_bytes": 4247
+      },
+      {
+        "_path": "site-packages/textual/errors.py",
+        "path_type": "hardlink",
+        "sha256": "40fb64cc1b505696de5ca24b9b8118c9aaa7ac5aee71b6b3b7101796bb542d84",
+        "sha256_in_prefix": "40fb64cc1b505696de5ca24b9b8118c9aaa7ac5aee71b6b3b7101796bb542d84",
+        "size_in_bytes": 534
+      },
+      {
+        "_path": "site-packages/textual/eta.py",
+        "path_type": "hardlink",
+        "sha256": "a39c8c4cb96e5d19274bb3351f6658b9f7405d80b1f9841bbd89b07343b24310",
+        "sha256_in_prefix": "a39c8c4cb96e5d19274bb3351f6658b9f7405d80b1f9841bbd89b07343b24310",
+        "size_in_bytes": 4645
+      },
+      {
+        "_path": "site-packages/textual/events.py",
+        "path_type": "hardlink",
+        "sha256": "e4d2afabdf068be10d573f8a5dffadcc39e3a81cc2bce5cc7bc044e94dcef276",
+        "sha256_in_prefix": "e4d2afabdf068be10d573f8a5dffadcc39e3a81cc2bce5cc7bc044e94dcef276",
+        "size_in_bytes": 21428
+      },
+      {
+        "_path": "site-packages/textual/expand_tabs.py",
+        "path_type": "hardlink",
+        "sha256": "1438a75686110c83676968813cff99ffa58c155a52ee3d2f925644dffcaaba87",
+        "sha256_in_prefix": "1438a75686110c83676968813cff99ffa58c155a52ee3d2f925644dffcaaba87",
+        "size_in_bytes": 3538
+      },
+      {
+        "_path": "site-packages/textual/features.py",
+        "path_type": "hardlink",
+        "sha256": "35d304dd87b94a87433e02b7f70904d0300d5a28c1abd04378dcf1f624ff3c9e",
+        "sha256_in_prefix": "35d304dd87b94a87433e02b7f70904d0300d5a28c1abd04378dcf1f624ff3c9e",
+        "size_in_bytes": 699
+      },
+      {
+        "_path": "site-packages/textual/file_monitor.py",
+        "path_type": "hardlink",
+        "sha256": "7457dd407a52b21796d3d9452eafce27268bda4a6db86205c67fa9779d0e873a",
+        "sha256_in_prefix": "7457dd407a52b21796d3d9452eafce27268bda4a6db86205c67fa9779d0e873a",
+        "size_in_bytes": 1945
+      },
+      {
+        "_path": "site-packages/textual/filter.py",
+        "path_type": "hardlink",
+        "sha256": "d79fb87dc737250b0f1e7fc133b4f02c34ef7c664c6179996b774150bc92ad9d",
+        "sha256_in_prefix": "d79fb87dc737250b0f1e7fc133b4f02c34ef7c664c6179996b774150bc92ad9d",
+        "size_in_bytes": 7353
+      },
+      {
+        "_path": "site-packages/textual/fuzzy.py",
+        "path_type": "hardlink",
+        "sha256": "d2393f0ec51fa0d65eeaaa5dab220fba14feb3a38ad72a44a9783a7e2d7d4294",
+        "sha256_in_prefix": "d2393f0ec51fa0d65eeaaa5dab220fba14feb3a38ad72a44a9783a7e2d7d4294",
+        "size_in_bytes": 3685
+      },
+      {
+        "_path": "site-packages/textual/geometry.py",
+        "path_type": "hardlink",
+        "sha256": "c9d599729d0a4e1203b523139f4c145073ccdae74c327a2aa1109b571152c099",
+        "sha256_in_prefix": "c9d599729d0a4e1203b523139f4c145073ccdae74c327a2aa1109b571152c099",
+        "size_in_bytes": 40359
+      },
+      {
+        "_path": "site-packages/textual/keys.py",
+        "path_type": "hardlink",
+        "sha256": "28e8e4164daf9aaf34e24c003dc9677c9e7beae1cbaa3d5cf7e91e4ecd7ecb6f",
+        "sha256_in_prefix": "28e8e4164daf9aaf34e24c003dc9677c9e7beae1cbaa3d5cf7e91e4ecd7ecb6f",
+        "size_in_bytes": 9773
+      },
+      {
+        "_path": "site-packages/textual/layout.py",
+        "path_type": "hardlink",
+        "sha256": "dae315f2a2b80f3a5ff53ef5bbec645a0300d2098e08028d7ea50b18c8054f62",
+        "sha256_in_prefix": "dae315f2a2b80f3a5ff53ef5bbec645a0300d2098e08028d7ea50b18c8054f62",
+        "size_in_bytes": 10040
+      },
+      {
+        "_path": "site-packages/textual/layouts/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/textual/layouts/factory.py",
+        "path_type": "hardlink",
+        "sha256": "de34aaa3ee1cc9e258ad6a14210d518cff939bb0c33d4d5b15c99afc7a9590ce",
+        "sha256_in_prefix": "de34aaa3ee1cc9e258ad6a14210d518cff939bb0c33d4d5b15c99afc7a9590ce",
+        "size_in_bytes": 805
+      },
+      {
+        "_path": "site-packages/textual/layouts/grid.py",
+        "path_type": "hardlink",
+        "sha256": "cb058c210bf36f00fd63f27b31c7ed55c190ba6fdf20df11682cb693afb6ef54",
+        "sha256_in_prefix": "cb058c210bf36f00fd63f27b31c7ed55c190ba6fdf20df11682cb693afb6ef54",
+        "size_in_bytes": 11158
+      },
+      {
+        "_path": "site-packages/textual/layouts/horizontal.py",
+        "path_type": "hardlink",
+        "sha256": "3b9376098f1a30631b72d7ce7b10e4c2f19969b35f0ec390eb84084e50500583",
+        "sha256_in_prefix": "3b9376098f1a30631b72d7ce7b10e4c2f19969b35f0ec390eb84084e50500583",
+        "size_in_bytes": 3811
+      },
+      {
+        "_path": "site-packages/textual/layouts/vertical.py",
+        "path_type": "hardlink",
+        "sha256": "dbe6c16868a9c25ae67701675c20dea746247ea48b8bbce33719d47d8ac5e409",
+        "sha256_in_prefix": "dbe6c16868a9c25ae67701675c20dea746247ea48b8bbce33719d47d8ac5e409",
+        "size_in_bytes": 3857
+      },
+      {
+        "_path": "site-packages/textual/lazy.py",
+        "path_type": "hardlink",
+        "sha256": "aa49886d171eac3f8de6b55e3c1b2a0c1e892dc96c6531b46adcd2707e59fa9b",
+        "sha256_in_prefix": "aa49886d171eac3f8de6b55e3c1b2a0c1e892dc96c6531b46adcd2707e59fa9b",
+        "size_in_bytes": 4326
+      },
+      {
+        "_path": "site-packages/textual/logging.py",
+        "path_type": "hardlink",
+        "sha256": "612152e76546531fcff862f520aaaa9d07f96eb71b89503f8f9f879010b48b0e",
+        "sha256_in_prefix": "612152e76546531fcff862f520aaaa9d07f96eb71b89503f8f9f879010b48b0e",
+        "size_in_bytes": 1187
+      },
+      {
+        "_path": "site-packages/textual/map_geometry.py",
+        "path_type": "hardlink",
+        "sha256": "5a07bdd3c8bbabe8bab7b740aebf54083cdb2a5c898410f9f25a4b2e46463053",
+        "sha256_in_prefix": "5a07bdd3c8bbabe8bab7b740aebf54083cdb2a5c898410f9f25a4b2e46463053",
+        "size_in_bytes": 1363
+      },
+      {
+        "_path": "site-packages/textual/message.py",
+        "path_type": "hardlink",
+        "sha256": "50816fcfe00981595a196f74215c97873aa1a39702c45ccdd990ba3c97fedc62",
+        "sha256_in_prefix": "50816fcfe00981595a196f74215c97873aa1a39702c45ccdd990ba3c97fedc62",
+        "size_in_bytes": 4893
+      },
+      {
+        "_path": "site-packages/textual/message_pump.py",
+        "path_type": "hardlink",
+        "sha256": "557119272172bbe536aeb5c9364386a596dbddb558adcc2adf4430036d3ca6a5",
+        "sha256_in_prefix": "557119272172bbe536aeb5c9364386a596dbddb558adcc2adf4430036d3ca6a5",
+        "size_in_bytes": 30456
+      },
+      {
+        "_path": "site-packages/textual/messages.py",
+        "path_type": "hardlink",
+        "sha256": "288be4fc584a592f1e160e1da914338afb8c88962e13b588ed3c184aa67d8e97",
+        "sha256_in_prefix": "288be4fc584a592f1e160e1da914338afb8c88962e13b588ed3c184aa67d8e97",
+        "size_in_bytes": 3804
+      },
+      {
+        "_path": "site-packages/textual/notifications.py",
+        "path_type": "hardlink",
+        "sha256": "ce1c9ce2f07e448259c5ef19be609641c0817b26d0398b89ef92d1220cea8b89",
+        "sha256_in_prefix": "ce1c9ce2f07e448259c5ef19be609641c0817b26d0398b89ef92d1220cea8b89",
+        "size_in_bytes": 3627
+      },
+      {
+        "_path": "site-packages/textual/pad.py",
+        "path_type": "hardlink",
+        "sha256": "0ecca32e53b54b3554adfb7160e54342fa4cdb6abf1aae145c94d863855d52bc",
+        "sha256_in_prefix": "0ecca32e53b54b3554adfb7160e54342fa4cdb6abf1aae145c94d863855d52bc",
+        "size_in_bytes": 2306
+      },
+      {
+        "_path": "site-packages/textual/pilot.py",
+        "path_type": "hardlink",
+        "sha256": "303060c9144f346476ce527fa50d6cdf2029c65e9d4e96413ebb57498527ec49",
+        "sha256_in_prefix": "303060c9144f346476ce527fa50d6cdf2029c65e9d4e96413ebb57498527ec49",
+        "size_in_bytes": 17539
+      },
+      {
+        "_path": "site-packages/textual/py.typed",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/textual/reactive.py",
+        "path_type": "hardlink",
+        "sha256": "29a2e7b90e259bdb9018704b379e92f4a116579cabd44e29afe167a3b2014ad4",
+        "sha256_in_prefix": "29a2e7b90e259bdb9018704b379e92f4a116579cabd44e29afe167a3b2014ad4",
+        "size_in_bytes": 16224
+      },
+      {
+        "_path": "site-packages/textual/render.py",
+        "path_type": "hardlink",
+        "sha256": "9ed49d1adf3e19280c6d88bdcc1dad59b81cbf5a964b5ceaa80d0f121df95d29",
+        "sha256_in_prefix": "9ed49d1adf3e19280c6d88bdcc1dad59b81cbf5a964b5ceaa80d0f121df95d29",
+        "size_in_bytes": 1135
+      },
+      {
+        "_path": "site-packages/textual/renderables/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "2cd0c44f709c7ca418c20e7625b17a7df26bb9513ed8dd0eab8e9541f1f290bd",
+        "sha256_in_prefix": "2cd0c44f709c7ca418c20e7625b17a7df26bb9513ed8dd0eab8e9541f1f290bd",
+        "size_in_bytes": 62
+      },
+      {
+        "_path": "site-packages/textual/renderables/_blend_colors.py",
+        "path_type": "hardlink",
+        "sha256": "29b9cacd3af65f6d931c9729f8fe9743316e7c42ccdc7ca7482f00962eb041b8",
+        "sha256_in_prefix": "29b9cacd3af65f6d931c9729f8fe9743316e7c42ccdc7ca7482f00962eb041b8",
+        "size_in_bytes": 732
+      },
+      {
+        "_path": "site-packages/textual/renderables/background_screen.py",
+        "path_type": "hardlink",
+        "sha256": "a3027283568f578424adfa418c34a987abed9062083499de49e4c103440e1191",
+        "sha256_in_prefix": "a3027283568f578424adfa418c34a987abed9062083499de49e4c103440e1191",
+        "size_in_bytes": 2975
+      },
+      {
+        "_path": "site-packages/textual/renderables/bar.py",
+        "path_type": "hardlink",
+        "sha256": "e3b7d5f83be6762093cb4336f2df28c897202111217f3245b770ae3b28ba6919",
+        "sha256_in_prefix": "e3b7d5f83be6762093cb4336f2df28c897202111217f3245b770ae3b28ba6919",
+        "size_in_bytes": 4461
+      },
+      {
+        "_path": "site-packages/textual/renderables/blank.py",
+        "path_type": "hardlink",
+        "sha256": "6e4b0c498b0910028285cdb1ba02f1c7a9fd0b7459ff16d6500dcbac25c88e74",
+        "sha256_in_prefix": "6e4b0c498b0910028285cdb1ba02f1c7a9fd0b7459ff16d6500dcbac25c88e74",
+        "size_in_bytes": 785
+      },
+      {
+        "_path": "site-packages/textual/renderables/digits.py",
+        "path_type": "hardlink",
+        "sha256": "223ca0fe00e96fb30071649fe813e57b00ffd2a1eed94a9b1e453d4e0b80b15f",
+        "sha256_in_prefix": "223ca0fe00e96fb30071649fe813e57b00ffd2a1eed94a9b1e453d4e0b80b15f",
+        "size_in_bytes": 3659
+      },
+      {
+        "_path": "site-packages/textual/renderables/gradient.py",
+        "path_type": "hardlink",
+        "sha256": "d8363d9f84bdda0e55b32ff4b8f54ff16fa5f98be8d9dd4982fcdfe0430c64fc",
+        "sha256_in_prefix": "d8363d9f84bdda0e55b32ff4b8f54ff16fa5f98be8d9dd4982fcdfe0430c64fc",
+        "size_in_bytes": 4631
+      },
+      {
+        "_path": "site-packages/textual/renderables/sparkline.py",
+        "path_type": "hardlink",
+        "sha256": "f5e6bbe07883662c2e2ede98cf10d21d43c8602ff1e57d40d79d55e60900b2db",
+        "sha256_in_prefix": "f5e6bbe07883662c2e2ede98cf10d21d43c8602ff1e57d40d79d55e60900b2db",
+        "size_in_bytes": 4263
+      },
+      {
+        "_path": "site-packages/textual/renderables/styled.py",
+        "path_type": "hardlink",
+        "sha256": "9b2e2fb3b823d4dc8e8eb1cfe374692825890b917ad6f08fbeb26ae6351d0111",
+        "sha256_in_prefix": "9b2e2fb3b823d4dc8e8eb1cfe374692825890b917ad6f08fbeb26ae6351d0111",
+        "size_in_bytes": 1937
+      },
+      {
+        "_path": "site-packages/textual/renderables/text_opacity.py",
+        "path_type": "hardlink",
+        "sha256": "fb0b54949433f369cb6f8713b522bef97b084c7a4aa62b21c31698b3842d0e50",
+        "sha256_in_prefix": "fb0b54949433f369cb6f8713b522bef97b084c7a4aa62b21c31698b3842d0e50",
+        "size_in_bytes": 2984
+      },
+      {
+        "_path": "site-packages/textual/renderables/tint.py",
+        "path_type": "hardlink",
+        "sha256": "10d3254b60c9548445918041b1d9c605775d37d1fd0f5b6cca8425aaf0995fec",
+        "sha256_in_prefix": "10d3254b60c9548445918041b1d9c605775d37d1fd0f5b6cca8425aaf0995fec",
+        "size_in_bytes": 2327
+      },
+      {
+        "_path": "site-packages/textual/rlock.py",
+        "path_type": "hardlink",
+        "sha256": "fa9d60de2b6f6d3222049ddcb945f9f9effb45e74349e2a05d4e89587224ec13",
+        "sha256_in_prefix": "fa9d60de2b6f6d3222049ddcb945f9f9effb45e74349e2a05d4e89587224ec13",
+        "size_in_bytes": 1657
+      },
+      {
+        "_path": "site-packages/textual/screen.py",
+        "path_type": "hardlink",
+        "sha256": "55008e86f196ca220d0a438fc73d3ccd2567478571aab67d21e551a381ca9210",
+        "sha256_in_prefix": "55008e86f196ca220d0a438fc73d3ccd2567478571aab67d21e551a381ca9210",
+        "size_in_bytes": 57326
+      },
+      {
+        "_path": "site-packages/textual/scroll_view.py",
+        "path_type": "hardlink",
+        "sha256": "3826a9979fac2354d85fff42e5b6f2645e2028fa024eea25bcefa64c08ed3692",
+        "sha256_in_prefix": "3826a9979fac2354d85fff42e5b6f2645e2028fa024eea25bcefa64c08ed3692",
+        "size_in_bytes": 5858
+      },
+      {
+        "_path": "site-packages/textual/scrollbar.py",
+        "path_type": "hardlink",
+        "sha256": "aafd28529eaaa0ee4f4284c002c28d989b1dbfcc43d4fc00ef2be7a95c223e4c",
+        "sha256_in_prefix": "aafd28529eaaa0ee4f4284c002c28d989b1dbfcc43d4fc00ef2be7a95c223e4c",
+        "size_in_bytes": 13367
+      },
+      {
+        "_path": "site-packages/textual/signal.py",
+        "path_type": "hardlink",
+        "sha256": "2dbe0632f708ed814a7f6da77fe66424fe97e2dc95426b15758454e7520447e4",
+        "sha256_in_prefix": "2dbe0632f708ed814a7f6da77fe66424fe97e2dc95426b15758454e7520447e4",
+        "size_in_bytes": 4384
+      },
+      {
+        "_path": "site-packages/textual/strip.py",
+        "path_type": "hardlink",
+        "sha256": "86e6cd7908b6b6c8bfa069722d5c21f3da566b44fef6a1dfb1622067518e802a",
+        "sha256_in_prefix": "86e6cd7908b6b6c8bfa069722d5c21f3da566b44fef6a1dfb1622067518e802a",
+        "size_in_bytes": 19960
+      },
+      {
+        "_path": "site-packages/textual/suggester.py",
+        "path_type": "hardlink",
+        "sha256": "9a017439060874b0cc375db6483364b0eb70e6f95caa9207150cf69093a45971",
+        "sha256_in_prefix": "9a017439060874b0cc375db6483364b0eb70e6f95caa9207150cf69093a45971",
+        "size_in_bytes": 4723
+      },
+      {
+        "_path": "site-packages/textual/suggestions.py",
+        "path_type": "hardlink",
+        "sha256": "6d74781c76e4b01ad69df0ae417d90d0e85bf2314f76fa73f04f6654825e9d3f",
+        "sha256_in_prefix": "6d74781c76e4b01ad69df0ae417d90d0e85bf2314f76fa73f04f6654825e9d3f",
+        "size_in_bytes": 1415
+      },
+      {
+        "_path": "site-packages/textual/system_commands.py",
+        "path_type": "hardlink",
+        "sha256": "a38e24215174c25c64046a7601f8ccb508fd80c3f0e7f2730da672ddadf41ee2",
+        "sha256_in_prefix": "a38e24215174c25c64046a7601f8ccb508fd80c3f0e7f2730da672ddadf41ee2",
+        "size_in_bytes": 2041
+      },
+      {
+        "_path": "site-packages/textual/theme.py",
+        "path_type": "hardlink",
+        "sha256": "9e16f5941817efe2032c9af77b96c5bdf3b04a86699d5ab1151c5e26889012d2",
+        "sha256_in_prefix": "9e16f5941817efe2032c9af77b96c5bdf3b04a86699d5ab1151c5e26889012d2",
+        "size_in_bytes": 9395
+      },
+      {
+        "_path": "site-packages/textual/timer.py",
+        "path_type": "hardlink",
+        "sha256": "626a4cfd3de6669afb85d4c9ce723fac63b98f1a82968b2e4e8d8c5686d9d3a1",
+        "sha256_in_prefix": "626a4cfd3de6669afb85d4c9ce723fac63b98f1a82968b2e4e8d8c5686d9d3a1",
+        "size_in_bytes": 6111
+      },
+      {
+        "_path": "site-packages/textual/tree-sitter/highlights/bash.scm",
+        "path_type": "hardlink",
+        "sha256": "b74220d954f485b7626d2b2b61f37b522e12eb1830803e388e57dd797dc99f11",
+        "sha256_in_prefix": "b74220d954f485b7626d2b2b61f37b522e12eb1830803e388e57dd797dc99f11",
+        "size_in_bytes": 577
+      },
+      {
+        "_path": "site-packages/textual/tree-sitter/highlights/css.scm",
+        "path_type": "hardlink",
+        "sha256": "dd3b8146eef64c25d6c0dcca4aefd5155497a90b35d7bbef8399037244d2242f",
+        "sha256_in_prefix": "dd3b8146eef64c25d6c0dcca4aefd5155497a90b35d7bbef8399037244d2242f",
+        "size_in_bytes": 1006
+      },
+      {
+        "_path": "site-packages/textual/tree-sitter/highlights/go.scm",
+        "path_type": "hardlink",
+        "sha256": "16b616d2f4f35534d14169fc7c50889bc534e5f9807609d33a17121c60e030fe",
+        "sha256_in_prefix": "16b616d2f4f35534d14169fc7c50889bc534e5f9807609d33a17121c60e030fe",
+        "size_in_bytes": 1421
+      },
+      {
+        "_path": "site-packages/textual/tree-sitter/highlights/html.scm",
+        "path_type": "hardlink",
+        "sha256": "87c0832f0e6984cf026414559afd7136a5553034896920dcaa9a23df61195f12",
+        "sha256_in_prefix": "87c0832f0e6984cf026414559afd7136a5553034896920dcaa9a23df61195f12",
+        "size_in_bytes": 408
+      },
+      {
+        "_path": "site-packages/textual/tree-sitter/highlights/java.scm",
+        "path_type": "hardlink",
+        "sha256": "97b4cd3bee614453e17e61515a98e8d650e66ff9bf7a18ac501f119df0937e9e",
+        "sha256_in_prefix": "97b4cd3bee614453e17e61515a98e8d650e66ff9bf7a18ac501f119df0937e9e",
+        "size_in_bytes": 2008
+      },
+      {
+        "_path": "site-packages/textual/tree-sitter/highlights/javascript.scm",
+        "path_type": "hardlink",
+        "sha256": "d3630ae6dc9b2b27b230b5f8bb92b05cd491fb12bff353dae62a0a6d780461ee",
+        "sha256_in_prefix": "d3630ae6dc9b2b27b230b5f8bb92b05cd491fb12bff353dae62a0a6d780461ee",
+        "size_in_bytes": 2739
+      },
+      {
+        "_path": "site-packages/textual/tree-sitter/highlights/json.scm",
+        "path_type": "hardlink",
+        "sha256": "bbdfecccb805c982de8416ee814329f62db60e21fb77f509a1dadc2e65f10840",
+        "sha256_in_prefix": "bbdfecccb805c982de8416ee814329f62db60e21fb77f509a1dadc2e65f10840",
+        "size_in_bytes": 430
+      },
+      {
+        "_path": "site-packages/textual/tree-sitter/highlights/markdown.scm",
+        "path_type": "hardlink",
+        "sha256": "7906cc4cc1dd0cdc5d08030867bb9e00bc7b239e76bb257acd4203c00e24de39",
+        "sha256_in_prefix": "7906cc4cc1dd0cdc5d08030867bb9e00bc7b239e76bb257acd4203c00e24de39",
+        "size_in_bytes": 745
+      },
+      {
+        "_path": "site-packages/textual/tree-sitter/highlights/python.scm",
+        "path_type": "hardlink",
+        "sha256": "5905e2bec923869c6cfb93d0bb23f6ae6645bd4bb86297b3d6b9b2ebc05b3124",
+        "sha256_in_prefix": "5905e2bec923869c6cfb93d0bb23f6ae6645bd4bb86297b3d6b9b2ebc05b3124",
+        "size_in_bytes": 7361
+      },
+      {
+        "_path": "site-packages/textual/tree-sitter/highlights/regex.scm",
+        "path_type": "hardlink",
+        "sha256": "5930062749e18dd71cfd3fa9e662a220f1edabe0d69890a90f0ad5ed14419b7b",
+        "sha256_in_prefix": "5930062749e18dd71cfd3fa9e662a220f1edabe0d69890a90f0ad5ed14419b7b",
+        "size_in_bytes": 591
+      },
+      {
+        "_path": "site-packages/textual/tree-sitter/highlights/rust.scm",
+        "path_type": "hardlink",
+        "sha256": "1121094caebe76ff176fe567bae9de3b2bd37c88bf8ed81a62d156ff5ad747e8",
+        "sha256_in_prefix": "1121094caebe76ff176fe567bae9de3b2bd37c88bf8ed81a62d156ff5ad747e8",
+        "size_in_bytes": 3386
+      },
+      {
+        "_path": "site-packages/textual/tree-sitter/highlights/sql.scm",
+        "path_type": "hardlink",
+        "sha256": "d8f3232bafbc305d88edd58a189dff8c5732d403baabf77d8fb82bd97165b79c",
+        "sha256_in_prefix": "d8f3232bafbc305d88edd58a189dff8c5732d403baabf77d8fb82bd97165b79c",
+        "size_in_bytes": 7735
+      },
+      {
+        "_path": "site-packages/textual/tree-sitter/highlights/toml.scm",
+        "path_type": "hardlink",
+        "sha256": "38d60c6cc48afef51386f7f58a508026bfa4a3c2d02db4cbce90a7a5109ad942",
+        "sha256_in_prefix": "38d60c6cc48afef51386f7f58a508026bfa4a3c2d02db4cbce90a7a5109ad942",
+        "size_in_bytes": 606
+      },
+      {
+        "_path": "site-packages/textual/tree-sitter/highlights/xml.scm",
+        "path_type": "hardlink",
+        "sha256": "aa4a561c846928c3a4d885acbe690a60689661a45684babe16cf8b7a1509b610",
+        "sha256_in_prefix": "aa4a561c846928c3a4d885acbe690a60689661a45684babe16cf8b7a1509b610",
+        "size_in_bytes": 2281
+      },
+      {
+        "_path": "site-packages/textual/tree-sitter/highlights/yaml.scm",
+        "path_type": "hardlink",
+        "sha256": "0049b81300134ae8f3232d6a812a17397ad461a307dca7773f70699104fe1719",
+        "sha256_in_prefix": "0049b81300134ae8f3232d6a812a17397ad461a307dca7773f70699104fe1719",
+        "size_in_bytes": 943
+      },
+      {
+        "_path": "site-packages/textual/types.py",
+        "path_type": "hardlink",
+        "sha256": "b58c34ee588e5cc3dff8e2d5674e1deff4f4aeafc74bcdebae9b2cdc079312f9",
+        "sha256_in_prefix": "b58c34ee588e5cc3dff8e2d5674e1deff4f4aeafc74bcdebae9b2cdc079312f9",
+        "size_in_bytes": 1435
+      },
+      {
+        "_path": "site-packages/textual/validation.py",
+        "path_type": "hardlink",
+        "sha256": "96b33c3531abd7f3ccce9768523ac8eda0a484390d542095b89b7a9d04514da8",
+        "sha256_in_prefix": "96b33c3531abd7f3ccce9768523ac8eda0a484390d542095b89b7a9d04514da8",
+        "size_in_bytes": 18361
+      },
+      {
+        "_path": "site-packages/textual/visual.py",
+        "path_type": "hardlink",
+        "sha256": "ed53d679881bc06773aefa1fec172cbdb8805c445a3ae659152c6392383b24d3",
+        "sha256_in_prefix": "ed53d679881bc06773aefa1fec172cbdb8805c445a3ae659152c6392383b24d3",
+        "size_in_bytes": 14547
+      },
+      {
+        "_path": "site-packages/textual/walk.py",
+        "path_type": "hardlink",
+        "sha256": "129931d692b001427594ab4b224a8e2abf5eb3599b23c821109178489aa23b67",
+        "sha256_in_prefix": "129931d692b001427594ab4b224a8e2abf5eb3599b23c821109178489aa23b67",
+        "size_in_bytes": 3721
+      },
+      {
+        "_path": "site-packages/textual/widget.py",
+        "path_type": "hardlink",
+        "sha256": "f88497e5180c1798eeaa228652f0d091af4f4e36973c4b7f564d887dedf10d18",
+        "sha256_in_prefix": "f88497e5180c1798eeaa228652f0d091af4f4e36973c4b7f564d887dedf10d18",
+        "size_in_bytes": 156768
+      },
+      {
+        "_path": "site-packages/textual/widgets/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "3b7530b92ce903d5902568dbc7bacf18f1be19b50b5864d9340561d3181c7310",
+        "sha256_in_prefix": "3b7530b92ce903d5902568dbc7bacf18f1be19b50b5864d9340561d3181c7310",
+        "size_in_bytes": 3817
+      },
+      {
+        "_path": "site-packages/textual/widgets/__init__.pyi",
+        "path_type": "hardlink",
+        "sha256": "435f9327b490197853c14ca968eabd721086566137af91fdd7931e39db8c9b08",
+        "sha256_in_prefix": "435f9327b490197853c14ca968eabd721086566137af91fdd7931e39db8c9b08",
+        "size_in_bytes": 1970
+      },
+      {
+        "_path": "site-packages/textual/widgets/_button.py",
+        "path_type": "hardlink",
+        "sha256": "2d147f8aac5c50c477e074698e38401cdee24b92c8f4d0eec626ef015ea7ed69",
+        "sha256_in_prefix": "2d147f8aac5c50c477e074698e38401cdee24b92c8f4d0eec626ef015ea7ed69",
+        "size_in_bytes": 12399
+      },
+      {
+        "_path": "site-packages/textual/widgets/_checkbox.py",
+        "path_type": "hardlink",
+        "sha256": "edd71e93bdf1115a2c23c526926d1998b2eb9fe130b388695942610faf04a919",
+        "sha256_in_prefix": "edd71e93bdf1115a2c23c526926d1998b2eb9fe130b388695942610faf04a919",
+        "size_in_bytes": 803
+      },
+      {
+        "_path": "site-packages/textual/widgets/_collapsible.py",
+        "path_type": "hardlink",
+        "sha256": "692c98c648e6ce300cec9c075217ff274ae27a94b05052b039d5b243c4004cb1",
+        "sha256_in_prefix": "692c98c648e6ce300cec9c075217ff274ae27a94b05052b039d5b243c4004cb1",
+        "size_in_bytes": 7481
+      },
+      {
+        "_path": "site-packages/textual/widgets/_content_switcher.py",
+        "path_type": "hardlink",
+        "sha256": "57117dd857ee199911e27a2fa527df36d923a77f084604bc0aa4a5112e014034",
+        "sha256_in_prefix": "57117dd857ee199911e27a2fa527df36d923a77f084604bc0aa4a5112e014034",
+        "size_in_bytes": 4326
+      },
+      {
+        "_path": "site-packages/textual/widgets/_data_table.py",
+        "path_type": "hardlink",
+        "sha256": "4c81225723e5503e900f8da1e42e7c1abe4ad8f588269e2513f7f81bd217ae90",
+        "sha256_in_prefix": "4c81225723e5503e900f8da1e42e7c1abe4ad8f588269e2513f7f81bd217ae90",
+        "size_in_bytes": 106133
+      },
+      {
+        "_path": "site-packages/textual/widgets/_digits.py",
+        "path_type": "hardlink",
+        "sha256": "c0400645e37d9483066eaf87149475f84fe14f54272ea8127e8da12d03873147",
+        "sha256_in_prefix": "c0400645e37d9483066eaf87149475f84fe14f54272ea8127e8da12d03873147",
+        "size_in_bytes": 3186
+      },
+      {
+        "_path": "site-packages/textual/widgets/_directory_tree.py",
+        "path_type": "hardlink",
+        "sha256": "cd1841ad1aead4df744225cf76916410de7a480b14bde6200f3116672c4a919f",
+        "sha256_in_prefix": "cd1841ad1aead4df744225cf76916410de7a480b14bde6200f3116672c4a919f",
+        "size_in_bytes": 20023
+      },
+      {
+        "_path": "site-packages/textual/widgets/_footer.py",
+        "path_type": "hardlink",
+        "sha256": "25c2f5a1f2d2771e309b8e7c137e7694834482d7a3c198a07e143fa67f5705cc",
+        "sha256_in_prefix": "25c2f5a1f2d2771e309b8e7c137e7694834482d7a3c198a07e143fa67f5705cc",
+        "size_in_bytes": 8069
+      },
+      {
+        "_path": "site-packages/textual/widgets/_header.py",
+        "path_type": "hardlink",
+        "sha256": "a166b53eb71677d2697e5e9d9481333286bdff637570b480251369e6197b0a4f",
+        "sha256_in_prefix": "a166b53eb71677d2697e5e9d9481333286bdff637570b480251369e6197b0a4f",
+        "size_in_bytes": 6294
+      },
+      {
+        "_path": "site-packages/textual/widgets/_help_panel.py",
+        "path_type": "hardlink",
+        "sha256": "d3737e023a767e3391b9493a34782d566819026762b47de102f22941561c827e",
+        "sha256_in_prefix": "d3737e023a767e3391b9493a34782d566819026762b47de102f22941561c827e",
+        "size_in_bytes": 2856
+      },
+      {
+        "_path": "site-packages/textual/widgets/_input.py",
+        "path_type": "hardlink",
+        "sha256": "f37540b39191b6ab4596c8acb4210e1ee7eb1aa8a05c3f9bd5ff884c02fecb79",
+        "sha256_in_prefix": "f37540b39191b6ab4596c8acb4210e1ee7eb1aa8a05c3f9bd5ff884c02fecb79",
+        "size_in_bytes": 30447
+      },
+      {
+        "_path": "site-packages/textual/widgets/_key_panel.py",
+        "path_type": "hardlink",
+        "sha256": "bde813423086114a8a2bcc51176ed6f0edd138b216670f931450bfd48b821e4e",
+        "sha256_in_prefix": "bde813423086114a8a2bcc51176ed6f0edd138b216670f931450bfd48b821e4e",
+        "size_in_bytes": 5256
+      },
+      {
+        "_path": "site-packages/textual/widgets/_label.py",
+        "path_type": "hardlink",
+        "sha256": "8c30d0d2ca5674c2478b854c211d98916d727c3ad90a973af1f0ad9f9d7a7a0a",
+        "sha256_in_prefix": "8c30d0d2ca5674c2478b854c211d98916d727c3ad90a973af1f0ad9f9d7a7a0a",
+        "size_in_bytes": 1775
+      },
+      {
+        "_path": "site-packages/textual/widgets/_link.py",
+        "path_type": "hardlink",
+        "sha256": "7c3ac4fd355da68ac9a61e370138cb7f2d6a8fcf7649829209a194f51d99f553",
+        "sha256_in_prefix": "7c3ac4fd355da68ac9a61e370138cb7f2d6a8fcf7649829209a194f51d99f553",
+        "size_in_bytes": 1954
+      },
+      {
+        "_path": "site-packages/textual/widgets/_list_item.py",
+        "path_type": "hardlink",
+        "sha256": "e93d9e42df95eb59449010fd2d778d726d82aeb0a93ee9d0bc4f1e71c5ba63a7",
+        "sha256_in_prefix": "e93d9e42df95eb59449010fd2d778d726d82aeb0a93ee9d0bc4f1e71c5ba63a7",
+        "size_in_bytes": 1199
+      },
+      {
+        "_path": "site-packages/textual/widgets/_list_view.py",
+        "path_type": "hardlink",
+        "sha256": "9993089e6dc015e690263b25d6b9ac4f933fa8f20947bc3a47ba2ed6e7bbd36c",
+        "sha256_in_prefix": "9993089e6dc015e690263b25d6b9ac4f933fa8f20947bc3a47ba2ed6e7bbd36c",
+        "size_in_bytes": 14184
+      },
+      {
+        "_path": "site-packages/textual/widgets/_loading_indicator.py",
+        "path_type": "hardlink",
+        "sha256": "83354febee2f12cd1f4e354650d481db742cc4b35c703e9d6c8b31ab4e5912be",
+        "sha256_in_prefix": "83354febee2f12cd1f4e354650d481db742cc4b35c703e9d6c8b31ab4e5912be",
+        "size_in_bytes": 2545
+      },
+      {
+        "_path": "site-packages/textual/widgets/_log.py",
+        "path_type": "hardlink",
+        "sha256": "f5525238eac9f7c0373427ef98cfe7e7e3806e80442cc4f34054e6f0d25201d6",
+        "sha256_in_prefix": "f5525238eac9f7c0373427ef98cfe7e7e3806e80442cc4f34054e6f0d25201d6",
+        "size_in_bytes": 10187
+      },
+      {
+        "_path": "site-packages/textual/widgets/_markdown.py",
+        "path_type": "hardlink",
+        "sha256": "3afa8eb2e2f0f617c15b155b1842d2a91ef1d961469913669ee598591abcb2f2",
+        "sha256_in_prefix": "3afa8eb2e2f0f617c15b155b1842d2a91ef1d961469913669ee598591abcb2f2",
+        "size_in_bytes": 39050
+      },
+      {
+        "_path": "site-packages/textual/widgets/_markdown_viewer.py",
+        "path_type": "hardlink",
+        "sha256": "d2f9baf051143c05b8f2b2a094eb846641c3eb7df2ac4e3c1ac50d2f504cc3cf",
+        "sha256_in_prefix": "d2f9baf051143c05b8f2b2a094eb846641c3eb7df2ac4e3c1ac50d2f504cc3cf",
+        "size_in_bytes": 83
+      },
+      {
+        "_path": "site-packages/textual/widgets/_masked_input.py",
+        "path_type": "hardlink",
+        "sha256": "7c59d9c84791eddd94c543ea8ea77e8d82aa02720c5a84778b500d8e1cd823df",
+        "sha256_in_prefix": "7c59d9c84791eddd94c543ea8ea77e8d82aa02720c5a84778b500d8e1cd823df",
+        "size_in_bytes": 26517
+      },
+      {
+        "_path": "site-packages/textual/widgets/_option_list.py",
+        "path_type": "hardlink",
+        "sha256": "b16cb9b177701bf2cc5b8ed4231cc7b339d57ed524bb971ae79609ab6e2d534f",
+        "sha256_in_prefix": "b16cb9b177701bf2cc5b8ed4231cc7b339d57ed524bb971ae79609ab6e2d534f",
+        "size_in_bytes": 35554
+      },
+      {
+        "_path": "site-packages/textual/widgets/_placeholder.py",
+        "path_type": "hardlink",
+        "sha256": "8fb3a2d55adcd9f3797bffeadb798834c407fd5fcf9c6abdbfc30cd8f34aee7f",
+        "sha256_in_prefix": "8fb3a2d55adcd9f3797bffeadb798834c407fd5fcf9c6abdbfc30cd8f34aee7f",
+        "size_in_bytes": 6179
+      },
+      {
+        "_path": "site-packages/textual/widgets/_pretty.py",
+        "path_type": "hardlink",
+        "sha256": "6eaa28e3d8735da3214991643f838149db3e33cf2c31b542ddcfce596a2e8ab0",
+        "sha256_in_prefix": "6eaa28e3d8735da3214991643f838149db3e33cf2c31b542ddcfce596a2e8ab0",
+        "size_in_bytes": 1455
+      },
+      {
+        "_path": "site-packages/textual/widgets/_progress_bar.py",
+        "path_type": "hardlink",
+        "sha256": "bba34bfd62fd866aec166c162d4f0105a00e56df7c85197a68574b863d2faefb",
+        "sha256_in_prefix": "bba34bfd62fd866aec166c162d4f0105a00e56df7c85197a68574b863d2faefb",
+        "size_in_bytes": 12760
+      },
+      {
+        "_path": "site-packages/textual/widgets/_radio_button.py",
+        "path_type": "hardlink",
+        "sha256": "9355e47c0c081c3bea3e94a4f0508494e4a74bf7a8124b26c0184665a32ef740",
+        "sha256_in_prefix": "9355e47c0c081c3bea3e94a4f0508494e4a74bf7a8124b26c0184665a32ef740",
+        "size_in_bytes": 1037
+      },
+      {
+        "_path": "site-packages/textual/widgets/_radio_set.py",
+        "path_type": "hardlink",
+        "sha256": "3080339a5e3b6776a68978a1895ce8321167e10c49252b4928ba742217fe1d58",
+        "sha256_in_prefix": "3080339a5e3b6776a68978a1895ce8321167e10c49252b4928ba742217fe1d58",
+        "size_in_bytes": 10822
+      },
+      {
+        "_path": "site-packages/textual/widgets/_rich_log.py",
+        "path_type": "hardlink",
+        "sha256": "b39b4c13d175d986430148f7cc501c7b32649b5b40696913d8c181e4a44bda53",
+        "sha256_in_prefix": "b39b4c13d175d986430148f7cc501c7b32649b5b40696913d8c181e4a44bda53",
+        "size_in_bytes": 12138
+      },
+      {
+        "_path": "site-packages/textual/widgets/_rule.py",
+        "path_type": "hardlink",
+        "sha256": "02818d68c13ada2eac4050cf9c952d4329a880a6b55ddd8323b6f5e284d3ea77",
+        "sha256_in_prefix": "02818d68c13ada2eac4050cf9c952d4329a880a6b55ddd8323b6f5e284d3ea77",
+        "size_in_bytes": 7481
+      },
+      {
+        "_path": "site-packages/textual/widgets/_select.py",
+        "path_type": "hardlink",
+        "sha256": "de8184d451616215d39af240c24bccc356e6e477590dcbcbdf7d11498f4300f9",
+        "sha256_in_prefix": "de8184d451616215d39af240c24bccc356e6e477590dcbcbdf7d11498f4300f9",
+        "size_in_bytes": 19954
+      },
+      {
+        "_path": "site-packages/textual/widgets/_selection_list.py",
+        "path_type": "hardlink",
+        "sha256": "a729739358b619f99ca3bc1ce2356098b9fcd9f5210ff398def4eb479e7a8d0d",
+        "sha256_in_prefix": "a729739358b619f99ca3bc1ce2356098b9fcd9f5210ff398def4eb479e7a8d0d",
+        "size_in_bytes": 25501
+      },
+      {
+        "_path": "site-packages/textual/widgets/_sparkline.py",
+        "path_type": "hardlink",
+        "sha256": "c3b01dc086e024d69dd0c621e38ac2583d69e4ad00eb77a68d14e448bb81941f",
+        "sha256_in_prefix": "c3b01dc086e024d69dd0c621e38ac2583d69e4ad00eb77a68d14e448bb81941f",
+        "size_in_bytes": 3847
+      },
+      {
+        "_path": "site-packages/textual/widgets/_static.py",
+        "path_type": "hardlink",
+        "sha256": "9936ee2553821d6bde469de802888a278dd9509cd90358d6e3d8a71ba71332b1",
+        "sha256_in_prefix": "9936ee2553821d6bde469de802888a278dd9509cd90358d6e3d8a71ba71332b1",
+        "size_in_bytes": 3449
+      },
+      {
+        "_path": "site-packages/textual/widgets/_switch.py",
+        "path_type": "hardlink",
+        "sha256": "c0d35189c5bef8902aa784a7dfd210f72d9ad97e2c1de9898e137b4618d2b695",
+        "sha256_in_prefix": "c0d35189c5bef8902aa784a7dfd210f72d9ad97e2c1de9898e137b4618d2b695",
+        "size_in_bytes": 5904
+      },
+      {
+        "_path": "site-packages/textual/widgets/_tab.py",
+        "path_type": "hardlink",
+        "sha256": "89649871fd369698276e4997d7cefe4d1953fbf9f43d68474bce590048cab22d",
+        "sha256_in_prefix": "89649871fd369698276e4997d7cefe4d1953fbf9f43d68474bce590048cab22d",
+        "size_in_bytes": 57
+      },
+      {
+        "_path": "site-packages/textual/widgets/_tab_pane.py",
+        "path_type": "hardlink",
+        "sha256": "5fc1bb2663d8521c4f0d1bad9789d3414fdfd7968cb26c20de0ac2378f88ec22",
+        "sha256_in_prefix": "5fc1bb2663d8521c4f0d1bad9789d3414fdfd7968cb26c20de0ac2378f88ec22",
+        "size_in_bytes": 75
+      },
+      {
+        "_path": "site-packages/textual/widgets/_tabbed_content.py",
+        "path_type": "hardlink",
+        "sha256": "817485740319ee182a83a3c7c8b5f0ae07095ea7e780323515e2958258de0c3d",
+        "sha256_in_prefix": "817485740319ee182a83a3c7c8b5f0ae07095ea7e780323515e2958258de0c3d",
+        "size_in_bytes": 23912
+      },
+      {
+        "_path": "site-packages/textual/widgets/_tabs.py",
+        "path_type": "hardlink",
+        "sha256": "0a188bdafdff40fda7abf87644a45300869281f4142c287217acef8942022da6",
+        "sha256_in_prefix": "0a188bdafdff40fda7abf87644a45300869281f4142c287217acef8942022da6",
+        "size_in_bytes": 27063
+      },
+      {
+        "_path": "site-packages/textual/widgets/_text_area.py",
+        "path_type": "hardlink",
+        "sha256": "3e1a179bd664f3b9d10eda6075dfd5d2dceef3a115c4dac26a2ee2716989c55a",
+        "sha256_in_prefix": "3e1a179bd664f3b9d10eda6075dfd5d2dceef3a115c4dac26a2ee2716989c55a",
+        "size_in_bytes": 87859
+      },
+      {
+        "_path": "site-packages/textual/widgets/_toast.py",
+        "path_type": "hardlink",
+        "sha256": "ec827400f53629ea3c493989ff4ad54e81b0e61de3adb01b440ab42582a250cd",
+        "sha256_in_prefix": "ec827400f53629ea3c493989ff4ad54e81b0e61de3adb01b440ab42582a250cd",
+        "size_in_bytes": 5907
+      },
+      {
+        "_path": "site-packages/textual/widgets/_toggle_button.py",
+        "path_type": "hardlink",
+        "sha256": "817a408960c0de9627e4a4e73524fac786bec2bfaf7fe14d54922e34d79d9dde",
+        "sha256_in_prefix": "817a408960c0de9627e4a4e73524fac786bec2bfaf7fe14d54922e34d79d9dde",
+        "size_in_bytes": 7868
+      },
+      {
+        "_path": "site-packages/textual/widgets/_tooltip.py",
+        "path_type": "hardlink",
+        "sha256": "d3fce343a6b1cf55e82da41d7af0fefb9d472880c4a919d84bc048e706cfdd5b",
+        "sha256_in_prefix": "d3fce343a6b1cf55e82da41d7af0fefb9d472880c4a919d84bc048e706cfdd5b",
+        "size_in_bytes": 450
+      },
+      {
+        "_path": "site-packages/textual/widgets/_tree.py",
+        "path_type": "hardlink",
+        "sha256": "ac26ae893544b7575e14a7fa8ea9ab3d794d32cd539c49c92ed7087cb9bd851f",
+        "sha256_in_prefix": "ac26ae893544b7575e14a7fa8ea9ab3d794d32cd539c49c92ed7087cb9bd851f",
+        "size_in_bytes": 51508
+      },
+      {
+        "_path": "site-packages/textual/widgets/_welcome.py",
+        "path_type": "hardlink",
+        "sha256": "8402afe244618174fada527fcb2af4010e17fe4dda759a46b17d835c22bc78b6",
+        "sha256_in_prefix": "8402afe244618174fada527fcb2af4010e17fe4dda759a46b17d835c22bc78b6",
+        "size_in_bytes": 1535
+      },
+      {
+        "_path": "site-packages/textual/widgets/button.py",
+        "path_type": "hardlink",
+        "sha256": "5c8fe122d39e0d26063af1075cf44cd66262c7287b078813bfd7a9a93b1aae42",
+        "sha256_in_prefix": "5c8fe122d39e0d26063af1075cf44cd66262c7287b078813bfd7a9a93b1aae42",
+        "size_in_bytes": 79
+      },
+      {
+        "_path": "site-packages/textual/widgets/data_table.py",
+        "path_type": "hardlink",
+        "sha256": "7f2f799502f8599d7b3ca4c738fd5b922771f842579bb2c6d7fc8b9f66081d44",
+        "sha256_in_prefix": "7f2f799502f8599d7b3ca4c738fd5b922771f842579bb2c6d7fc8b9f66081d44",
+        "size_in_bytes": 465
+      },
+      {
+        "_path": "site-packages/textual/widgets/directory_tree.py",
+        "path_type": "hardlink",
+        "sha256": "39ec20d6d6850aa8bfa252dd1eedc58e6c9c31d0f76e7dfecffd7dd974f4411c",
+        "sha256_in_prefix": "39ec20d6d6850aa8bfa252dd1eedc58e6c9c31d0f76e7dfecffd7dd974f4411c",
+        "size_in_bytes": 77
+      },
+      {
+        "_path": "site-packages/textual/widgets/input.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/textual/widgets/markdown.py",
+        "path_type": "hardlink",
+        "sha256": "97c91fe86ea9eb29fc7b615817ff2e1319304c255a8be701a5f711833dcfa9d1",
+        "sha256_in_prefix": "97c91fe86ea9eb29fc7b615817ff2e1319304c255a8be701a5f711833dcfa9d1",
+        "size_in_bytes": 239
+      },
+      {
+        "_path": "site-packages/textual/widgets/option_list.py",
+        "path_type": "hardlink",
+        "sha256": "2fdef4ab693df7d7251367771d32e5832d548d7872f591e57012226eb95a4f6a",
+        "sha256_in_prefix": "2fdef4ab693df7d7251367771d32e5832d548d7872f591e57012226eb95a4f6a",
+        "size_in_bytes": 185
+      },
+      {
+        "_path": "site-packages/textual/widgets/rule.py",
+        "path_type": "hardlink",
+        "sha256": "c460260021df26e1a6ce3bea20528abb179bb0578e7b95f72a13c6d0461e42dd",
+        "sha256_in_prefix": "c460260021df26e1a6ce3bea20528abb179bb0578e7b95f72a13c6d0461e42dd",
+        "size_in_bytes": 233
+      },
+      {
+        "_path": "site-packages/textual/widgets/select.py",
+        "path_type": "hardlink",
+        "sha256": "f304a45c2c6280fd1556e6053bbbf64b5d07eac3c8ba8d65bc7e8dd27146cfda",
+        "sha256_in_prefix": "f304a45c2c6280fd1556e6053bbbf64b5d07eac3c8ba8d65bc7e8dd27146cfda",
+        "size_in_bytes": 137
+      },
+      {
+        "_path": "site-packages/textual/widgets/selection_list.py",
+        "path_type": "hardlink",
+        "sha256": "a929d7c5715b0cf50eaa4e356699beade750351829c4f03cd9dc2787ce197fd4",
+        "sha256_in_prefix": "a929d7c5715b0cf50eaa4e356699beade750351829c4f03cd9dc2787ce197fd4",
+        "size_in_bytes": 212
+      },
+      {
+        "_path": "site-packages/textual/widgets/tabbed_content.py",
+        "path_type": "hardlink",
+        "sha256": "5241d009717b6a525cf46221c490bb6ccd2b4473d3cb0cf7b68f9819071857b4",
+        "sha256_in_prefix": "5241d009717b6a525cf46221c490bb6ccd2b4473d3cb0cf7b68f9819071857b4",
+        "size_in_bytes": 120
+      },
+      {
+        "_path": "site-packages/textual/widgets/text_area.py",
+        "path_type": "hardlink",
+        "sha256": "aa0ddcd2eb8cd7d722e252e6345c6416dbf25e883a334d1d38bcc84d5ada6ffc",
+        "sha256_in_prefix": "aa0ddcd2eb8cd7d722e252e6345c6416dbf25e883a334d1d38bcc84d5ada6ffc",
+        "size_in_bytes": 1053
+      },
+      {
+        "_path": "site-packages/textual/widgets/tree.py",
+        "path_type": "hardlink",
+        "sha256": "1786019604fb090eb8b6685882baf36614efef3c62176e88689644b3be65f505",
+        "sha256_in_prefix": "1786019604fb090eb8b6685882baf36614efef3c62176e88689644b3be65f505",
+        "size_in_bytes": 372
+      },
+      {
+        "_path": "site-packages/textual/worker.py",
+        "path_type": "hardlink",
+        "sha256": "dbceaa2ba203a5a051eb2092747393c16637087781b704686eae368a9ea900a2",
+        "sha256_in_prefix": "dbceaa2ba203a5a051eb2092747393c16637087781b704686eae368a9ea900a2",
+        "size_in_bytes": 13715
+      },
+      {
+        "_path": "site-packages/textual/worker_manager.py",
+        "path_type": "hardlink",
+        "sha256": "beabe6908aa9e49c9bd65197c3662acf46afd6e60f4601223f7550be2cff6c4d",
+        "sha256_in_prefix": "beabe6908aa9e49c9bd65197c3662acf46afd6e60f4601223f7550be2cff6c4d",
+        "size_in_bytes": 5603
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/__pycache__/__main__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/__pycache__/_animator.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/__pycache__/_ansi_sequences.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/__pycache__/_ansi_theme.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/__pycache__/_arrange.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/__pycache__/_binary_encode.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/__pycache__/_border.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/__pycache__/_box_drawing.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/__pycache__/_callback.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/__pycache__/_cells.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/__pycache__/_color_constants.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/__pycache__/_compose.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/__pycache__/_compositor.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/__pycache__/_context.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/__pycache__/_debug.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/__pycache__/_dispatch_key.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/__pycache__/_doc.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/__pycache__/_duration.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/__pycache__/_easing.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/__pycache__/_event_broker.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/__pycache__/_files.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/__pycache__/_immutable_sequence_view.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/__pycache__/_import_app.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/__pycache__/_keyboard_protocol.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/__pycache__/_layout_resolve.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/__pycache__/_line_split.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/__pycache__/_log.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/__pycache__/_loop.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/__pycache__/_node_list.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/__pycache__/_on.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/__pycache__/_opacity.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/__pycache__/_parser.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/__pycache__/_partition.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/__pycache__/_path.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/__pycache__/_profile.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/__pycache__/_resolve.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/__pycache__/_segment_tools.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/__pycache__/_sleep.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/__pycache__/_slug.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/__pycache__/_spatial_map.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/__pycache__/_styles_cache.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/__pycache__/_text_area_theme.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/__pycache__/_time.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/__pycache__/_tree_sitter.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/__pycache__/_two_way_dict.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/__pycache__/_types.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/__pycache__/_wait.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/__pycache__/_widget_navigation.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/__pycache__/_win_sleep.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/__pycache__/_work_decorator.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/__pycache__/_wrap.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/__pycache__/_xterm_parser.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/__pycache__/actions.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/__pycache__/app.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/__pycache__/await_complete.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/__pycache__/await_remove.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/__pycache__/binding.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/__pycache__/box_model.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/__pycache__/cache.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/__pycache__/canvas.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/__pycache__/case.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/__pycache__/clock.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/__pycache__/color.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/__pycache__/command.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/__pycache__/constants.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/__pycache__/containers.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/__pycache__/content.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/__pycache__/coordinate.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/css/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/css/__pycache__/_error_tools.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/css/__pycache__/_help_renderables.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/css/__pycache__/_help_text.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/css/__pycache__/_style_properties.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/css/__pycache__/_styles_builder.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/css/__pycache__/constants.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/css/__pycache__/errors.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/css/__pycache__/match.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/css/__pycache__/model.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/css/__pycache__/parse.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/css/__pycache__/query.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/css/__pycache__/scalar.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/css/__pycache__/scalar_animation.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/css/__pycache__/styles.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/css/__pycache__/stylesheet.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/css/__pycache__/tokenize.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/css/__pycache__/tokenizer.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/css/__pycache__/transition.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/css/__pycache__/types.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/demo/__pycache__/__main__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/demo/__pycache__/data.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/demo/__pycache__/demo_app.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/demo/__pycache__/game.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/demo/__pycache__/home.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/demo/__pycache__/page.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/demo/__pycache__/projects.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/demo/__pycache__/widgets.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/__pycache__/design.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/document/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/document/__pycache__/_document.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/document/__pycache__/_document_navigator.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/document/__pycache__/_edit.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/document/__pycache__/_history.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/document/__pycache__/_syntax_aware_document.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/document/__pycache__/_wrapped_document.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/__pycache__/dom.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/__pycache__/driver.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/drivers/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/drivers/__pycache__/_byte_stream.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/drivers/__pycache__/_input_reader.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/drivers/__pycache__/_input_reader_linux.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/drivers/__pycache__/_input_reader_windows.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/drivers/__pycache__/_writer_thread.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/drivers/__pycache__/headless_driver.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/drivers/__pycache__/linux_driver.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/drivers/__pycache__/linux_inline_driver.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/drivers/__pycache__/web_driver.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/drivers/__pycache__/win32.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/drivers/__pycache__/windows_driver.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/__pycache__/errors.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/__pycache__/eta.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/__pycache__/events.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/__pycache__/expand_tabs.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/__pycache__/features.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/__pycache__/file_monitor.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/__pycache__/filter.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/__pycache__/fuzzy.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/__pycache__/geometry.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/__pycache__/keys.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/__pycache__/layout.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/layouts/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/layouts/__pycache__/factory.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/layouts/__pycache__/grid.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/layouts/__pycache__/horizontal.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/layouts/__pycache__/vertical.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/__pycache__/lazy.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/__pycache__/logging.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/__pycache__/map_geometry.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/__pycache__/message.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/__pycache__/message_pump.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/__pycache__/messages.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/__pycache__/notifications.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/__pycache__/pad.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/__pycache__/pilot.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/__pycache__/reactive.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/__pycache__/render.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/renderables/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/renderables/__pycache__/_blend_colors.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/renderables/__pycache__/background_screen.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/renderables/__pycache__/bar.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/renderables/__pycache__/blank.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/renderables/__pycache__/digits.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/renderables/__pycache__/gradient.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/renderables/__pycache__/sparkline.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/renderables/__pycache__/styled.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/renderables/__pycache__/text_opacity.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/renderables/__pycache__/tint.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/__pycache__/rlock.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/__pycache__/screen.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/__pycache__/scroll_view.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/__pycache__/scrollbar.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/__pycache__/signal.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/__pycache__/strip.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/__pycache__/suggester.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/__pycache__/suggestions.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/__pycache__/system_commands.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/__pycache__/theme.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/__pycache__/timer.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/__pycache__/types.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/__pycache__/validation.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/__pycache__/visual.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/__pycache__/walk.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/__pycache__/widget.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/widgets/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/widgets/__pycache__/_button.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/widgets/__pycache__/_checkbox.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/widgets/__pycache__/_collapsible.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/widgets/__pycache__/_content_switcher.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/widgets/__pycache__/_data_table.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/widgets/__pycache__/_digits.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/widgets/__pycache__/_directory_tree.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/widgets/__pycache__/_footer.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/widgets/__pycache__/_header.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/widgets/__pycache__/_help_panel.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/widgets/__pycache__/_input.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/widgets/__pycache__/_key_panel.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/widgets/__pycache__/_label.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/widgets/__pycache__/_link.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/widgets/__pycache__/_list_item.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/widgets/__pycache__/_list_view.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/widgets/__pycache__/_loading_indicator.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/widgets/__pycache__/_log.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/widgets/__pycache__/_markdown.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/widgets/__pycache__/_markdown_viewer.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/widgets/__pycache__/_masked_input.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/widgets/__pycache__/_option_list.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/widgets/__pycache__/_placeholder.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/widgets/__pycache__/_pretty.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/widgets/__pycache__/_progress_bar.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/widgets/__pycache__/_radio_button.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/widgets/__pycache__/_radio_set.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/widgets/__pycache__/_rich_log.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/widgets/__pycache__/_rule.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/widgets/__pycache__/_select.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/widgets/__pycache__/_selection_list.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/widgets/__pycache__/_sparkline.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/widgets/__pycache__/_static.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/widgets/__pycache__/_switch.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/widgets/__pycache__/_tab.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/widgets/__pycache__/_tab_pane.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/widgets/__pycache__/_tabbed_content.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/widgets/__pycache__/_tabs.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/widgets/__pycache__/_text_area.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/widgets/__pycache__/_toast.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/widgets/__pycache__/_toggle_button.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/widgets/__pycache__/_tooltip.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/widgets/__pycache__/_tree.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/widgets/__pycache__/_welcome.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/widgets/__pycache__/button.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/widgets/__pycache__/data_table.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/widgets/__pycache__/directory_tree.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/widgets/__pycache__/input.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/widgets/__pycache__/markdown.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/widgets/__pycache__/option_list.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/widgets/__pycache__/rule.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/widgets/__pycache__/select.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/widgets/__pycache__/selection_list.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/widgets/__pycache__/tabbed_content.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/widgets/__pycache__/text_area.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/widgets/__pycache__/tree.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/__pycache__/worker.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/textual/__pycache__/worker_manager.cpython-310.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "a90283beaf53475afe9c0ac33845ee75a33cc63a5be1cbf0af48d6526bea3787",
+  "size": 453143,
+  "subdir": "noarch",
+  "timestamp": 1733989885000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/textual-0.89.1-pyhd8ed1ab_1.conda",
+  "version": "0.89.1"
+}

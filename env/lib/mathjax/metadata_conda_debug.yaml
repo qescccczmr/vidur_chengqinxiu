@@ -1,0 +1,25 @@
+package:
+  name: mathjax
+  version: 2.7.7
+source:
+  sha256: 71ea2429b1b5b5d796d3f89303a33d61ce8459897b48973d768261e33d6268c0
+  url: https://github.com/mathjax/MathJax/archive/2.7.7.tar.gz
+build:
+  number: '3'
+test:
+  commands:
+    - mathjax-path
+about:
+  dev_url: https://github.com/mathjax/MathJax
+  doc_url: https://github.com/mathjax/MathJax
+  home: https://github.com/mathjax/MathJax
+  license: Apache-2.0
+  license_family: Apache
+  license_file: LICENSE
+  summary: Beautiful math in all browsers. MathJax is an open-source JavaScript display
+    engine for LaTeX, MathML, and AsciiMath notation that works in all browsers. (use
+    mathjax-path script)
+extra:
+  final: null
+  recipe-maintainers:
+    - kiwi0fruit

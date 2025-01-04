@@ -1,0 +1,130 @@
+{
+  "build": "pyhd8ed1ab_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python >=3.8"
+  ],
+  "extracted_package_dir": "/cpfs01/user/chengqinxiu/anaconda3/pkgs/cloudpickle-3.1.0-pyhd8ed1ab_1",
+  "files": [
+    "lib/python3.10/site-packages/cloudpickle-3.1.0.dist-info/INSTALLER",
+    "lib/python3.10/site-packages/cloudpickle-3.1.0.dist-info/LICENSE",
+    "lib/python3.10/site-packages/cloudpickle-3.1.0.dist-info/METADATA",
+    "lib/python3.10/site-packages/cloudpickle-3.1.0.dist-info/RECORD",
+    "lib/python3.10/site-packages/cloudpickle-3.1.0.dist-info/REQUESTED",
+    "lib/python3.10/site-packages/cloudpickle-3.1.0.dist-info/WHEEL",
+    "lib/python3.10/site-packages/cloudpickle-3.1.0.dist-info/direct_url.json",
+    "lib/python3.10/site-packages/cloudpickle/__init__.py",
+    "lib/python3.10/site-packages/cloudpickle/cloudpickle.py",
+    "lib/python3.10/site-packages/cloudpickle/cloudpickle_fast.py",
+    "lib/python3.10/site-packages/cloudpickle/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/cloudpickle/__pycache__/cloudpickle.cpython-310.pyc",
+    "lib/python3.10/site-packages/cloudpickle/__pycache__/cloudpickle_fast.cpython-310.pyc"
+  ],
+  "fn": "cloudpickle-3.1.0-pyhd8ed1ab_1.conda",
+  "license": "BSD-3-Clause",
+  "link": {
+    "source": "/cpfs01/user/chengqinxiu/anaconda3/pkgs/cloudpickle-3.1.0-pyhd8ed1ab_1",
+    "type": 1
+  },
+  "md5": "c88ca2bb7099167912e3b26463fff079",
+  "name": "cloudpickle",
+  "noarch": "python",
+  "package_tarball_full_path": "/cpfs01/user/chengqinxiu/anaconda3/pkgs/cloudpickle-3.1.0-pyhd8ed1ab_1.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/cloudpickle-3.1.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/cloudpickle-3.1.0.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "3029ea34173e9fdc233ad315dc6b100bd1ea71f529b1c1af97664a272fdc55f5",
+        "sha256_in_prefix": "3029ea34173e9fdc233ad315dc6b100bd1ea71f529b1c1af97664a272fdc55f5",
+        "size_in_bytes": 1754
+      },
+      {
+        "_path": "site-packages/cloudpickle-3.1.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "f979767d068f95f2506ee3630679d66f206e585e33f6bcf10f7e9ef35cb73184",
+        "sha256_in_prefix": "f979767d068f95f2506ee3630679d66f206e585e33f6bcf10f7e9ef35cb73184",
+        "size_in_bytes": 6955
+      },
+      {
+        "_path": "site-packages/cloudpickle-3.1.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "cb3b7ac46e0bc8bf56cf9fded129918d2ce217b267a5c213eb4c9b7a4e4538e7",
+        "sha256_in_prefix": "cb3b7ac46e0bc8bf56cf9fded129918d2ce217b267a5c213eb4c9b7a4e4538e7",
+        "size_in_bytes": 1018
+      },
+      {
+        "_path": "site-packages/cloudpickle-3.1.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/cloudpickle-3.1.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "1196c6921ec87b83e865f450f08d19b8ff5592537f4ef719e83484e546abe33e",
+        "sha256_in_prefix": "1196c6921ec87b83e865f450f08d19b8ff5592537f4ef719e83484e546abe33e",
+        "size_in_bytes": 81
+      },
+      {
+        "_path": "site-packages/cloudpickle-3.1.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "a0ae67117f19ac44ea74ce3d9579dd66235389fa0fb5db8b87aba720a919a260",
+        "sha256_in_prefix": "a0ae67117f19ac44ea74ce3d9579dd66235389fa0fb5db8b87aba720a919a260",
+        "size_in_bytes": 107
+      },
+      {
+        "_path": "site-packages/cloudpickle/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "7a197146986b09ef8f3f1b1b171e2d8c20e699f61216f366a92e582ce32c1679",
+        "sha256_in_prefix": "7a197146986b09ef8f3f1b1b171e2d8c20e699f61216f366a92e582ce32c1679",
+        "size_in_bytes": 308
+      },
+      {
+        "_path": "site-packages/cloudpickle/cloudpickle.py",
+        "path_type": "hardlink",
+        "sha256": "6dbd9b68bd8fe6e165fba3fb051aa6ce898e1d0e96d379f52842ae74d4d6c567",
+        "sha256_in_prefix": "6dbd9b68bd8fe6e165fba3fb051aa6ce898e1d0e96d379f52842ae74d4d6c567",
+        "size_in_bytes": 58237
+      },
+      {
+        "_path": "site-packages/cloudpickle/cloudpickle_fast.py",
+        "path_type": "hardlink",
+        "sha256": "008e5929fd806cb3710fc957c8b0e9299cb3799da87c5b5d2b565616afde7357",
+        "sha256_in_prefix": "008e5929fd806cb3710fc957c8b0e9299cb3799da87c5b5d2b565616afde7357",
+        "size_in_bytes": 323
+      },
+      {
+        "_path": "lib/python3.10/site-packages/cloudpickle/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/cloudpickle/__pycache__/cloudpickle.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/cloudpickle/__pycache__/cloudpickle_fast.cpython-310.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "5a33d0d3ef33121c546eaf78b3dac2141fc4d30bbaeb3959bbc66fcd5e99ced6",
+  "size": 25952,
+  "subdir": "noarch",
+  "timestamp": 1729059365000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/cloudpickle-3.1.0-pyhd8ed1ab_1.conda",
+  "version": "3.1.0"
+}

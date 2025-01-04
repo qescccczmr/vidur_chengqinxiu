@@ -1,0 +1,16 @@
+#libevent pkg-config source file
+
+prefix=/cpfs01/user/chengqinxiu/vidur/env
+exec_prefix=/cpfs01/user/chengqinxiu/vidur/env
+libdir=/cpfs01/user/chengqinxiu/vidur/env/lib
+includedir=/cpfs01/user/chengqinxiu/vidur/env/include
+
+Name: libevent_pthreads
+Description: libevent_pthreads adds pthreads-based threading support to libevent
+Version: 2.1.12
+Requires: libevent
+Conflicts:
+Libs: -L${libdir} -levent_pthreads
+Libs.private:  
+Cflags: -I${includedir} 
+

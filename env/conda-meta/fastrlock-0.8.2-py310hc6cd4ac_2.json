@@ -1,0 +1,148 @@
+{
+  "build": "py310hc6cd4ac_2",
+  "build_number": 2,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=12",
+    "libstdcxx-ng >=12",
+    "python >=3.10,<3.11.0a0",
+    "python_abi 3.10.* *_cp310"
+  ],
+  "extracted_package_dir": "/cpfs01/user/chengqinxiu/anaconda3/pkgs/fastrlock-0.8.2-py310hc6cd4ac_2",
+  "files": [
+    "lib/python3.10/site-packages/fastrlock-0.8.2.dist-info/INSTALLER",
+    "lib/python3.10/site-packages/fastrlock-0.8.2.dist-info/LICENSE",
+    "lib/python3.10/site-packages/fastrlock-0.8.2.dist-info/METADATA",
+    "lib/python3.10/site-packages/fastrlock-0.8.2.dist-info/RECORD",
+    "lib/python3.10/site-packages/fastrlock-0.8.2.dist-info/REQUESTED",
+    "lib/python3.10/site-packages/fastrlock-0.8.2.dist-info/WHEEL",
+    "lib/python3.10/site-packages/fastrlock-0.8.2.dist-info/direct_url.json",
+    "lib/python3.10/site-packages/fastrlock-0.8.2.dist-info/top_level.txt",
+    "lib/python3.10/site-packages/fastrlock/__init__.pxd",
+    "lib/python3.10/site-packages/fastrlock/__init__.py",
+    "lib/python3.10/site-packages/fastrlock/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/fastrlock/_lock.pxi",
+    "lib/python3.10/site-packages/fastrlock/rlock.cpython-310-x86_64-linux-gnu.so",
+    "lib/python3.10/site-packages/fastrlock/rlock.pxd"
+  ],
+  "fn": "fastrlock-0.8.2-py310hc6cd4ac_2.conda",
+  "license": "MIT",
+  "link": {
+    "source": "/cpfs01/user/chengqinxiu/anaconda3/pkgs/fastrlock-0.8.2-py310hc6cd4ac_2",
+    "type": 1
+  },
+  "md5": "4932069b8174bde20941d0647fc93eeb",
+  "name": "fastrlock",
+  "package_tarball_full_path": "/cpfs01/user/chengqinxiu/anaconda3/pkgs/fastrlock-0.8.2-py310hc6cd4ac_2.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.10/site-packages/fastrlock-0.8.2.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.10/site-packages/fastrlock-0.8.2.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "79d596090a9d19a51a1175cbd124060b2f23d4f6bebea7982241d23117519630",
+        "sha256_in_prefix": "79d596090a9d19a51a1175cbd124060b2f23d4f6bebea7982241d23117519630",
+        "size_in_bytes": 1063
+      },
+      {
+        "_path": "lib/python3.10/site-packages/fastrlock-0.8.2.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "0ec397d4a99097e6b1a92bbd470b52e8ef1e1c52339791d8e9acdfbe7f420d4e",
+        "sha256_in_prefix": "0ec397d4a99097e6b1a92bbd470b52e8ef1e1c52339791d8e9acdfbe7f420d4e",
+        "size_in_bytes": 9291
+      },
+      {
+        "_path": "lib/python3.10/site-packages/fastrlock-0.8.2.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "47e1e49f167befb6d1da7ea25c387dc07803efe648cff0222f2394cc09891097",
+        "sha256_in_prefix": "47e1e49f167befb6d1da7ea25c387dc07803efe648cff0222f2394cc09891097",
+        "size_in_bytes": 1144
+      },
+      {
+        "_path": "lib/python3.10/site-packages/fastrlock-0.8.2.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.10/site-packages/fastrlock-0.8.2.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "243eb84858b98794e4ac2cd4db358a95222067e93f2ebbbd18a631106e89345c",
+        "sha256_in_prefix": "243eb84858b98794e4ac2cd4db358a95222067e93f2ebbbd18a631106e89345c",
+        "size_in_bytes": 105
+      },
+      {
+        "_path": "lib/python3.10/site-packages/fastrlock-0.8.2.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "71ea86a347158acf0542e2d2303d5701d9e389451c11d681b5312de747711eff",
+        "sha256_in_prefix": "71ea86a347158acf0542e2d2303d5701d9e389451c11d681b5312de747711eff",
+        "size_in_bytes": 105
+      },
+      {
+        "_path": "lib/python3.10/site-packages/fastrlock-0.8.2.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "40c2cd3428e88ac475353c6dccfc65d99ca287d9fab05c5df150944332091ce0",
+        "sha256_in_prefix": "40c2cd3428e88ac475353c6dccfc65d99ca287d9fab05c5df150944332091ce0",
+        "size_in_bytes": 10
+      },
+      {
+        "_path": "lib/python3.10/site-packages/fastrlock/__init__.pxd",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.10/site-packages/fastrlock/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "99e5195300701149b931aeb734ea7cd09acc30e7c877fd5e4ace4b7c209ed17c",
+        "sha256_in_prefix": "99e5195300701149b931aeb734ea7cd09acc30e7c877fd5e4ace4b7c209ed17c",
+        "size_in_bytes": 169
+      },
+      {
+        "_path": "lib/python3.10/site-packages/fastrlock/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "118db73d6ac271a0c05fe022c2f7c3f0133efeb7ae43379c3e67f33f455e7c71",
+        "sha256_in_prefix": "118db73d6ac271a0c05fe022c2f7c3f0133efeb7ae43379c3e67f33f455e7c71",
+        "size_in_bytes": 435
+      },
+      {
+        "_path": "lib/python3.10/site-packages/fastrlock/_lock.pxi",
+        "path_type": "hardlink",
+        "sha256": "b09521c0b25f146c7f0c937194668a6a0f1ed3c69b663c3b549cd43e89626365",
+        "sha256_in_prefix": "b09521c0b25f146c7f0c937194668a6a0f1ed3c69b663c3b549cd43e89626365",
+        "size_in_bytes": 2589
+      },
+      {
+        "_path": "lib/python3.10/site-packages/fastrlock/rlock.cpython-310-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "dddc63862ac76d47c2c560b59b1babb18af2745b69f1a8e8b52c3dbf6c1a2d0a",
+        "sha256_in_prefix": "dddc63862ac76d47c2c560b59b1babb18af2745b69f1a8e8b52c3dbf6c1a2d0a",
+        "size_in_bytes": 75032
+      },
+      {
+        "_path": "lib/python3.10/site-packages/fastrlock/rlock.pxd",
+        "path_type": "hardlink",
+        "sha256": "b25aed4c2f724ada73b0bf45520a3253af43fd8b0901ed37e8611f1fa67d6b47",
+        "sha256_in_prefix": "b25aed4c2f724ada73b0bf45520a3253af43fd8b0901ed37e8611f1fa67d6b47",
+        "size_in_bytes": 313
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "c52e30dde07bc504494f6c7e8a701f7d3147a2878bd5f72ae82c399c56289ece",
+  "size": 37508,
+  "subdir": "linux-64",
+  "timestamp": 1702696445000,
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/fastrlock-0.8.2-py310hc6cd4ac_2.conda",
+  "version": "0.8.2"
+}

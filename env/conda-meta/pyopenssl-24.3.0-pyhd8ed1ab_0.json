@@ -1,0 +1,199 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "cryptography >=41.0.5,<45",
+    "python >=3.9"
+  ],
+  "extracted_package_dir": "/cpfs01/user/chengqinxiu/anaconda3/pkgs/pyopenssl-24.3.0-pyhd8ed1ab_0",
+  "files": [
+    "lib/python3.10/site-packages/OpenSSL/SSL.py",
+    "lib/python3.10/site-packages/OpenSSL/__init__.py",
+    "lib/python3.10/site-packages/OpenSSL/_util.py",
+    "lib/python3.10/site-packages/OpenSSL/crypto.py",
+    "lib/python3.10/site-packages/OpenSSL/debug.py",
+    "lib/python3.10/site-packages/OpenSSL/py.typed",
+    "lib/python3.10/site-packages/OpenSSL/rand.py",
+    "lib/python3.10/site-packages/OpenSSL/version.py",
+    "lib/python3.10/site-packages/pyOpenSSL-24.3.0.dist-info/INSTALLER",
+    "lib/python3.10/site-packages/pyOpenSSL-24.3.0.dist-info/LICENSE",
+    "lib/python3.10/site-packages/pyOpenSSL-24.3.0.dist-info/METADATA",
+    "lib/python3.10/site-packages/pyOpenSSL-24.3.0.dist-info/RECORD",
+    "lib/python3.10/site-packages/pyOpenSSL-24.3.0.dist-info/REQUESTED",
+    "lib/python3.10/site-packages/pyOpenSSL-24.3.0.dist-info/WHEEL",
+    "lib/python3.10/site-packages/pyOpenSSL-24.3.0.dist-info/direct_url.json",
+    "lib/python3.10/site-packages/pyOpenSSL-24.3.0.dist-info/top_level.txt",
+    "lib/python3.10/site-packages/OpenSSL/__pycache__/SSL.cpython-310.pyc",
+    "lib/python3.10/site-packages/OpenSSL/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/OpenSSL/__pycache__/_util.cpython-310.pyc",
+    "lib/python3.10/site-packages/OpenSSL/__pycache__/crypto.cpython-310.pyc",
+    "lib/python3.10/site-packages/OpenSSL/__pycache__/debug.cpython-310.pyc",
+    "lib/python3.10/site-packages/OpenSSL/__pycache__/rand.cpython-310.pyc",
+    "lib/python3.10/site-packages/OpenSSL/__pycache__/version.cpython-310.pyc"
+  ],
+  "fn": "pyopenssl-24.3.0-pyhd8ed1ab_0.conda",
+  "license": "Apache-2.0",
+  "link": {
+    "source": "/cpfs01/user/chengqinxiu/anaconda3/pkgs/pyopenssl-24.3.0-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "269109707b3810adce78b6afb2a82c80",
+  "name": "pyopenssl",
+  "noarch": "python",
+  "package_tarball_full_path": "/cpfs01/user/chengqinxiu/anaconda3/pkgs/pyopenssl-24.3.0-pyhd8ed1ab_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/OpenSSL/SSL.py",
+        "path_type": "hardlink",
+        "sha256": "f8a046a33463dba4f48a6dd5a47bf6c63acdb4caba5c29269ad6fe2af9b215bf",
+        "sha256_in_prefix": "f8a046a33463dba4f48a6dd5a47bf6c63acdb4caba5c29269ad6fe2af9b215bf",
+        "size_in_bytes": 113011
+      },
+      {
+        "_path": "site-packages/OpenSSL/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3a10dad09802de19b9c8a0e78569adf1122686726a183dad7a0df769ea1322a",
+        "sha256_in_prefix": "e3a10dad09802de19b9c8a0e78569adf1122686726a183dad7a0df769ea1322a",
+        "size_in_bytes": 497
+      },
+      {
+        "_path": "site-packages/OpenSSL/_util.py",
+        "path_type": "hardlink",
+        "sha256": "d7b0883ad3aff7d24ba2ad3db0e4d231f38aec11e79238de44a42ef0f144324e",
+        "sha256_in_prefix": "d7b0883ad3aff7d24ba2ad3db0e4d231f38aec11e79238de44a42ef0f144324e",
+        "size_in_bytes": 3569
+      },
+      {
+        "_path": "site-packages/OpenSSL/crypto.py",
+        "path_type": "hardlink",
+        "sha256": "7cd92f5cf2c5453824ffb01ce9462c50f6ff72831401a9a382477db24fbdbbe1",
+        "sha256_in_prefix": "7cd92f5cf2c5453824ffb01ce9462c50f6ff72831401a9a382477db24fbdbbe1",
+        "size_in_bytes": 80048
+      },
+      {
+        "_path": "site-packages/OpenSSL/debug.py",
+        "path_type": "hardlink",
+        "sha256": "bc297bedfd8cb255284d14aef5fa8fe432fff432bf4520bb269bb4ec8a7d8103",
+        "sha256_in_prefix": "bc297bedfd8cb255284d14aef5fa8fe432fff432bf4520bb269bb4ec8a7d8103",
+        "size_in_bytes": 1008
+      },
+      {
+        "_path": "site-packages/OpenSSL/py.typed",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/OpenSSL/rand.py",
+        "path_type": "hardlink",
+        "sha256": "b1d4345bbd52d714cc3ffb5b63a5e3455f61b5ea61ea53263fd77fef40597c5e",
+        "sha256_in_prefix": "b1d4345bbd52d714cc3ffb5b63a5e3455f61b5ea61ea53263fd77fef40597c5e",
+        "size_in_bytes": 1216
+      },
+      {
+        "_path": "site-packages/OpenSSL/version.py",
+        "path_type": "hardlink",
+        "sha256": "d074e49b1abc34150733fe9e285c6860f421cf97c7798d25a71c0f9cb9a792e4",
+        "sha256_in_prefix": "d074e49b1abc34150733fe9e285c6860f421cf97c7798d25a71c0f9cb9a792e4",
+        "size_in_bytes": 641
+      },
+      {
+        "_path": "site-packages/pyOpenSSL-24.3.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/pyOpenSSL-24.3.0.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+        "sha256_in_prefix": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+        "size_in_bytes": 11358
+      },
+      {
+        "_path": "site-packages/pyOpenSSL-24.3.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "07aed2fd682ed79cd4a7a4703a11b214876bcec0eb5c4899ff7eb3c816518897",
+        "sha256_in_prefix": "07aed2fd682ed79cd4a7a4703a11b214876bcec0eb5c4899ff7eb3c816518897",
+        "size_in_bytes": 15775
+      },
+      {
+        "_path": "site-packages/pyOpenSSL-24.3.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "df4e7bbafb23c2b209dca5556a4aea1b7fcf5db9ca0f57f64f96e6febd218af5",
+        "sha256_in_prefix": "df4e7bbafb23c2b209dca5556a4aea1b7fcf5db9ca0f57f64f96e6febd218af5",
+        "size_in_bytes": 1592
+      },
+      {
+        "_path": "site-packages/pyOpenSSL-24.3.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/pyOpenSSL-24.3.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "3d9504c5d7fbd548bfb28ebb417a724ae1ed0a2dfe277c2f1783912ba93f4bc5",
+        "sha256_in_prefix": "3d9504c5d7fbd548bfb28ebb417a724ae1ed0a2dfe277c2f1783912ba93f4bc5",
+        "size_in_bytes": 91
+      },
+      {
+        "_path": "site-packages/pyOpenSSL-24.3.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "54435da6435164d0098cd7fdb8e16170e714ac56a0e6d643764c3b984ea1a9ad",
+        "sha256_in_prefix": "54435da6435164d0098cd7fdb8e16170e714ac56a0e6d643764c3b984ea1a9ad",
+        "size_in_bytes": 105
+      },
+      {
+        "_path": "site-packages/pyOpenSSL-24.3.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "34dc56a92f2128d261d9c5176b545938c5fad9525fc9df14468d53b189d1fcc5",
+        "sha256_in_prefix": "34dc56a92f2128d261d9c5176b545938c5fad9525fc9df14468d53b189d1fcc5",
+        "size_in_bytes": 8
+      },
+      {
+        "_path": "lib/python3.10/site-packages/OpenSSL/__pycache__/SSL.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/OpenSSL/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/OpenSSL/__pycache__/_util.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/OpenSSL/__pycache__/crypto.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/OpenSSL/__pycache__/debug.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/OpenSSL/__pycache__/rand.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/OpenSSL/__pycache__/version.cpython-310.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "a84489a5b4acf8af81dcf0b28542c7bb6362dc87990a51bf08e2fdeb51f4ee9f",
+  "size": 122676,
+  "subdir": "noarch",
+  "timestamp": 1733777485000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/pyopenssl-24.3.0-pyhd8ed1ab_0.conda",
+  "version": "24.3.0"
+}

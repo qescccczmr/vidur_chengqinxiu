@@ -1,0 +1,106 @@
+{
+  "build": "h5eee18b_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "gnutls >=3.6.15,<3.7.0a0",
+    "libgcc-ng >=11.2.0"
+  ],
+  "extracted_package_dir": "/cpfs01/user/chengqinxiu/anaconda3/pkgs/libmicrohttpd-0.9.76-h5eee18b_0",
+  "files": [
+    "include/microhttpd.h",
+    "lib/libmicrohttpd.so",
+    "lib/libmicrohttpd.so.12",
+    "lib/libmicrohttpd.so.12.60.0",
+    "lib/pkgconfig/libmicrohttpd.pc",
+    "share/info/libmicrohttpd-tutorial.info",
+    "share/info/libmicrohttpd.info",
+    "share/info/libmicrohttpd_performance_data.png",
+    "share/man/man3/libmicrohttpd.3"
+  ],
+  "fn": "libmicrohttpd-0.9.76-h5eee18b_0.conda",
+  "license": "LGPL-2.0-or-later",
+  "link": {
+    "source": "/cpfs01/user/chengqinxiu/anaconda3/pkgs/libmicrohttpd-0.9.76-h5eee18b_0",
+    "type": 1
+  },
+  "md5": "ee754995d5df1f6a5df2da4c8040ce27",
+  "name": "libmicrohttpd",
+  "package_tarball_full_path": "/cpfs01/user/chengqinxiu/anaconda3/pkgs/libmicrohttpd-0.9.76-h5eee18b_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "include/microhttpd.h",
+        "path_type": "hardlink",
+        "sha256": "81eb624da9c5defb2fe691061ec792b31bec922fc59fa28772c1d31a263cf410",
+        "sha256_in_prefix": "81eb624da9c5defb2fe691061ec792b31bec922fc59fa28772c1d31a263cf410",
+        "size_in_bytes": 173936
+      },
+      {
+        "_path": "lib/libmicrohttpd.so",
+        "path_type": "softlink",
+        "sha256": "405e4205e1ccaeaccc641513d9e6c42df259a6d9564f32a71bfe31a786c9cdc2",
+        "size_in_bytes": 187536
+      },
+      {
+        "_path": "lib/libmicrohttpd.so.12",
+        "path_type": "softlink",
+        "sha256": "405e4205e1ccaeaccc641513d9e6c42df259a6d9564f32a71bfe31a786c9cdc2",
+        "size_in_bytes": 187536
+      },
+      {
+        "_path": "lib/libmicrohttpd.so.12.60.0",
+        "path_type": "hardlink",
+        "sha256": "405e4205e1ccaeaccc641513d9e6c42df259a6d9564f32a71bfe31a786c9cdc2",
+        "sha256_in_prefix": "405e4205e1ccaeaccc641513d9e6c42df259a6d9564f32a71bfe31a786c9cdc2",
+        "size_in_bytes": 187536
+      },
+      {
+        "_path": "lib/pkgconfig/libmicrohttpd.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/croot/libmicrohttpd_1683819358952/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla",
+        "sha256": "bbc52c271be06bb8049a550a71ef6d227b79cad9b50471e38df9f6522625fab0",
+        "sha256_in_prefix": "ee1de89c2f388b9c06dd5eb55febae5009a986e33233375b22c9746e0848143f",
+        "size_in_bytes": 563
+      },
+      {
+        "_path": "share/info/libmicrohttpd-tutorial.info",
+        "path_type": "hardlink",
+        "sha256": "ccfa6fa05b31b4768025c587e8c3da6ced519727059dd6be37318979233cfa05",
+        "sha256_in_prefix": "ccfa6fa05b31b4768025c587e8c3da6ced519727059dd6be37318979233cfa05",
+        "size_in_bytes": 207931
+      },
+      {
+        "_path": "share/info/libmicrohttpd.info",
+        "path_type": "hardlink",
+        "sha256": "3241134d6249a704930c1ebaf5a9f2a5df7efcbe8ea8279996cad78c07fd2a26",
+        "sha256_in_prefix": "3241134d6249a704930c1ebaf5a9f2a5df7efcbe8ea8279996cad78c07fd2a26",
+        "size_in_bytes": 289311
+      },
+      {
+        "_path": "share/info/libmicrohttpd_performance_data.png",
+        "path_type": "hardlink",
+        "sha256": "83480dbb350692998f750afc7b433c375e165fd3f3f699497a6f55090653bc2d",
+        "sha256_in_prefix": "83480dbb350692998f750afc7b433c375e165fd3f3f699497a6f55090653bc2d",
+        "size_in_bytes": 9169
+      },
+      {
+        "_path": "share/man/man3/libmicrohttpd.3",
+        "path_type": "hardlink",
+        "sha256": "5348eb1735b918ddfb6a3cebad843f48bd951c1e27bfd0c8b2a57067bc5dda82",
+        "sha256_in_prefix": "5348eb1735b918ddfb6a3cebad843f48bd951c1e27bfd0c8b2a57067bc5dda82",
+        "size_in_bytes": 1507
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "5c0ebd6cb95a03bca370009aa2b912e12e21d9d75ecc7a173608c1baf3a72fd9",
+  "size": 237842,
+  "subdir": "linux-64",
+  "timestamp": 1683819400000,
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/libmicrohttpd-0.9.76-h5eee18b_0.conda",
+  "version": "0.9.76"
+}

@@ -1,0 +1,34 @@
+{
+  "build": "h7480c83_3",
+  "build_number": 3,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [
+    "cudatoolkit 12.6|12.6.*",
+    "__cuda >=12"
+  ],
+  "depends": [],
+  "extracted_package_dir": "/cpfs01/user/chengqinxiu/anaconda3/pkgs/cuda-version-12.6-h7480c83_3",
+  "files": [],
+  "fn": "cuda-version-12.6-h7480c83_3.conda",
+  "license": "LicenseRef-NVIDIA-End-User-License-Agreement",
+  "link": {
+    "source": "/cpfs01/user/chengqinxiu/anaconda3/pkgs/cuda-version-12.6-h7480c83_3",
+    "type": 1
+  },
+  "md5": "1c8b99e65a4423b1e4ac2e4c76fb0978",
+  "name": "cuda-version",
+  "noarch": "generic",
+  "package_tarball_full_path": "/cpfs01/user/chengqinxiu/anaconda3/pkgs/cuda-version-12.6-h7480c83_3.conda",
+  "package_type": "noarch_generic",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "fd9104d73199040285b6a6ad56322b38af04828fabbac1f5a268a83509358425",
+  "size": 20940,
+  "subdir": "noarch",
+  "timestamp": 1722603990000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/cuda-version-12.6-h7480c83_3.conda",
+  "version": "12.6"
+}

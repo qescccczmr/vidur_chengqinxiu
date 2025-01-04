@@ -1,0 +1,33 @@
+{
+  "build": "hd8ed1ab_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "email-validator >=2.2.0,<2.2.1.0a0"
+  ],
+  "extracted_package_dir": "/cpfs01/user/chengqinxiu/anaconda3/pkgs/email_validator-2.2.0-hd8ed1ab_1",
+  "files": [],
+  "fn": "email_validator-2.2.0-hd8ed1ab_1.conda",
+  "license": "Unlicense",
+  "link": {
+    "source": "/cpfs01/user/chengqinxiu/anaconda3/pkgs/email_validator-2.2.0-hd8ed1ab_1",
+    "type": 1
+  },
+  "md5": "0794f8807ff2c6f020422cacb1bd7bfa",
+  "name": "email_validator",
+  "noarch": "generic",
+  "package_tarball_full_path": "/cpfs01/user/chengqinxiu/anaconda3/pkgs/email_validator-2.2.0-hd8ed1ab_1.conda",
+  "package_type": "noarch_generic",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "e0d0fdf587aa0ed0ff08b2bce3ab355f46687b87b0775bfba01cc80a859ee6a2",
+  "size": 6552,
+  "subdir": "noarch",
+  "timestamp": 1733300828000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/email_validator-2.2.0-hd8ed1ab_1.conda",
+  "version": "2.2.0"
+}

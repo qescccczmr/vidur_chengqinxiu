@@ -1,0 +1,249 @@
+{
+  "build": "py310h505e2c1_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [
+    "__glibc >=2.17"
+  ],
+  "depends": [
+    "__glibc >=2.17,<3.0.a0",
+    "anyio >=3.0.0",
+    "libgcc >=13",
+    "python >=3.10,<3.11.0a0",
+    "python_abi 3.10.* *_cp310"
+  ],
+  "extracted_package_dir": "/cpfs01/user/chengqinxiu/anaconda3/pkgs/watchfiles-1.0.0-py310h505e2c1_0",
+  "files": [
+    "bin/watchfiles",
+    "lib/python3.10/site-packages/watchfiles-1.0.0.dist-info/INSTALLER",
+    "lib/python3.10/site-packages/watchfiles-1.0.0.dist-info/METADATA",
+    "lib/python3.10/site-packages/watchfiles-1.0.0.dist-info/RECORD",
+    "lib/python3.10/site-packages/watchfiles-1.0.0.dist-info/REQUESTED",
+    "lib/python3.10/site-packages/watchfiles-1.0.0.dist-info/WHEEL",
+    "lib/python3.10/site-packages/watchfiles-1.0.0.dist-info/direct_url.json",
+    "lib/python3.10/site-packages/watchfiles-1.0.0.dist-info/entry_points.txt",
+    "lib/python3.10/site-packages/watchfiles-1.0.0.dist-info/licenses/LICENSE",
+    "lib/python3.10/site-packages/watchfiles/__init__.py",
+    "lib/python3.10/site-packages/watchfiles/__main__.py",
+    "lib/python3.10/site-packages/watchfiles/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/watchfiles/__pycache__/__main__.cpython-310.pyc",
+    "lib/python3.10/site-packages/watchfiles/__pycache__/cli.cpython-310.pyc",
+    "lib/python3.10/site-packages/watchfiles/__pycache__/filters.cpython-310.pyc",
+    "lib/python3.10/site-packages/watchfiles/__pycache__/main.cpython-310.pyc",
+    "lib/python3.10/site-packages/watchfiles/__pycache__/run.cpython-310.pyc",
+    "lib/python3.10/site-packages/watchfiles/__pycache__/version.cpython-310.pyc",
+    "lib/python3.10/site-packages/watchfiles/_rust_notify.cpython-310-x86_64-linux-gnu.so",
+    "lib/python3.10/site-packages/watchfiles/_rust_notify.pyi",
+    "lib/python3.10/site-packages/watchfiles/cli.py",
+    "lib/python3.10/site-packages/watchfiles/filters.py",
+    "lib/python3.10/site-packages/watchfiles/main.py",
+    "lib/python3.10/site-packages/watchfiles/py.typed",
+    "lib/python3.10/site-packages/watchfiles/run.py",
+    "lib/python3.10/site-packages/watchfiles/version.py"
+  ],
+  "fn": "watchfiles-1.0.0-py310h505e2c1_0.conda",
+  "license": "MIT",
+  "link": {
+    "source": "/cpfs01/user/chengqinxiu/anaconda3/pkgs/watchfiles-1.0.0-py310h505e2c1_0",
+    "type": 1
+  },
+  "md5": "007654bd1a9b1d504c546d5616f8cb3b",
+  "name": "watchfiles",
+  "package_tarball_full_path": "/cpfs01/user/chengqinxiu/anaconda3/pkgs/watchfiles-1.0.0-py310h505e2c1_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/watchfiles",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/watchfiles_1732689374643/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+        "sha256": "77d51816afd53ec2f71f965f0920d26e46b24c08e56ddbc4c18398d3d8b755e0",
+        "sha256_in_prefix": "dd32c6558892cec729af114539a36564bca6d569304917321c60a4b4c8853c5c",
+        "size_in_bytes": 465
+      },
+      {
+        "_path": "lib/python3.10/site-packages/watchfiles-1.0.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.10/site-packages/watchfiles-1.0.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "294dc1f9da8f1274f21891a7dbbc4ac8b56984de8340898b4ff6eef9665bf1b9",
+        "sha256_in_prefix": "294dc1f9da8f1274f21891a7dbbc4ac8b56984de8340898b4ff6eef9665bf1b9",
+        "size_in_bytes": 4872
+      },
+      {
+        "_path": "lib/python3.10/site-packages/watchfiles-1.0.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "ad58d5f564f3f1909b4ad4988a510838bdc47c09f7890bd9430998737d380e47",
+        "sha256_in_prefix": "ad58d5f564f3f1909b4ad4988a510838bdc47c09f7890bd9430998737d380e47",
+        "size_in_bytes": 1937
+      },
+      {
+        "_path": "lib/python3.10/site-packages/watchfiles-1.0.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.10/site-packages/watchfiles-1.0.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "97b3ed598f3e80a0beb053379fa840a2010628938e5c3a5a941aa69ef3834fd2",
+        "sha256_in_prefix": "97b3ed598f3e80a0beb053379fa840a2010628938e5c3a5a941aa69ef3834fd2",
+        "size_in_bytes": 99
+      },
+      {
+        "_path": "lib/python3.10/site-packages/watchfiles-1.0.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "480b07b6c1b2256cdc0d769e932b624f46753646087bb6ea4ca676eb6b3b74f5",
+        "sha256_in_prefix": "480b07b6c1b2256cdc0d769e932b624f46753646087bb6ea4ca676eb6b3b74f5",
+        "size_in_bytes": 106
+      },
+      {
+        "_path": "lib/python3.10/site-packages/watchfiles-1.0.0.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "b350e96b677f28a072fa32911165bad19dc6a11677269084a3ff62603b7a84e4",
+        "sha256_in_prefix": "b350e96b677f28a072fa32911165bad19dc6a11677269084a3ff62603b7a84e4",
+        "size_in_bytes": 48
+      },
+      {
+        "_path": "lib/python3.10/site-packages/watchfiles-1.0.0.dist-info/licenses/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "36b6f98a7a42de39e14f1c6eb59831cdb94cc11b05eead31c81fb8f851d1750b",
+        "sha256_in_prefix": "36b6f98a7a42de39e14f1c6eb59831cdb94cc11b05eead31c81fb8f851d1750b",
+        "size_in_bytes": 1110
+      },
+      {
+        "_path": "lib/python3.10/site-packages/watchfiles/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "21194cf4a39279d3331757ef2ebef21073d54be50511135386507eb66588f325",
+        "sha256_in_prefix": "21194cf4a39279d3331757ef2ebef21073d54be50511135386507eb66588f325",
+        "size_in_bytes": 364
+      },
+      {
+        "_path": "lib/python3.10/site-packages/watchfiles/__main__.py",
+        "path_type": "hardlink",
+        "sha256": "26012b6248ac92287c63aa11c28c002ed47eaf042100076a3985a342b69120f2",
+        "sha256_in_prefix": "26012b6248ac92287c63aa11c28c002ed47eaf042100076a3985a342b69120f2",
+        "size_in_bytes": 59
+      },
+      {
+        "_path": "lib/python3.10/site-packages/watchfiles/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "86c84eb403ce3589ec783097f546f7de4feb22105983f4ba2d9ee8d8ac118c92",
+        "sha256_in_prefix": "86c84eb403ce3589ec783097f546f7de4feb22105983f4ba2d9ee8d8ac118c92",
+        "size_in_bytes": 483
+      },
+      {
+        "_path": "lib/python3.10/site-packages/watchfiles/__pycache__/__main__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "592b656679b89b94eef593b467e972687577127cb6b425fd4230aeaaf065f811",
+        "sha256_in_prefix": "592b656679b89b94eef593b467e972687577127cb6b425fd4230aeaaf065f811",
+        "size_in_bytes": 214
+      },
+      {
+        "_path": "lib/python3.10/site-packages/watchfiles/__pycache__/cli.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "c732ea6fa9478806bd49220cc9bc521c65a40036ce6e9cd8fc9e54d53b98df9f",
+        "sha256_in_prefix": "c732ea6fa9478806bd49220cc9bc521c65a40036ce6e9cd8fc9e54d53b98df9f",
+        "size_in_bytes": 6568
+      },
+      {
+        "_path": "lib/python3.10/site-packages/watchfiles/__pycache__/filters.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "bf37f297ef672a8bf3e2a43d51d840a1bbcbc5f8d6ecb8659637d85afd8c1ed9",
+        "sha256_in_prefix": "bf37f297ef672a8bf3e2a43d51d840a1bbcbc5f8d6ecb8659637d85afd8c1ed9",
+        "size_in_bytes": 5451
+      },
+      {
+        "_path": "lib/python3.10/site-packages/watchfiles/__pycache__/main.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "65c9af2f22fcc976adb454204a1e9dfa932da4201344ce4eff4cc88e07fb2d19",
+        "sha256_in_prefix": "65c9af2f22fcc976adb454204a1e9dfa932da4201344ce4eff4cc88e07fb2d19",
+        "size_in_bytes": 13771
+      },
+      {
+        "_path": "lib/python3.10/site-packages/watchfiles/__pycache__/run.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "fd2a9644e17b77d9fa88f7ccfe5e25d3a5cbc1d7236d4e3c2ad6ba97065b808a",
+        "sha256_in_prefix": "fd2a9644e17b77d9fa88f7ccfe5e25d3a5cbc1d7236d4e3c2ad6ba97065b808a",
+        "size_in_bytes": 14020
+      },
+      {
+        "_path": "lib/python3.10/site-packages/watchfiles/__pycache__/version.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "5565c28d1994bea12a13119773a06133e530bfa2f9c52713f8d62e6ae8733714",
+        "sha256_in_prefix": "5565c28d1994bea12a13119773a06133e530bfa2f9c52713f8d62e6ae8733714",
+        "size_in_bytes": 228
+      },
+      {
+        "_path": "lib/python3.10/site-packages/watchfiles/_rust_notify.cpython-310-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "677bc1bf154ef5877db9422f3aa99ee07616438712a4e89d37a415d7da5a0178",
+        "sha256_in_prefix": "677bc1bf154ef5877db9422f3aa99ee07616438712a4e89d37a415d7da5a0178",
+        "size_in_bytes": 1061168
+      },
+      {
+        "_path": "lib/python3.10/site-packages/watchfiles/_rust_notify.pyi",
+        "path_type": "hardlink",
+        "sha256": "ab915091780124414fb7d4427fb9b2e303f944cd45c12569a9fdb6d5cb3279b8",
+        "sha256_in_prefix": "ab915091780124414fb7d4427fb9b2e303f944cd45c12569a9fdb6d5cb3279b8",
+        "size_in_bytes": 4753
+      },
+      {
+        "_path": "lib/python3.10/site-packages/watchfiles/cli.py",
+        "path_type": "hardlink",
+        "sha256": "0c7308d0b7d3ee13ab59a8bf63844ffefbd3bd576d7036a2a22c572e2bf6a46e",
+        "sha256_in_prefix": "0c7308d0b7d3ee13ab59a8bf63844ffefbd3bd576d7036a2a22c572e2bf6a46e",
+        "size_in_bytes": 7707
+      },
+      {
+        "_path": "lib/python3.10/site-packages/watchfiles/filters.py",
+        "path_type": "hardlink",
+        "sha256": "534cd718e7a0f5d307913e75fb9e812a946b588bbde653ead070d1fd9078a031",
+        "sha256_in_prefix": "534cd718e7a0f5d307913e75fb9e812a946b588bbde653ead070d1fd9078a031",
+        "size_in_bytes": 5139
+      },
+      {
+        "_path": "lib/python3.10/site-packages/watchfiles/main.py",
+        "path_type": "hardlink",
+        "sha256": "318c64077066241c0725989aedb312e1735c1b5afcc1c3f33e74cc2b3d8a08ff",
+        "sha256_in_prefix": "318c64077066241c0725989aedb312e1735c1b5afcc1c3f33e74cc2b3d8a08ff",
+        "size_in_bytes": 15237
+      },
+      {
+        "_path": "lib/python3.10/site-packages/watchfiles/py.typed",
+        "path_type": "hardlink",
+        "sha256": "312e0d6b7b68f554c63f2ffcc0140cffa98d29a5f8a88a62e7ec3bfcb641fbc2",
+        "sha256_in_prefix": "312e0d6b7b68f554c63f2ffcc0140cffa98d29a5f8a88a62e7ec3bfcb641fbc2",
+        "size_in_bytes": 69
+      },
+      {
+        "_path": "lib/python3.10/site-packages/watchfiles/run.py",
+        "path_type": "hardlink",
+        "sha256": "965c56b6dd861f2fb43a34746435b992c35d0765a5dd721f2aee4370c81dc583",
+        "sha256_in_prefix": "965c56b6dd861f2fb43a34746435b992c35d0765a5dd721f2aee4370c81dc583",
+        "size_in_bytes": 15350
+      },
+      {
+        "_path": "lib/python3.10/site-packages/watchfiles/version.py",
+        "path_type": "hardlink",
+        "sha256": "3515949e4677d836a6b0d295db411eb5a8081932c330c527a83595185140d964",
+        "sha256_in_prefix": "3515949e4677d836a6b0d295db411eb5a8081932c330c527a83595185140d964",
+        "size_in_bytes": 85
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "a1534d816f4ca1d9e9597f4bec9d74f0fda2a5018fd1ba34aaea965d04775bbc",
+  "size": 403780,
+  "subdir": "linux-64",
+  "timestamp": 1732689526000,
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/watchfiles-1.0.0-py310h505e2c1_0.conda",
+  "version": "1.0.0"
+}

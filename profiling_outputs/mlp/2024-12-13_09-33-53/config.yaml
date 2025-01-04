@@ -1,0 +1,12 @@
+disable_ray: false
+max_tokens: 4096
+models:
+- internlm/internlm2_5-20b-chat
+num_gpus: 4
+num_tensor_parallel_workers:
+- 1
+- 2
+- 4
+- 8
+output_dir: profiling_outputs/mlp/2024-12-13_09-33-53
+profile_method: record_function
